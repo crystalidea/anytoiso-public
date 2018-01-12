@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.1" Author="Kyrychenko P.V.">
+	<MainWindow>
+		<mnuFile>Файл</mnuFile>
+		<mnuFileExit>Вихід</mnuFileExit>
+		<mnuHelp>Допомога</mnuHelp>
+		<mnuHelpDocumentation>Документація...</mnuHelpDocumentation>
+		<mnuHelpPurchase>Придбати Pro версію...</mnuHelpPurchase>
+		<mnuHelpEnterCode>Ввести реєстраційний ключ...</mnuHelpEnterCode>
+		<mnuHelpAbout>Про програму...</mnuHelpAbout>
+		<mnuHomePage>Домашня сторінка...</mnuHomePage>
+		<menuPreferences>Налаштування...</menuPreferences>
+		<newVersionAvailable>Доступна AnyToISO %1!</newVersionAvailable>
+		<newVersionUpdate>Оновити</newVersionUpdate>
+		<buttonStop>Стоп</buttonStop>
+		<tabConvertExtract>
+			<Name>Видобути/Конвертувати в ISO</Name>
+			<SourceFileName>Файл образу:</SourceFileName>
+			<ConvertToISO>Конвертувати в ISO:</ConvertToISO>
+			<ExtractToFolder>Видобути в папку:</ExtractToFolder>
+			<buttonOpenImage>Відкрити образ...</buttonOpenImage>
+			<buttonOpenImageText>Відкрити CD/DVD образ</buttonOpenImageText>
+			<AllSupportedFiles>Всі підтримувані файли</AllSupportedFiles>
+			<buttonOpenISO>Вибрати ISO...</buttonOpenISO>
+			<buttonOpenISOText>Вибрати кінцевий ISO файл</buttonOpenISOText>
+			<buttonOpenISOFilter>ISO Файли (*.iso)</buttonOpenISOFilter>
+			<buttonOpenFolder>Вибрати теку...</buttonOpenFolder>
+			<buttonOpenFolderText>Відкрити кінцеву теку</buttonOpenFolderText>
+			<buttonConvert>Конвертувати</buttonConvert>
+			<buttonExtract>Видобути</buttonExtract>
+			<labelFileSize>Розмір файлу</labelFileSize>
+			<labelFileFormat>формат</labelFileFormat>
+			<labelOpenOrDragFile>&lt;b&gt;Відкрийте&lt;/b&gt; або &lt;b&gt;перемістіть&lt;/b&gt; файл образу</labelOpenOrDragFile>
+		</tabConvertExtract>
+		<tabDiskToISO>
+			<Name>CD/DVD диск в ISO</Name>
+			<SourceDrive>Інформаційний диск:</SourceDrive>
+			<OutputISO>Кінцевий ISO файл:</OutputISO>
+			<checkCreateBinCue>Create BIN/CUE image</checkCreateBinCue>
+			<buttonRefresh>Оновити</buttonRefresh>
+			<buttonBrowseISO>Вибрати...</buttonBrowseISO>
+			<NoDiskInserted>Не знайдено CD/DVD дисковод з диском</NoDiskInserted>
+			<buttonMakeISO>Створити ISO</buttonMakeISO>
+			<buttonMakeBinCue>Create BIN/CUE image</buttonMakeBinCue>
+			<chooseISOOrBinCueImage>Please select ISO or BIN/CUE image file</chooseISOOrBinCueImage>
+			<isoFilesFilter>ISO Files</isoFilesFilter>
+			<binCueSheetFilter>BIN Files (with CUE sheet)</binCueSheetFilter>
+		</tabDiskToISO>
+		<tabFolderToISO>
+			<Name>Тека в ISO</Name>
+			<SourceFolder>Вихідна Тека:</SourceFolder>
+			<DestinationISO>Кінцевий ISO файл:</DestinationISO>
+			<VolumeLabel>Мітка тому:</VolumeLabel>
+			<buttonBrowseForFolder>Відкрити теку...</buttonBrowseForFolder>
+			<buttonChooseISO>Вибрати ISO...</buttonChooseISO>
+			<buttonOptions>Налаштування...</buttonOptions>
+			<buttonMakeISO>Створити ISO</buttonMakeISO>
+			<ISOCreationOptions>Налаштування створення ISO образу</ISOCreationOptions>
+			<Settings>Опції</Settings>
+			<FileSystemsInsideISO>Файлові системи:</FileSystemsInsideISO>
+			<buttonDefault>По замовчуванню</buttonDefault>
+			<ISO9660Option1>8.3 DOS імена (11 символів)</ISO9660Option1>
+			<ISO9660Option2>Довгі імена (180)</ISO9660Option2>
+			<ISO9660Option3>Стандарт ISO 9660:1999</ISO9660Option3>
+			<JolietOption1>Стандартні імена файлів (64)</JolietOption1>
+			<JolietOption2>Довгі імена файлів (110)</JolietOption2>
+		</tabFolderToISO>
+	</MainWindow>
+	<LiteVersionDialog>
+		<LiteVersionLimitText>Lite версія AnyToISO працює тільки з &lt;b&gt;CD образами&lt;/b&gt; (до 870 MБ). Щоб працювати з великими файлами (DVD і більше) вам потрібно &lt;a href="purchase"&gt;Придбати Професійну версію&lt;/a&gt;. Після чого Ви отримаєте реєстраційний код для &lt;a href="unlock"&gt;розблокування програми&lt;/a&gt;.</LiteVersionLimitText>
+		<buttonPurchasePro>Придбати Pro версію...</buttonPurchasePro>
+	</LiteVersionDialog>
+	<EnterKeyDialog>
+		<Caption>Введення реєстраційного ключа</Caption>
+		<EnterKeyToUpgradeText>Введіть реєстраційні дані для поновлення до Pro версії програми.</EnterKeyToUpgradeText>
+		<RegName>Реєстраційне Ім'я:</RegName>
+		<RegCode>Реєстраційний Код:</RegCode>
+	</EnterKeyDialog>
+	<AboutDialog>
+		<Caption>Про програму AnyToISO</Caption>
+		<Website>Сайт:</Website>
+		<Support>Подтримка:</Support>
+		<RunningAs>Програма функціонує як:</RunningAs>
+		<CopyRight>Ця програма захищена законами і міжнародними угодами про авторське право. Нелегальне використання, копіювання, модифікація або розповсюдження програми або її частини буде переслідуватися по закону.</CopyRight>
+		<buttonPurchasePro>Придбати Pro версію...</buttonPurchasePro>
+	</AboutDialog>
+	<PreferencesDialog>
+		<Caption>Налаштування</Caption>
+		<Language>Мова:</Language>
+		<CheckForNewVersions>Перевіряти наявність нових версій при запуску</CheckForNewVersions>
+		<ShellExtension>Інтеграція з Провідником Windows</ShellExtension>
+		<ShellExtensionInfo>Додає елементи контекстного меню для тек, оптичних дисків та файлів підтримуваних форматів.</ShellExtensionInfo>
+	</PreferencesDialog>
+	<PasswordDialog>
+		<Caption>Необхідний пароль</Caption>
+		<FileIsProtected>Файл зашифровано. Щоб його розшифрувати потрібно ввести пароль:</FileIsProtected>
+		<InvalidPassword>Invalid password</InvalidPassword>
+	</PasswordDialog>
+	<Messages>
+		<Warning>Увага</Warning>
+		<Question>Питання</Question>
+		<NotEnoughDiskSpace>Схоже, що на вибраному диску не достатньо вільного місця (всього %1). \n\nВи все рівно бажаєте продовжити?</NotEnoughDiskSpace>
+		<ISOAlreadyExists>Кінцевий ISO файл\n%1\nвже існує, Ви бажаєте перезаписати його?</ISOAlreadyExists>
+		<FolderAlreadyExists>Кінцева тека\n%1\nвже існує, Ви бажаєте перезаписати усі існуючі файли з одинаковими іменами?</FolderAlreadyExists>
+		<RestartProgram>Для завершення реєстрації Ви повинні перезавантажити програму. \n\nБажаєте зробити це зараз?</RestartProgram>
+		<CancelOperation>Ви дійсно бажаєте зупинити поточну дію?</CancelOperation>
+	</Messages>
+	<StatusMessages>
+		<CheckingSourceImage>Аналіз вихідного файлу...</CheckingSourceImage>
+		<Converting>Конвертування...</Converting>
+		<Extracting>Видобування...</Extracting>
+		<ExtractionFailed>Extract operation failed</ExtractionFailed>
+		<Unpacking>Розпакування...</Unpacking>
+		<ConvertingToTemporaryISO>Конвертувати в тимчасовий ISO файл...</ConvertingToTemporaryISO>
+		<ProgressBytesWritten>записано %1</ProgressBytesWritten>
+		<Track>Track</Track>
+		<ISOImageTypeFound>Найдено ISO образ (тип %1)</ISOImageTypeFound>
+		<CannotOpenSourceFile>Не можу відкрити вихідний файл</CannotOpenSourceFile>
+		<CannotOpenDestFile>Не можу відкрити кінцевий файл.</CannotOpenDestFile>
+		<OperationTerminated>Процес зупинено користувачем.</OperationTerminated>
+		<OperationCompleted>Операція зупинена.</OperationCompleted>
+		<ClickToOpenISOInExplorer>Натисніть &lt;a href="_open_local_file"&gt;тут&lt;/a&gt; щоб відкрити кінцевий ISO файл в Провіднику</ClickToOpenISOInExplorer>
+		<ClickToMountISOInFinder>Натисніть &lt;a href="_open_local_file"&gt;тут&lt;/a&gt; щоб відкрити кінцевий ISO файл в Пошуку</ClickToMountISOInFinder>
+		<ClickToOpenOutFolder>Натисніть &lt;a href="_open_local_file"&gt;тут&lt;/a&gt; щоб відкрити кінцеву теку</ClickToOpenOutFolder>
+		<DiskToISO>
+			<OpeningDevice>Відкриття пристрою, будь ласка, зачекайте...</OpeningDevice>
+			<TotalDataSize>Повний розмір даних - %1</TotalDataSize>
+			<CreatingISO>Створення ISO...</CreatingISO>
+			<CannotCreateFromAudio>Ви не можете створювати ISO образ мульти-сесійного або аудіо диска..</CannotCreateFromAudio>
+			<PleaseUseBinCue>Please use BIN/CUE image for such disks</PleaseUseBinCue>
+			<BlankDiskDetected>Знайдено чистий CD/DVD диск</BlankDiskDetected>
+			<DiskNotReady>CD/DVD диск не готовий</DiskNotReady>
+			<CannotOpenDevice>Не можу відкрити пристрій (%1)</CannotOpenDevice>
+			<ReadError>Помилка зчитування %1, зв'яжіться, будь ласка, з технічною підтримкою</ReadError>
+			<DeviceIsCopyProtected>Цей пристрій захищено від запису (сектор зашифровано)</DeviceIsCopyProtected>
+			<ISOCreationFailed>Сотворення ISO не виконано</ISOCreationFailed>
+			<BinCueCreationFailed>BIN/CUE image creation failed</BinCueCreationFailed>
+			<CannotReadDiskToc>Failed to read TOC (table of contents) of the disk</CannotReadDiskToc>
+			<CannotReadDisk>Cannot read disk, error: %1</CannotReadDisk>
+			<DiskNotPresent>Disk not present or unknown media type</DiskNotPresent>
+			<NoTracksOnDisk>There are no tracks on the disk, it's probably blank</NoTracksOnDisk>
+			<mediaType>Media type: %1</mediaType>
+			<TrackLength>Track length is %1 sectors</TrackLength>
+			<TracksCount>Tracks count: %1</TracksCount>
+			<WritingTrack>Writing track %1, track length is %2 sectors</WritingTrack>
+			<DiskReadingStopped>Reading stopped at %1</DiskReadingStopped>
+			<TrackReadingStopped>Reading stopped at %1, resuming with next track</TrackReadingStopped>
+		</DiskToISO>
+		<FolderToISO>
+			<ScanningFolder>Сканую вихідну теку...</ScanningFolder>
+			<DirectorySize>Сумарний розмір даних - %1</DirectorySize>
+			<WritingISOFile>Записую ISO файл...</WritingISOFile>
+			<SkippingBigFile>Пропускаю файл '%1'. Його розмір перевищує 4 Гб</SkippingBigFile>
+			<SkippingFile>Пропускаю файл '%1'.</SkippingFile>
+			<BigFileWarning>Файл '%1' більше 4 Гб і буде невидимий в файловій системі ISO 9660.</BigFileWarning>
+			<NestedDirectoriesLimitWarning>Рівень вкладеності тек перевищує %1, деякі теки і файли будуть пропущені.</NestedDirectoriesLimitWarning>
+			<UnableToOpenFile>Не можу відкрити файл '%1' для читання.</UnableToOpenFile>
+			<NoExistingFolder>The folder %1 doesn't exist</NoExistingFolder>
+		</FolderToISO>
+		<UniversalConverter>
+			<AudioCDWarning>Образ являється %1 Аудіо CD образом, конвертація в ISO неможлива.</AudioCDWarning>
+			<NotValidImage>Помилка: не коректний CD/DVD файл образу</NotValidImage>
+			<CannotFindSignature>Помилка: не можу знайти ISO_9660 сигнатуру, досягнутий 5 МБ ліміт</CannotFindSignature>
+			<MultiSessionImageDetected>Multi-session disk image detected</MultiSessionImageDetected>
+			<MultiSessionNotSupported>The disk image is a multi-session disk image. Such images are not supported.</MultiSessionNotSupported>
+		</UniversalConverter>
+		<NrgConverter>
+			<NrgParsingError>NRG parsing error, please contact support for assistance</NrgParsingError>
+			<NoSessionsFound>No NRG sessions detected, please contact support for assistance</NoSessionsFound>
+		</NrgConverter>
+		<ExtractISO>
+			<LoadingImage>Завантаження образу...</LoadingImage>
+			<ChooseISOFS>Знайдено кілька файлових систем всередині даного ISO файлу, виберіть, будь ласка, одну з них:</ChooseISOFS>
+			<ChooseISOFSCaption>Вибір файлової системи</ChooseISOFSCaption>
+			<ImageFound>Знайдено образ %1</ImageFound>
+			<InvalidISO>Файл не є коректним ISO образом або на даний момент не підтримується</InvalidISO>
+		</ExtractISO>
+		<UIFConverter>
+			<UsingZlib>Використовую zlib розпакування</UsingZlib>
+			<UsingLZMA>Використовую Lzma розпакування</UsingLZMA>
+			<MixedImageFound>Знайдено змішаний тип %1, розпаковую в тимчасовий файл...</MixedImageFound>
+			<UnpackingImage>Розпаковую образ...</UnpackingImage>
+		</UIFConverter>
+		<DebExtract>
+			<NotValidDeb>Файл не є коректним архівом Debian (Ubuntu) Linux</NotValidDeb>
+		</DebExtract>
+		<RpmExtract>
+			<PackageOpened>Відкрито пакет %1</PackageOpened>
+			<DecompressingPayload>Розпакуванням %1 даних у тимчасовий файл...</DecompressingPayload>
+			<UnpackingArchive>Розпакування архіву...</UnpackingArchive>
+		</RpmExtract>
+		<DMG>
+			<ConvertingDmgToISO>Конвертування DMG в HFS+ ISO...</ConvertingDmgToISO>
+			<Writing>Запис %1...</Writing>
+			<ExtractingMainPartition>Розпакування головного тому DMG в тимчасовий файл, почекайте, будь ласка...</ExtractingMainPartition>
+			<NoVolumeFound>Тома не виявлено, пошук файлової системи HFS+...</NoVolumeFound>
+			<ExtractingVolume>Розпакування DMG тому (%1)...</ExtractingVolume>
+			<CorruptedOrPasswordProtected>Помилка: невірний або зашифрований DMG файл</CorruptedOrPasswordProtected>
+			<XarArchiveDetected>DMG file is actually a XAR archive (normally with actual DMG file inside) that can be only extracted. Please choose extract operation to proceed</XarArchiveDetected>
+			<openedAsMessage>The file is opened as %1</openedAsMessage>
+			<DmgDisk>DMG disk image</DmgDisk>
+			<GPTDisk>GPT disk</GPTDisk>
+			<MBRDisk>Apple disk</MBRDisk>
+			<HFSVolume>HFS+ volume</HFSVolume>
+			<readingFileSystem>Reading %1 file system...</readingFileSystem>
+			<messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
+			<messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
+		</DMG>
+		<PDIConverter>
+			<InvalidOrBrokenImage>Невірний або зашифрований InstantCopy PDI образ</InvalidOrBrokenImage>
+		</PDIConverter>
+		<ISZConverter>
+			<CompressionNone>Метод компресії: немає</CompressionNone>
+			<WarningPassword>Вказівка ​​невірного пароля зробить вихідний файл невалідним</WarningPassword>
+			<ImageIsSegmented>ISZ файл сегментований</ImageIsSegmented>
+		</ISZConverter>
+		<ArchiveConverter>
+			<ReadingArchive>Reading archive...</ReadingArchive>
+			<RemovingTempFiles>Removing temporary files...</RemovingTempFiles>
+			<ExtractError>Unable to extract %1, error %2</ExtractError>
+		</ArchiveConverter>
+		<TarUnpacker>
+			<SinglePackedFileFound>Single packed file detected: %1, unpacking...</SinglePackedFileFound>
+		</TarUnpacker>
+		<XarUnpacker>
+			<ReadingTOC>Reading table of contents (%1 bytes)...</ReadingTOC>
+			<NestedArchiveFound>Extracted file '%1' can be unpacked separately as %2 archive (append extension manually)</NestedArchiveFound>
+		</XarUnpacker>
+	</StatusMessages>
+	<Misc>
+		<buttonOk>ОК</buttonOk>
+		<buttonCancel>Скасувати</buttonCancel>
+		<buttonClose>Закрити</buttonClose>
+		<buttonYes>Yes</buttonYes>
+		<buttonNo>No</buttonNo>
+		<ProVersion>Pro</ProVersion>
+		<LiteVersion>Lite</LiteVersion>
+	</Misc>
+	<ShellExtension>
+		<!-- This section describes Windows context menus -->
+		<ConvertToISO>Конвертувати в "%s"</ConvertToISO>
+		<ConvertToISOInfo>Конвертувати файл в ISO</ConvertToISOInfo>
+		<Extract>Видобути в "%s"</Extract>
+		<ExtractInfo>Видобути файл образу диска</ExtractInfo>
+		<CreateISOFromFolder>Створити "%s"</CreateISOFromFolder>
+		<CreateISOFromFolderInfo>Створити ISO образ вмісту цієї теки з опціями за замовчуванням</CreateISOFromFolderInfo>
+		<CreateISOFromFolderWithOptions>Створити "%s" з опціями...</CreateISOFromFolderWithOptions>
+		<CreateISOFromFolderWithOptionsInfo>Створити ISO образ вмісту цієї теки із зазначенням налаштувань файлової системи і мітки диска</CreateISOFromFolderWithOptionsInfo>
+		<CreateISOFromDisk>Створити ISO образ цього диска</CreateISOFromDisk>
+		<CreateISOFromDiskInfo>Створити ISO образ вибраного оптичного диска</CreateISOFromDiskInfo>
+		<CreateBINCUEFromDisk>Create BIN/CUE image of this disk</CreateBINCUEFromDisk>
+		<CreateBINCUEFromDiskInfo>Create BIN (raw) image of a selected optical disk and its corresponding CUE sheet file</CreateBINCUEFromDiskInfo>
+	</ShellExtension>
+	<UpdateChecker>
+		<ReleasedOn>випущено %1</ReleasedOn>
+		<CheckForUpdates>Перевірка оновлень...</CheckForUpdates>
+		<NewVersionAvailable>Є нова версія %1!</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 тепер доступний - ви маєте %3. Хочете завантажити його зараз?</NewVersionAvailableText>
+		<UpdateAlertTitle>Оновлення програмного забезпечення</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Нотатки про випуск:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Нагадувати пізніше</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Пропустити цю версію</UpdateAlertSkip>
+		<UpdateAlertInstall>Встановити оновлення</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Перевіряти оновлення автоматично</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>В вас встановлено останню версію.</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>В вас вже встановлено останню версію %1 %2.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>При отриманні інформації про оновлення виникла помилка. Спробуйте пізніше.</MessageErrorConnect>
+		<MessageErrorParse>При обробці інформації про оновлення сталася помилка.</MessageErrorParse>
+		<UpdateProgressTitle>Оновлюю %1</UpdateProgressTitle>
+		<UpdateProgressCancel>Скасувати</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Встановити та перезавантажити</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Завантажую оновлення...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Розпаковую оновлення...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Готовий до встановлення</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 з %2</UpdateProgressSize>
+		<UpdateProgressB>Б</UpdateProgressB>
+		<UpdateProgressKB>КБ</UpdateProgressKB>
+		<UpdateProgressMB>МБ</UpdateProgressMB>
+		<UpdateProgressGB>ГБ</UpdateProgressGB>
+	</UpdateChecker>
+	<LetsMoveMac>
+		<kStrMoveApplicationCouldNotMove>Не вдалося перемістити.</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>Перемістити до папки Програми</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>Перемістити до папки Програми, що розташована у домашній директорії?</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>Ви хочете %1 перемістити себе у папку Програми?</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>Перемістити</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>Не переміщувати</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Вам знадобиться пароль адміністратора.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Це допоможе утримувати папку з завантаженнями у чистоті.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+	</LetsMoveMac>
+</LanguageStrings>

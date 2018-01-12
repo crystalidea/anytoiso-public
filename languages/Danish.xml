@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.1" Author="Danni Syhler">
+	<MainWindow>
+		<mnuFile>Filer</mnuFile>
+		<mnuFileExit>Afslut</mnuFileExit>
+		<mnuHelp>Hjælp</mnuHelp>
+		<mnuHelpDocumentation>Dokumentation...</mnuHelpDocumentation>
+		<mnuHelpPurchase>Køb Pro Version...</mnuHelpPurchase>
+		<mnuHelpEnterCode>Indtast Registreringskode...</mnuHelpEnterCode>
+		<mnuHelpAbout>Om programmet...</mnuHelpAbout>
+		<mnuHomePage>AnyToISO's Hjemmeside ...</mnuHomePage>
+		<menuPreferences>Opsætning...</menuPreferences>
+		<newVersionAvailable>AnyToISO %1 kan nu hentes!</newVersionAvailable>
+		<newVersionUpdate>Opdater</newVersionUpdate>
+		<buttonStop>Stop</buttonStop>
+		<tabConvertExtract>
+			<Name>Udpak fil/konverter til ISO</Name>
+			<SourceFileName>Indlæs fil til konvertering:</SourceFileName>
+			<ConvertToISO>Konverter til ISO fil:</ConvertToISO>
+			<ExtractToFolder>Udpak til mappe:</ExtractToFolder>
+			<buttonOpenImage>Åbn fil...</buttonOpenImage>
+			<buttonOpenImageText>Åbn CD/DVD billedfil</buttonOpenImageText>
+			<AllSupportedFiles>Alle Understøttede Filer</AllSupportedFiles>
+			<buttonOpenISO>Åbn ISO...</buttonOpenISO>
+			<buttonOpenISOText>Vælge ISO filen der skal åbnes</buttonOpenISOText>
+			<buttonOpenISOFilter>ISO Filer (*.iso)</buttonOpenISOFilter>
+			<buttonOpenFolder>Vælg mappe...</buttonOpenFolder>
+			<buttonOpenFolderText>Åbn mappen der skal gemmes i</buttonOpenFolderText>
+			<buttonConvert>Konverter!</buttonConvert>
+			<buttonExtract>Udpak!</buttonExtract>
+			<labelFileSize>Størrelse på fil</labelFileSize>
+			<labelFileFormat>format</labelFileFormat>
+			<labelOpenOrDragFile>&lt;b&gt;Åbn&lt;/b&gt; eller &lt;b&gt;træk&lt;/b&gt; en fil for at konvertere eller udpakke den</labelOpenOrDragFile>
+		</tabConvertExtract>
+		<tabDiskToISO>
+			<Name>Lav CD/DVD Skive om til ISO fil</Name>
+			<SourceDrive>Drev der skal indlæses fra:</SourceDrive>
+			<OutputISO>ISO fil der skal gemmes til:</OutputISO>
+			<checkCreateBinCue>Create BIN/CUE image</checkCreateBinCue>
+			<buttonRefresh>Genindlæs</buttonRefresh>
+			<buttonBrowseISO>Søg...</buttonBrowseISO>
+			<NoDiskInserted>Der er ikke indsat en CD/DVD skive</NoDiskInserted>
+			<buttonMakeISO>Opret ISO fil</buttonMakeISO>
+			<buttonMakeBinCue>Create BIN/CUE image</buttonMakeBinCue>
+			<chooseISOOrBinCueImage>Please select ISO or BIN/CUE image file</chooseISOOrBinCueImage>
+			<isoFilesFilter>ISO Files</isoFilesFilter>
+			<binCueSheetFilter>BIN Files (with CUE sheet)</binCueSheetFilter>
+		</tabDiskToISO>
+		<tabFolderToISO>
+			<Name>Konverter Mappe til ISO</Name>
+			<SourceFolder>Mappe der skal konverteres:</SourceFolder>
+			<DestinationISO>Gem til ISO fil:</DestinationISO>
+			<VolumeLabel>Skivens navn:</VolumeLabel>
+			<buttonBrowseForFolder>Åbn mappe...</buttonBrowseForFolder>
+			<buttonChooseISO>Vælg ISO fil...</buttonChooseISO>
+			<buttonOptions>Indstillinger...</buttonOptions>
+			<buttonMakeISO>Opret ISO fil</buttonMakeISO>
+			<ISOCreationOptions>Indtillinger for oprettelse af ISO fil</ISOCreationOptions>
+			<Settings>Indstillinger:</Settings>
+			<FileSystemsInsideISO>Fil Systemer:</FileSystemsInsideISO>
+			<buttonDefault>Standard</buttonDefault>
+			<ISO9660Option1>8.3 DOS fil navne (11)</ISO9660Option1>
+			<ISO9660Option2>Lange navne (180)</ISO9660Option2>
+			<ISO9660Option3>ISO 9660:1999</ISO9660Option3>
+			<JolietOption1>Standard navne (64)</JolietOption1>
+			<JolietOption2>Lange navne (110)</JolietOption2>
+		</tabFolderToISO>
+	</MainWindow>
+	<LiteVersionDialog>
+		<LiteVersionLimitText>Lite versionen af AnyToISO tilbyder kun at brugen af &lt;b&gt;CD filer&lt;/b&gt; (op til 870 MB). Hvis du ønsker at benytte større filer (såsom DVD og større) er du nødt til at &lt;a href="purchase"&gt;købe den Professionelle version&lt;/a&gt;. Du vil så modtage en registreringskode &lt;a href="unlock"&gt;der vil åbne programmet til den fulde version&lt;/a&gt; efter købet.</LiteVersionLimitText>
+		<buttonPurchasePro>Køb Pro Version...</buttonPurchasePro>
+	</LiteVersionDialog>
+	<EnterKeyDialog>
+		<Caption>Indtast Registreringsinfo</Caption>
+		<EnterKeyToUpgradeText>Indtast venligt registreringsdetaljerne for at opgradere til Pro versionen af AnyToISO.</EnterKeyToUpgradeText>
+		<RegName>Navn på registrator:</RegName>
+		<RegCode>Registreringskode:</RegCode>
+	</EnterKeyDialog>
+	<AboutDialog>
+		<Caption>Om AnyToISO</Caption>
+		<Website>Hjemmeside:</Website>
+		<Support>Support:</Support>
+		<RunningAs>Dette program kører som:</RunningAs>
+		<CopyRight>Dette program er beskyttet af både lokal og international lov om copyright. Kopiering og/eller distribution af dette program eller delle af det, uden tilladelse, vil medføre i retsforfølgelse og muligt krav om kompensation af tabt fortjenste.</CopyRight>
+		<buttonPurchasePro>Køb Pro version...</buttonPurchasePro>
+	</AboutDialog>
+	<PreferencesDialog>
+		<Caption>Opsætning</Caption>
+		<Language>Sprog for grænseflade:</Language>
+		<CheckForNewVersions>Tjeck for ny version ved opstart</CheckForNewVersions>
+		<ShellExtension>Windows Explorer shell integration</ShellExtension>
+		<ShellExtensionInfo>Tilføj context menuer for formater der er understøttet under optiske drev, mapper og filer.</ShellExtensionInfo>
+	</PreferencesDialog>
+	<PasswordDialog>
+		<Caption>Der påkræves en kode</Caption>
+		<FileIsProtected>Denne fil er kodet. For at indlæse denne fil, indtast da kode:</FileIsProtected>
+		<InvalidPassword>Invalid password</InvalidPassword>
+	</PasswordDialog>
+	<Messages>
+		<Warning>Advarsel!</Warning>
+		<Question>Spørgsmål</Question>
+		<NotEnoughDiskSpace>Det ser ud til der ikke er nok plads (kun %1) på den valgte disk. \n\nØnsker du at fortsætte?</NotEnoughDiskSpace>
+		<ISOAlreadyExists>ISO filen der skrives til\n%1\neksistere allerede, vil du overskrive den?</ISOAlreadyExists>
+		<FolderAlreadyExists>Destinationsmappen\n%1\neksistere allerede, vil du overskrive alle filer med samme navn?</FolderAlreadyExists>
+		<RestartProgram>For at afslutte registrering må du genstarte programmet. \n\nØnsker du at gøre det nu?</RestartProgram>
+		<CancelOperation>Ønsker du at afslutte igangværende aktivitet?</CancelOperation>
+	</Messages>
+	<StatusMessages>
+		<CheckingSourceImage>Undersøger fil...</CheckingSourceImage>
+		<Converting>konverterer...</Converting>
+		<Extracting>Udpakker...</Extracting>
+		<ExtractionFailed>Extract operation failed</ExtractionFailed>
+		<Unpacking>Udpakker...</Unpacking>
+		<ConvertingToTemporaryISO>Konverterer til midlertidig ISO fil...</ConvertingToTemporaryISO>
+		<ProgressBytesWritten>%1 skrevet</ProgressBytesWritten>
+		<Track>Track</Track>
+		<ISOImageTypeFound>ISO fil (type %1) fundet</ISOImageTypeFound>
+		<CannotOpenSourceFile>Filen der skal indlæses, kan ikke læses.</CannotOpenSourceFile>
+		<CannotOpenDestFile>Filen der skal skrives til, kan ikke åbnes.</CannotOpenDestFile>
+		<OperationTerminated>Funktion blev afbrudt af bruger.</OperationTerminated>
+		<OperationCompleted>Konverteringen er udført.</OperationCompleted>
+		<ClickToOpenISOInExplorer>&lt;a href="_open_local_file"&gt;Tryk her&lt;/a&gt; for at komme til ISO filen.</ClickToOpenISOInExplorer>
+		<ClickToMountISOInFinder>&lt;a href="_open_local_file"&gt;tryk her&lt;/a&gt; for at vælge filen der skal mountes</ClickToMountISOInFinder>
+		<ClickToOpenOutFolder>&lt;a href="_open_local_file"&gt;Tryk her&lt;/a&gt; for at åbne mappen der skal gemmes i</ClickToOpenOutFolder>
+		<DiskToISO>
+			<OpeningDevice>Indlæser skive, vent venligst...</OpeningDevice>
+			<TotalDataSize>Den fulde størrelse er %1</TotalDataSize>
+			<CreatingISO>Opretter ISO fil...</CreatingISO>
+			<CannotCreateFromAudio>Du kan ikke oprette en ISO fil ud fra en multi-session disk eller Lyd CD, Kontakt venligst supporten for hjælp.</CannotCreateFromAudio>
+			<PleaseUseBinCue>Please use BIN/CUE image for such disks</PleaseUseBinCue>
+			<BlankDiskDetected>Der blev indlæst en blank CD/DVD skive</BlankDiskDetected>
+			<DiskNotReady>CD/DVD skiven er ikke klar</DiskNotReady>
+			<CannotOpenDevice>Kan ikke åbne enheden (%1)</CannotOpenDevice>
+			<ReadError>Læsefejl %1, Kontakt venligst supporten</ReadError>
+			<DeviceIsCopyProtected>Denne skive er skrivebeskyttet og krypteret, Der kan ikke fortsættes.</DeviceIsCopyProtected>
+			<ISOCreationFailed>Oprettelse af ISO filen fejlede</ISOCreationFailed>
+			<BinCueCreationFailed>BIN/CUE image creation failed</BinCueCreationFailed>
+			<CannotReadDiskToc>Failed to read TOC (table of contents) of the disk</CannotReadDiskToc>
+			<CannotReadDisk>Cannot read disk, error: %1</CannotReadDisk>
+			<DiskNotPresent>Disk not present or unknown media type</DiskNotPresent>
+			<NoTracksOnDisk>There are no tracks on the disk, it's probably blank</NoTracksOnDisk>
+			<mediaType>Media type: %1</mediaType>
+			<TrackLength>Track length is %1 sectors</TrackLength>
+			<TracksCount>Tracks count: %1</TracksCount>
+			<WritingTrack>Writing track %1, track length is %2 sectors</WritingTrack>
+			<DiskReadingStopped>Reading stopped at %1</DiskReadingStopped>
+			<TrackReadingStopped>Reading stopped at %1, resuming with next track</TrackReadingStopped>
+		</DiskToISO>
+		<FolderToISO>
+			<ScanningFolder>Indlæser mappe...</ScanningFolder>
+			<DirectorySize>Størrelse på mappen er %1</DirectorySize>
+			<WritingISOFile>Skriver til ISO fil...</WritingISOFile>
+			<SkippingBigFile>Springer over filen '%1'. Den er større end 4 GB</SkippingBigFile>
+			<SkippingFile>Springer over filen '%1'.</SkippingFile>
+			<BigFileWarning>Filen '%1' er større end 4 GB og vil ikke kunne ses i et ISO 9660 filsystem.</BigFileWarning>
+			<NestedDirectoriesLimitWarning>Mappen struktur indeholder mere end %1 mapper i undermapper, alle filer og mapper herefter bliver ikke gemt.</NestedDirectoriesLimitWarning>
+			<UnableToOpenFile>Filen '%1' kan ikke indlæses.</UnableToOpenFile>
+			<NoExistingFolder>The folder %1 doesn't exist</NoExistingFolder>
+		</FolderToISO>
+		<UniversalConverter>
+			<AudioCDWarning>Det ser ud til (%1) du har indsat en Lyd CD, denne kan ikke konverteres til en ISO fil.</AudioCDWarning>
+			<NotValidImage>Fejl: Dette er ikke en korrekt CD/DVD fil</NotValidImage>
+			<CannotFindSignature>Fejl: kan ikke finde ISO_9660 signaturen, nåede begrænsningen på 5 MB</CannotFindSignature>
+			<MultiSessionImageDetected>Multi-session disk image detected</MultiSessionImageDetected>
+			<MultiSessionNotSupported>The disk image is a multi-session disk image. Such images are not supported.</MultiSessionNotSupported>
+		</UniversalConverter>
+		<NrgConverter>
+			<NrgParsingError>NRG parsing error, please contact support for assistance</NrgParsingError>
+			<NoSessionsFound>No NRG sessions detected, please contact support for assistance</NoSessionsFound>
+		</NrgConverter>
+		<ExtractISO>
+			<LoadingImage>Indlæser ISO fil...</LoadingImage>
+			<ChooseISOFS>Der er flere filsystemer i denne ISO fil, vælg venligst den du vil trække ud:</ChooseISOFS>
+			<ChooseISOFSCaption>Vælg filsystem</ChooseISOFSCaption>
+			<ImageFound>Filen %1 er fundet</ImageFound>
+			<InvalidISO>Dette er ikke en ISO fil eller formatet er endnu ikke understøttet</InvalidISO>
+		</ExtractISO>
+		<UIFConverter>
+			<UsingZlib>Udpakker ved brug af zlib</UsingZlib>
+			<UsingLZMA>Udpakker ved brug af Lzma af Igor Pavlov</UsingLZMA>
+			<MixedImageFound>Mixet fil type %1 fundet, udpakker til midlertidig fil...</MixedImageFound>
+			<UnpackingImage>Udpakker fil...</UnpackingImage>
+		</UIFConverter>
+		<DebExtract>
+			<NotValidDeb>Dette er ikke et korrekt Debian (Ubuntu) Linux arkiv</NotValidDeb>
+		</DebExtract>
+		<RpmExtract>
+			<PackageOpened>Åbnede pakken %1</PackageOpened>
+			<DecompressingPayload>%1 dekomprimeret til midlertidig fil...</DecompressingPayload>
+			<UnpackingArchive>Udpakker arkiv...</UnpackingArchive>
+		</RpmExtract>
+		<DMG>
+			<ConvertingDmgToISO>Konverterer DMG til HFS+ ISO...</ConvertingDmgToISO>
+			<Writing>%1 skrevet...</Writing>
+			<ExtractingMainPartition>Udpakker primær DMG partition til midlertidig fil, dette kan tage nogen tid - Vent venligst...</ExtractingMainPartition>
+			<NoVolumeFound>Ingen beskrivelse fundet, søger efter HFS+ filsystem...</NoVolumeFound>
+			<ExtractingVolume>Udpakker DMG beskrivelse (%1)...</ExtractingVolume>
+			<CorruptedOrPasswordProtected>Fejl: Defekt eller kodebeskyttet DMG fil</CorruptedOrPasswordProtected>
+			<XarArchiveDetected>DMG file is actually a XAR archive (normally with actual DMG file inside) that can be only extracted. Please choose extract operation to proceed</XarArchiveDetected>
+			<openedAsMessage>The file is opened as %1</openedAsMessage>
+			<DmgDisk>DMG disk image</DmgDisk>
+			<GPTDisk>GPT disk</GPTDisk>
+			<MBRDisk>Apple disk</MBRDisk>
+			<HFSVolume>HFS+ volume</HFSVolume>
+			<readingFileSystem>Reading %1 file system...</readingFileSystem>
+			<messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
+			<messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
+		</DMG>
+		<PDIConverter>
+			<InvalidOrBrokenImage>Fejlbehæftet eller defekt InstantCopy PDI fil</InvalidOrBrokenImage>
+		</PDIConverter>
+		<ISZConverter>
+			<CompressionNone>Metode for komprimering: ingen</CompressionNone>
+			<WarningPassword>Forkert indtastet kode vil give en ubrugelig fil</WarningPassword>
+			<ImageIsSegmented>ISZ fil er segmenteret</ImageIsSegmented>
+		</ISZConverter>
+		<ArchiveConverter>
+			<ReadingArchive>Reading archive...</ReadingArchive>
+			<RemovingTempFiles>Removing temporary files...</RemovingTempFiles>
+			<ExtractError>Unable to extract %1, error %2</ExtractError>
+		</ArchiveConverter>
+		<TarUnpacker>
+			<SinglePackedFileFound>Single packed file detected: %1, unpacking...</SinglePackedFileFound>
+		</TarUnpacker>
+		<XarUnpacker>
+			<ReadingTOC>Reading table of contents (%1 bytes)...</ReadingTOC>
+			<NestedArchiveFound>Extracted file '%1' can be unpacked separately as %2 archive (append extension manually)</NestedArchiveFound>
+		</XarUnpacker>
+	</StatusMessages>
+	<Misc>
+		<buttonOk>OK</buttonOk>
+		<buttonCancel>Afbryd</buttonCancel>
+		<buttonClose>Luk</buttonClose>
+		<buttonYes>Yes</buttonYes>
+		<buttonNo>No</buttonNo>
+		<ProVersion>Pro Version</ProVersion>
+		<LiteVersion>Lite Version</LiteVersion>
+	</Misc>
+	<ShellExtension>
+		<!-- This section describes Windows context menus -->
+		<ConvertToISO>Konverter til "%s"</ConvertToISO>
+		<ConvertToISOInfo>Konverter fil med andet format til ISO format</ConvertToISOInfo>
+		<Extract>Udpak til "%s"</Extract>
+		<ExtractInfo>Udpak fil</ExtractInfo>
+		<CreateISOFromFolder>Opret "%s"</CreateISOFromFolder>
+		<CreateISOFromFolderInfo>Opret ISO fil i denne mappe med standard indstillinger</CreateISOFromFolderInfo>
+		<CreateISOFromFolderWithOptions>Opret "%s" med indstillinger...</CreateISOFromFolderWithOptions>
+		<CreateISOFromFolderWithOptionsInfo>Opret ISO fil med specifikation af filsystem og navn</CreateISOFromFolderWithOptionsInfo>
+		<CreateISOFromDisk>Opret ISO af skive</CreateISOFromDisk>
+		<CreateISOFromDiskInfo>opret ISO ud fra den indsatte optiske skive</CreateISOFromDiskInfo>
+		<CreateBINCUEFromDisk>Create BIN/CUE image of this disk</CreateBINCUEFromDisk>
+		<CreateBINCUEFromDiskInfo>Create BIN (raw) image of a selected optical disk and its corresponding CUE sheet file</CreateBINCUEFromDiskInfo>
+	</ShellExtension>
+	<UpdateChecker>
+		<ReleasedOn>released on %1</ReleasedOn>
+		<CheckForUpdates>Check for updates...</CheckForUpdates>
+		<NewVersionAvailable>A new version of %1 is available!</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 is now available - you have %3. Would you like to download it now?</NewVersionAvailableText>
+		<UpdateAlertTitle>Software Update</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Release Notes:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Remind Me Later</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Skip This Version</UpdateAlertSkip>
+		<UpdateAlertInstall>Install Update</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Check for updates automatically</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>You're up to date!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 is currently the newest version available.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>An error occurred while downloading the update. Please try again later.</MessageErrorConnect>
+		<MessageErrorParse>An error occurred while parsing the update feed.</MessageErrorParse>
+		<UpdateProgressTitle>Updating %1</UpdateProgressTitle>
+		<UpdateProgressCancel>Cancel</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Install and Relaunch</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Downloading update...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Extracting update...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Ready to Install</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 of %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+	<LetsMoveMac>
+		<kStrMoveApplicationCouldNotMove>Kunne ikke flytte til mappen Programmer</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>Flyt til mappen Programmer?</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>Flyt til mappen Programmer i din hjemmemappe?</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>%1 kan flytte mig selv til mappen Programmer, hvis du ønsker det.</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>Flyt til mappen Programmer</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>Flyt ikke</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Bemærk, at dette kræver en administrator-adgangskode.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Dette hjælper til med at holde orden i mappen Overførsler.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+	</LetsMoveMac>
+</LanguageStrings>

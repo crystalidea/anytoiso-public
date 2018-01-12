@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.1" Author="Tero Toivonen 2011">
+	<MainWindow>
+		<mnuFile>Tiedosto</mnuFile>
+		<mnuFileExit>Poistu</mnuFileExit>
+		<mnuHelp>Ohje</mnuHelp>
+		<mnuHelpDocumentation>Ohjekirja (englanniksi)...</mnuHelpDocumentation>
+		<mnuHelpPurchase>Hanki Täysversio...</mnuHelpPurchase>
+		<mnuHelpEnterCode>Anna rekisteröintikoodisi...</mnuHelpEnterCode>
+		<mnuHelpAbout>Lisätietoja...</mnuHelpAbout>
+		<mnuHomePage>AnyToISO:n kotisivu...</mnuHomePage>
+		<menuPreferences>Lisäasetukset...</menuPreferences>
+		<newVersionAvailable>AnyToISO %1 on saatavilla!</newVersionAvailable>
+		<newVersionUpdate>Päivitä</newVersionUpdate>
+		<buttonStop>Keskeytä</buttonStop>
+		<tabConvertExtract>
+			<Name>Pura Tiedosto/Muunna ISO tiedostoksi</Name>
+			<SourceFileName>Lähdetiedosto:</SourceFileName>
+			<ConvertToISO>Muunna ISO tiedostoksi:</ConvertToISO>
+			<ExtractToFolder>Pura kansioon:</ExtractToFolder>
+			<buttonOpenImage>Avaa levykuva...</buttonOpenImage>
+			<buttonOpenImageText>Avaa CD/DVD tiedosto</buttonOpenImageText>
+			<AllSupportedFiles>Tuetut Tiedostotyypit</AllSupportedFiles>
+			<buttonOpenISO>Avaa ISO...</buttonOpenISO>
+			<buttonOpenISOText>Valitse kohde ISO tiedosto</buttonOpenISOText>
+			<buttonOpenISOFilter>ISO Tiedostot (*.iso)</buttonOpenISOFilter>
+			<buttonOpenFolder>Valitse kansio...</buttonOpenFolder>
+			<buttonOpenFolderText>Avaa kohdekansio</buttonOpenFolderText>
+			<buttonConvert>Muunna!</buttonConvert>
+			<buttonExtract>Pura!</buttonExtract>
+			<labelFileSize>Tiedoston koko</labelFileSize>
+			<labelFileFormat>Tiedostomuoto</labelFileFormat>
+			<labelOpenOrDragFile>&lt;b&gt;Avaa&lt;/b&gt; tai &lt;b&gt;raahaa&lt;/b&gt; tiedosto muuntamista tai purkamista varten</labelOpenOrDragFile>
+		</tabConvertExtract>
+		<tabDiskToISO>
+			<Name>CD/DVD levy ISO tiedostoksi</Name>
+			<SourceDrive>Lähdeasema:</SourceDrive>
+			<OutputISO>Kohde ISO-tiedosto:</OutputISO>
+			<checkCreateBinCue>Create BIN/CUE image</checkCreateBinCue>
+			<buttonRefresh>Virkistä</buttonRefresh>
+			<buttonBrowseISO>Selaa...</buttonBrowseISO>
+			<NoDiskInserted>Asemassa ei ole CD/DVD-levyä</NoDiskInserted>
+			<buttonMakeISO>Luo ISO tiedosto</buttonMakeISO>
+			<buttonMakeBinCue>Create BIN/CUE image</buttonMakeBinCue>
+			<chooseISOOrBinCueImage>Please select ISO or BIN/CUE image file</chooseISOOrBinCueImage>
+			<isoFilesFilter>ISO Files</isoFilesFilter>
+			<binCueSheetFilter>BIN Files (with CUE sheet)</binCueSheetFilter>
+		</tabDiskToISO>
+		<tabFolderToISO>
+			<Name>Kansio ISO tiedostoksi</Name>
+			<SourceFolder>Lähdekansio:</SourceFolder>
+			<DestinationISO>Kohde ISO-tiedosto:</DestinationISO>
+			<VolumeLabel>Levyn nimi:</VolumeLabel>
+			<buttonBrowseForFolder>Selaa kansioon...</buttonBrowseForFolder>
+			<buttonChooseISO>Valitse ISO tiedosto...</buttonChooseISO>
+			<buttonOptions>Lisävalinnat...</buttonOptions>
+			<buttonMakeISO>Luo ISO tiedosto</buttonMakeISO>
+			<ISOCreationOptions>ISO luonti vaihtoehdot</ISOCreationOptions>
+			<Settings>Asetukset</Settings>
+			<FileSystemsInsideISO>Tiedostotyypit:</FileSystemsInsideISO>
+			<buttonDefault>Oletus</buttonDefault>
+			<ISO9660Option1>8.3 DOS tiedostonimet (11)</ISO9660Option1>
+			<ISO9660Option2>Pitkät tiedostonimet (180)</ISO9660Option2>
+			<ISO9660Option3>ISO 9660:1999</ISO9660Option3>
+			<JolietOption1>Vakiotiedostonimet (64)</JolietOption1>
+			<JolietOption2>Pitkät tiedostonimet (110)</JolietOption2>
+		</tabFolderToISO>
+	</MainWindow>
+	<LiteVersionDialog>
+		<LiteVersionLimitText>Esittelyversio AnyToISO ohjelmasta toimii vain&lt;b&gt;CD levykuvien kanssay&lt;/b&gt; (korkeintaan 870 Mt). Jos haluat käsitellä suurempia tiedostoja (DVD tai muut) sinun on &lt;a href="purchase"&gt;hankittava AnytoISOsta täysversio &lt;/a&gt;. Saat rekisteröintikoodin &lt;a href="unlock"&gt;jolla saat avattua ohjelmat laajat toiminnallisuudet&lt;/a&gt; kun olet hankkinut täysversion.</LiteVersionLimitText>
+		<buttonPurchasePro>Osta Täysversio...</buttonPurchasePro>
+	</LiteVersionDialog>
+	<EnterKeyDialog>
+		<Caption>Anna rekisteröintikoodi</Caption>
+		<EnterKeyToUpgradeText>Ole hyvä ja anna rekisteröintiin tarvittavat tiedot päivittääksesi AnyToISO täysversioon.</EnterKeyToUpgradeText>
+		<RegName>Rekisteröijän nimi:</RegName>
+		<RegCode>Rekisteröintikoodi:</RegCode>
+	</EnterKeyDialog>
+	<AboutDialog>
+		<Caption>Tietoja AnyToISO ohjelmasta</Caption>
+		<Website>Verkkosivu:</Website>
+		<Support>Tuki:</Support>
+		<RunningAs>Ohjelman versio:</RunningAs>
+		<CopyRight>Tämä ohjelmisto on suojattu kansainvälisten lakien mukaisesti. Tämän ohjelman tai sen osienkin luvaton kopiointi voi johtaa rikosoikeudellisiin toimenpiteisiin.</CopyRight>
+		<buttonPurchasePro>Hanki Täysversio (Pro)...</buttonPurchasePro>
+	</AboutDialog>
+	<PreferencesDialog>
+		<Caption>Lisäasetukset</Caption>
+		<Language>Käyttöliittymäkieli:</Language>
+		<CheckForNewVersions>Tarkista uuden version saatavuus käynnistettäessä</CheckForNewVersions>
+		<ShellExtension>Kytke osaksi Explorer valikoita</ShellExtension>
+		<ShellExtensionInfo>Lisää optisten levyjen käsittelyvalikoihin ja tuettuihin tiedostomuotoihin.</ShellExtensionInfo>
+	</PreferencesDialog>
+	<PasswordDialog>
+		<Caption>Salasana vaaditaan</Caption>
+		<FileIsProtected>Tiedosto on salattu. Purkaaksesi tiedoston, anna salasana :</FileIsProtected>
+		<InvalidPassword>Invalid password</InvalidPassword>
+	</PasswordDialog>
+	<Messages>
+		<Warning>Varoitus</Warning>
+		<Question>Kysymys</Question>
+		<NotEnoughDiskSpace>Vaikuttaa siltä ettei kohdelevyllä ole riittävästi tilaa (vain %1). \n\nHaluatko jatkaa?</NotEnoughDiskSpace>
+		<ISOAlreadyExists>Kohde ISO tiedosto\n%1\non jo olemassa, haluatko ylikirjoittaa tiedoston?</ISOAlreadyExists>
+		<FolderAlreadyExists>Kohdehakemisto \n%1\non jo olemassa, haluatko ylikirjoittaa saman nimiset tiedostot?</FolderAlreadyExists>
+		<RestartProgram>Viimeistelläksesi rekisteröintisi on tämä ohjelma käynnistettävä uudelleen. \n\nHaluatko käynnistää ohjelman uudelleen nyt?</RestartProgram>
+		<CancelOperation>Oletko varma että haluat keskeyttää toiminnon?</CancelOperation>
+	</Messages>
+	<StatusMessages>
+		<CheckingSourceImage>Tarkistan lähdelevykuvaa...</CheckingSourceImage>
+		<Converting>Muunnan...</Converting>
+		<Extracting>Puran tiedostosta...</Extracting>
+		<ExtractionFailed>Extract operation failed</ExtractionFailed>
+		<Unpacking>Puran tiedostoa...</Unpacking>
+		<ConvertingToTemporaryISO>Muunnan väliaikaiseksi ISO-tiedostoksi...</ConvertingToTemporaryISO>
+		<ProgressBytesWritten>%1 kirjoitettu</ProgressBytesWritten>
+		<Track>Track</Track>
+		<ISOImageTypeFound>ISO levykuva (type %1) löytyi</ISOImageTypeFound>
+		<CannotOpenSourceFile>En voi avata lähdetiedostoa.</CannotOpenSourceFile>
+		<CannotOpenDestFile>En voi avata kohdetiedostoa.</CannotOpenDestFile>
+		<OperationTerminated>Toiminto keskeytetty käyttäjän toimesta.</OperationTerminated>
+		<OperationCompleted>Toiminto suoritetu.</OperationCompleted>
+		<ClickToOpenISOInExplorer>Klikkaa &lt;a href="_open_local_file"&gt;tästä&lt;/a&gt; avataksesi kohde ISO tiedosto Windows Explorerissa</ClickToOpenISOInExplorer>
+		<ClickToMountISOInFinder>Klikkaa &lt;a href="_open_local_file"&gt;tästä&lt;/a&gt; liittääksesi ISO tiedoston Finder:iin</ClickToMountISOInFinder>
+		<ClickToOpenOutFolder>Klikkaa &lt;a href="_open_local_file"&gt;tästä&lt;/a&gt; avataksesi kohdekansion</ClickToOpenOutFolder>
+		<DiskToISO>
+			<OpeningDevice>Avataan levyasemaa, odota hetki...</OpeningDevice>
+			<TotalDataSize>Tiedoston koko on %1</TotalDataSize>
+			<CreatingISO>Luodaan ISO-tiedostoa...</CreatingISO>
+			<CannotCreateFromAudio>Et voi luoda moni-istuntoista ISO-tiedostoa tai audio-levyn levykuvaa, ota tarvittaessa yhteyttä ohjelmiston tukeen.</CannotCreateFromAudio>
+			<PleaseUseBinCue>Please use BIN/CUE image for such disks</PleaseUseBinCue>
+			<BlankDiskDetected>Tyhjä CD/DVD levy havaittu</BlankDiskDetected>
+			<DiskNotReady>CD/DVD levyasema ei ole valmiustilassa</DiskNotReady>
+			<CannotOpenDevice>En voi avata laitetta (%1)</CannotOpenDevice>
+			<ReadError>Lukuvirhe %1, ole hyvä ja ota yhteyttä ohjelman tukeen.</ReadError>
+			<DeviceIsCopyProtected>Tämä laite on kopiosuojattu ja levysektori on salattu. Jatkaminen ei ole mahdollista.</DeviceIsCopyProtected>
+			<ISOCreationFailed>ISO-tiedoston luonti epäonnistui</ISOCreationFailed>
+			<BinCueCreationFailed>BIN/CUE image creation failed</BinCueCreationFailed>
+			<CannotReadDiskToc>Failed to read TOC (table of contents) of the disk</CannotReadDiskToc>
+			<CannotReadDisk>Cannot read disk, error: %1</CannotReadDisk>
+			<DiskNotPresent>Disk not present or unknown media type</DiskNotPresent>
+			<NoTracksOnDisk>There are no tracks on the disk, it's probably blank</NoTracksOnDisk>
+			<mediaType>Media type: %1</mediaType>
+			<TrackLength>Track length is %1 sectors</TrackLength>
+			<TracksCount>Tracks count: %1</TracksCount>
+			<WritingTrack>Writing track %1, track length is %2 sectors</WritingTrack>
+			<DiskReadingStopped>Reading stopped at %1</DiskReadingStopped>
+			<TrackReadingStopped>Reading stopped at %1, resuming with next track</TrackReadingStopped>
+		</DiskToISO>
+		<FolderToISO>
+			<ScanningFolder>Luetaan lähdekansiota...</ScanningFolder>
+			<DirectorySize>Hakemiston koko on %1</DirectorySize>
+			<WritingISOFile>Kirjoitan ISO-tiedostoa...</WritingISOFile>
+			<SkippingBigFile>Ohitetaan tiedosto '%1'. Se on suurempi kuin 4 Gt</SkippingBigFile>
+			<SkippingFile>Ohitan tiedoston '%1'.</SkippingFile>
+			<BigFileWarning>Tiedosto '%1' on suurempi kuin 4 Gt ja siksi sitä ei voi näyttää ISO 9660 tiedostojärjestelmässä.</BigFileWarning>
+			<NestedDirectoriesLimitWarning>Hakemistorakenne on syvempi kuin %1 tasoa, jotkut tiedostoista ja kansioista ohitetaan.</NestedDirectoriesLimitWarning>
+			<UnableToOpenFile>Tiedostoa '%1' ei voitu avata lukua varten.</UnableToOpenFile>
+			<NoExistingFolder>The folder %1 doesn't exist</NoExistingFolder>
+		</FolderToISO>
+		<UniversalConverter>
+			<AudioCDWarning>Levy vaikuttaa olevan %1 Audio CD, muunnos ISO tiedostoksi ei ole mahdollinen.</AudioCDWarning>
+			<NotValidImage>Virhe: Tämä ei ole oikeanmuotoinen CD/DVD levykuva</NotValidImage>
+			<CannotFindSignature>Virhe: ISO_9660 allekirjoitusta ei löydy, 5 Mt rajoitus on saavutettu.</CannotFindSignature>
+			<MultiSessionImageDetected>Multi-session disk image detected</MultiSessionImageDetected>
+			<MultiSessionNotSupported>The disk image is a multi-session disk image. Such images are not supported.</MultiSessionNotSupported>
+		</UniversalConverter>
+		<NrgConverter>
+			<NrgParsingError>NRG parsing error, please contact support for assistance</NrgParsingError>
+			<NoSessionsFound>No NRG sessions detected, please contact support for assistance</NoSessionsFound>
+		</NrgConverter>
+		<ExtractISO>
+			<LoadingImage>Ladataan levykuvaa...</LoadingImage>
+			<ChooseISOFS>Tässä ISO-tiedostossa on useita levyjärjestelmämuotoja, valitse niistä yksi purkaaksesi tiedoston:</ChooseISOFS>
+			<ChooseISOFSCaption>valitse tiedostojärjestelmä</ChooseISOFSCaption>
+			<ImageFound>%1 levykuva löytyi</ImageFound>
+			<InvalidISO>Tiedosto ei ole oikeanmuotoinen ISO-levykuva tai sen muoto ei ole tällä hetkellä tuettu</InvalidISO>
+		</ExtractISO>
+		<UIFConverter>
+			<UsingZlib>Käytetään zlib purkua</UsingZlib>
+			<UsingLZMA>Käytetään Lzma purkua (tekijä Igor Pavlov)</UsingLZMA>
+			<MixedImageFound>Monimuotoinen levykuva %1 löytyi, puran väliaikaistiedostoon...</MixedImageFound>
+			<UnpackingImage>Puran levykuvaa...</UnpackingImage>
+		</UIFConverter>
+		<DebExtract>
+			<NotValidDeb>Tiedosto ei ole tuettu Debian (Ubuntu) Linux arkistomuoto</NotValidDeb>
+		</DebExtract>
+		<RpmExtract>
+			<PackageOpened>Paketti %1 avattu</PackageOpened>
+			<DecompressingPayload>puretaan %1 sisältöä väliaikaistiedostoon...</DecompressingPayload>
+			<UnpackingArchive>Puran arkistoa...</UnpackingArchive>
+		</RpmExtract>
+		<DMG>
+			<ConvertingDmgToISO>Muunna DMG HFS+ ISO tiedostoksi...</ConvertingDmgToISO>
+			<Writing>Kirjoitan %1...</Writing>
+			<ExtractingMainPartition>Puretaan DMG osiota väliaikaistiedostoon, tämä kestää hetkisen - ole hyvä ja odota...</ExtractingMainPartition>
+			<NoVolumeFound>Nimeä ei löytynyt, etsin HFS+ tiedostojärjestelmää...</NoVolumeFound>
+			<ExtractingVolume>Puran (%1) nimistä DMG:tä...</ExtractingVolume>
+			<CorruptedOrPasswordProtected>Virhe : korruptoitunut tai salasanasuojattu DMG tiedosto</CorruptedOrPasswordProtected>
+			<XarArchiveDetected>DMG file is actually a XAR archive (normally with actual DMG file inside) that can be only extracted. Please choose extract operation to proceed</XarArchiveDetected>
+			<openedAsMessage>The file is opened as %1</openedAsMessage>
+			<DmgDisk>DMG disk image</DmgDisk>
+			<GPTDisk>GPT disk</GPTDisk>
+			<MBRDisk>Apple disk</MBRDisk>
+			<HFSVolume>HFS+ volume</HFSVolume>
+			<readingFileSystem>Reading %1 file system...</readingFileSystem>
+			<messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
+			<messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
+		</DMG>
+		<PDIConverter>
+			<InvalidOrBrokenImage>Virheellinen InstantCopy PDI levykuva</InvalidOrBrokenImage>
+		</PDIConverter>
+		<ISZConverter>
+			<CompressionNone>Pakkaustapa : ei pakattu</CompressionNone>
+			<WarningPassword>Varoitus: jos määrittelet väärän salasanan ei kohdetiedosto ole avattavissa</WarningPassword>
+			<ImageIsSegmented>ISZ tiedosto on osioitu</ImageIsSegmented>
+		</ISZConverter>
+		<ArchiveConverter>
+			<ReadingArchive>Reading archive...</ReadingArchive>
+			<RemovingTempFiles>Removing temporary files...</RemovingTempFiles>
+			<ExtractError>Unable to extract %1, error %2</ExtractError>
+		</ArchiveConverter>
+		<TarUnpacker>
+			<SinglePackedFileFound>Single packed file detected: %1, unpacking...</SinglePackedFileFound>
+		</TarUnpacker>
+		<XarUnpacker>
+			<ReadingTOC>Reading table of contents (%1 bytes)...</ReadingTOC>
+			<NestedArchiveFound>Extracted file '%1' can be unpacked separately as %2 archive (append extension manually)</NestedArchiveFound>
+		</XarUnpacker>
+	</StatusMessages>
+	<Misc>
+		<buttonOk>OK</buttonOk>
+		<buttonCancel>Keskeytä</buttonCancel>
+		<buttonClose>Sulje</buttonClose>
+		<buttonYes>Yes</buttonYes>
+		<buttonNo>No</buttonNo>
+		<ProVersion>Täysversio</ProVersion>
+		<LiteVersion>Esittelyversio</LiteVersion>
+	</Misc>
+	<ShellExtension>
+		<!-- This section describes Windows context menus -->
+		<ConvertToISO>Muunna muotoon "%s"</ConvertToISO>
+		<ConvertToISOInfo>Muunna levykuva tiedosto ISO muotoiseksi</ConvertToISOInfo>
+		<Extract>Pura kohteeseen "%s"</Extract>
+		<ExtractInfo>Pura levykuva</ExtractInfo>
+		<CreateISOFromFolder>Luonti "%s"</CreateISOFromFolder>
+		<CreateISOFromFolderInfo>Luo ISO levykuva tästä kansiosta oletusasetuksin</CreateISOFromFolderInfo>
+		<CreateISOFromFolderWithOptions>Luo "%s" ominaisuuksilla ...</CreateISOFromFolderWithOptions>
+		<CreateISOFromFolderWithOptionsInfo>Luo ISO levykuva tästä kansiosta määrittelemällä tiedostojärjestelmäasetukset ja otsake</CreateISOFromFolderWithOptionsInfo>
+		<CreateISOFromDisk>Luo ISO-levykuva tästä levystä</CreateISOFromDisk>
+		<CreateISOFromDiskInfo>Luo ISO-levykuva valitusta optisesta mediasta</CreateISOFromDiskInfo>
+		<CreateBINCUEFromDisk>Create BIN/CUE image of this disk</CreateBINCUEFromDisk>
+		<CreateBINCUEFromDiskInfo>Create BIN (raw) image of a selected optical disk and its corresponding CUE sheet file</CreateBINCUEFromDiskInfo>
+	</ShellExtension>
+	<UpdateChecker>
+		<ReleasedOn>released on %1</ReleasedOn>
+		<CheckForUpdates>Check for updates...</CheckForUpdates>
+		<NewVersionAvailable>A new version of %1 is available!</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 is now available - you have %3. Would you like to download it now?</NewVersionAvailableText>
+		<UpdateAlertTitle>Software Update</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Release Notes:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Remind Me Later</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Skip This Version</UpdateAlertSkip>
+		<UpdateAlertInstall>Install Update</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Check for updates automatically</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>You're up to date!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 is currently the newest version available.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>An error occurred while downloading the update. Please try again later.</MessageErrorConnect>
+		<MessageErrorParse>An error occurred while parsing the update feed.</MessageErrorParse>
+		<UpdateProgressTitle>Updating %1</UpdateProgressTitle>
+		<UpdateProgressCancel>Cancel</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Install and Relaunch</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Downloading update...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Extracting update...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Ready to Install</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 of %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+	<LetsMoveMac>
+		<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+	</LetsMoveMac>
+</LanguageStrings>

@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.4" Author="Zalzala Zilzal">
+	<MainWindow>
+		<mnuFile>&amp;Berkas</mnuFile>
+		<mnuFileExit>Keluar</mnuFileExit>
+		<mnuHelp>Ba&amp;ntuan</mnuHelp>
+		<mnuHelpDocumentation>&amp;Dokumentasi...</mnuHelpDocumentation>
+		<mnuHelpPurchase>&amp;Beli versi Pro...</mnuHelpPurchase>
+		<mnuHelpEnterCode>&amp;Masukan kode pendaftaran...</mnuHelpEnterCode>
+		<mnuHelpAbout>&amp;Tentang...</mnuHelpAbout>
+		<mnuHomePage>&amp;Situs AnyToISO...</mnuHomePage>
+		<menuPreferences>Pengaturan...</menuPreferences>
+		<newVersionAvailable>AnyToISO %1 telah tersedia!</newVersionAvailable>
+		<newVersionUpdate>Pembaruan</newVersionUpdate>
+		<buttonStop>Berhenti</buttonStop>
+		<tabConvertExtract>
+			<Name>Ekstrak/Konversi Berkas ke ISO</Name>
+			<SourceFileName>Sumber berkas image:</SourceFileName>
+			<ConvertToISO>Konversi ke image ISO:</ConvertToISO>
+			<ExtractToFolder>Ekstrak ke folder:</ExtractToFolder>
+			<buttonOpenImage>Buka image...</buttonOpenImage>
+			<buttonOpenImageText>Buka berkas Image CD/DVD</buttonOpenImageText>
+			<AllSupportedFiles>Semua Berkas Didukung</AllSupportedFiles>
+			<buttonOpenISO>Buka ISO...</buttonOpenISO>
+			<buttonOpenISOText>Pilihan menghasilkan berkas ISO</buttonOpenISOText>
+			<buttonOpenISOFilter>Berkas ISO (*.iso)</buttonOpenISOFilter>
+			<buttonOpenFolder>Pilih folder...</buttonOpenFolder>
+			<buttonOpenFolderText>Buka folder tujuan</buttonOpenFolderText>
+			<buttonConvert>Konversi</buttonConvert>
+			<buttonExtract>Ekstrak</buttonExtract>
+			<labelFileSize>Ukuran berkas</labelFileSize>
+			<labelFileFormat>format</labelFileFormat>
+			<labelOpenOrDragFile>&lt;b&gt;Buka&lt;/b&gt; atau &lt;b&gt;geser&lt;/b&gt; sebuah image untuk dikonversi atau diekstrak.</labelOpenOrDragFile>
+		</tabConvertExtract>
+		<tabDiskToISO>
+			<Name>Disk CD/DVD ke ISO</Name>
+			<SourceDrive>Sumber Drive:</SourceDrive>
+			<OutputISO>Tujuan image:</OutputISO>
+			<checkCreateBinCue>Buat image BIN/CUE</checkCreateBinCue>
+			<buttonRefresh>Segarkan</buttonRefresh>
+			<buttonBrowseISO>Jelajahi...</buttonBrowseISO>
+			<NoDiskInserted>Tidak ada disk CD/DVD yang dimasukan</NoDiskInserted>
+			<buttonMakeISO>Buat ISO</buttonMakeISO>
+			<buttonMakeBinCue>Buat image BIN/CUE</buttonMakeBinCue>
+			<chooseISOOrBinCueImage>Silahkan pilih berkas image ISO atau image BIN/CUE</chooseISOOrBinCueImage>
+			<isoFilesFilter>Berkas ISO</isoFilesFilter>
+			<binCueSheetFilter>Berkas BIN (pakai CUE sheet)</binCueSheetFilter>
+		</tabDiskToISO>
+		<tabFolderToISO>
+			<Name>Folder ke ISO</Name>
+			<SourceFolder>Sumber folder:</SourceFolder>
+			<DestinationISO>Tujuan berkas ISO:</DestinationISO>
+			<VolumeLabel>Nama volume:</VolumeLabel>
+			<buttonBrowseForFolder>Jelajahi untuk folder...</buttonBrowseForFolder>
+			<buttonChooseISO>Memilih ISO...</buttonChooseISO>
+			<buttonOptions>Opsi...</buttonOptions>
+			<buttonMakeISO>Buat ISO</buttonMakeISO>
+			<ISOCreationOptions>Opsi pembuatan ISO</ISOCreationOptions>
+			<Settings>Seting</Settings>
+			<FileSystemsInsideISO>Sistem berkas:</FileSystemsInsideISO>
+			<buttonDefault>Standar</buttonDefault>
+			<ISO9660Option1>Nama berkas DOS 8.3 (11)</ISO9660Option1>
+			<ISO9660Option2>Nama terpanjang (180)</ISO9660Option2>
+			<ISO9660Option3>ISO 9660:1999</ISO9660Option3>
+			<JolietOption1>Nama standar (64)</JolietOption1>
+			<JolietOption2>Nama panjang (110)</JolietOption2>
+		</tabFolderToISO>
+	</MainWindow>
+	<LiteVersionDialog>
+		<LiteVersionLimitText>Versi Lite dari AnyToISO hanya bekerja pada &lt;b&gt;image CD saja&lt;/b&gt; (sampai dengan 870 MB). Untuk dapat bekerja pada berkas lebih besar (DVD dan lainya) anda harus &lt;a href="purchase"&gt;membeli versi profesional&lt;/a&gt;. Setelah proses pembelian, anda akan menerima kode pendaftaran &lt;a href="unlock"&gt;untuk membuka software&lt;/a&gt;.</LiteVersionLimitText>
+		<buttonPurchasePro>Beli versi Pro...</buttonPurchasePro>
+	</LiteVersionDialog>
+	<EnterKeyDialog>
+		<Caption>Masukan kode pendaftaran</Caption>
+		<EnterKeyToUpgradeText>Silahkan masukan detail pendaftaran anda untuk meningkatkan AnyToISO ke versi Pro.</EnterKeyToUpgradeText>
+		<RegName>Nama pendaftaran:</RegName>
+		<RegCode>Kode pendaftaran:</RegCode>
+	</EnterKeyDialog>
+	<AboutDialog>
+		<Caption>Tentang AnyToISO</Caption>
+		<Website>Situs:</Website>
+		<Support>Dukungan:</Support>
+		<RunningAs>Program ini dijalankan pada:</RunningAs>
+		<CopyRight>Program komputer ini dilindungi oleh hukum hak cipta dan hukum internasional. Duplikasi dan distribusi progam ini atau bagianya tanpa ijin, dapat mengakibatkan pelanggaran sipil dan atau hukum kriminal.</CopyRight>
+		<buttonPurchasePro>Beli versi Pro...</buttonPurchasePro>
+	</AboutDialog>
+	<PreferencesDialog>
+		<Caption>Pengaturan</Caption>
+		<Language>Tampilan bahasa:</Language>
+		<CheckForNewVersions>Periksa versi baru saat mulai</CheckForNewVersions>
+		<ShellExtension>Integrasi shell Windows Explorer</ShellExtension>
+		<ShellExtensionInfo>Tambah konteks menu untuk drive optik, folder dan format berkas yang didukung.</ShellExtensionInfo>
+	</PreferencesDialog>
+	<PasswordDialog>
+		<Caption>Diperlukan sandi</Caption>
+		<FileIsProtected>Berkas terenkripsi. Untuk dapat membuka enkripsi silahkan masukan sandi:</FileIsProtected>
+		<InvalidPassword>Kata sandi tidak valid</InvalidPassword>
+	</PasswordDialog>
+	<Messages>
+		<Warning>Peringatan</Warning>
+		<Question>Pertanyaan</Question>
+		<NotEnoughDiskSpace>Sepertinya tidak ada cukup ruang bebas pada disk (hanya %1) pada pilihan drive. \n\nAnda ingin memprosesnya?</NotEnoughDiskSpace>
+		<ISOAlreadyExists>Tujuan berkas ISO\n%1\nsudah ada sebelumnya, apakah anda ingin menumpuknya?</ISOAlreadyExists>
+		<FolderAlreadyExists>Tujan folder\n%1\nsudah ada sebelumnya, apakah anda ingin menumpuk semua berkas yang yang memilik nama sama?</FolderAlreadyExists>
+		<RestartProgram>Untuk menyelesaikan pendaftaran anda harus merestart program. \n\nApakah anda ingin melakukanya?</RestartProgram>
+		<CancelOperation>Apakah anda yakin ingin membatalkan operasi yang sekarang?</CancelOperation>
+	</Messages>
+	<StatusMessages>
+		<CheckingSourceImage>Memeriksa sumber image...</CheckingSourceImage>
+		<Converting>Mengonversi...</Converting>
+		<Extracting>Mengekstrak...</Extracting>
+		<ExtractionFailed>Extract operation failed</ExtractionFailed>
+		<Unpacking>Proses ekstrak...</Unpacking>
+		<ConvertingToTemporaryISO>Mengonversi ke berkas sementara ISO...</ConvertingToTemporaryISO>
+		<ProgressBytesWritten>%1 ditulis</ProgressBytesWritten>
+		<Track>Track</Track>
+		<ISOImageTypeFound>Image ISO (tipe %1) ditemukan</ISOImageTypeFound>
+		<CannotOpenSourceFile>Tidak dapat membuka sumber berkas.</CannotOpenSourceFile>
+		<CannotOpenDestFile>Tidak dapat membuka tujuan berkas, silahkan periksa nama berkas dan hak akses</CannotOpenDestFile>
+		<OperationTerminated>Operasi dibatalkan oleh pengguna.</OperationTerminated>
+		<OperationCompleted>Operasi selesai.</OperationCompleted>
+		<ClickToOpenISOInExplorer>Klik &lt;a href="_open_local_file"&gt;disini&lt;/a&gt; untuk membuka hasil berkas ISO pada Explorer</ClickToOpenISOInExplorer>
+		<ClickToMountISOInFinder>Klik &lt;a href="_open_local_file"&gt;disini&lt;/a&gt; untuk memuat ISO pada Finder</ClickToMountISOInFinder>
+		<ClickToOpenOutFolder>Klik &lt;a href="_open_local_file"&gt;disini&lt;/a&gt; untuk membuka folder output</ClickToOpenOutFolder>
+		<DiskToISO>
+			<OpeningDevice>Membuka alat media, silahkan tunggu...</OpeningDevice>
+			<TotalDataSize>Total ukuran data adalah %1</TotalDataSize>
+			<CreatingISO>Membuat ISO...</CreatingISO>
+			<CannotCreateFromAudio>Anda tidak dapat membuat image ISO dari disk multi-sesi atau disk audio, silahkan hubungi pendukung untuk bantuan.</CannotCreateFromAudio>
+			<PleaseUseBinCue>Silahkan pakai image BIN/CUE untuk disk seperti ini</PleaseUseBinCue>
+			<BlankDiskDetected>Disk CD/DVD kosong terdeteksi</BlankDiskDetected>
+			<DiskNotReady>Disk CD/DVD tidak siap</DiskNotReady>
+			<CannotOpenDevice>Tidak dapat membuka alat (%1)</CannotOpenDevice>
+			<ReadError>Pembacaan %1 eror, silahkan hubungi pendukung untuk bantuan</ReadError>
+			<DeviceIsCopyProtected>Alat ini salinan-terproteksi dan sektornya dienkripsi. Tidak dapat melanjutkan.</DeviceIsCopyProtected>
+			<ISOCreationFailed>Pembuatan ISO gagal</ISOCreationFailed>
+			<BinCueCreationFailed>Pembuatan image BIN/CUE gagal</BinCueCreationFailed>
+			<CannotReadDiskToc>Gagal membaca TOC (daftar isi) dari disk</CannotReadDiskToc>
+			<CannotReadDisk>Tidak dapat membaca disk, eror: %1</CannotReadDisk>
+			<DiskNotPresent>Disk tidak ada atau media tipe tak dikenal</DiskNotPresent>
+			<NoTracksOnDisk>Tidak ada trak pada disk, kemungkinan disk kosong</NoTracksOnDisk>
+			<mediaType>Tipe media: %1</mediaType>
+			<TrackLength>Panjang sektor trak adalah %1</TrackLength>
+			<TracksCount>Total trak: %1</TracksCount>
+			<WritingTrack>Menulis trak %1, panjang sektor trak adalah %2</WritingTrack>
+			<DiskReadingStopped>Pembacaan berhenti pada %1</DiskReadingStopped>
+			<TrackReadingStopped>Pembacaan berhenti pada %1, mengulang pada trak selanjutnya</TrackReadingStopped>
+		</DiskToISO>
+		<FolderToISO>
+			<ScanningFolder>Memindai direktori sumber...</ScanningFolder>
+			<DirectorySize>Ukuran direktori %1</DirectorySize>
+			<WritingISOFile>Menulis berkas ISO...</WritingISOFile>
+			<SkippingBigFile>Meloncati berkas '%1'. Berkas lebih besar dari 4 GB</SkippingBigFile>
+			<SkippingFile>Meloncati berkas '%1'.</SkippingFile>
+			<BigFileWarning>Berkas '%1' lebih besar dari 4 GB dan tidak akan bisa terlihat pada sistem berkas ISO 9660.</BigFileWarning>
+			<NestedDirectoriesLimitWarning>Sturktur direktori lebih dalam dari level %1, beberapa berkas dan folder akan diloncati.</NestedDirectoriesLimitWarning>
+			<UnableToOpenFile>Gagal membuka berkas '%1' untuk akses membaca.</UnableToOpenFile>
+			<NoExistingFolder>The folder %1 doesn't exist</NoExistingFolder>
+		</FolderToISO>
+		<UniversalConverter>
+			<AudioCDWarning>Image %1 adalah CD Audio image, konversi ke ISO tidak akan mungkin. Anda dapat mengekstrak semua trak audio kesebuah folder.</AudioCDWarning>
+			<NotValidImage>Eror: Ini bukanlah image CD/DVD yang valid</NotValidImage>
+			<CannotFindSignature>Eror: tidak menemukan tanda digital ISO_9660, sampai batas 5 MB</CannotFindSignature>
+			<MultiSessionImageDetected>Image disk multi-sesi terdeteksi</MultiSessionImageDetected>
+			<MultiSessionNotSupported>Image disk adalah disk image multi-sesi. Image tersebut tidak didukung.</MultiSessionNotSupported>
+		</UniversalConverter>
+		<NrgConverter>
+			<NrgParsingError>Parse NRG eror, silahkan hubungi pendukung untuk bantuan</NrgParsingError>
+			<NoSessionsFound>Tidak terdeteksi sesi NRG, silahkan hubungi pendukung untuk bantuan</NoSessionsFound>
+		</NrgConverter>
+		<ExtractISO>
+			<LoadingImage>Memuat image...</LoadingImage>
+			<ChooseISOFS>Terdapat multi sistem berkas dalam image ISO ini, silahkan pilih salah satu untuk diekstrak:</ChooseISOFS>
+			<ChooseISOFSCaption>Pilih sistem berkas</ChooseISOFSCaption>
+			<ImageFound>Ditemukan %1 image</ImageFound>
+			<InvalidISO>Berkas bukan merupakan image ISO yang valid atau masih belum didukung</InvalidISO>
+		</ExtractISO>
+		<UIFConverter>
+			<UsingZlib>Memakai ekstraksi zlib</UsingZlib>
+			<UsingLZMA>Memakai ekstraksi Lzma oleh Igor Pavlov</UsingLZMA>
+			<MixedImageFound>Ditemukan %1 tipe image campuran, mengekstrak ke berkas sementara...</MixedImageFound>
+			<UnpackingImage>Mengekstrak image...</UnpackingImage>
+		</UIFConverter>
+		<DebExtract>
+			<NotValidDeb>Berkas bukan merupakan arsip Debian (Ubuntu) Linux yang valid</NotValidDeb>
+		</DebExtract>
+		<RpmExtract>
+			<PackageOpened>Paket %1 dibuka</PackageOpened>
+			<DecompressingPayload>Mengekstak %1 muatan ke berkas sementara...</DecompressingPayload>
+			<UnpackingArchive>Mengekstrak arsip...</UnpackingArchive>
+		</RpmExtract>
+		<DMG>
+			<ConvertingDmgToISO>Mengonversi DMG ke HFS+ ISO...</ConvertingDmgToISO>
+			<Writing>Menulis %1...</Writing>
+			<ExtractingMainPartition>Mengekstrak partisi DMG utama ke berkas sementara, ini membutuhkan beberapa waktu, silahkan tunggu...</ExtractingMainPartition>
+			<NoVolumeFound>Tidak ditemukan volume, mencari sistem berkas HFS+...</NoVolumeFound>
+			<ExtractingVolume>Mengekstrak volume DMG (%1)...</ExtractingVolume>
+			<CorruptedOrPasswordProtected>Eror: image DMG rusak atau diproteksi oleh kata sandi</CorruptedOrPasswordProtected>
+			<XarArchiveDetected>DMG file is actually a XAR archive (normally with actual DMG file inside) that can be only extracted. Please choose extract operation to proceed</XarArchiveDetected>
+			<openedAsMessage>The file is opened as %1</openedAsMessage>
+			<DmgDisk>DMG disk image</DmgDisk>
+			<GPTDisk>GPT disk</GPTDisk>
+			<MBRDisk>Apple disk</MBRDisk>
+			<HFSVolume>HFS+ volume</HFSVolume>
+			<readingFileSystem>Reading %1 file system...</readingFileSystem>
+			<messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
+			<messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
+		</DMG>
+		<PDIConverter>
+			<InvalidOrBrokenImage>InstantCopy image PDI tidak valid atau rusak</InvalidOrBrokenImage>
+		</PDIConverter>
+		<ISZConverter>
+			<CompressionNone>Metode kompresi: kosong</CompressionNone>
+			<WarningPassword>Penentuan sandi yang tidak valid akan membuat output berkas akan rusak</WarningPassword>
+			<ImageIsSegmented>Berkas ISZ telah bersegmentasi</ImageIsSegmented>
+		</ISZConverter>
+		<ArchiveConverter>
+			<ReadingArchive>Membaca arsip...</ReadingArchive>
+			<RemovingTempFiles>Menghapus berkas sementara...</RemovingTempFiles>
+			<ExtractError>Gagal mengekstrak ke %1, eror %2</ExtractError>
+		</ArchiveConverter>
+		<TarUnpacker>
+			<SinglePackedFileFound>Single packed file detected: %1, unpacking...</SinglePackedFileFound>
+		</TarUnpacker>
+		<XarUnpacker>
+			<ReadingTOC>Reading table of contents (%1 bytes)...</ReadingTOC>
+			<NestedArchiveFound>Extracted file '%1' can be unpacked separately as %2 archive (append extension manually)</NestedArchiveFound>
+		</XarUnpacker>
+	</StatusMessages>
+	<Misc>
+		<buttonOk>OK</buttonOk>
+		<buttonCancel>Batal</buttonCancel>
+		<buttonClose>Tutup</buttonClose>
+		<buttonYes>Yes</buttonYes>
+		<buttonNo>No</buttonNo>
+		<ProVersion>Versi Pro</ProVersion>
+		<LiteVersion>Versi Lite</LiteVersion>
+	</Misc>
+	<ShellExtension>
+		<!-- This section describes Windows context menus -->
+		<ConvertToISO>Konversi ke "%s"</ConvertToISO>
+		<ConvertToISOInfo>Konversi berkas image disk ke format ISO</ConvertToISOInfo>
+		<Extract>Ekstrak ke "%s"</Extract>
+		<ExtractInfo>Ekstrak berkas image disk</ExtractInfo>
+		<CreateISOFromFolder>Buat "%s"</CreateISOFromFolder>
+		<CreateISOFromFolderInfo>Buat image ISO folder ini pakai opsi standar</CreateISOFromFolderInfo>
+		<CreateISOFromFolderWithOptions>Buat "%s" pakai opsi...</CreateISOFromFolderWithOptions>
+		<CreateISOFromFolderWithOptionsInfo>Buat image ISO folder ini pakai opsi sistem berkas dan nama volume tertentu</CreateISOFromFolderWithOptionsInfo>
+		<CreateISOFromDisk>Buat image ISO disk ini</CreateISOFromDisk>
+		<CreateISOFromDiskInfo>Buat image ISO dari pilihan disk optik</CreateISOFromDiskInfo>
+		<CreateBINCUEFromDisk>Buat image BIN/CUE disk ini</CreateBINCUEFromDisk>
+		<CreateBINCUEFromDiskInfo>Buat image BIN (raw) dari pilihan disk optik dan berkas CUE sheet bersangkutan</CreateBINCUEFromDiskInfo>
+	</ShellExtension>
+	<UpdateChecker>
+		<ReleasedOn>released on %1</ReleasedOn>
+		<CheckForUpdates>Check for updates...</CheckForUpdates>
+		<NewVersionAvailable>A new version of %1 is available!</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 is now available - you have %3. Would you like to download it now?</NewVersionAvailableText>
+		<UpdateAlertTitle>Software Update</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Release Notes:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Remind Me Later</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Skip This Version</UpdateAlertSkip>
+		<UpdateAlertInstall>Install Update</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Check for updates automatically</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>You're up to date!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 is currently the newest version available.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>An error occurred while downloading the update. Please try again later.</MessageErrorConnect>
+		<MessageErrorParse>An error occurred while parsing the update feed.</MessageErrorParse>
+		<UpdateProgressTitle>Updating %1</UpdateProgressTitle>
+		<UpdateProgressCancel>Cancel</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Install and Relaunch</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Downloading update...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Extracting update...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Ready to Install</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 of %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+	<LetsMoveMac>
+		<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+	</LetsMoveMac>
+</LanguageStrings>

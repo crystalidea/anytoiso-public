@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.1" Author="Frank Winterpil">
+	<MainWindow>
+		<mnuFile>Arkiv</mnuFile>
+		<mnuFileExit>Avsluta</mnuFileExit>
+		<mnuHelp>Hjälp</mnuHelp>
+		<mnuHelpDocumentation>Dokumentation...</mnuHelpDocumentation>
+		<mnuHelpPurchase>Köp Pro Versionen...</mnuHelpPurchase>
+		<mnuHelpEnterCode>Ange Registreringsnummer...</mnuHelpEnterCode>
+		<mnuHelpAbout>Om...</mnuHelpAbout>
+		<mnuHomePage>AnyToISO Hemsida...</mnuHomePage>
+		<menuPreferences>Inställningar...</menuPreferences>
+		<newVersionAvailable>AnyToISO %1 finns tillgänglig!</newVersionAvailable>
+		<newVersionUpdate>Uppdatera</newVersionUpdate>
+		<buttonStop>Stopp</buttonStop>
+		<tabConvertExtract>
+			<Name>Extrahera filer/Konvertera till ISO</Name>
+			<SourceFileName>Avbildskälla:</SourceFileName>
+			<ConvertToISO>Konvertera till ISO-avbild:</ConvertToISO>
+			<ExtractToFolder>Extrahera till mapp:</ExtractToFolder>
+			<buttonOpenImage>Öppna avbild...</buttonOpenImage>
+			<buttonOpenImageText>Öppna CD/DVD avbild</buttonOpenImageText>
+			<AllSupportedFiles>Alla tillåtna filtyper</AllSupportedFiles>
+			<buttonOpenISO>Spara ISO...</buttonOpenISO>
+			<buttonOpenISOText>Välj namn på filen</buttonOpenISOText>
+			<buttonOpenISOFilter>ISO filer (*.iso)</buttonOpenISOFilter>
+			<buttonOpenFolder>Välj mapp...</buttonOpenFolder>
+			<buttonOpenFolderText>Öppna destinationsmapp</buttonOpenFolderText>
+			<buttonConvert>Konvertera!</buttonConvert>
+			<buttonExtract>Extrahera!</buttonExtract>
+			<labelFileSize>Filstorlek</labelFileSize>
+			<labelFileFormat>format</labelFileFormat>
+			<labelOpenOrDragFile>&lt;b&gt;Öppna&lt;/b&gt; eller &lt;b&gt;Dra&lt;/b&gt; hit en avbild för konvertering/extrahering</labelOpenOrDragFile>
+		</tabConvertExtract>
+		<tabDiskToISO>
+			<Name>CD/DVD skiva till ISO</Name>
+			<SourceDrive>Käll-läsare:</SourceDrive>
+			<OutputISO>Destinations ISO fil:</OutputISO>
+			<checkCreateBinCue>Create BIN/CUE image</checkCreateBinCue>
+			<buttonRefresh>Uppdatera</buttonRefresh>
+			<buttonBrowseISO>Bläddra...</buttonBrowseISO>
+			<NoDiskInserted>Ingen CD/DVD skiva inmatad</NoDiskInserted>
+			<buttonMakeISO>Skapa ISO</buttonMakeISO>
+			<buttonMakeBinCue>Create BIN/CUE image</buttonMakeBinCue>
+			<chooseISOOrBinCueImage>Please select ISO or BIN/CUE image file</chooseISOOrBinCueImage>
+			<isoFilesFilter>ISO Files</isoFilesFilter>
+			<binCueSheetFilter>BIN Files (with CUE sheet)</binCueSheetFilter>
+		</tabDiskToISO>
+		<tabFolderToISO>
+			<Name>Mapp till ISO</Name>
+			<SourceFolder>Käll-mapp:</SourceFolder>
+			<DestinationISO>Destinations ISO fil:</DestinationISO>
+			<VolumeLabel>Volymnamn:</VolumeLabel>
+			<buttonBrowseForFolder>Bläddra till mapp...</buttonBrowseForFolder>
+			<buttonChooseISO>Välj namn och plats...</buttonChooseISO>
+			<buttonOptions>Alternativ...</buttonOptions>
+			<buttonMakeISO>Skapa ISO</buttonMakeISO>
+			<ISOCreationOptions>Alternativ för att skapa ISO</ISOCreationOptions>
+			<Settings>Inställningar</Settings>
+			<FileSystemsInsideISO>Filsystem:</FileSystemsInsideISO>
+			<buttonDefault>Förval</buttonDefault>
+			<ISO9660Option1>8.3 DOS filnamn (11)</ISO9660Option1>
+			<ISO9660Option2>Längre namn (180)</ISO9660Option2>
+			<ISO9660Option3>ISO 9660:1999</ISO9660Option3>
+			<JolietOption1>Standardnamn (64)</JolietOption1>
+			<JolietOption2>Långa namn (110)</JolietOption2>
+		</tabFolderToISO>
+	</MainWindow>
+	<LiteVersionDialog>
+		<LiteVersionLimitText>Lite versionen av AnyToISO fungerar bara med &lt;b&gt;CD avbilder&lt;/b&gt; (upp till 870 MB). För att fungera med större filer (DVD och annat) så måste du &lt;a href="köpa"&gt;Köp Pro versionen&lt;/a&gt;. Du kommer att få registreringsnumret &lt;a href="låsa upp"&gt;som låser upp programvaran&lt;/a&gt; efter inköpet.</LiteVersionLimitText>
+		<buttonPurchasePro>Köp Pro versionen...</buttonPurchasePro>
+	</LiteVersionDialog>
+	<EnterKeyDialog>
+		<Caption>Ange Registreringsnummer</Caption>
+		<EnterKeyToUpgradeText>Vänligen ange dina registreringsuppgifter nedan.</EnterKeyToUpgradeText>
+		<RegName>Registreringsnamn:</RegName>
+		<RegCode>Registreringsnummer:</RegCode>
+	</EnterKeyDialog>
+	<AboutDialog>
+		<Caption>Om AnyToISO</Caption>
+		<Website>Hemdsida:</Website>
+		<Support>Support:</Support>
+		<RunningAs>Programmet körs som:</RunningAs>
+		<CopyRight>Detta program skyddas av copyrightlagar och internationella bestämmelser. Olovlig kopiering eller distribution av detta program, eller delar av det, kan leda till allvarliga straff.</CopyRight>
+		<buttonPurchasePro>Köp Pro versionen...</buttonPurchasePro>
+	</AboutDialog>
+	<PreferencesDialog>
+		<Caption>Inställningar</Caption>
+		<Language>Valt språk:</Language>
+		<CheckForNewVersions>Leta efter ny version vid start</CheckForNewVersions>
+		<ShellExtension>Windows Explorer skal-integration</ShellExtension>
+		<ShellExtensionInfo>Lägg till kontextuella menyer för optiska läsare, mappar och filer för tillåtna format.</ShellExtensionInfo>
+	</PreferencesDialog>
+	<PasswordDialog>
+		<Caption>Lösenord krävs</Caption>
+		<FileIsProtected>Filen är krypterad. Ange ett lösenord för att öppna den:</FileIsProtected>
+		<InvalidPassword>Invalid password</InvalidPassword>
+	</PasswordDialog>
+	<Messages>
+		<Warning>Varning</Warning>
+		<Question>Fråga</Question>
+		<NotEnoughDiskSpace>Det ser inte ut att finnas tillräckligt med utrymme (only %1) på den valda enheten. \n\nVill du fortsätta ändå?</NotEnoughDiskSpace>
+		<ISOAlreadyExists>Destinations ISO file\n%1\nfinns redan, vill du skriva över den?</ISOAlreadyExists>
+		<FolderAlreadyExists>Destinationsmappen\n%1\nfinns redan, vill du skriva över all befintliga filer med samma namn?</FolderAlreadyExists>
+		<RestartProgram>För att avsluta registreringen måste du starta om programmet. \n\nVill du göra det nu?</RestartProgram>
+		<CancelOperation>Är du säker på att du avsluta pågående procedur?</CancelOperation>
+	</Messages>
+	<StatusMessages>
+		<CheckingSourceImage>Kollar källavbilden...</CheckingSourceImage>
+		<Converting>Konverterar...</Converting>
+		<Extracting>Extraherar...</Extracting>
+		<ExtractionFailed>Extract operation failed</ExtractionFailed>
+		<Unpacking>Packar upp...</Unpacking>
+		<ConvertingToTemporaryISO>Konverterar till en tillfällig ISO fil...</ConvertingToTemporaryISO>
+		<ProgressBytesWritten>%1 skrivet</ProgressBytesWritten>
+		<Track>Track</Track>
+		<ISOImageTypeFound>ISO-avbild (typ %1) hittades</ISOImageTypeFound>
+		<CannotOpenSourceFile>Kan inte öppna källfilen.</CannotOpenSourceFile>
+		<CannotOpenDestFile>Kan inte öppna destinationsfilen.</CannotOpenDestFile>
+		<OperationTerminated>Åtgärden avslutades av användaren.</OperationTerminated>
+		<OperationCompleted>Åtgärden är klar.</OperationCompleted>
+		<ClickToOpenISOInExplorer>Klicka &lt;a href="_öppna_lokal_fil"&gt;här&lt;/a&gt; för att öppna den färdiga ISO filen i Explorer</ClickToOpenISOInExplorer>
+		<ClickToMountISOInFinder>Klicka &lt;a href="_öppna_lokal_fil"&gt;här&lt;/a&gt; för att montera ISO filen i Finder</ClickToMountISOInFinder>
+		<ClickToOpenOutFolder>Klicka &lt;a href="_öppna_lokal_fil"&gt;här&lt;/a&gt; för att öppna destinationsmappen</ClickToOpenOutFolder>
+		<DiskToISO>
+			<OpeningDevice>Öppnar mediaenhet, vänligen vänta...</OpeningDevice>
+			<TotalDataSize>Den total storleken är %1</TotalDataSize>
+			<CreatingISO>Skapar ISO...</CreatingISO>
+			<CannotCreateFromAudio>Du kan inte skapa en ISO-avbild av en fler-sessions skiva eller en ljudskiva, vänligen kontakta support för assistans.</CannotCreateFromAudio>
+			<PleaseUseBinCue>Please use BIN/CUE image for such disks</PleaseUseBinCue>
+			<BlankDiskDetected>Oskriven CD/DVD skiva hittades</BlankDiskDetected>
+			<DiskNotReady>CD/DVD skivan är inte redo</DiskNotReady>
+			<CannotOpenDevice>Kan inte öppna enheten (%1)</CannotOpenDevice>
+			<ReadError>Läsfel %1, vänligen kontakta support för assistans</ReadError>
+			<DeviceIsCopyProtected>Denna enhet är kopieringsskyddad och sektorn är krypterad. Kan inte fortsätta.</DeviceIsCopyProtected>
+			<ISOCreationFailed>Skapandet av ISO filen misslyckades</ISOCreationFailed>
+			<BinCueCreationFailed>BIN/CUE image creation failed</BinCueCreationFailed>
+			<CannotReadDiskToc>Failed to read TOC (table of contents) of the disk</CannotReadDiskToc>
+			<CannotReadDisk>Cannot read disk, error: %1</CannotReadDisk>
+			<DiskNotPresent>Disk not present or unknown media type</DiskNotPresent>
+			<NoTracksOnDisk>There are no tracks on the disk, it's probably blank</NoTracksOnDisk>
+			<mediaType>Media type: %1</mediaType>
+			<TrackLength>Track length is %1 sectors</TrackLength>
+			<TracksCount>Tracks count: %1</TracksCount>
+			<WritingTrack>Writing track %1, track length is %2 sectors</WritingTrack>
+			<DiskReadingStopped>Reading stopped at %1</DiskReadingStopped>
+			<TrackReadingStopped>Reading stopped at %1, resuming with next track</TrackReadingStopped>
+		</DiskToISO>
+		<FolderToISO>
+			<ScanningFolder>Skannar källkatalogen...</ScanningFolder>
+			<DirectorySize>Katalogstorleken är %1</DirectorySize>
+			<WritingISOFile>Skriver ISO filen...</WritingISOFile>
+			<SkippingBigFile>Hoppar över filen '%1'. Den är större än 4 GB</SkippingBigFile>
+			<SkippingFile>Hoppar över filen '%1'.</SkippingFile>
+			<BigFileWarning>Filen '%1' är större än 4 GB och kan inte visas i ISO 9660 filsystemet.</BigFileWarning>
+			<NestedDirectoriesLimitWarning>Katalogstrukturen är djupare än %1 nivåer, vissa filer och mappar kommer att hoppas över.</NestedDirectoriesLimitWarning>
+			<UnableToOpenFile>Kunde inte öppna filen '%1' pga läsrättigheter.</UnableToOpenFile>
+			<NoExistingFolder>The folder %1 doesn't exist</NoExistingFolder>
+		</FolderToISO>
+		<UniversalConverter>
+			<AudioCDWarning>Avbilden verkar vara en %1 Audio CD avbild, konvertering till ISO är omöjligt.</AudioCDWarning>
+			<NotValidImage>Fel: Detta är ingen giltig CD/DVD avbild</NotValidImage>
+			<CannotFindSignature>Fel: Hittar inte ISO_9660 signaturen, uppnådde 5 MB begränsningen</CannotFindSignature>
+			<MultiSessionImageDetected>Multi-session disk image detected</MultiSessionImageDetected>
+			<MultiSessionNotSupported>The disk image is a multi-session disk image. Such images are not supported.</MultiSessionNotSupported>
+		</UniversalConverter>
+		<NrgConverter>
+			<NrgParsingError>NRG parsing error, please contact support for assistance</NrgParsingError>
+			<NoSessionsFound>No NRG sessions detected, please contact support for assistance</NoSessionsFound>
+		</NrgConverter>
+		<ExtractISO>
+			<LoadingImage>Läser avbilden...</LoadingImage>
+			<ChooseISOFS>Det finns flera filsystem i denna ISO-avbild, vänligen välj ett av dom för extrahering:</ChooseISOFS>
+			<ChooseISOFSCaption>Välj filsystem</ChooseISOFSCaption>
+			<ImageFound>%1 avbild hittades</ImageFound>
+			<InvalidISO>Filen är inte en giltig ISO-avbild eller stöds inte ännu</InvalidISO>
+		</ExtractISO>
+		<UIFConverter>
+			<UsingZlib>Använder zlib-dekomprimering</UsingZlib>
+			<UsingLZMA>Använder Lzma-dekomprimering av Igor Pavlov</UsingLZMA>
+			<MixedImageFound>Blandad avbildstyp %1 hittades, dekomprimerar till en tillfällig fil...</MixedImageFound>
+			<UnpackingImage>Packar upp avbilden...</UnpackingImage>
+		</UIFConverter>
+		<DebExtract>
+			<NotValidDeb>Filen är inget giltig Debian (Ubuntu) Linux arkiv</NotValidDeb>
+		</DebExtract>
+		<RpmExtract>
+			<PackageOpened>Packet %1 öppnat</PackageOpened>
+			<DecompressingPayload>Dekomprimerar %1 innehållet till en tillfällig fil...</DecompressingPayload>
+			<UnpackingArchive>Packar upp arkiv...</UnpackingArchive>
+		</RpmExtract>
+		<DMG>
+			<ConvertingDmgToISO>Konverterar DMG till HFS+ ISO...</ConvertingDmgToISO>
+			<Writing>Skriver %1...</Writing>
+			<ExtractingMainPartition>Extraherar huvudpartitione i DMGn till en tillfällig fil, detta kan ta en stund, vänligen vänta...</ExtractingMainPartition>
+			<NoVolumeFound>Ingen giltig volym hittades, letar efter ett HFS+ filsystem...</NoVolumeFound>
+			<ExtractingVolume>Extraherar DMG volymen (%1)...</ExtractingVolume>
+			<CorruptedOrPasswordProtected>Fel: korrupt eller lösenordsskyddad DMG avbild</CorruptedOrPasswordProtected>
+			<XarArchiveDetected>DMG file is actually a XAR archive (normally with actual DMG file inside) that can be only extracted. Please choose extract operation to proceed</XarArchiveDetected>
+			<openedAsMessage>The file is opened as %1</openedAsMessage>
+			<DmgDisk>DMG disk image</DmgDisk>
+			<GPTDisk>GPT disk</GPTDisk>
+			<MBRDisk>Apple disk</MBRDisk>
+			<HFSVolume>HFS+ volume</HFSVolume>
+			<readingFileSystem>Reading %1 file system...</readingFileSystem>
+			<messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
+			<messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
+		</DMG>
+		<PDIConverter>
+			<InvalidOrBrokenImage>Ogiltig eller trasig InstantCopy PDI avbild</InvalidOrBrokenImage>
+		</PDIConverter>
+		<ISZConverter>
+			<CompressionNone>Komprimeringsmetod: ingen</CompressionNone>
+			<WarningPassword>Om du anger ett ogiltigt lösenord blir den resulterande filen oanvändbar</WarningPassword>
+			<ImageIsSegmented>ISZ filen är segmenterad</ImageIsSegmented>
+		</ISZConverter>
+		<ArchiveConverter>
+			<ReadingArchive>Reading archive...</ReadingArchive>
+			<RemovingTempFiles>Removing temporary files...</RemovingTempFiles>
+			<ExtractError>Unable to extract %1, error %2</ExtractError>
+		</ArchiveConverter>
+		<TarUnpacker>
+			<SinglePackedFileFound>Single packed file detected: %1, unpacking...</SinglePackedFileFound>
+		</TarUnpacker>
+		<XarUnpacker>
+			<ReadingTOC>Reading table of contents (%1 bytes)...</ReadingTOC>
+			<NestedArchiveFound>Extracted file '%1' can be unpacked separately as %2 archive (append extension manually)</NestedArchiveFound>
+		</XarUnpacker>
+	</StatusMessages>
+	<Misc>
+		<buttonOk>OK</buttonOk>
+		<buttonCancel>Avbryt</buttonCancel>
+		<buttonClose>Stäng</buttonClose>
+		<buttonYes>Yes</buttonYes>
+		<buttonNo>No</buttonNo>
+		<ProVersion>Pro version</ProVersion>
+		<LiteVersion>Lite Version</LiteVersion>
+	</Misc>
+	<ShellExtension>
+		<!-- This section describes Windows context menus -->
+		<ConvertToISO>Konvertera till "%s"</ConvertToISO>
+		<ConvertToISOInfo>Konvertera skivavbild till ISO format</ConvertToISOInfo>
+		<Extract>Extrahera till "%s"</Extract>
+		<ExtractInfo>Extrahera skivavbild</ExtractInfo>
+		<CreateISOFromFolder>Skapa "%s"</CreateISOFromFolder>
+		<CreateISOFromFolderInfo>Skapa ISO-avbild av denna mapp med de förvalda inställningarna</CreateISOFromFolderInfo>
+		<CreateISOFromFolderWithOptions>Skapa "%s" med alternativen...</CreateISOFromFolderWithOptions>
+		<CreateISOFromFolderWithOptionsInfo>Skapa ISO-avbild av denna mapp genom att ange filsystem och volymnamn</CreateISOFromFolderWithOptionsInfo>
+		<CreateISOFromDisk>Skapa ISO-avbild av denna skiva</CreateISOFromDisk>
+		<CreateISOFromDiskInfo>Skapa ISO-avbild av vald optisk enhet</CreateISOFromDiskInfo>
+		<CreateBINCUEFromDisk>Create BIN/CUE image of this disk</CreateBINCUEFromDisk>
+		<CreateBINCUEFromDiskInfo>Create BIN (raw) image of a selected optical disk and its corresponding CUE sheet file</CreateBINCUEFromDiskInfo>
+	</ShellExtension>
+	<UpdateChecker>
+		<ReleasedOn>släppt den %1</ReleasedOn>
+		<CheckForUpdates>Kolla efter uppdateringar...</CheckForUpdates>
+		<NewVersionAvailable>En ny version av %1 är tillgänglig!</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 är nu tillgänglig - du har %3. Vill du ladda ned den nu?</NewVersionAvailableText>
+		<UpdateAlertTitle>Mjukvaruuppdatering</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Ändringsnoteringar:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Påminn mig senare</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Hoppa över denna version</UpdateAlertSkip>
+		<UpdateAlertInstall>Installera uppdatering</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Kolla efter uppdateringar automatiskt</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>Du är uppdaterad!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 är förnärvarande nyaste versionen som finns tillgänglig.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>Ett fel uppstod vid nedladdning av uppdateringen. Var god försök igen senare.</MessageErrorConnect>
+		<MessageErrorParse>Ett fel uppstod vid tolkning av uppdateringsflödet.</MessageErrorParse>
+		<UpdateProgressTitle>Uppdaterar %1</UpdateProgressTitle>
+		<UpdateProgressCancel>Avbryt</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Installera och starta om</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Laddar ned uppdatering...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Packar upp uppdatering...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Redo att installera</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 av %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+	<LetsMoveMac>
+		<kStrMoveApplicationCouldNotMove>Kunde inte flytta till programmappen</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>Flytta till programmappen?</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>Flytta till programmappen i din hemmamapp?</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>Jag kan flytta mig %1 själv till programmappen om du vill.</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>Flytta till programmappen</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>Flytta inte</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Detta kräver ett administratörslösenord.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Detta kommer att hålla din hämtningsmapp städad.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+	</LetsMoveMac>
+</LanguageStrings>

@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.7" Author="4Li">
+	<MainWindow>
+		<mnuFile>파일</mnuFile>
+		<mnuFileExit>끝내기</mnuFileExit>
+		<mnuHelp>도움말</mnuHelp>
+		<mnuHelpDocumentation>설명서...</mnuHelpDocumentation>
+		<mnuHelpPurchase>Pro 버전 구입...</mnuHelpPurchase>
+		<mnuHelpEnterCode>등록 코드 입력...</mnuHelpEnterCode>
+		<mnuHelpAbout>정보...</mnuHelpAbout>
+		<mnuHomePage>AnyToISO 홈페이지...</mnuHomePage>
+		<menuPreferences>환경 설정...</menuPreferences>
+		<newVersionAvailable>AnyToISO %1 (이)가 사용 가능합니다!</newVersionAvailable>
+		<newVersionUpdate>업데이트</newVersionUpdate>
+		<buttonStop>멈춤</buttonStop>
+		<tabConvertExtract>
+			<Name>파일 추출/변환 -&gt; ISO</Name>
+			<SourceFileName>원본 이미지/압축 파일:</SourceFileName>
+			<ConvertToISO>ISO 이미지로 변환:</ConvertToISO>
+			<ExtractToFolder>폴더로 추출:</ExtractToFolder>
+			<buttonOpenImage>이미지 열기...</buttonOpenImage>
+			<buttonOpenImageText>CD/DVD 이미지 파일 열기</buttonOpenImageText>
+			<AllSupportedFiles>모든 지원되는 파일</AllSupportedFiles>
+			<buttonOpenISO>ISO 열기...</buttonOpenISO>
+			<buttonOpenISOText>결과 ISO 파일 선택</buttonOpenISOText>
+			<buttonOpenISOFilter>ISO 파일 (*.iso)</buttonOpenISOFilter>
+			<buttonOpenFolder>폴더 선택...</buttonOpenFolder>
+			<buttonOpenFolderText>대상 폴더 선택</buttonOpenFolderText>
+			<buttonConvert>변환!</buttonConvert>
+			<buttonExtract>추출!</buttonExtract>
+			<labelFileSize>파일 크기</labelFileSize>
+			<labelFileFormat>형식</labelFileFormat>
+			<labelOpenOrDragFile>변환/추출할 이미지를 &lt;b&gt;열거나 끌어다 놓으세요.&lt;/b&gt;</labelOpenOrDragFile>
+		</tabConvertExtract>
+		<tabDiskToISO>
+			<Name>CD/DVD 디스크 -&gt; ISO</Name>
+			<SourceDrive>원본 드라이브:</SourceDrive>
+			<OutputISO>대상 ISO 파일:</OutputISO>
+			<checkCreateBinCue>BIN/CUE 이미지 만들기</checkCreateBinCue>
+			<buttonRefresh>새로 고침</buttonRefresh>
+			<buttonBrowseISO>찾아보기...</buttonBrowseISO>
+			<NoDiskInserted>삽입된 CD/DVD 디스크 없음</NoDiskInserted>
+			<buttonMakeISO>ISO 만들기</buttonMakeISO>
+			<buttonMakeBinCue>BIN/CUE 이미지 만들기</buttonMakeBinCue>
+			<chooseISOOrBinCueImage>ISO 또는 BIN/CUE 이미지 파일을 선택하세요.</chooseISOOrBinCueImage>
+			<isoFilesFilter>ISO 파일</isoFilesFilter>
+			<binCueSheetFilter>BIN 파일 (CUE 시트 포함)</binCueSheetFilter>
+		</tabDiskToISO>
+		<tabFolderToISO>
+			<Name>폴더 -&gt; ISO</Name>
+			<SourceFolder>원본 폴더:</SourceFolder>
+			<DestinationISO>대상 ISO 파일:</DestinationISO>
+			<VolumeLabel>볼륨 라벨:</VolumeLabel>
+			<buttonBrowseForFolder>폴더 찾아보기...</buttonBrowseForFolder>
+			<buttonChooseISO>ISO 선택...</buttonChooseISO>
+			<buttonOptions>옵션...</buttonOptions>
+			<buttonMakeISO>ISO 만들기</buttonMakeISO>
+			<ISOCreationOptions>ISO 만들기 옵션</ISOCreationOptions>
+			<Settings>설정</Settings>
+			<FileSystemsInsideISO>파일 시스템:</FileSystemsInsideISO>
+			<buttonDefault>기본값</buttonDefault>
+			<ISO9660Option1>8.3 DOS 파일 이름 (11자)</ISO9660Option1>
+			<ISO9660Option2>긴 이름 (180자)</ISO9660Option2>
+			<ISO9660Option3>ISO 9660:1999</ISO9660Option3>
+			<JolietOption1>기본 이름 (64자)</JolietOption1>
+			<JolietOption2>긴 이름 (110자)</JolietOption2>
+		</tabFolderToISO>
+	</MainWindow>
+	<LiteVersionDialog>
+		<LiteVersionLimitText>AnyToISO의 Lite 버전은 &lt;b&gt;CD 이미지&lt;/b&gt;(최대 870MB)만 작업합니다. 더 큰 파일(DVD 및 기타)로 작업하기 위해서는 &lt;a href="purchase"&gt;Professional 버전을 구입&lt;/a&gt;해야 합니다. 구입한 후 &lt;a href=&gt;소프트웨어를 &lt;"잠금 해제"/a&gt;하는 등록 코드를 얻을 수 있습니다.</LiteVersionLimitText>
+		<buttonPurchasePro>Pro 버전 구입...</buttonPurchasePro>
+	</LiteVersionDialog>
+	<EnterKeyDialog>
+		<Caption>등록 코드 입력</Caption>
+		<EnterKeyToUpgradeText>AnyToISO Pro 버전으로의 업그레이드를 위해 자세한 등록 정보를 입력하세요.</EnterKeyToUpgradeText>
+		<RegName>등록 이름:</RegName>
+		<RegCode>등록 코드:</RegCode>
+	</EnterKeyDialog>
+	<AboutDialog>
+		<Caption>AnyToISO 정보</Caption>
+		<Website>웹사이트:</Website>
+		<Support>지원:</Support>
+		<RunningAs>아래의 버전으로 실행 중입니다:</RunningAs>
+		<CopyRight>이 프로그램은 저작권법과 국제 협약에 의해 보호되고 있습니다. 이 프로그램의 전부 또는 일부를 무단으로 복제, 배포하는 행위는 민사 및 형사법에 의해 엄격히 규제되어 있으며 기소의 사유가 됩니다.</CopyRight>
+		<buttonPurchasePro>Pro 버전 구입...</buttonPurchasePro>
+	</AboutDialog>
+	<PreferencesDialog>
+		<Caption>환경 설정</Caption>
+		<Language>인터페이스 언어:</Language>
+		<CheckForNewVersions>시작할 때, 새 버전 확인</CheckForNewVersions>
+		<ShellExtension>Windows 탐색기 쉘 통합</ShellExtension>
+		<ShellExtensionInfo>광학 드라이브, 폴더 및 지원되는 형식의 파일에 대한 컨텍스트 메뉴 추가</ShellExtensionInfo>
+	</PreferencesDialog>
+	<PasswordDialog>
+		<Caption>비밀번호 필요함</Caption>
+		<FileIsProtected>파일이 암호화됐습니다. 해제하기 위한 비밀번호를 입력하세요:</FileIsProtected>
+		<InvalidPassword>유효하지 않은 비밀번호 지정했습니다.</InvalidPassword>
+	</PasswordDialog>
+	<Messages>
+		<Warning>경고</Warning>
+		<Question>물음</Question>
+		<NotEnoughDiskSpace>선택한 드라이브에 여유 디스크 공간(%1만)이 부족한 것처럼 보입니다.\n\n진행할까요?</NotEnoughDiskSpace>
+		<ISOAlreadyExists>대상 ISO 파일 \n%1\n이(가) 이미 있습니다. 덮어쓸까요?</ISOAlreadyExists>
+		<FolderAlreadyExists>대상 폴더 \n%1\n이(가) 이미 있습니다. 기존의 모든 파일을 같은 이름으로 덮어쓸까요?</FolderAlreadyExists>
+		<RestartProgram>등록을 완료하려면, 프로그램을 다시 시작해야 합니다.\n\n지금 다시 시작할까요?</RestartProgram>
+		<CancelOperation>현재 작업을 중단할까요?</CancelOperation>
+	</Messages>
+	<StatusMessages>
+		<CheckingSourceImage>원본 이미지 확인하는 중...</CheckingSourceImage>
+		<Converting>변환하는 중...</Converting>
+		<Extracting>추출하는 중...</Extracting>
+		<ExtractionFailed>추출 작업이 실패했습니다.</ExtractionFailed>
+		<Unpacking>압축 푸는 중...</Unpacking>
+		<ConvertingToTemporaryISO>임시 ISO 파일로 변환하는 중...</ConvertingToTemporaryISO>
+		<ProgressBytesWritten>%1 기록</ProgressBytesWritten>
+		<Track>트랙</Track>
+		<ISOImageTypeFound>ISO 이미지 (종류 %1) 발견</ISOImageTypeFound>
+		<CannotOpenSourceFile>원본 파일을 열 수 없습니다.</CannotOpenSourceFile>
+		<CannotOpenDestFile>대상 파일을 열 수 없습니다. 파일 이름과 접근 권한을 확인하세요.</CannotOpenDestFile>
+		<OperationTerminated>사용자에 의해 작업이 중단됐습니다.</OperationTerminated>
+		<OperationCompleted>작업 완료.</OperationCompleted>
+		<ClickToOpenISOInExplorer>탐색기로 결과물(ISO) 파일을 열려면, &lt;a href="_open_local_file"&gt;여기&lt;/a&gt;를 누르세요.</ClickToOpenISOInExplorer>
+		<ClickToMountISOInFinder>Finder에서 ISO 파일을 탑재하려면, &lt;a href="_open_local_file"&gt;여기&lt;/a&gt;를 누르세요.</ClickToMountISOInFinder>
+		<ClickToOpenOutFolder>출력 폴더를 열려면, &lt;a href="_open_local_file"&gt;here&lt;/a&gt;를 누르세요.</ClickToOpenOutFolder>
+		<DiskToISO>
+			<OpeningDevice>미디어 장치 여는 중, 기다리세요...</OpeningDevice>
+			<TotalDataSize>전체 데이터 크기는 %1 입니다.</TotalDataSize>
+			<CreatingISO>ISO 만드는 중...</CreatingISO>
+			<CannotCreateFromAudio>멀티 세션 디스크나 오디오 디스크의 ISO 이미지 파일을 만들 수 없습니다. 지원에 대해 문의하세요.</CannotCreateFromAudio>
+			<PleaseUseBinCue>이러한 디스크는 BIN/CUE 이미지를 사용하세요.</PleaseUseBinCue>
+			<BlankDiskDetected>빈 CD/DVD 디스크 감지됨</BlankDiskDetected>
+			<DiskNotReady>CD/DVD 디스크 준비 안됨</DiskNotReady>
+			<CannotOpenDevice>장치 (%1)을(를) 열 수 없습니다.</CannotOpenDevice>
+			<ReadError>%1 읽기 오류. 지원에 대해 문의하세요.</ReadError>
+			<DeviceIsCopyProtected>이 장치는 복사 방지 및 섹터가 암호화되어 있습니다. 계속할 수 없습니다.</DeviceIsCopyProtected>
+			<ISOCreationFailed>ISO 만들기 실패</ISOCreationFailed>
+			<BinCueCreationFailed>BIN/CUE 이미지 만들기 실패</BinCueCreationFailed>
+			<CannotReadDiskToc>디스크의 목차(TOC)를 읽는 데 실패했습니다.</CannotReadDiskToc>
+			<CannotReadDisk>디스크를 읽을 수 없습니다. 오류: %1</CannotReadDisk>
+			<DiskNotPresent>디스크가 없거나 알 수 없는 미디어 종류입니다.</DiskNotPresent>
+			<NoTracksOnDisk>디스크 상에 트랙이 없습니다. 아마 빈 디스크인 듯 합니다.</NoTracksOnDisk>
+			<mediaType>매체 종류: %1</mediaType>
+			<TrackLength>트랙 길이는 %1 섹터입니다.</TrackLength>
+			<TracksCount>트랙 개수: %1</TracksCount>
+			<WritingTrack>%1 트랙 기록하는 중, 트랙 길이는 %2 섹터입니다.</WritingTrack>
+			<DiskReadingStopped>%1에서 읽기가 멈췄습니다.</DiskReadingStopped>
+			<TrackReadingStopped>%1에서 읽기가 멈췄습니다. 다음 트랙으로 계속 진행합니다.</TrackReadingStopped>
+		</DiskToISO>
+		<FolderToISO>
+			<ScanningFolder>원본 디렉토리 검색하는 중...</ScanningFolder>
+			<DirectorySize>디렉토리 크기는 %1입니다.</DirectorySize>
+			<WritingISOFile>ISO 파일로 기록하는 중...</WritingISOFile>
+			<SkippingBigFile>'%1' 파일은 건너뜁니다, 이것은 4GB보다 큽니다.</SkippingBigFile>
+			<SkippingFile>'%1' 파일은 건너뜁니다.</SkippingFile>
+			<BigFileWarning>'%1' 파일은 4GB보다 크고, ISO 9660 파일 시스템에서 표시되지 않습니다.</BigFileWarning>
+			<NestedDirectoriesLimitWarning>디렉토리 구조가 %1 수준보다 더 깊습니다. 일부 파일 및 폴더는 건너뜁니다.</NestedDirectoriesLimitWarning>
+			<UnableToOpenFile>읽으려 접근한 '%1' 파일을 열 수 없습니다.</UnableToOpenFile>
+			<NoExistingFolder>%1 폴더가 없습니다.</NoExistingFolder>
+		</FolderToISO>
+		<UniversalConverter>
+			<AudioCDWarning>이미지는 %1 오디오 CD 이미지이며, ISO로 변환이 불가능합니다. 모든 오디오 트랙을 폴더에 추출할 수 있습니다.</AudioCDWarning>
+			<NotValidImage>오류: 올바른 CD/DVD 이미지가 아닙니다.</NotValidImage>
+			<CannotFindSignature>오류: ISO 9660 사인을 찾을 수 없습니다. 5MB 제한에 도달</CannotFindSignature>
+			<MultiSessionImageDetected>멀티 세션 디스크 이미지가 감지됐습니다.</MultiSessionImageDetected>
+			<MultiSessionNotSupported>디스크 이미지가 멀티 세션 디스크 이미지입니다. 이러한 이미지는 지원되지 않습니다.</MultiSessionNotSupported>
+		</UniversalConverter>
+		<NrgConverter>
+			<NrgParsingError>NRG 구문 분석 오류, 지원에 대해 문의하세요.</NrgParsingError>
+			<NoSessionsFound>감지된 NRG 세션이 없습니다. 지원에 대해 문의하세요.</NoSessionsFound>
+		</NrgConverter>
+		<ExtractISO>
+			<LoadingImage>이미지 불러오는 중...</LoadingImage>
+			<ChooseISOFS>이 ISO 이미지에 여러 파일 시스템이 있습니다. 추출할 하나를 선택하세요:</ChooseISOFS>
+			<ChooseISOFSCaption>파일 시스템 선택</ChooseISOFSCaption>
+			<ImageFound>%1 이미지 발견</ImageFound>
+			<InvalidISO>파일이 올바른 ISO 이미지가 아니거나 현재 지원되지 않습니다.</InvalidISO>
+		</ExtractISO>
+		<UIFConverter>
+			<UsingZlib>zlib 압축 해제 사용</UsingZlib>
+			<UsingLZMA>Igor Pavlov의 Lzma 압축 해제 사용</UsingLZMA>
+			<MixedImageFound>%1 혼합된 이미지 종류 발견. 임시 파일로 압축 해제하는 중...</MixedImageFound>
+			<UnpackingImage>이미지 압축 해제하는 중...</UnpackingImage>
+		</UIFConverter>
+		<DebExtract>
+			<NotValidDeb>올바른 Debian (Ubuntu) Linux 압축 파일이 아닙니다.</NotValidDeb>
+		</DebExtract>
+		<RpmExtract>
+			<PackageOpened>%1 패키지 열림</PackageOpened>
+			<DecompressingPayload>임시 파일에 %1 페이로드 압축 해제하는 중...</DecompressingPayload>
+			<UnpackingArchive>압축 해제하는 중...</UnpackingArchive>
+		</RpmExtract>
+		<DMG>
+			<ConvertingDmgToISO>DMG를 HFS+ ISO로 변환하는 중...</ConvertingDmgToISO>
+			<Writing>파티션 %1 쓰는 중...</Writing>
+			<ExtractingMainPartition>기본 DMG 파티션을 임시 파일로 추출하고 있습니다. 시간이 좀 걸릴 수 있습니다. - 기다리세요...</ExtractingMainPartition>
+			<NoVolumeFound>볼륨을 찾을 수 없습니다. HFS+ 파일 시스템을 찾는 중...</NoVolumeFound>
+			<ExtractingVolume>DMG 볼륨 (%1) 추출하는 중...</ExtractingVolume>
+			<CorruptedOrPasswordProtected>오류: 손상됐거나 또는 비밀번호로 보호된 DMG 이미지입니다.</CorruptedOrPasswordProtected>
+			<XarArchiveDetected>DMG 파일은 실제로 XAR 압축 파일(실제 DMG 파일 내부가 일반적으로 그러함)이며, 추출만 할 수 있습니다. 진행할 추출 작업을 선택하세요.</XarArchiveDetected>
+			<openedAsMessage>파일이 %1 (으)로 열렸습니다.</openedAsMessage>
+			<DmgDisk>DMG 디스크 이미지</DmgDisk>
+			<GPTDisk>GPT 디스크</GPTDisk>
+			<MBRDisk>Apple 디스크</MBRDisk>
+			<HFSVolume>HFS+ 볼륨</HFSVolume>
+			<readingFileSystem>Reading %1 file system...</readingFileSystem>
+			<messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
+			<messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
+		</DMG>
+		<PDIConverter>
+			<InvalidOrBrokenImage>올바르지 않거나 손상된 InstantCopy PDI 이미지입니다.</InvalidOrBrokenImage>
+		</PDIConverter>
+		<ISZConverter>
+			<CompressionNone>압축 방법: 없음</CompressionNone>
+			<WarningPassword>올바르지 않은 비밀번호로 출력 파일이 잘못 만들어질 수 있습니다.</WarningPassword>
+			<ImageIsSegmented>ISZ 파일은 분할 압축입니다.</ImageIsSegmented>
+		</ISZConverter>
+		<ArchiveConverter>
+			<ReadingArchive>압축 파일 읽는 중...</ReadingArchive>
+			<RemovingTempFiles>임시 파일 제거하는 중...</RemovingTempFiles>
+			<ExtractError>%1(으)로 추출할 수 없습니다. %2 오류</ExtractError>
+		</ArchiveConverter>
+		<TarUnpacker>
+			<SinglePackedFileFound>한 개의 압축된 파일 감지됨: %1, 푸는 중...</SinglePackedFileFound>
+		</TarUnpacker>
+		<XarUnpacker>
+			<ReadingTOC>목차 읽는 중... (%1 바이트)</ReadingTOC>
+			<NestedArchiveFound>추출한 파일 '%1'(은)는 %2 파일처럼 개별적으로 풀 수 있습니다. (직접 확장자 추가)</NestedArchiveFound>
+		</XarUnpacker>
+	</StatusMessages>
+	<Misc>
+		<buttonOk>확인</buttonOk>
+		<buttonCancel>취소</buttonCancel>
+		<buttonClose>닫기</buttonClose>
+		<buttonYes>Yes</buttonYes>
+		<buttonNo>No</buttonNo>
+		<ProVersion>Pro 버전</ProVersion>
+		<LiteVersion>Lite 버전</LiteVersion>
+	</Misc>
+	<ShellExtension>
+		<!-- This section describes Windows context menus -->
+		<ConvertToISO>"%s"(으)로 변환</ConvertToISO>
+		<ConvertToISOInfo>디스크 이미지 파일을 ISO 형식으로 변환</ConvertToISOInfo>
+		<Extract>"%s"에 추출</Extract>
+		<ExtractInfo>디스크 이미지 파일 추출</ExtractInfo>
+		<CreateISOFromFolder>"%s" 만들기</CreateISOFromFolder>
+		<CreateISOFromFolderInfo>기본 옵션으로 이 폴더의 ISO 이미지 만들기</CreateISOFromFolderInfo>
+		<CreateISOFromFolderWithOptions>옵션 이용해서 "%s" 만들기...</CreateISOFromFolderWithOptions>
+		<CreateISOFromFolderWithOptionsInfo>파일 시스템 옵션과 볼륨 라벨을 지정하여 이 폴더의 ISO 이미지 만들기</CreateISOFromFolderWithOptionsInfo>
+		<CreateISOFromDisk>이 디스크의 ISO 이미지 만들기</CreateISOFromDisk>
+		<CreateISOFromDiskInfo>선택한 광학 디스크의 ISO 이미지 만들기</CreateISOFromDiskInfo>
+		<CreateBINCUEFromDisk>이 디스크의 BIN/CUE 이미지 만들기</CreateBINCUEFromDisk>
+		<CreateBINCUEFromDiskInfo>선택한 광학 디스크의 BIN (원시) 이미지 및 해당 CUE 시트 파일 만들기</CreateBINCUEFromDiskInfo>
+	</ShellExtension>
+	<UpdateChecker>
+		<ReleasedOn>%1에 출시됨</ReleasedOn>
+		<CheckForUpdates>업데이트 확인...</CheckForUpdates>
+		<NewVersionAvailable>%1의 새 버전이 사용 가능합니다!</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 (은)는 지금 사용 가능합니다. - 현재 버전은 %3 입니다. 지금 다운로드할까요?</NewVersionAvailableText>
+		<UpdateAlertTitle>소프트웨어 업데이트</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>출시 노트:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>나중에 알림</UpdateAlertRemindLater>
+		<UpdateAlertSkip>이 버전 건너뛰기</UpdateAlertSkip>
+		<UpdateAlertInstall>업데이트 설치</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>자동으로 업데이트 확인</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>최신 버전입니다!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 (은)는 현재 사용 가능한 최신 버전입니다.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>업데이트를 다운로드하는 동안 오류가 발생했습니다. 나중에 다시 시도하세요.</MessageErrorConnect>
+		<MessageErrorParse>업데이트 피드를 구문 분석하는 동안 오류가 발생했습니다.</MessageErrorParse>
+		<UpdateProgressTitle>%1 업데이트</UpdateProgressTitle>
+		<UpdateProgressCancel>취소</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>설치 및 다시 실행</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>업데이트 다운로드 중...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>업데이트 추출하는 중...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>설치 준비</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 / %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+	<LetsMoveMac>
+		<kStrMoveApplicationCouldNotMove>Applications 폴더로 옮길 수 없습니다.</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>Applications (으)로 옮기기</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>Home 폴더내 Applications 폴더로 옮길까요?</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>Applications 폴더로 자신을 옮기도록 %1 할 건가요?</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>Applications 폴더로 옮기기</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>옮기지 않기</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>이건 관리자 비밀번호가 필요함을 알아두세요.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>이건 정리된 사용자의 다운로드 폴더를 유지합니다.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+	</LetsMoveMac>
+</LanguageStrings>

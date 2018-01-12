@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.4" Author="Hrant Ohanyan »»» http://haysoft.org »»» hrantohanyan@mail.am">
+	<MainWindow>
+		<mnuFile>Ֆայլ</mnuFile>
+		<mnuFileExit>Փակել</mnuFileExit>
+		<mnuHelp>Օգնություն</mnuHelp>
+		<mnuHelpDocumentation>Բովանդակությունը...</mnuHelpDocumentation>
+		<mnuHelpPurchase>Գնել Pro տարբերակը...</mnuHelpPurchase>
+		<mnuHelpEnterCode>Գրանցել ծրագիրը...</mnuHelpEnterCode>
+		<mnuHelpAbout>Ծրագրի մասին...</mnuHelpAbout>
+		<mnuHomePage>AnyToISO-ի վեբ կայքը...</mnuHomePage>
+		<menuPreferences>Կարգավորումներ...</menuPreferences>
+		<newVersionAvailable>Հասանելի է AnyToISO %1-ը։</newVersionAvailable>
+		<newVersionUpdate>Թարմացնել</newVersionUpdate>
+		<buttonStop>Կանգնեցնել</buttonStop>
+		<tabConvertExtract>
+			<Name>Հանել ֆայլերը/Փոխարկել ISO-ի</Name>
+			<SourceFileName>Ընտրված արտացոլանքը.</SourceFileName>
+			<ConvertToISO>Փոխարկել ISO-ի.</ConvertToISO>
+			<ExtractToFolder>Հանել թղթապանակում.</ExtractToFolder>
+			<buttonOpenImage>Բացել արտացոլանք...</buttonOpenImage>
+			<buttonOpenImageText>Բացել CD/DVD արտացոլանք</buttonOpenImageText>
+			<AllSupportedFiles>Աջակցվող բոլոր ֆայլերը</AllSupportedFiles>
+			<buttonOpenISO>Պահպանելու տեղը...</buttonOpenISO>
+			<buttonOpenISOText>Ընտրել ISO ֆայլը</buttonOpenISOText>
+			<buttonOpenISOFilter>ISO ֆայլեր (*.iso)</buttonOpenISOFilter>
+			<buttonOpenFolder>Ընտրել թղթապանակը...</buttonOpenFolder>
+			<buttonOpenFolderText>Բացել ֆայլերի թղթապանակը</buttonOpenFolderText>
+			<buttonConvert>Փոխարկել</buttonConvert>
+			<buttonExtract>Բացել</buttonExtract>
+			<labelFileSize>Ֆայլի չափը</labelFileSize>
+			<labelFileFormat>Տեսակը</labelFileFormat>
+			<labelOpenOrDragFile>Արտացոլանքի ֆայլը &lt;b&gt;բացեք&lt;/b&gt; կամ &lt;b&gt;տեղափոխեք&lt;/b&gt; այստեղ։</labelOpenOrDragFile>
+		</tabConvertExtract>
+		<tabDiskToISO>
+			<Name>CD/DVD սկավառակը ISO-ի</Name>
+			<SourceDrive>Աղբյուրը.</SourceDrive>
+			<OutputISO>Որտեղ է պահպանվելու.</OutputISO>
+			<checkCreateBinCue>Ստեղծել BIN/CUE արտացոլանք</checkCreateBinCue>
+			<buttonRefresh>Թարմացնել</buttonRefresh>
+			<buttonBrowseISO>Դիտել...</buttonBrowseISO>
+			<NoDiskInserted>Չկա տեղադրված CD/DVD</NoDiskInserted>
+			<buttonMakeISO>Ստեղծել ISO</buttonMakeISO>
+			<buttonMakeBinCue>Ստեղծել BIN/CUE արտացոլանք</buttonMakeBinCue>
+			<chooseISOOrBinCueImage>Ընտրեք ISO կամ BIN/CUE արտացոլանքի ֆայլը</chooseISOOrBinCueImage>
+			<isoFilesFilter>ISO ֆայլեր</isoFilesFilter>
+			<binCueSheetFilter>BIN ֆայլեր (CUE ցանկով)</binCueSheetFilter>
+		</tabDiskToISO>
+		<tabFolderToISO>
+			<Name>Թղթապանակը ISO-ի</Name>
+			<SourceFolder>Ընտրված թղթապանակ.</SourceFolder>
+			<DestinationISO>Որտեղ է պահպանվելու.</DestinationISO>
+			<VolumeLabel>ISO-ի անունը.</VolumeLabel>
+			<buttonBrowseForFolder>Ընտրել թղթապանակը...</buttonBrowseForFolder>
+			<buttonChooseISO>ISO-ի ֆայլի անունը...</buttonChooseISO>
+			<buttonOptions>Ընտրանքներ...</buttonOptions>
+			<buttonMakeISO>Ստեղծել ISO</buttonMakeISO>
+			<ISOCreationOptions>ISO ստեղծելու ընտրանքները</ISOCreationOptions>
+			<Settings>Կարգավորումներ</Settings>
+			<FileSystemsInsideISO>Ֆայլային համակարգեր.</FileSystemsInsideISO>
+			<buttonDefault>Ծրագրային</buttonDefault>
+			<ISO9660Option1>8.3 DOS անուններ (11 նշան)</ISO9660Option1>
+			<ISO9660Option2>Երկար անուններ (180)</ISO9660Option2>
+			<ISO9660Option3>Ստանդարտ ISO 9660:1999</ISO9660Option3>
+			<JolietOption1>Ստանդաքրտ անուններ (64)</JolietOption1>
+			<JolietOption2>Երկար անուններ (110)</JolietOption2>
+		</tabFolderToISO>
+	</MainWindow>
+	<LiteVersionDialog>
+		<LiteVersionLimitText>AnyToISO-ի Lite տարբերակը աշխատում է միայն &lt;b&gt;CD արտացոլանքների հետ&lt;/b&gt; (մինչև 870 ՄԲ)։ Ավելի մեծ ֆայլերի հետ աշխատելու համար (DVD և այլն) Դուք պետք է &lt;a href="purchase"&gt;Գնեք Pro տարբերակը&lt;/a&gt;։ Գնելուց հետո Դուք կստանաք գրանցման բանալի՝ &lt;a href="unlock"&gt;ծրագրի բոլոր հնարավորությունները ակտիվացնելու համար&lt;/a&gt;։</LiteVersionLimitText>
+		<buttonPurchasePro>Գնել Pro տարբերակը...</buttonPurchasePro>
+	</LiteVersionDialog>
+	<EnterKeyDialog>
+		<Caption>Մուտքագրել բանալին</Caption>
+		<EnterKeyToUpgradeText>Մուտքագրեք տվյալները՝ ծրագրի Pro տարբերակը ակտիվացնելու համար։</EnterKeyToUpgradeText>
+		<RegName>Գրանցվողի անունը.</RegName>
+		<RegCode>Գրանցման բանալին.</RegCode>
+	</EnterKeyDialog>
+	<AboutDialog>
+		<Caption>AnyToISO ծրագրի մասին</Caption>
+		<Website>Կայքը.</Website>
+		<Support>Աջակցություն.</Support>
+		<RunningAs>Ծրագիրը օգտագործվում է որպես.</RunningAs>
+		<CopyRight>Ծրագիրը պաշտպանված է օրենքներով և հեղինակային իրավունքների մասին միջազգային օրենքներով։ Ծրագրի ոչ օրինական պատճենումը, օգտագործումը, փոփոխումը և տարածումը կհետապնդվի միջազգային բոլոր օրենքներով։ Ծրագիրը Հայերեն թարգմանեց Հրանտ Օհանյանը։</CopyRight>
+		<buttonPurchasePro>Գնել Pro տարբերակը...</buttonPurchasePro>
+	</AboutDialog>
+	<PreferencesDialog>
+		<Caption>Կարգավորումներ</Caption>
+		<Language>Լեզուն.</Language>
+		<CheckForNewVersions>Ծրագիրը բացելիս ստուգել նոր տարբերակը։</CheckForNewVersions>
+		<ShellExtension>Ինտեգրել Windows Explorer-ում</ShellExtension>
+		<ShellExtensionInfo>Ավելացնում է համապատասխան ընտրանքը օպտիկական սարքերի, թղթապանակների և ֆայլերի համար։</ShellExtensionInfo>
+	</PreferencesDialog>
+	<PasswordDialog>
+		<Caption>Պահանջվում է գաղտնաբառ.</Caption>
+		<FileIsProtected>Ֆայլը կոդավորված է։ Այն բացելու համար պետք է գաղտնաբառ.</FileIsProtected>
+		<InvalidPassword>Գաղտնաբառը սխալ է</InvalidPassword>
+	</PasswordDialog>
+	<Messages>
+		<Warning>Ուշադրություն</Warning>
+		<Question>Հարց</Question>
+		<NotEnoughDiskSpace>Հնարավոր է ընտրված սկավառակում չկա ազատ տեղ (ընդամենը %1)։ \n\nՇարունակե՞լ։</NotEnoughDiskSpace>
+		<ISOAlreadyExists>Այս անունով ISO ֆայլ\n%1\nարդեն գոյություն ունի, վերագրե՞լ այն։</ISOAlreadyExists>
+		<FolderAlreadyExists>Այս թղթապանակը\n%1\nարդեն գոյություն ունի, վերագրե՞լ առկա նույն անունով բոլոր ֆայլերը։</FolderAlreadyExists>
+		<RestartProgram>Գրանցումը ավարտելու համար վերամեկնարկեք ծրագիրը։\n\nՎերամեկնարկե՞լ։</RestartProgram>
+		<CancelOperation>Ընդհատե՞լ գործողությունը։</CancelOperation>
+	</Messages>
+	<StatusMessages>
+		<CheckingSourceImage>Ֆայլը ստուգվում է...</CheckingSourceImage>
+		<Converting>Փոխարկվում է...</Converting>
+		<Extracting>Ֆայլերը հանվում են...</Extracting>
+		<ExtractionFailed>Extract operation failed</ExtractionFailed>
+		<Unpacking>Բացվում է...</Unpacking>
+		<ConvertingToTemporaryISO>Ձևափոխվում է ժամանակավոր ISO ֆայլի...</ConvertingToTemporaryISO>
+		<ProgressBytesWritten>%1 հանվել է</ProgressBytesWritten>
+		<Track>Ֆայլ</Track>
+		<ISOImageTypeFound>Գտնվել է ISO արտացոլանք (տեսակը՝ %1)</ISOImageTypeFound>
+		<CannotOpenSourceFile>Հնարավոր չէ բացել նշված ֆայլը։</CannotOpenSourceFile>
+		<CannotOpenDestFile>Հնարավոր չէ բացել վերջնական ֆայլը։</CannotOpenDestFile>
+		<OperationTerminated>Գործողությունը կանգնեցված է։</OperationTerminated>
+		<OperationCompleted>Գործողությունը ավարտված է։</OperationCompleted>
+		<ClickToOpenISOInExplorer>Սեղմեք &lt;a href="_open_local_file"&gt;այստեղ՝&lt;/a&gt; ստեղծված ISO ֆայլի թղթապանակը բացելու համար</ClickToOpenISOInExplorer>
+		<ClickToMountISOInFinder>Սեղմեք &lt;a href="_open_local_file"&gt;այստեղ՝&lt;/a&gt; ISO ֆայլը Finder-ում բացելու համար</ClickToMountISOInFinder>
+		<ClickToOpenOutFolder>Սեղմեք &lt;a href="_open_local_file"&gt;այստեղ՝&lt;/a&gt; ֆայլերի թղթապանակը բացելու համար</ClickToOpenOutFolder>
+		<DiskToISO>
+			<OpeningDevice>Բացվում է, խնդրում ենք սպասել...</OpeningDevice>
+			<TotalDataSize>Տվյալների ամբողջական չափը - %1</TotalDataSize>
+			<CreatingISO>Ստեղծվում է ISO...</CreatingISO>
+			<CannotCreateFromAudio>Չեք կարող ստեղծել ISO արտացոլանք վերագրված կամ Audio սկավառակից...</CannotCreateFromAudio>
+			<PleaseUseBinCue>Նման սկավառակների համար գտագործեք BIN/CUE արտացոլանք</PleaseUseBinCue>
+			<BlankDiskDetected>Գտնվել է դատարկ CD/DVD սկավառակ</BlankDiskDetected>
+			<DiskNotReady>CD/DVD սկավառակը պատրաստ չէ</DiskNotReady>
+			<CannotOpenDevice>Հնարավոր չէ բացել սարքը (%1)</CannotOpenDevice>
+			<ReadError>Կարդալու սխալ %1, կապնվեք աջակության մեր թիմի հետ</ReadError>
+			<DeviceIsCopyProtected>Այս սարքը պաշտպանված է գրելուց։ Հնարավոր չէ շարունակել։</DeviceIsCopyProtected>
+			<ISOCreationFailed>Սխալ՝ ISO-ն ստեղծելիս</ISOCreationFailed>
+			<BinCueCreationFailed>BIN/CUE արտացոլանքի ստեղծման սխալ</BinCueCreationFailed>
+			<CannotReadDiskToc>Հնարավոր չէ կարդալ սկավառակի TOC-ը (բովանդակության աղյուսակը) </CannotReadDiskToc>
+			<CannotReadDisk>Հնարավոր չէ կարդալ սկավառակը։ Սխալը. %1</CannotReadDisk>
+			<DiskNotPresent>Սկավառակը չի աջակցվում կամ անհայտ տեսակի է</DiskNotPresent>
+			<NoTracksOnDisk>Ֆայլեր չկան սկավառակում, հնարավոր է այն դատարկ է</NoTracksOnDisk>
+			<mediaType>Մեդիայի տեսակը. %1</mediaType>
+			<TrackLength>Ֆայլը բաղկացած է %1 հատվածից</TrackLength>
+			<TracksCount>Ֆայլերի քանակը. %1</TracksCount>
+			<WritingTrack>Ստեղծվում է %1 ֆայլ, ֆայլը բաղկացած է %2 հատվածից</WritingTrack>
+			<DiskReadingStopped>Կարդալը կանգնեցվել է՝ %1</DiskReadingStopped>
+			<TrackReadingStopped>Կարդալը կանգնեցվել է՝ %1, շարունակվում է մյուս ֆայլից</TrackReadingStopped>
+		</DiskToISO>
+		<FolderToISO>
+			<ScanningFolder>Ստուգվում է թղթապանակը...</ScanningFolder>
+			<DirectorySize>Թղթապանակի չափն է՝ %1</DirectorySize>
+			<WritingISOFile>Ստեղծվում է ISO ֆայլը...</WritingISOFile>
+			<SkippingBigFile>'%1' ֆայլը բաց է թողնվում։ Այն մեծ է 4 ԳԲ-ից։</SkippingBigFile>
+			<SkippingFile>Բաց է թողնվում '%1' ֆայլը։</SkippingFile>
+			<BigFileWarning>'%1' ֆայլը մեծ է 4 ԳԲ-ից և տեսանելի չի լինի ISO 9660 ֆայլային համակարգում։</BigFileWarning>
+			<NestedDirectoriesLimitWarning>Ենթաթղթապանակերի շարունակությունը երկար է %1-ից, որոշ ֆայլեր և թղթապանակների բաց կթողնվեն։</NestedDirectoriesLimitWarning>
+			<UnableToOpenFile>Կարդալու համար հնարավոր չէ բացել '%1' ֆայլը։</UnableToOpenFile>
+			<NoExistingFolder>The folder %1 doesn't exist</NoExistingFolder>
+		</FolderToISO>
+		<UniversalConverter>
+			<AudioCDWarning>Արտացոլանքը %1 Audio CD է, այն փոխարկել ISO-ի հնարավոր չէ։</AudioCDWarning>
+			<NotValidImage>Սխալ. սա CD/DVD-ի արտացոլանքի ճիշտ ֆայլ չէ</NotValidImage>
+			<CannotFindSignature>Սխալ. հնարավոր չէ գտնել ISO_9660 ստորագրությունը,5 ՄԲ լիմիտը լրացել է</CannotFindSignature>
+			<MultiSessionImageDetected>Վերագրված սկավառակի արտացոլանք է</MultiSessionImageDetected>
+			<MultiSessionNotSupported>Սա վերագրված սկավառակի արտացոլանք է։ Նման ֆայլերը չեն աջակցվում։</MultiSessionNotSupported>
+		</UniversalConverter>
+		<NrgConverter>
+			<NrgParsingError>NRG կառուցվածքի սխալ։ Օգնության համար դիմեք աջակցության թիմին</NrgParsingError>
+			<NoSessionsFound>Չկա NRG աշխատաշրջան։ Օգնության համար դիմեք աջակցության թիմին</NoSessionsFound>
+		</NrgConverter>
+		<ExtractISO>
+			<LoadingImage>Արտացոլանքը բացվում է...</LoadingImage>
+			<ChooseISOFS>ISO ֆայլի ներսում գտնվել են մի քանի ֆայլային համակարգեր, ընտրեք դրանցից մեկը.</ChooseISOFS>
+			<ChooseISOFSCaption>Ընտրեք ֆայլային համակարգը</ChooseISOFSCaption>
+			<ImageFound>Գտնվել է %1 արտացոլանքը</ImageFound>
+			<InvalidISO>Այս ֆայլը ճիշտ ISO արտացոլանք չէ կամ ներկա պահին չի աջակցվում</InvalidISO>
+		</ExtractISO>
+		<UIFConverter>
+			<UsingZlib>Օգտագործվում է zlib ապասեղմումը</UsingZlib>
+			<UsingLZMA>Օգտագործվում Lzma ապասեղմումը</UsingLZMA>
+			<MixedImageFound>Գտնվել է արտացոլանքի %1 խառը տեսակ, բացվում է ժամանակավոր ֆայլում...</MixedImageFound>
+			<UnpackingImage>Արտացոլանքը բացվում է...</UnpackingImage>
+		</UIFConverter>
+		<DebExtract>
+			<NotValidDeb>Այս ֆայլը Debian (Ubuntu) Linux-ի ճիշտ արխիվ չէ</NotValidDeb>
+		</DebExtract>
+		<RpmExtract>
+			<PackageOpened>%1 ֆայլը բացված է</PackageOpened>
+			<DecompressingPayload>%1-ը բացվում է ժամանակավոր ֆայլում...</DecompressingPayload>
+			<UnpackingArchive>Արխիվը բացվում է...</UnpackingArchive>
+		</RpmExtract>
+		<DMG>
+			<ConvertingDmgToISO>DMG-ն փոխարկվում է HFS+ ISO-ի...</ConvertingDmgToISO>
+			<Writing>Գրվում է %1...</Writing>
+			<ExtractingMainPartition>DMG-ի գլխավոր հատորի բացումը ժամանակավոր ֆայլում, խնդրում ենք սպասել...</ExtractingMainPartition>
+			<NoVolumeFound>Հատորը չի գտնվել, փնտրվում է HFS+ ֆայլային համակարգը...</NoVolumeFound>
+			<ExtractingVolume>Բացվում է DMG հատորը (%1)...</ExtractingVolume>
+			<CorruptedOrPasswordProtected>Սխալ. սխալ կամ կոդավորված DMG ֆայլ</CorruptedOrPasswordProtected>
+			<XarArchiveDetected>DMG file is actually a XAR archive (normally with actual DMG file inside) that can be only extracted. Please choose extract operation to proceed</XarArchiveDetected>
+			<openedAsMessage>The file is opened as %1</openedAsMessage>
+			<DmgDisk>DMG disk image</DmgDisk>
+			<GPTDisk>GPT disk</GPTDisk>
+			<MBRDisk>Apple disk</MBRDisk>
+			<HFSVolume>HFS+ volume</HFSVolume>
+			<readingFileSystem>Reading %1 file system...</readingFileSystem>
+			<messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
+			<messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
+		</DMG>
+		<PDIConverter>
+			<InvalidOrBrokenImage>Սխալ կամ կոդավորված InstantCopy PDI արտացոլանք</InvalidOrBrokenImage>
+		</PDIConverter>
+		<ISZConverter>
+			<CompressionNone>Սեղղման եղանակը. չկա</CompressionNone>
+			<WarningPassword>Գաղտնաբառը սխալ նշելու դեպքում ֆայլը սխալ կբացվի</WarningPassword>
+			<ImageIsSegmented>ISZ ֆայլը մասնատված է</ImageIsSegmented>
+		</ISZConverter>
+		<ArchiveConverter>
+			<ReadingArchive>Կարդում է արխիվը...</ReadingArchive>
+			<RemovingTempFiles>Ջնջվում են ժամանակավոր ֆայլերը...</RemovingTempFiles>
+			<ExtractError>Հնարավոր չէ հանել %1-ում, սխալը %2</ExtractError>
+		</ArchiveConverter>
+		<TarUnpacker>
+			<SinglePackedFileFound>Single packed file detected: %1, unpacking...</SinglePackedFileFound>
+		</TarUnpacker>
+		<XarUnpacker>
+			<ReadingTOC>Reading table of contents (%1 bytes)...</ReadingTOC>
+			<NestedArchiveFound>Extracted file '%1' can be unpacked separately as %2 archive (append extension manually)</NestedArchiveFound>
+		</XarUnpacker>
+	</StatusMessages>
+	<Misc>
+		<buttonOk>ԼԱՎ</buttonOk>
+		<buttonCancel>Մերժել</buttonCancel>
+		<buttonClose>Փակել</buttonClose>
+		<buttonYes>Yes</buttonYes>
+		<buttonNo>No</buttonNo>
+		<ProVersion>Pro տարբերակ</ProVersion>
+		<LiteVersion>Lite տարբերակ</LiteVersion>
+	</Misc>
+	<ShellExtension>
+		<!-- This section describes Windows context menus -->
+		<ConvertToISO>Փոխարկել՝ "%s"</ConvertToISO>
+		<ConvertToISOInfo>Փոխարկել սկավառակի արտացոլանքը ISO ֆայլի</ConvertToISOInfo>
+		<Extract>Հանել՝ "%s"</Extract>
+		<ExtractInfo>Հանել սկավառակի արտացոլանքի ֆայլերը</ExtractInfo>
+		<CreateISOFromFolder>Ստեղծել "%s"</CreateISOFromFolder>
+		<CreateISOFromFolderInfo>Ստեղծել ISO արտացոլանք այս թղթապանակից ծրագրային ընտրանքներով</CreateISOFromFolderInfo>
+		<CreateISOFromFolderWithOptions>Ստեղծել "%s" ընտրանքներով...</CreateISOFromFolderWithOptions>
+		<CreateISOFromFolderWithOptionsInfo>Ստեղծել ISO արտացոլանք այս թղթապանակից՝ նշված ֆայլային համակարգով և անվամբ</CreateISOFromFolderWithOptionsInfo>
+		<CreateISOFromDisk>Ստեղծել այս սկավառակի ISO արտացոլանքը</CreateISOFromDisk>
+		<CreateISOFromDiskInfo>Ստեղծել ընտրված օպտիկական սկավառակի ISO արտացոլանքը</CreateISOFromDiskInfo>
+		<CreateBINCUEFromDisk>Ստեղծել այս սկավառակի BIN/CUE արտացոլանքը</CreateBINCUEFromDisk>
+		<CreateBINCUEFromDiskInfo>Ստեղծել օպտիկական սարքի BIN (raw) արտացոլանքը՝ համապատասխան CUE ցանկով ֆայլի</CreateBINCUEFromDiskInfo>
+	</ShellExtension>
+	<UpdateChecker>
+		<ReleasedOn>released on %1</ReleasedOn>
+		<CheckForUpdates>Check for updates...</CheckForUpdates>
+		<NewVersionAvailable>A new version of %1 is available!</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 is now available - you have %3. Would you like to download it now?</NewVersionAvailableText>
+		<UpdateAlertTitle>Software Update</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Release Notes:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Remind Me Later</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Skip This Version</UpdateAlertSkip>
+		<UpdateAlertInstall>Install Update</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Check for updates automatically</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>You're up to date!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 is currently the newest version available.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>An error occurred while downloading the update. Please try again later.</MessageErrorConnect>
+		<MessageErrorParse>An error occurred while parsing the update feed.</MessageErrorParse>
+		<UpdateProgressTitle>Updating %1</UpdateProgressTitle>
+		<UpdateProgressCancel>Cancel</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Install and Relaunch</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Downloading update...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Extracting update...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Ready to Install</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 of %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+	<LetsMoveMac>
+		<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+	</LetsMoveMac>
+</LanguageStrings>

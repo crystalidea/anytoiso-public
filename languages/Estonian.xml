@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.6" Author="Toivo Purge">
+	<MainWindow>
+		<mnuFile>Fail</mnuFile>
+		<mnuFileExit>Välju</mnuFileExit>
+		<mnuHelp>Abi</mnuHelp>
+		<mnuHelpDocumentation>Dokumentatsioon...</mnuHelpDocumentation>
+		<mnuHelpPurchase>Osta Pro Version...</mnuHelpPurchase>
+		<mnuHelpEnterCode>Sisesta registreerimise kood...</mnuHelpEnterCode>
+		<mnuHelpAbout>Teave...</mnuHelpAbout>
+		<mnuHomePage>AnyToISO koduleht...</mnuHomePage>
+		<menuPreferences>Eelistused...</menuPreferences>
+		<newVersionAvailable>AnyToISO %1 on saadaval!</newVersionAvailable>
+		<newVersionUpdate>Uuendus</newVersionUpdate>
+		<buttonStop>Seis</buttonStop>
+		<tabConvertExtract>
+			<Name>Tõmba fail/Teisenda ISO-ks</Name>
+			<SourceFileName>Pildi allikas/arhiivi fail:</SourceFileName>
+			<ConvertToISO>Teisenda ISO-pildiks:</ConvertToISO>
+			<ExtractToFolder>Väljavõte kausta:</ExtractToFolder>
+			<buttonOpenImage>Ava pilt...</buttonOpenImage>
+			<buttonOpenImageText>Ava CD/DVD pildifail</buttonOpenImageText>
+			<AllSupportedFiles>Kõik toetatud failid</AllSupportedFiles>
+			<buttonOpenISO>Ava ISO...</buttonOpenISO>
+			<buttonOpenISOText>Vali tekkiv ISO-fail</buttonOpenISOText>
+			<buttonOpenISOFilter>ISO failid (*.iso)</buttonOpenISOFilter>
+			<buttonOpenFolder>Vali kataloog...</buttonOpenFolder>
+			<buttonOpenFolderText>Ava sihtkaust</buttonOpenFolderText>
+			<buttonConvert>Teisenda!</buttonConvert>
+			<buttonExtract>Väljavõte!</buttonExtract>
+			<labelFileSize>Faili suurus</labelFileSize>
+			<labelFileFormat>formaaat</labelFileFormat>
+			<labelOpenOrDragFile>&lt;b&gt;Open&lt;/b&gt; or &lt;b&gt;drag&lt;/b&gt; a file to convert or extract</labelOpenOrDragFile>
+		</tabConvertExtract>
+		<tabDiskToISO>
+			<Name>CD/DVD plaat ISO-ks</Name>
+			<SourceDrive>Ketta allikas:</SourceDrive>
+			<OutputISO>Pildi sihtkoht:</OutputISO>
+			<checkCreateBinCue>Looge BIN/CUE pilt</checkCreateBinCue>
+			<buttonRefresh>Värskenda</buttonRefresh>
+			<buttonBrowseISO>Sirvi...</buttonBrowseISO>
+			<NoDiskInserted> CD/DVD plaati pole sisestatud</NoDiskInserted>
+			<buttonMakeISO>Tehke ISO</buttonMakeISO>
+			<buttonMakeBinCue>Looge BIN/CUE pilt</buttonMakeBinCue>
+			<chooseISOOrBinCueImage>Palun valige ISO või BIN/CUE pildifail</chooseISOOrBinCueImage>
+			<isoFilesFilter>ISO failid</isoFilesFilter>
+			<binCueSheetFilter>BIN failid (koos CUE lehtedega)</binCueSheetFilter>
+		</tabDiskToISO>
+		<tabFolderToISO>
+			<Name>Kaust ISO-sse</Name>
+			<SourceFolder>Kausta allikas:</SourceFolder>
+			<DestinationISO> ISO faili sihtkoht:</DestinationISO>
+			<VolumeLabel>Pealdis:</VolumeLabel>
+			<buttonBrowseForFolder>Sirvi kausta...</buttonBrowseForFolder>
+			<buttonChooseISO>Vali ISO...</buttonChooseISO>
+			<buttonOptions>Valikud...</buttonOptions>
+			<buttonMakeISO>Tehke ISO</buttonMakeISO>
+			<ISOCreationOptions>ISO loomise valikud</ISOCreationOptions>
+			<Settings>Seaded</Settings>
+			<FileSystemsInsideISO>Failisüsteemid:</FileSystemsInsideISO>
+			<buttonDefault>Vaikimisi</buttonDefault>
+			<ISO9660Option1>8.3 DOS faili nimed (11)</ISO9660Option1>
+			<ISO9660Option2>Pikemad nimed (180)</ISO9660Option2>
+			<ISO9660Option3>ISO 9660:1999</ISO9660Option3>
+			<JolietOption1>Standard nimed (64)</JolietOption1>
+			<JolietOption2>Pikad nimed (110)</JolietOption2>
+		</tabFolderToISO>
+	</MainWindow>
+	<LiteVersionDialog>
+		<LiteVersionLimitText>Lite version of AnyToISO works with &lt;b&gt;CD images only&lt;/b&gt; (up to 870 MB). In order to work with larger files (DVD and more) you should &lt;a href="purchase"&gt;Purchase Professional version&lt;/a&gt;. You'll obtain the registration code &lt;a href="unlock"&gt;unlocking the software&lt;/a&gt; after the purchase.</LiteVersionLimitText>
+		<buttonPurchasePro>Osta Pro Version...</buttonPurchasePro>
+	</LiteVersionDialog>
+	<EnterKeyDialog>
+		<Caption>Sisesta registreerimise kood</Caption>
+		<EnterKeyToUpgradeText>Palun sisestage registreerimisandmed,et uuendada AnyToISO Pro versioonini .</EnterKeyToUpgradeText>
+		<RegName>Registreerimise nimi:</RegName>
+		<RegCode>Registreerimise kood:</RegCode>
+	</EnterKeyDialog>
+	<AboutDialog>
+		<Caption>Teave AnyToISO kohta</Caption>
+		<Website>Võrguleht:</Website>
+		<Support>Toetamine:</Support>
+		<RunningAs>Programm töötab nagu:</RunningAs>
+		<CopyRight>See arvutiprogramm on kaitstud autoriõiguse seadusega ning rahvusvaheliste lepingutega. Loata selle programmi levitamine, või ükskõik millist selle osa, võivad põhjustada erinevaid tsiviil-või kriminaalkaristusi.</CopyRight>
+		<buttonPurchasePro>Osta Pro version...</buttonPurchasePro>
+	</AboutDialog>
+	<PreferencesDialog>
+		<Caption>Eelistused</Caption>
+		<Language>Kasutajaliidese keel:</Language>
+		<CheckForNewVersions>Otsi käivitumisel uut versiooni</CheckForNewVersions>
+		<ShellExtension>Windows Explorer kesta integratsioon</ShellExtension>
+		<ShellExtensionInfo>Lisa kontekstimenüüsid optiliste ketaste, kaustade ja faile toetatud formaatide jaoks.</ShellExtensionInfo>
+	</PreferencesDialog>
+	<PasswordDialog>
+		<Caption>Vajalik salasõna</Caption>
+		<FileIsProtected>Fail on krüpteeritud. Et avada sisestage salasõna:</FileIsProtected>
+		<InvalidPassword>Määratud vale salasõna</InvalidPassword>
+	</PasswordDialog>
+	<Messages>
+		<Warning>Hoiatus</Warning>
+		<Question>Küsimus</Question>
+		<NotEnoughDiskSpace>Tundub, et ei ole piisavalt vaba kettaruumi (ainult %1) valitud kettal. \n\nKas sa soovid jätkata?</NotEnoughDiskSpace>
+		<ISOAlreadyExists>Sihtkoha ISO fail\n%1\non olemas, kas soovid selle üle kirjutada?</ISOAlreadyExists>
+		<FolderAlreadyExists>Sihtkoha kaust\n%1\non olemas, kas soovid kõik olemasolevad sama nimega failid üle kirjutada?</FolderAlreadyExists>
+		<RestartProgram> Registreerimise lõpetamiseks peate programmile tegema restardi. \n\nKas sa soovid seda kohe teha?</RestartProgram>
+		<CancelOperation>Olete kindel, et soovite lõpetada praeguse operatsiooni?</CancelOperation>
+	</Messages>
+	<StatusMessages>
+		<CheckingSourceImage>Pildiallika kontroll...</CheckingSourceImage>
+		<Converting>Teisendamine...</Converting>
+		<Extracting>Väljavõte...</Extracting>
+		<ExtractionFailed>Väljavõtte tegemine nurjus</ExtractionFailed>
+		<Unpacking>Lahtipakkimine...</Unpacking>
+		<ConvertingToTemporaryISO>Teisenda ajutiseks ISO-failiks...</ConvertingToTemporaryISO>
+		<ProgressBytesWritten>%1 kirjutatud</ProgressBytesWritten>
+		<Track>Rada</Track>
+		<ISOImageTypeFound>ISO-pilt (type %1) leitud</ISOImageTypeFound>
+		<CannotOpenSourceFile>Ei suuda avada allikfaili</CannotOpenSourceFile>
+		<CannotOpenDestFile>Ei suuda avada sihtkoha faili, palun kontrolli faili nime ja juurdepääsuõigusi</CannotOpenDestFile>
+		<OperationTerminated>Operatsioon lõpetatud kasutaja poolt.</OperationTerminated>
+		<OperationCompleted>Operatsioon on valmis.</OperationCompleted>
+		<ClickToOpenISOInExplorer>Click &lt;a href="_open_local_file"&gt;here&lt;/a&gt; to open the output ISO file in Explorer</ClickToOpenISOInExplorer>
+		<ClickToMountISOInFinder>Click &lt;a href="_open_local_file"&gt;here&lt;/a&gt; to mount the ISO in Finder</ClickToMountISOInFinder>
+		<ClickToOpenOutFolder>Click &lt;a href="_open_local_file"&gt;here&lt;/a&gt; to open the output folder</ClickToOpenOutFolder>
+		<DiskToISO>
+			<OpeningDevice>Meedia seadme avamine,palun oodake...</OpeningDevice>
+			<TotalDataSize>Andmete kogusuurus %1</TotalDataSize>
+			<CreatingISO>ISO loomine...</CreatingISO>
+			<CannotCreateFromAudio>Sa ei saa luua ISO pilti multi-session diskist või Audio diskist, palun võtke toega ühendust.</CannotCreateFromAudio>
+			<PleaseUseBinCue>Palun kasutage BIN / CUE pilti nagu kettaid</PleaseUseBinCue>
+			<BlankDiskDetected>Tühi CD / DVD plaat on tuvastatud</BlankDiskDetected>
+			<DiskNotReady>CD/DVD plaat pole valmis</DiskNotReady>
+			<CannotOpenDevice>Ei saa seadet avada (%1)</CannotOpenDevice>
+			<ReadError>Viga lugemisel %1, palun võtke toega ühendust</ReadError>
+			<DeviceIsCopyProtected>See seade on autoriõigustega kaitstud ning see sektor on krüptitud.Ei saa jätkata.</DeviceIsCopyProtected>
+			<ISOCreationFailed>ISO loomine nurjus</ISOCreationFailed>
+			<BinCueCreationFailed>BIN/CUE pildi loomine nurjus</BinCueCreationFailed>
+			<CannotReadDiskToc>Ei suuda lugeda ketta TOC (table of contents) </CannotReadDiskToc>
+			<CannotReadDisk>Ei saa ketast lugeda, viga: %1</CannotReadDisk>
+			<DiskNotPresent>Ketast ei esine või on tundmatut tüüpi</DiskNotPresent>
+			<NoTracksOnDisk>Puuduvad lood kettal, see on ilmselt tühi</NoTracksOnDisk>
+			<mediaType>Meedia liik: %1</mediaType>
+			<TrackLength>Raja pikkus on %1 sektorit</TrackLength>
+			<TracksCount>Lugude arv: %1</TracksCount>
+			<WritingTrack>Raja kirjutamine, %1 liini pikkus on %2 vahel</WritingTrack>
+			<DiskReadingStopped>Lugemine on peatunud %1</DiskReadingStopped>
+			<TrackReadingStopped>Lugemine on peatunud %1, jätkamisel koos järgmise looga</TrackReadingStopped>
+		</DiskToISO>
+		<FolderToISO>
+			<ScanningFolder>Kataloogi allika skanneerimine...</ScanningFolder>
+			<DirectorySize>Kataloogi suurus %1</DirectorySize>
+			<WritingISOFile>ISO faili kirjutamine...</WritingISOFile>
+			<SkippingBigFile>Jäta fail vahele '%1'. See on suurem kui 4 GB</SkippingBigFile>
+			<SkippingFile> Jäta fail vahele'%1'.</SkippingFile>
+			<BigFileWarning>Fail '%1' on suurem kui 4 GB ja pole nähtav ISO 9660 failisüsteemis.</BigFileWarning>
+			<NestedDirectoriesLimitWarning>Kataloogi struktuur on sügavam kui %1 tasemed, mõned failid ja kaustad jäetakse vahele.</NestedDirectoriesLimitWarning>
+			<UnableToOpenFile>Ei suuda avada faili '%1' lugemisõiguseks.</UnableToOpenFile>
+			<NoExistingFolder>Kausta %1 pole olemas</NoExistingFolder>
+		</FolderToISO>
+		<UniversalConverter>
+			<AudioCDWarning>Pilt on a %1 Audio CD pilt, teisendamine ISO-ks pole võimalik. Võite ekstraktida kõik audio lood kausta.</AudioCDWarning>
+			<NotValidImage>Viga: see pole kehtiv CD/DVD pilt</NotValidImage>
+			<CannotFindSignature>Viga: ei leia ISO_9660 allkirja, saavutades 5 MB limiidi</CannotFindSignature>
+			<MultiSessionImageDetected>Multi-session plaadi pilt on tuvastatud</MultiSessionImageDetected>
+			<MultiSessionNotSupported>Plaadi pilt on multi-session plaadi pilt. Selliseid pilte ei toetata.</MultiSessionNotSupported>
+		</UniversalConverter>
+		<NrgConverter>
+			<NrgParsingError>NRG liigendi viga, palun võtke ühendust toega</NrgParsingError>
+			<NoSessionsFound>NRG sessioone pole tuvastatud, palun võtke ühendust toega</NoSessionsFound>
+		</NrgConverter>
+		<ExtractISO>
+			<LoadingImage>Pildi laadimine...</LoadingImage>
+			<ChooseISOFS>Seal on mitu failisüsteemi ISO pildis, valige palun üks neist eraldadamiseks:</ChooseISOFS>
+			<ChooseISOFSCaption>Vali failisüsteem</ChooseISOFSCaption>
+			<ImageFound>%1 pilt on leitud</ImageFound>
+			<InvalidISO>Fail ei ole kehtiv ISO pilt või ei toetata praegu</InvalidISO>
+		</ExtractISO>
+		<UIFConverter>
+			<UsingZlib>Kasutada zlib mahalaadimist</UsingZlib>
+			<UsingLZMA>Kasutada Lzma decompression by Igor Pavlov</UsingLZMA>
+			<MixedImageFound> Leitud miksitud pildi tüüp %1,dekompressitud ajutisse faili...</MixedImageFound>
+			<UnpackingImage>Pildi lahtipakkimine...</UnpackingImage>
+		</UIFConverter>
+		<DebExtract>
+			<NotValidDeb>Fail ei ole sobilik Debian (Ubuntu) Linux arhiiv</NotValidDeb>
+		</DebExtract>
+		<RpmExtract>
+			<PackageOpened>Pakett %1 avatud</PackageOpened>
+			<DecompressingPayload>Mahalaadimine %1 kasulikku lasti ajutisse faili...</DecompressingPayload>
+			<UnpackingArchive>Lahtipakkimine arhiivi...</UnpackingArchive>
+		</RpmExtract>
+		<DMG>
+			<ConvertingDmgToISO>Teisendamine DMG to HFS+ ISO-sse...</ConvertingDmgToISO>
+			<Writing>Kirjutamine %1...</Writing>
+			<ExtractingMainPartition>Väljavõte peamisest DMG partitioonist ajutisse faili, see võtab mõne aja - palun oodake...</ExtractingMainPartition>
+			<NoVolumeFound>Ei ole mahtu leitud, otsin HFS + failisüsteemis...</NoVolumeFound>
+			<ExtractingVolume>Taastan DMG mahu (%1)...</ExtractingVolume>
+			<CorruptedOrPasswordProtected>Viga: rikutud või parooliga kaitstud DMG pilt</CorruptedOrPasswordProtected>
+			<XarArchiveDetected>DMG fail on tegelikult XAR arhiiv (normaalselt tavalise DMG failiga sees) mida saab ainult ekstraktida. Palun valige ekstrakt,et operatsiooni jätkata</XarArchiveDetected>
+			<openedAsMessage>The file is opened as %1</openedAsMessage>
+			<DmgDisk>DMG disk image</DmgDisk>
+			<GPTDisk>GPT disk</GPTDisk>
+			<MBRDisk>Apple disk</MBRDisk>
+			<HFSVolume>HFS+ volume</HFSVolume>
+			<readingFileSystem>Reading %1 file system...</readingFileSystem>
+			<messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
+			<messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
+		</DMG>
+		<PDIConverter>
+			<InvalidOrBrokenImage>Vigane või katkine InstantCopy PDI pilt</InvalidOrBrokenImage>
+		</PDIConverter>
+		<ISZConverter>
+			<CompressionNone>Kompressiooni meetod: pole</CompressionNone>
+			<WarningPassword>Täpsustades vale parooli teeb väljundfaili kehtetuks</WarningPassword>
+			<ImageIsSegmented>ISZ fail segmentideks</ImageIsSegmented>
+		</ISZConverter>
+		<ArchiveConverter>
+			<ReadingArchive>Arhiivi lugemine...</ReadingArchive>
+			<RemovingTempFiles>Ajutiste failide eemaldamine...</RemovingTempFiles>
+			<ExtractError>Ei saa eraldada %1, viga %2</ExtractError>
+		</ArchiveConverter>
+		<TarUnpacker>
+			<SinglePackedFileFound>Üksik fail leitud: %1,lahtipakkimine...</SinglePackedFileFound>
+		</TarUnpacker>
+		<XarUnpacker>
+			<ReadingTOC>Sisutabeli lugemine (%1 bytes)...</ReadingTOC>
+			<NestedArchiveFound> Kaevandatud faili '%1' saab lahti eraldi kui %2 arhiiv (lisab laiendamise käsitsi)</NestedArchiveFound>
+		</XarUnpacker>
+	</StatusMessages>
+	<Misc>
+		<buttonOk>OK</buttonOk>
+		<buttonCancel>Loobu</buttonCancel>
+		<buttonClose>Sulge</buttonClose>
+		<buttonYes>Yes</buttonYes>
+		<buttonNo>No</buttonNo>
+		<ProVersion>Pro Version</ProVersion>
+		<LiteVersion>Lite Version</LiteVersion>
+	</Misc>
+	<ShellExtension>
+		<!-- This section describes Windows context menus -->
+		<ConvertToISO>Teisenda "%s"</ConvertToISO>
+		<ConvertToISOInfo>Teisenda ketta pildifail ISO formaati</ConvertToISOInfo>
+		<Extract>Väljavõte "%s"</Extract>
+		<ExtractInfo>Väljavõte ketta pildifailist</ExtractInfo>
+		<CreateISOFromFolder>Loo "%s"</CreateISOFromFolder>
+		<CreateISOFromFolderInfo>Saate luua siia kausta ISO-pildi koos vaikimisi valikutega</CreateISOFromFolderInfo>
+		<CreateISOFromFolderWithOptions>Loo "%s" koos valikutega...</CreateISOFromFolderWithOptions>
+		<CreateISOFromFolderWithOptionsInfo>Loo ISO-pilt selles kaustas täpsustades failisüsteemi võimalused ja draivisildi</CreateISOFromFolderWithOptionsInfo>
+		<CreateISOFromDisk>Loo sellest kettast ISO-pilt</CreateISOFromDisk>
+		<CreateISOFromDiskInfo>Loo valitud optilisest kettast ISO-pilt</CreateISOFromDiskInfo>
+		<CreateBINCUEFromDisk>Loo sellest kettast BIN/CUE -pilt</CreateBINCUEFromDisk>
+		<CreateBINCUEFromDiskInfo>Loo BIN (raw) pilt valitud optilise ketta ja sellele vastav CUE -lehefail</CreateBINCUEFromDiskInfo>
+	</ShellExtension>
+	<UpdateChecker>
+		<ReleasedOn>vabastatud on %1</ReleasedOn>
+		<CheckForUpdates>Kontrolli uuendusi...</CheckForUpdates>
+		<NewVersionAvailable>Uus versioon %1 on saadaval!</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 on nüüd saadaval - sul on %3. Kas soovid selle alla laadida?</NewVersionAvailableText>
+		<UpdateAlertTitle>Tarkvara uuendamine</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Vabastavad märkused:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Tuleta hiljem meelde</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Jäta see versioon vahele</UpdateAlertSkip>
+		<UpdateAlertInstall>Installi uuendus</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Kontrolli uuendusi automaatselt</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>Sul on uusim!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 on praegu uusim versioon saadaval.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>Viga uuenduse allalaadimisel. Palun proovi hiljem uuesti.</MessageErrorConnect>
+		<MessageErrorParse>Ilmnes tõrge, kui liigendas uuendusi.</MessageErrorParse>
+		<UpdateProgressTitle>Uuendatud %1</UpdateProgressTitle>
+		<UpdateProgressCancel>Tühista</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Installi ja taaskäivita</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Lae uuendus alla...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Ekstrakti uuendus...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Valmis installiks</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 of %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+	<LetsMoveMac>
+		<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+	</LetsMoveMac>
+</LanguageStrings>

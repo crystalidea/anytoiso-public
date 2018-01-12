@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.8" Author="Denis Mikhailov">
+	<MainWindow>
+		<mnuFile>Файл</mnuFile>
+		<mnuFileExit>Выход</mnuFileExit>
+		<mnuHelp>Помощь</mnuHelp>
+		<mnuHelpDocumentation>Документация...</mnuHelpDocumentation>
+		<mnuHelpPurchase>Купить Pro версию...</mnuHelpPurchase>
+		<mnuHelpEnterCode>Ввести регистрационный ключ...</mnuHelpEnterCode>
+		<mnuHelpAbout>О программе...</mnuHelpAbout>
+		<mnuHomePage>Домашняя страница...</mnuHomePage>
+		<menuPreferences>Настройки...</menuPreferences>
+		<newVersionAvailable>Доступна AnyToISO %1!</newVersionAvailable>
+		<newVersionUpdate>Обновить</newVersionUpdate>
+		<buttonStop>Стоп</buttonStop>
+		<tabConvertExtract>
+			<Name>Извлечь/Конвертировать в ISO</Name>
+			<SourceFileName>Исходный образ/архив:</SourceFileName>
+			<ConvertToISO>Конвертировать в ISO:</ConvertToISO>
+			<ExtractToFolder>Извлечь в папку:</ExtractToFolder>
+			<buttonOpenImage>Открыть образ...</buttonOpenImage>
+			<buttonOpenImageText>Открыть CD/DVD образ</buttonOpenImageText>
+			<AllSupportedFiles>Все поддерживаемые файлы</AllSupportedFiles>
+			<buttonOpenISO>Открыть ISO...</buttonOpenISO>
+			<buttonOpenISOText>Выбрать конечный ISO файл</buttonOpenISOText>
+			<buttonOpenISOFilter>ISO Файлы (*.iso)</buttonOpenISOFilter>
+			<buttonOpenFolder>Выбрать папку...</buttonOpenFolder>
+			<buttonOpenFolderText>Открыть конечную папку</buttonOpenFolderText>
+			<buttonConvert>Конвертировать</buttonConvert>
+			<buttonExtract>Извлечь</buttonExtract>
+			<labelFileSize>Размер файла</labelFileSize>
+			<labelFileFormat>формат</labelFileFormat>
+			<labelOpenOrDragFile>&lt;b&gt;Откройте&lt;/b&gt; или &lt;b&gt;перетащите&lt;/b&gt; файл образа</labelOpenOrDragFile>
+		</tabConvertExtract>
+		<tabDiskToISO>
+			<Name>CD/DVD диск в ISO</Name>
+			<SourceDrive>Исходный диск:</SourceDrive>
+			<OutputISO>Конечный образ:</OutputISO>
+			<checkCreateBinCue>Создать BIN/CUE образ</checkCreateBinCue>
+			<buttonRefresh>Обновить</buttonRefresh>
+			<buttonBrowseISO>Открыть...</buttonBrowseISO>
+			<NoDiskInserted>Не найден CD/DVD дисковод с диском</NoDiskInserted>
+			<buttonMakeISO>Создать ISO</buttonMakeISO>
+			<buttonMakeBinCue>Создавать BIN/CUE образ</buttonMakeBinCue>
+			<chooseISOOrBinCueImage>Пожалуйста выберите ISO или BIN/CUE образ</chooseISOOrBinCueImage>
+			<isoFilesFilter>ISO файлы</isoFilesFilter>
+			<binCueSheetFilter>BIN файлы (в паре с CUE)</binCueSheetFilter>
+		</tabDiskToISO>
+		<tabFolderToISO>
+			<Name>Папка в ISO</Name>
+			<SourceFolder>Исходная папка:</SourceFolder>
+			<DestinationISO>Конечный ISO файл:</DestinationISO>
+			<VolumeLabel>Метка тома:</VolumeLabel>
+			<buttonBrowseForFolder>Выбрать папку...</buttonBrowseForFolder>
+			<buttonChooseISO>Выбрать ISO...</buttonChooseISO>
+			<buttonOptions>Настройки...</buttonOptions>
+			<buttonMakeISO>Создать ISO</buttonMakeISO>
+			<ISOCreationOptions>Настройки создания ISO образа</ISOCreationOptions>
+			<Settings>Установки</Settings>
+			<FileSystemsInsideISO>Файловые системы:</FileSystemsInsideISO>
+			<buttonDefault>По умолчанию</buttonDefault>
+			<ISO9660Option1>8.3 DOS имена (11 символов)</ISO9660Option1>
+			<ISO9660Option2>Длинные имена (180)</ISO9660Option2>
+			<ISO9660Option3>Стандарт ISO 9660:1999</ISO9660Option3>
+			<JolietOption1>Стандартные имена файлов (64)</JolietOption1>
+			<JolietOption2>Длинные имена файлов (110)</JolietOption2>
+		</tabFolderToISO>
+	</MainWindow>
+	<LiteVersionDialog>
+		<LiteVersionLimitText>Lite версия AnyToISO работает только с &lt;b&gt;CD образами&lt;/b&gt; (до 870 MБ). Чтобы работать с большими файлами (DVD и больше) вам следует &lt;a href="purchase"&gt;Купить Профессиональную версию&lt;/a&gt;. После покупки вы получите регистрационный код для &lt;a href="unlock"&gt;разблокировки программы&lt;/a&gt;.</LiteVersionLimitText>
+		<buttonPurchasePro>Купить Pro версию...</buttonPurchasePro>
+	</LiteVersionDialog>
+	<EnterKeyDialog>
+		<Caption>Ввод регистрационного ключа</Caption>
+		<EnterKeyToUpgradeText>Введите регистрационные данные для апрейда до Pro версии программы.</EnterKeyToUpgradeText>
+		<RegName>Регистрационное Имя:</RegName>
+		<RegCode>Регистрационный Код:</RegCode>
+	</EnterKeyDialog>
+	<AboutDialog>
+		<Caption>О программе AnyToISO</Caption>
+		<Website>Сайт:</Website>
+		<Support>Поддержка:</Support>
+		<RunningAs>Программа работает как:</RunningAs>
+		<CopyRight>Эта программа защищена законами и международными соглашениями об авторском праве. Нелегальное использование, копирование, изменение или распространение программы или ее части будет преследоваться по закону.</CopyRight>
+		<buttonPurchasePro>Купить Pro версию...</buttonPurchasePro>
+	</AboutDialog>
+	<PreferencesDialog>
+		<Caption>Настройки</Caption>
+		<Language>Язык:</Language>
+		<CheckForNewVersions>Проверять наличие новых версий при запуске</CheckForNewVersions>
+		<ShellExtension>Интеграция с Проводником Windows</ShellExtension>
+		<ShellExtensionInfo>Добавляет элементы контекстного меню для папок, оптических дисков и файлов поддерживаемых форматов.</ShellExtensionInfo>
+	</PreferencesDialog>
+	<PasswordDialog>
+		<Caption>Необходим пароль</Caption>
+		<FileIsProtected>Файл зашифрован. Чтобы его расшифровать необходим пароль:</FileIsProtected>
+		<InvalidPassword>Неверный пароль</InvalidPassword>
+	</PasswordDialog>
+	<Messages>
+		<Warning>Внимание</Warning>
+		<Question>Вопрос</Question>
+		<NotEnoughDiskSpace>Похоже, что на выбранном диске не достаточно свободного места (всего %1). \n\nВы хотите все равно продолжить?</NotEnoughDiskSpace>
+		<ISOAlreadyExists>Конечный ISO файл\n%1\nуже существует, вы хотите перезаписать его?</ISOAlreadyExists>
+		<FolderAlreadyExists>Конечная папка\n%1\nуже существует, вы хотите перезаписать все существующие файлы с одинаковыми именами?</FolderAlreadyExists>
+		<RestartProgram>Для завершения регистрации вы должны перезапустить программу. \n\nХотите сделать это сейчас?</RestartProgram>
+		<CancelOperation>Вы действительно хотите прервать текущую операцию?</CancelOperation>
+	</Messages>
+	<StatusMessages>
+		<CheckingSourceImage>Анализ исходного файла...</CheckingSourceImage>
+		<Converting>Конвертирование...</Converting>
+		<Extracting>Извлечение...</Extracting>
+		<ExtractionFailed>Операция извлечения завершена с ошибкой</ExtractionFailed>
+		<Unpacking>Распаковка...</Unpacking>
+		<ConvertingToTemporaryISO>Конвертирование во временный ISO файл...</ConvertingToTemporaryISO>
+		<ProgressBytesWritten>записано %1</ProgressBytesWritten>
+		<Track>Дорожка</Track>
+		<ISOImageTypeFound>Найден ISO образ (тип %1)</ISOImageTypeFound>
+		<CannotOpenSourceFile>Не могу открыть исходный файл</CannotOpenSourceFile>
+		<CannotOpenDestFile>Не могу открыть конечный файл.</CannotOpenDestFile>
+		<OperationTerminated>Процесс прерван пользователем.</OperationTerminated>
+		<OperationCompleted>Операция завершена.</OperationCompleted>
+		<ClickToOpenISOInExplorer>Нажмите &lt;a href="_open_local_file"&gt;здесь&lt;/a&gt; чтобы открыть конечный ISO файл в Проводнике</ClickToOpenISOInExplorer>
+		<ClickToMountISOInFinder>Нажмите &lt;a href="_open_local_file"&gt;здесь&lt;/a&gt; чтобы открыть конечный ISO файл в Finder</ClickToMountISOInFinder>
+		<ClickToOpenOutFolder>Нажмите &lt;a href="_open_local_file"&gt;здесь&lt;/a&gt; чтобы открыть конечную папку</ClickToOpenOutFolder>
+		<DiskToISO>
+			<OpeningDevice>Открытие устройства, пожалуйста, подождите...</OpeningDevice>
+			<TotalDataSize>Полный размер данных - %1</TotalDataSize>
+			<CreatingISO>Создание ISO...</CreatingISO>
+			<CannotCreateFromAudio>Вы не можете создавать ISO образ мульти-сессионного или аудио диска..</CannotCreateFromAudio>
+			<PleaseUseBinCue>Используйте BIN/CUE образ для таких дисков</PleaseUseBinCue>
+			<BlankDiskDetected>Обнаружен чистый CD/DVD диск</BlankDiskDetected>
+			<DiskNotReady>CD/DVD диск не готов</DiskNotReady>
+			<CannotOpenDevice>Не могу открыть устройство (%1)</CannotOpenDevice>
+			<ReadError>Ошибка чтения %1, свяжитесь, пожалуйста, с технической поддержкой</ReadError>
+			<DeviceIsCopyProtected>Это устройство защищено от записи (сектор зашифрован)</DeviceIsCopyProtected>
+			<ISOCreationFailed>Создание ISO не пополнено</ISOCreationFailed>
+			<BinCueCreationFailed>Создание BIN/CUE образа не выполнено</BinCueCreationFailed>
+			<CannotReadDiskToc>Ошибка чтения TOC (таблицы содержания диска)</CannotReadDiskToc>
+			<CannotReadDisk>Не могу прочитать диск, ошибка: %1</CannotReadDisk>
+			<DiskNotPresent>Диск не вставлен в привод либо неизвестный тип диска</DiskNotPresent>
+			<NoTracksOnDisk>На диске нет ни одной дорожки, возможно он пустой</NoTracksOnDisk>
+			<mediaType>Тип диска: %1</mediaType>
+			<TrackLength>Длина дорожки - %1 секторов</TrackLength>
+			<TracksCount>Количество дорожек: %1</TracksCount>
+			<WritingTrack>Запись дорожки %1, длина дорожки - %2 секторов</WritingTrack>
+			<DiskReadingStopped>Чтение остановлено на секторе %1</DiskReadingStopped>
+			<TrackReadingStopped>Чтение остановлено на секторе %1, продолжаю следущую дорожку</TrackReadingStopped>
+		</DiskToISO>
+		<FolderToISO>
+			<ScanningFolder>Сканирую исходную директорию...</ScanningFolder>
+			<DirectorySize>Суммарный размер данных - %1</DirectorySize>
+			<WritingISOFile>Записываю ISO файл...</WritingISOFile>
+			<SkippingBigFile>Пропускаю файл '%1'. Его размер превышает 4 Гб</SkippingBigFile>
+			<SkippingFile>Пропускаю файл '%1'.</SkippingFile>
+			<BigFileWarning>Файл '%1' больше 4 Гб и будет невидим в файловой системе ISO 9660.</BigFileWarning>
+			<NestedDirectoriesLimitWarning>Уровень вложенности папок превышает %1, некоторые папки и файлы будут пропущены.</NestedDirectoriesLimitWarning>
+			<UnableToOpenFile>Не могу открыть файл '%1' для чтения.</UnableToOpenFile>
+			<NoExistingFolder>The folder %1 doesn't exist</NoExistingFolder>
+		</FolderToISO>
+		<UniversalConverter>
+			<AudioCDWarning>Образ является %1 Аудио CD образом, конвертация в ISO невозможна. Однако Вы можете извлечь все звуковые дорожки в папку.</AudioCDWarning>
+			<NotValidImage>Ошибка: не корректный CD/DVD файл образ</NotValidImage>
+			<CannotFindSignature>Ошибка: не могу найти ISO_9660 сигнатуру, достигнут 5 MБ лимит</CannotFindSignature>
+			<MultiSessionImageDetected>Обнаружен мультисессионный образ диска</MultiSessionImageDetected>
+			<MultiSessionNotSupported>Данный образ является образом мультисессионного диска, такие образы не поддерживаются</MultiSessionNotSupported>
+		</UniversalConverter>
+		<NrgConverter>
+			<NrgParsingError>Ошибка парсинга NRG, свяжитесь, пожалуйста, с технической поддержкой</NrgParsingError>
+			<NoSessionsFound>Не найдено ни одной сессии NRG, свяжитесь, пожалуйста, с технической поддержкой</NoSessionsFound>
+		</NrgConverter>
+		<ExtractISO>
+			<LoadingImage>Загрузка образа...</LoadingImage>
+			<ChooseISOFS>Найдено несколько файловых систем внутри данного ISO файла, выберите, пожалуйста, одну из них:</ChooseISOFS>
+			<ChooseISOFSCaption>Выбор файловой системы</ChooseISOFSCaption>
+			<ImageFound>Найден образ %1</ImageFound>
+			<InvalidISO>Файл не является корректным ISO образом либо на данный момент не поддерживается</InvalidISO>
+		</ExtractISO>
+		<UIFConverter>
+			<UsingZlib>Использую zlib распаковку</UsingZlib>
+			<UsingLZMA>Использую Lzma распаковку</UsingLZMA>
+			<MixedImageFound>Найден смешанный тип %1, распаковываю во временный файл...</MixedImageFound>
+			<UnpackingImage>Распаковываю образ...</UnpackingImage>
+		</UIFConverter>
+		<DebExtract>
+			<NotValidDeb>Файл не является корректным архивом Debian (Ubuntu) Linux</NotValidDeb>
+		</DebExtract>
+		<RpmExtract>
+			<PackageOpened>Открыт пакет %1</PackageOpened>
+			<DecompressingPayload>Распаковка %1 данных во временный файл...</DecompressingPayload>
+			<UnpackingArchive>Распаковка архива...</UnpackingArchive>
+		</RpmExtract>
+		<DMG>
+			<ConvertingDmgToISO>Конвертирование DMG в HFS+ ISO...</ConvertingDmgToISO>
+			<Writing>Запись раздела %1...</Writing>
+			<ExtractingMainPartition>Распаковка главного тома DMG во временный файл, подождите, пожалуйста...</ExtractingMainPartition>
+			<NoVolumeFound>Тома не обнаружено, поиск файловой системы HFS+...</NoVolumeFound>
+			<ExtractingVolume>Распаковка DMG тома (%1)...</ExtractingVolume>
+			<CorruptedOrPasswordProtected>Ошибка: неверный или зашифрованный DMG файл</CorruptedOrPasswordProtected>
+			<XarArchiveDetected>Данный DMG файл является фактически XAR архивом (обычно, внутри него находится настоящий DMG образ), который может быть только извлечен. Выберите, пожалуйста, операцию извлечения для продолжения</XarArchiveDetected>
+			<openedAsMessage>Файл открыт как %1</openedAsMessage>
+			<DmgDisk>DMG образ диска</DmgDisk>
+			<GPTDisk>диск GPT</GPTDisk>
+			<MBRDisk>диск Apple</MBRDisk>
+			<HFSVolume>том HFS+</HFSVolume>
+			<readingFileSystem>Читаю файловую систему %1...</readingFileSystem>
+			<messageMultiplePartitions>В данном DMG образе есть несколько разделов, выберите, пожалуйста, какой следует извлекать:</messageMultiplePartitions>
+			<messageMultiplePartitionsTitle>Выбор раздела</messageMultiplePartitionsTitle>
+		</DMG>
+		<PDIConverter>
+			<InvalidOrBrokenImage>Неверный или зашифрованный InstantCopy PDI образ</InvalidOrBrokenImage>
+		</PDIConverter>
+		<ISZConverter>
+			<CompressionNone>Метод компрессии: нет</CompressionNone>
+			<WarningPassword>Указание неверного пароля сделает выходной файл невалидным</WarningPassword>
+			<ImageIsSegmented>ISZ файл сегментирован</ImageIsSegmented>
+		</ISZConverter>
+		<ArchiveConverter>
+			<ReadingArchive>Чтение архива...</ReadingArchive>
+			<RemovingTempFiles>Удаление временных файлов...</RemovingTempFiles>
+			<ExtractError>Не могу извлечь %1, ошибка %2</ExtractError>
+		</ArchiveConverter>
+		<TarUnpacker>
+			<SinglePackedFileFound>Single packed file detected: %1, unpacking...</SinglePackedFileFound>
+		</TarUnpacker>
+		<XarUnpacker>
+			<ReadingTOC>Чтение оглавления (%1 байт)...</ReadingTOC>
+			<NestedArchiveFound>Извлеченный файл '%1' может быть дополнительно распакован как %2 архив (добавьте расширение вручную)</NestedArchiveFound>
+		</XarUnpacker>
+	</StatusMessages>
+	<Misc>
+		<buttonOk>OK</buttonOk>
+		<buttonCancel>Отмена</buttonCancel>
+		<buttonClose>Закрыть</buttonClose>
+		<buttonYes>Да</buttonYes>
+		<buttonNo>Нет</buttonNo>
+		<ProVersion>Pro Версия</ProVersion>
+		<LiteVersion>Lite Версия</LiteVersion>
+	</Misc>
+	<ShellExtension>
+		<!-- This section describes Windows context menus -->
+		<ConvertToISO>Конвертировать в "%s"</ConvertToISO>
+		<ConvertToISOInfo>Конвертировать образ диска в формат ISO</ConvertToISOInfo>
+		<Extract>Извлечь в "%s"</Extract>
+		<ExtractInfo>Извлечь файл образа диска в указанную папку</ExtractInfo>
+		<CreateISOFromFolder>Создать "%s"</CreateISOFromFolder>
+		<CreateISOFromFolderInfo>Создать ISO образ содержимого этой папки с опциями по умолчанию</CreateISOFromFolderInfo>
+		<CreateISOFromFolderWithOptions>Создать "%s" с опциями...</CreateISOFromFolderWithOptions>
+		<CreateISOFromFolderWithOptionsInfo>Создать ISO образ содержимого этой папки с указанием настроек файловой системы и метки диска</CreateISOFromFolderWithOptionsInfo>
+		<CreateISOFromDisk>Создать ISO образ этого диска</CreateISOFromDisk>
+		<CreateISOFromDiskInfo>Создать ISO образ выбранного оптического диска</CreateISOFromDiskInfo>
+		<CreateBINCUEFromDisk>Создать BIN/CUE образ выбранного оптического диска</CreateBINCUEFromDisk>
+		<CreateBINCUEFromDiskInfo>Создать BIN (сырой) образ выбранного оптического диска, а также файл содержания к нему (CUE)</CreateBINCUEFromDiskInfo>
+	</ShellExtension>
+	<UpdateChecker>
+		<ReleasedOn>выпущено %1</ReleasedOn>
+		<CheckForUpdates>Проверка обновлений...</CheckForUpdates>
+		<NewVersionAvailable>Имеется новая версия %1!</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 теперь доступен – вы имеете %3. Хотите загрузить его сейчас?</NewVersionAvailableText>
+		<UpdateAlertTitle>Обновление программного обеспечения</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Заметки о выпуске:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Напоминать позже</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Пропустить эту версию</UpdateAlertSkip>
+		<UpdateAlertInstall>Установить обновление</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Проверять обновления автоматически</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>У вас установлена последняя версия.</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>У вас уже установлена последняя версия %1 %2.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>При получении информации об обновлении возникла ошибка. Попробуйте повторить попытку позже.</MessageErrorConnect>
+		<MessageErrorParse>При обработке информации об обновлении произошла ошибка.</MessageErrorParse>
+		<UpdateProgressTitle>Обновляю %1</UpdateProgressTitle>
+		<UpdateProgressCancel>Отменить</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Установить и перезапустить</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Загружаю обновление...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Распаковываю обновление...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Готов к установке</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 из %2</UpdateProgressSize>
+		<UpdateProgressB>Б</UpdateProgressB>
+		<UpdateProgressKB>КБ</UpdateProgressKB>
+		<UpdateProgressMB>МБ</UpdateProgressMB>
+		<UpdateProgressGB>ГБ</UpdateProgressGB>
+	</UpdateChecker>
+	<LetsMoveMac>
+		<kStrMoveApplicationCouldNotMove>Не удалось переместить.</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>Переместить в папку Программы</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>Переместить в папку Программы, расположенную в домашней директории?</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>Вы хотите %1 переместить себя в папку Программы?</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>Переместить</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>Не перемещать</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Вам понадобится пароль администратора.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Это поможет содержать папку с загрузками в чистоте.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+	</LetsMoveMac>
+</LanguageStrings>

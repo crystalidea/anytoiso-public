@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.1" Author="Nguyễn Duy Trung [duytrung8x@gmail.com]">
+	<MainWindow>
+		<mnuFile>Tập tin</mnuFile>
+		<mnuFileExit>Thoát</mnuFileExit>
+		<mnuHelp>Trợ giúp</mnuHelp>
+		<mnuHelpDocumentation>Tài liệu...</mnuHelpDocumentation>
+		<mnuHelpPurchase>Mua phiên bản Pro...</mnuHelpPurchase>
+		<mnuHelpEnterCode>Nhập Mã Đăng Kí...</mnuHelpEnterCode>
+		<mnuHelpAbout>Thông tin...</mnuHelpAbout>
+		<mnuHomePage>Trang chủ AnyToISO...</mnuHomePage>
+		<menuPreferences>Tùy chỉnh...</menuPreferences>
+		<newVersionAvailable>AnyToISO %1 hiện có!</newVersionAvailable>
+		<newVersionUpdate>Cập nhật</newVersionUpdate>
+		<buttonStop>Ngừng</buttonStop>
+		<tabConvertExtract>
+			<Name>Giải nén/Chuyển đổi tập tin sang ISO</Name>
+			<SourceFileName>Tập tin ảnh nguồn:</SourceFileName>
+			<ConvertToISO>Chuyển đổi sang ảnh ISO:</ConvertToISO>
+			<ExtractToFolder>Giải nén ra thư mục:</ExtractToFolder>
+			<buttonOpenImage>Mở ảnh...</buttonOpenImage>
+			<buttonOpenImageText>Mở tập tin ảnh CD/DVD</buttonOpenImageText>
+			<AllSupportedFiles>Tất cả tập tin hỗ trợ</AllSupportedFiles>
+			<buttonOpenISO>Mở ISO...</buttonOpenISO>
+			<buttonOpenISOText>Chọn tập tin ISO kết quả</buttonOpenISOText>
+			<buttonOpenISOFilter>Tập tin ISO (*.iso)</buttonOpenISOFilter>
+			<buttonOpenFolder>Chọn thư mục...</buttonOpenFolder>
+			<buttonOpenFolderText>Mở thư mục đích</buttonOpenFolderText>
+			<buttonConvert>Chuyển đổi!</buttonConvert>
+			<buttonExtract>Giải nén!</buttonExtract>
+			<labelFileSize>Kích cỡ tập tin</labelFileSize>
+			<labelFileFormat>Định dạng</labelFileFormat>
+			<labelOpenOrDragFile>&lt;b&gt;Mở&lt;/b&gt; hoặc &lt;b&gt;kéo&lt;/b&gt; một tập tin ảnh để chuyển đổi hoặc giải nén</labelOpenOrDragFile>
+		</tabConvertExtract>
+		<tabDiskToISO>
+			<Name>Ổ đĩa CD/DVD sang ISO</Name>
+			<SourceDrive>Ổ đĩa nguồn:</SourceDrive>
+			<OutputISO>Tập tin ISO đích:</OutputISO>
+			<checkCreateBinCue>Create BIN/CUE image</checkCreateBinCue>
+			<buttonRefresh>Làm mới</buttonRefresh>
+			<buttonBrowseISO>Duyệt...</buttonBrowseISO>
+			<NoDiskInserted>Không có đĩa CD/DVD được chèn</NoDiskInserted>
+			<buttonMakeISO>Tạo ISO</buttonMakeISO>
+			<buttonMakeBinCue>Create BIN/CUE image</buttonMakeBinCue>
+			<chooseISOOrBinCueImage>Please select ISO or BIN/CUE image file</chooseISOOrBinCueImage>
+			<isoFilesFilter>ISO Files</isoFilesFilter>
+			<binCueSheetFilter>BIN Files (with CUE sheet)</binCueSheetFilter>
+		</tabDiskToISO>
+		<tabFolderToISO>
+			<Name>Thư Mục sang ISO</Name>
+			<SourceFolder>Thư mục nguồn:</SourceFolder>
+			<DestinationISO>Tập tin ISO đích:</DestinationISO>
+			<VolumeLabel>Nhãn đĩa:</VolumeLabel>
+			<buttonBrowseForFolder>Duyệt thư mục...</buttonBrowseForFolder>
+			<buttonChooseISO>Chọn ISO...</buttonChooseISO>
+			<buttonOptions>Tùy chọn...</buttonOptions>
+			<buttonMakeISO>Tạo ISO</buttonMakeISO>
+			<ISOCreationOptions>Tùy chọn tạo ISO</ISOCreationOptions>
+			<Settings>Thiết đặt</Settings>
+			<FileSystemsInsideISO>Hệ tập tin:</FileSystemsInsideISO>
+			<buttonDefault>Mặc định</buttonDefault>
+			<ISO9660Option1>Tên tập tin 8.3 DOS (11)</ISO9660Option1>
+			<ISO9660Option2>Tên dài hơn (180)</ISO9660Option2>
+			<ISO9660Option3>ISO 9660:1999</ISO9660Option3>
+			<JolietOption1>Tên chuẩn (64)</JolietOption1>
+			<JolietOption2>Tên dài (110)</JolietOption2>
+		</tabFolderToISO>
+	</MainWindow>
+	<LiteVersionDialog>
+		<LiteVersionLimitText>Phiên bản Lite của AnyToISO chỉ làm việc với &lt;b&gt;các ảnh CD&lt;/b&gt; (lên tới 870 MB). Để làm việc với các tập tin lớn hơn (DVD hoặc hơn) bạn nên &lt;a href="purchase"&gt;Mua phiên bản Professional&lt;/a&gt;. Bạn sẽ nhận mã đăng kí &lt;a href="unlock"&gt;mở khóa phần mềm&lt;/a&gt; sau khi mua.</LiteVersionLimitText>
+		<buttonPurchasePro>Mua phiên bản Pro...</buttonPurchasePro>
+	</LiteVersionDialog>
+	<EnterKeyDialog>
+		<Caption>Nhập Mã Đăng Kí</Caption>
+		<EnterKeyToUpgradeText>Hãy nhập chi tiết đăng kí của bạn để nâng cấp lên phiên bản Pro của AnyToISO.</EnterKeyToUpgradeText>
+		<RegName>Tên Đăng Kí:</RegName>
+		<RegCode>Mã Đăng Kí:</RegCode>
+	</EnterKeyDialog>
+	<AboutDialog>
+		<Caption>Thông tin AnyToISO</Caption>
+		<Website>Website:</Website>
+		<Support>Hỗ trợ:</Support>
+		<RunningAs>Chương trình đang chạy:</RunningAs>
+		<CopyRight>Chương trình máy tính này được bảo vệ bởi luật bản quyền và các hiệp ước quốc tế. Sự sao chép hoặc phân phối trái phép chương trình này, hoặc bất kì phần nào của nó, có thể dẫn đến những hình phạt nghiêm khắc hoặc là hình phạt tội phạm.</CopyRight>
+		<buttonPurchasePro>Mua phiên bản Pro...</buttonPurchasePro>
+	</AboutDialog>
+	<PreferencesDialog>
+		<Caption>Tùy chỉnh</Caption>
+		<Language>Ngôn ngữ giao diện:</Language>
+		<CheckForNewVersions>Kiểm tra phiên bản mới lúc khởi động</CheckForNewVersions>
+		<ShellExtension>Tích hợp vào trình đơn Windows Explorer</ShellExtension>
+		<ShellExtensionInfo>Thêm trình đơn ngữ cảnh cho các ổ đĩa quang, thư mục và tập tin của các định dạng được hỗ trợ.</ShellExtensionInfo>
+	</PreferencesDialog>
+	<PasswordDialog>
+		<Caption>Yêu cầu mật khẩu</Caption>
+		<FileIsProtected>Tập tin được mã hóa. Để giải mã hãy nhập mật khẩu:</FileIsProtected>
+		<InvalidPassword>Invalid password</InvalidPassword>
+	</PasswordDialog>
+	<Messages>
+		<Warning>Cảnh báo</Warning>
+		<Question>Câu hỏi</Question>
+		<NotEnoughDiskSpace>Dường như không đủ không gian đĩa trống (chỉ %1) trên ổ đĩa được chọn. \n\nBạn có muốn tiến hành không?</NotEnoughDiskSpace>
+		<ISOAlreadyExists>Tập tin ISO đích\n%1\nđã tồn tại, bạn có muốn ghi đè nó không?</ISOAlreadyExists>
+		<FolderAlreadyExists>Thư mục đích\n%1\nđã tồn tại, bạn có muốn ghi đè tất cả tập tin đã có với tên giống như vậy không?</FolderAlreadyExists>
+		<RestartProgram>Để hoàn thành đăng kí bạn phải khởi động lại chương trình. \n\nBạn có muốn thực hiện nó bây giờ không?</RestartProgram>
+		<CancelOperation>Bạn có chắc muốn chấm dứt hoạt động hiện hành không?</CancelOperation>
+	</Messages>
+	<StatusMessages>
+		<CheckingSourceImage>Đang kiểm tra ảnh nguồn...</CheckingSourceImage>
+		<Converting>Đang chuyển đổi...</Converting>
+		<Extracting>Đang giải nén...</Extracting>
+		<ExtractionFailed>Extract operation failed</ExtractionFailed>
+		<Unpacking>Đang mở gói...</Unpacking>
+		<ConvertingToTemporaryISO>Đang chuyển đổi sang một tập tin ISO tạm thời...</ConvertingToTemporaryISO>
+		<ProgressBytesWritten>%1 đã ghi</ProgressBytesWritten>
+		<Track>Track</Track>
+		<ISOImageTypeFound>Ảnh ISO (loại %1) tìm thấy</ISOImageTypeFound>
+		<CannotOpenSourceFile>Không thể mở tập tin nguồn.</CannotOpenSourceFile>
+		<CannotOpenDestFile>Không thể mở tập tin đích.</CannotOpenDestFile>
+		<OperationTerminated>Hoạt động bị ngắt bởi người dùng.</OperationTerminated>
+		<OperationCompleted>Hoạt động hoàn thành.</OperationCompleted>
+		<ClickToOpenISOInExplorer>Kích &lt;a href="_open_local_file"&gt;ở đây&lt;/a&gt; để mở tập tin ISO đầu ra trong Explorer</ClickToOpenISOInExplorer>
+		<ClickToMountISOInFinder>Kích &lt;a href="_open_local_file"&gt;ở đây&lt;/a&gt; để gắn ISO trong Trình Tìm Kiếm</ClickToMountISOInFinder>
+		<ClickToOpenOutFolder>Kích &lt;a href="_open_local_file"&gt;ở đây&lt;/a&gt; để mở thư mục đầu ra</ClickToOpenOutFolder>
+		<DiskToISO>
+			<OpeningDevice>Đang mở thiết bị truyền thông, xin vui lòng chờ...</OpeningDevice>
+			<TotalDataSize>Tổng kích cỡ dữ liệu là %1</TotalDataSize>
+			<CreatingISO>Đang tạo ISO...</CreatingISO>
+			<CannotCreateFromAudio>Bạn không thể tạo ảnh ISO của một đĩa ghi nhiều lần hoặc một Đĩa Âm Thanh, hãy liên hệ để được hỗ trợ.</CannotCreateFromAudio>
+			<PleaseUseBinCue>Please use BIN/CUE image for such disks</PleaseUseBinCue>
+			<BlankDiskDetected>Đĩa CD/DVD trống được nhận dạng</BlankDiskDetected>
+			<DiskNotReady>Đĩa CD/DVD chưa sẵn sàng</DiskNotReady>
+			<CannotOpenDevice>Không thể mở thiết bị (%1)</CannotOpenDevice>
+			<ReadError>Đọc lỗi %1, hãy liên hệ đê được hỗ trợ</ReadError>
+			<DeviceIsCopyProtected>Thiết bị này được chống sao chép và cung từ được mã hóa. Không thể tiếp tục.</DeviceIsCopyProtected>
+			<ISOCreationFailed>Tạo ISO bị lỗi</ISOCreationFailed>
+			<BinCueCreationFailed>BIN/CUE image creation failed</BinCueCreationFailed>
+			<CannotReadDiskToc>Failed to read TOC (table of contents) of the disk</CannotReadDiskToc>
+			<CannotReadDisk>Cannot read disk, error: %1</CannotReadDisk>
+			<DiskNotPresent>Disk not present or unknown media type</DiskNotPresent>
+			<NoTracksOnDisk>There are no tracks on the disk, it's probably blank</NoTracksOnDisk>
+			<mediaType>Media type: %1</mediaType>
+			<TrackLength>Track length is %1 sectors</TrackLength>
+			<TracksCount>Tracks count: %1</TracksCount>
+			<WritingTrack>Writing track %1, track length is %2 sectors</WritingTrack>
+			<DiskReadingStopped>Reading stopped at %1</DiskReadingStopped>
+			<TrackReadingStopped>Reading stopped at %1, resuming with next track</TrackReadingStopped>
+		</DiskToISO>
+		<FolderToISO>
+			<ScanningFolder>Đang quét thư mục nguồn...</ScanningFolder>
+			<DirectorySize>Kích thước thư mục là %1</DirectorySize>
+			<WritingISOFile>Đang ghi tập tin ISO...</WritingISOFile>
+			<SkippingBigFile>Bỏ qua tập tin '%1'. Nó lớn hơn 4 GB</SkippingBigFile>
+			<SkippingFile>Bỏ qua tập tin '%1'.</SkippingFile>
+			<BigFileWarning>Tập tin '%1' lớn hơn 4 GB và sẽ không nhìn thấy được trong hế tập tin ISO 9660.</BigFileWarning>
+			<NestedDirectoriesLimitWarning>Cấu trúc thư mục sâu hơn %1 cấp, một số tập tin và thư mục sẽ được bỏ qua.</NestedDirectoriesLimitWarning>
+			<UnableToOpenFile>Không thể mở tập tin '%1' cho việc truy cập đọc.</UnableToOpenFile>
+			<NoExistingFolder>The folder %1 doesn't exist</NoExistingFolder>
+		</FolderToISO>
+		<UniversalConverter>
+			<AudioCDWarning>Ảnh dường như là một ảnh %1 CD Âm Thanh, chuyển đổi sang ISO không thể thực hiện được.</AudioCDWarning>
+			<NotValidImage>Lỗi: Đây không phải một ảnh CD/DVD hợp lệ</NotValidImage>
+			<CannotFindSignature>Lỗi: không thể tìm thấy dấu hiệu ISO_9660 đặc trưng, lên tới giới hạn 5 MB</CannotFindSignature>
+			<MultiSessionImageDetected>Multi-session disk image detected</MultiSessionImageDetected>
+			<MultiSessionNotSupported>The disk image is a multi-session disk image. Such images are not supported.</MultiSessionNotSupported>
+		</UniversalConverter>
+		<NrgConverter>
+			<NrgParsingError>NRG parsing error, please contact support for assistance</NrgParsingError>
+			<NoSessionsFound>No NRG sessions detected, please contact support for assistance</NoSessionsFound>
+		</NrgConverter>
+		<ExtractISO>
+			<LoadingImage>Đang nạp ảnh...</LoadingImage>
+			<ChooseISOFS>Có nhiều hệ tập tin trong ảnh ISO này, hãy chọn một trong số chúng để giải nén:</ChooseISOFS>
+			<ChooseISOFSCaption>Chọn hệ tập tin</ChooseISOFSCaption>
+			<ImageFound>%1 ảnh tìm thấy</ImageFound>
+			<InvalidISO>Tập tin không phải là một ảnh ISO hoặc hiện thời không được hỗ trợ</InvalidISO>
+		</ExtractISO>
+		<UIFConverter>
+			<UsingZlib>Dùng giải nén zlib</UsingZlib>
+			<UsingLZMA>Dùng giải nén Lzma bởi Igor Pavlov</UsingLZMA>
+			<MixedImageFound>Tập tin ảnh hỗn hợp loại %1 được tìm thấy, đang giải nén tới tập tin tạm thời...</MixedImageFound>
+			<UnpackingImage>Đang mở gói ảnh...</UnpackingImage>
+		</UIFConverter>
+		<DebExtract>
+			<NotValidDeb>Tập tin không phải một lưu trữ Debian (Ubuntu) Linux</NotValidDeb>
+		</DebExtract>
+		<RpmExtract>
+			<PackageOpened>Gói %1 đã được mở</PackageOpened>
+			<DecompressingPayload>Đang giải nén %1 dung lượng sang một tập tin tạm...</DecompressingPayload>
+			<UnpackingArchive>Đang mở gói lưu trữ...</UnpackingArchive>
+		</RpmExtract>
+		<DMG>
+			<ConvertingDmgToISO>Đang chuyển đổi DMG sang HFS+ ISO...</ConvertingDmgToISO>
+			<Writing>Đang ghi %1...</Writing>
+			<ExtractingMainPartition>Đang giải nén phân vùng DMG chính sang một tập tin tạm, việc này có thể mất một ít thời gian - hãy vui lòng chờ...</ExtractingMainPartition>
+			<NoVolumeFound>Không ổ đĩa tìm thấy, đang tìm hệ tập tin HFS+...</NoVolumeFound>
+			<ExtractingVolume>Đang giải nén đĩa DMG (%1)...</ExtractingVolume>
+			<CorruptedOrPasswordProtected>Lỗi: bị sửa đổi hoặc ảnh DMG được bảo vệ bằng mật khẩu</CorruptedOrPasswordProtected>
+			<XarArchiveDetected>DMG file is actually a XAR archive (normally with actual DMG file inside) that can be only extracted. Please choose extract operation to proceed</XarArchiveDetected>
+			<openedAsMessage>The file is opened as %1</openedAsMessage>
+			<DmgDisk>DMG disk image</DmgDisk>
+			<GPTDisk>GPT disk</GPTDisk>
+			<MBRDisk>Apple disk</MBRDisk>
+			<HFSVolume>HFS+ volume</HFSVolume>
+			<readingFileSystem>Reading %1 file system...</readingFileSystem>
+			<messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
+			<messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
+		</DMG>
+		<PDIConverter>
+			<InvalidOrBrokenImage>Ảnh InstantCopy PDI không hợp lệ hoặc bị dứt quãng</InvalidOrBrokenImage>
+		</PDIConverter>
+		<ISZConverter>
+			<CompressionNone>Phương thức nén: không</CompressionNone>
+			<WarningPassword>Chỉ định mật khẩu không đúng sẽ tạo tập tin đầu ra không đúng</WarningPassword>
+			<ImageIsSegmented>Tập tin ISZ bị phân đoạn</ImageIsSegmented>
+		</ISZConverter>
+		<ArchiveConverter>
+			<ReadingArchive>Reading archive...</ReadingArchive>
+			<RemovingTempFiles>Removing temporary files...</RemovingTempFiles>
+			<ExtractError>Unable to extract %1, error %2</ExtractError>
+		</ArchiveConverter>
+		<TarUnpacker>
+			<SinglePackedFileFound>Single packed file detected: %1, unpacking...</SinglePackedFileFound>
+		</TarUnpacker>
+		<XarUnpacker>
+			<ReadingTOC>Reading table of contents (%1 bytes)...</ReadingTOC>
+			<NestedArchiveFound>Extracted file '%1' can be unpacked separately as %2 archive (append extension manually)</NestedArchiveFound>
+		</XarUnpacker>
+	</StatusMessages>
+	<Misc>
+		<buttonOk>Đồng ý</buttonOk>
+		<buttonCancel>Hủy bỏ</buttonCancel>
+		<buttonClose>Đóng</buttonClose>
+		<buttonYes>Yes</buttonYes>
+		<buttonNo>No</buttonNo>
+		<ProVersion>Phiên bản Pro</ProVersion>
+		<LiteVersion>Phiên bản Lite</LiteVersion>
+	</Misc>
+	<ShellExtension>
+		<!-- This section describes Windows context menus -->
+		<ConvertToISO>Chuyển đổi sang "%s"</ConvertToISO>
+		<ConvertToISOInfo>Chuyển đổi tập tin ảnh đĩa sang định dạng ISO</ConvertToISOInfo>
+		<Extract>Giải nén sang "%s"</Extract>
+		<ExtractInfo>Giải nén tập tin ảnh đĩa</ExtractInfo>
+		<CreateISOFromFolder>Tạo "%s"</CreateISOFromFolder>
+		<CreateISOFromFolderInfo>Tạo ảnh ISO của thư mục này với các tùy chọn mặc định</CreateISOFromFolderInfo>
+		<CreateISOFromFolderWithOptions>Tạo "%s" với các tùy chọn...</CreateISOFromFolderWithOptions>
+		<CreateISOFromFolderWithOptionsInfo>Tạo ảnh ISO của thư mục với các tùy chọn hệ tập tin chỉ định và nhãn đĩa</CreateISOFromFolderWithOptionsInfo>
+		<CreateISOFromDisk>Tạo ảnh ISO của ổ đĩa này</CreateISOFromDisk>
+		<CreateISOFromDiskInfo>Tạo ảnh ISO của ổ đĩa quang được chọn</CreateISOFromDiskInfo>
+		<CreateBINCUEFromDisk>Create BIN/CUE image of this disk</CreateBINCUEFromDisk>
+		<CreateBINCUEFromDiskInfo>Create BIN (raw) image of a selected optical disk and its corresponding CUE sheet file</CreateBINCUEFromDiskInfo>
+	</ShellExtension>
+	<UpdateChecker>
+		<ReleasedOn>Phát hành ngày %1</ReleasedOn>
+		<CheckForUpdates>Kiểm tra cập nhật...</CheckForUpdates>
+		<NewVersionAvailable>Đã có phiên bản mới %1 !</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 đã có - phiên bản hiện tại %3. Bạn có muốn tải ngay không?</NewVersionAvailableText>
+		<UpdateAlertTitle>Cập nhật Ứng dụng</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Ghi chú phát hành:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Nhắc nhở sau</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Bỏ qua phiên bản này</UpdateAlertSkip>
+		<UpdateAlertInstall>Install Update</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Kiểm tra cập nhật tự động</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>Bạn đang sử dụng phiên bản mới nhất!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 là phiên bản mới nhất.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>Có lỗi khi tải bản cập nhật. Hãy thử lại sau..</MessageErrorConnect>
+		<MessageErrorParse>Có lỗi khi tải thông tin cập nhật.</MessageErrorParse>
+		<UpdateProgressTitle>Đang cập nhật %1</UpdateProgressTitle>
+		<UpdateProgressCancel>Hủy</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Cài đặt và khởi động lại</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Đang tải cập nhật...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Đang giải nén cập nhật...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Sẵn sàng để cài đặt</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 / %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+	<LetsMoveMac>
+		<kStrMoveApplicationCouldNotMove>Không thể chuyển tới thư mục Applications</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>Chuyển tới Applications</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>Chuyển tới thư mục Applications trong thư mục Home của bạn?</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>Bạn có muốn %1 chuyển tới thư mục Applications?</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>Chuyển tới thư mục Applications</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>Không chuyển</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Hãy chú ý rằng việc này yêu cầu mật khẩu administrator.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Việc này sẽ giúp thư mục Downloads không phân mảnh.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+	</LetsMoveMac>
+</LanguageStrings>

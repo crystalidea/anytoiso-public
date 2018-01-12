@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.7" Author="Gertfriend &amp; Supporter">
+	<MainWindow>
+		<mnuFile>Datei</mnuFile>
+		<mnuFileExit>Beenden</mnuFileExit>
+		<mnuHelp>Hilfe</mnuHelp>
+		<mnuHelpDocumentation>Dokumentation...</mnuHelpDocumentation>
+		<mnuHelpPurchase>Pro-Version kaufen...</mnuHelpPurchase>
+		<mnuHelpEnterCode>Registrierungscode eingeben...</mnuHelpEnterCode>
+		<mnuHelpAbout>Über...</mnuHelpAbout>
+		<mnuHomePage>AnyToISO-Homepage aufrufen...</mnuHomePage>
+		<menuPreferences>Einstellungen</menuPreferences>
+		<newVersionAvailable>AnyToISO %1 ist verfügbar!</newVersionAvailable>
+		<newVersionUpdate>Aktualisieren</newVersionUpdate>
+		<buttonStop>Anhalten</buttonStop>
+		<tabConvertExtract>
+			<Name>ISO-Datei entpacken/umwandeln</Name>
+			<SourceFileName>Quelldatei:</SourceFileName>
+			<ConvertToISO>Umwandeln nach ISO:</ConvertToISO>
+			<ExtractToFolder>In Ordner entpacken:</ExtractToFolder>
+			<buttonOpenImage>Abbild öffnen...</buttonOpenImage>
+			<buttonOpenImageText>CD/DVD-Abbild öffnen</buttonOpenImageText>
+			<AllSupportedFiles>Alle unterstützten Dateien</AllSupportedFiles>
+			<buttonOpenISO>ISO-Datei öffnen...</buttonOpenISO>
+			<buttonOpenISOText>Zieldatei auswählen</buttonOpenISOText>
+			<buttonOpenISOFilter>ISO-Dateien (*.iso)</buttonOpenISOFilter>
+			<buttonOpenFolder>Ordner auswählen...</buttonOpenFolder>
+			<buttonOpenFolderText>Zielordner öffnen</buttonOpenFolderText>
+			<buttonConvert>Umwandeln!</buttonConvert>
+			<buttonExtract>Entpacken!</buttonExtract>
+			<labelFileSize>Dateigröße</labelFileSize>
+			<labelFileFormat>Format</labelFileFormat>
+			<labelOpenOrDragFile>&lt;b&gt;Öffnen&lt;/b&gt; oder &lt;b&gt;ziehen&lt;/b&gt; Sie eine Abbilddatei hier rein, um sie umzuwandeln oder zu entpacken.</labelOpenOrDragFile>
+		</tabConvertExtract>
+		<tabDiskToISO>
+			<Name>CD/DVD in ein ISO-Abbild umwandeln</Name>
+			<SourceDrive>Quelllaufwerk:</SourceDrive>
+			<OutputISO>Ausgabe der ISO-Datei:</OutputISO>
+			<checkCreateBinCue>BIN/CUE-Abbild erstellen</checkCreateBinCue>
+			<buttonRefresh>Aktualisieren</buttonRefresh>
+			<buttonBrowseISO>Suchen...</buttonBrowseISO>
+			<NoDiskInserted>Keine CD/DVD im Laufwerk vorhanden</NoDiskInserted>
+			<buttonMakeISO>ISO-Abbild erstellen</buttonMakeISO>
+			<buttonMakeBinCue>BIN/CUE-Abbild erstellen</buttonMakeBinCue>
+			<chooseISOOrBinCueImage>Bitte wählen Sie ein ISO- oder BIN/CUE-Abbild aus</chooseISOOrBinCueImage>
+			<isoFilesFilter>ISO-Dateien</isoFilesFilter>
+			<binCueSheetFilter>BIN-Dateien (mit Cuesheet)</binCueSheetFilter>
+		</tabDiskToISO>
+		<tabFolderToISO>
+			<Name>Ordner nach ISO-Abbild umwandeln</Name>
+			<SourceFolder>Quellordner:</SourceFolder>
+			<DestinationISO>Ausgabe der ISO-Datei:</DestinationISO>
+			<VolumeLabel>Laufwerksbezeichnung:</VolumeLabel>
+			<buttonBrowseForFolder>Ordner auswählen...</buttonBrowseForFolder>
+			<buttonChooseISO>Speichern unter...</buttonChooseISO>
+			<buttonOptions>Einstellungen...</buttonOptions>
+			<buttonMakeISO>ISO-Abbild erstellen</buttonMakeISO>
+			<ISOCreationOptions>Einstellungen der ISO-Erstellung</ISOCreationOptions>
+			<Settings>Einstellungen</Settings>
+			<FileSystemsInsideISO>Dateisystem:</FileSystemsInsideISO>
+			<buttonDefault>Standard</buttonDefault>
+			<ISO9660Option1>8.3 DOS-Dateinamen (11)</ISO9660Option1>
+			<ISO9660Option2>Lange Dateinamen (180)</ISO9660Option2>
+			<ISO9660Option3>ISO 9660:1999</ISO9660Option3>
+			<JolietOption1>Standardnamen (64)</JolietOption1>
+			<JolietOption2>Lange Dateinamen (110)</JolietOption2>
+		</tabFolderToISO>
+	</MainWindow>
+	<LiteVersionDialog>
+		<LiteVersionLimitText>Die Lite-Version von AnyToISO arbeitet &lt;b&gt;nur mit CD-Abbildern&lt;/b&gt; (bis zu 870 MB). Um mit größeren Dateien zu arbeiten (DVD und anderes), müssen Sie &lt;a href="purchase"&gt;die Professional-Version kaufen&lt;/a&gt;. Sie werden einen Registrierungsschlüssel erhalten, um die &lt;a href="unlock"&gt;Software freizuschalten.&lt;/a&gt;</LiteVersionLimitText>
+		<buttonPurchasePro>Pro-Version kaufen...</buttonPurchasePro>
+	</LiteVersionDialog>
+	<EnterKeyDialog>
+		<Caption>Registrierungscode eingeben</Caption>
+		<EnterKeyToUpgradeText>Bitte die Registierungsdaten eingeben, um auf die Pro-Version von AnyToISO zu aktualisieren.</EnterKeyToUpgradeText>
+		<RegName>Registrierungsname:</RegName>
+		<RegCode>Registrierungscode:</RegCode>
+	</EnterKeyDialog>
+	<AboutDialog>
+		<Caption>Über AnyToISO</Caption>
+		<Website>Webseite:</Website>
+		<Support>Support:</Support>
+		<RunningAs>Das Programm läuft als:</RunningAs>
+		<CopyRight>Dieses Computerprogramm ist über das Copyright-Gesetz und internationale Verträge geschützt. Unerlaubte Vervielfältigung oder Verteilung von diesem Programm oder Teilen davon werden durch Zivilstrafen und Kriminalstrafen geahndet.</CopyRight>
+		<buttonPurchasePro>Pro-Version kaufen...</buttonPurchasePro>
+	</AboutDialog>
+	<PreferencesDialog>
+		<Caption>Einstellungen</Caption>
+		<Language>Oberflächensprache:</Language>
+		<CheckForNewVersions>Beim Starten auf neue Version überprüfen</CheckForNewVersions>
+		<ShellExtension>Windows Explorer-Kontextmenü-Eintrag</ShellExtension>
+		<ShellExtensionInfo>Kontextmenü für optische Laufwerke, Ordner und Dateien, welche unterstützt werden, hinzufügen.</ShellExtensionInfo>
+	</PreferencesDialog>
+	<PasswordDialog>
+		<Caption>Passwort wird benötigt.</Caption>
+		<FileIsProtected>Die Datei ist verschlüsselt. Um die Datei zu entpacken, geben Sie bitte das Passwort ein:</FileIsProtected>
+		<InvalidPassword>Ungültiges Passwort</InvalidPassword>
+	</PasswordDialog>
+	<Messages>
+		<Warning>Warnung</Warning>
+		<Question>Frage</Question>
+		<NotEnoughDiskSpace>Es ist nicht genug Speicher (nur %1) auf dem ausgewählten Laufwerk verfügbar.\n\nMöchten sie fortfahren?</NotEnoughDiskSpace>
+		<ISOAlreadyExists>Die Ziel-ISO-Datei\n%1\nexistiert bereits, möchten Sie diese überschreiben?</ISOAlreadyExists>
+		<FolderAlreadyExists>Zielordner\n%1\nexistiert bereits, möchten sie alle existierenden Dateien mit dem gleichen Namen überschreiben?</FolderAlreadyExists>
+		<RestartProgram>Um die Registierung abzuschließen, muss das Programm neu gestartet werden. \n\nMöchten sie das Programm jetzt neu starten?</RestartProgram>
+		<CancelOperation>Sind Sie sicher, dass sie die laufende Operation abbrechen möchten?</CancelOperation>
+	</Messages>
+	<StatusMessages>
+		<CheckingSourceImage>Quelldatei wird geprüft...</CheckingSourceImage>
+		<Converting>Konvertierung...</Converting>
+		<Extracting>Entpacken...</Extracting>
+		<ExtractionFailed>Extrahierung ist fehlgeschlagen</ExtractionFailed>
+		<Unpacking>Entpacken...</Unpacking>
+		<ConvertingToTemporaryISO>Konvertierung in temporäre ISO-Datei...</ConvertingToTemporaryISO>
+		<ProgressBytesWritten>%1 geschrieben</ProgressBytesWritten>
+		<Track>Track</Track>
+		<ISOImageTypeFound>ISO-Datei (Typ %1) gefunden</ISOImageTypeFound>
+		<CannotOpenSourceFile>Quelldatei kann nicht geöffnet werden.</CannotOpenSourceFile>
+		<CannotOpenDestFile>Zieldatei kann nicht geöffnet werden.</CannotOpenDestFile>
+		<OperationTerminated>Vorgang vom Benutzer abgebrochen.</OperationTerminated>
+		<OperationCompleted>Vorgang abgeschlossen.</OperationCompleted>
+		<ClickToOpenISOInExplorer>&lt;a href="_open_local_file"&gt;Hier&lt;/a&gt; klicken, um die Ziel-ISO-Datei im Explorer zu öffnen</ClickToOpenISOInExplorer>
+		<ClickToMountISOInFinder>&lt;a href="_open_local_file"&gt;Hier&lt;/a&gt; klicken, zum Mounten der ISO-Datei im Finder</ClickToMountISOInFinder>
+		<ClickToOpenOutFolder>&lt;a href="_open_local_file"&gt;Hier&lt;/a&gt; klicken, um den Ausgabeordner zu öffnen</ClickToOpenOutFolder>
+		<DiskToISO>
+			<OpeningDevice>Medium wird geöffnet, bitte warten...</OpeningDevice>
+			<TotalDataSize>Die Datengröße beträgt %1</TotalDataSize>
+			<CreatingISO>ISO-Datei wird erstellt...</CreatingISO>
+			<CannotCreateFromAudio>Es kann keine ISO-Datei von einer Multisession-Disk oder Audiodisk erstellt werden. Bitte kontaktieren sie den Support.</CannotCreateFromAudio>
+			<PleaseUseBinCue>Bitte nutzen Sie BIN/CUE-Abbilder für solche Disktypen</PleaseUseBinCue>
+			<BlankDiskDetected>Leere CD/DVD erkannt</BlankDiskDetected>
+			<DiskNotReady>CD/DVD nicht bereit</DiskNotReady>
+			<CannotOpenDevice>Laufwerk kann nicht geöffnet werden (%1)</CannotOpenDevice>
+			<ReadError>Lesefehler %1, bitte den Support kontaktieren</ReadError>
+			<DeviceIsCopyProtected>Dieses Medium ist schreibgeschützt und der Sektor ist verschlüsselt. Fortsetzung nicht möglich.</DeviceIsCopyProtected>
+			<ISOCreationFailed>ISO-Abbilderstellung fehlgeschlagen</ISOCreationFailed>
+			<BinCueCreationFailed>BIN/CUE-Abbilderstellung</BinCueCreationFailed>
+			<CannotReadDiskToc>Das TOC-Verzeichnis (Inhaltstabelle) auf der Disk konnte nicht gelesen werden</CannotReadDiskToc>
+			<CannotReadDisk>Disk kann nicht gelesen werden, Fehler: %1</CannotReadDisk>
+			<DiskNotPresent>Es ist keine Disk vorhanden oder ein unbekanntes Medium wurde eingelegt</DiskNotPresent>
+			<NoTracksOnDisk>Es sind keine Tracks auf der Disk vorhanden, oder sie ist leer</NoTracksOnDisk>
+			<mediaType>Medientyp: %1</mediaType>
+			<TrackLength>Der Track hat %1 Sektoren</TrackLength>
+			<TracksCount>Track-Anzahl: %1</TracksCount>
+			<WritingTrack>Track %1 wird geschrieben, die Tracklänge liegt bei %2 Sektoren</WritingTrack>
+			<DiskReadingStopped>Lesevorgang gestoppt bei %1</DiskReadingStopped>
+			<TrackReadingStopped>Lesevorgang gestoppt bei %1, es wird mit dem nächsten Track fortgefahren</TrackReadingStopped>
+		</DiskToISO>
+		<FolderToISO>
+			<ScanningFolder>Der Quellordner wird durchsucht...</ScanningFolder>
+			<DirectorySize>Die Ordnergröße beträgt %1</DirectorySize>
+			<WritingISOFile>ISO-Datei wird geschrieben...</WritingISOFile>
+			<SkippingBigFile>Datei '%1' wird übersprungen. Sie ist größer als 4 GB</SkippingBigFile>
+			<SkippingFile>Datei '%1' wird übersprungen.</SkippingFile>
+			<BigFileWarning>Datei '%1' ist größer als 4 GB und wird im ISO 9660-Dateisystem nicht angezeigt.</BigFileWarning>
+			<NestedDirectoriesLimitWarning>Die Ordnerstruktur ist tiefer als %1 Ebenen, einige Dateien und Ordner werden übersprungen.</NestedDirectoriesLimitWarning>
+			<UnableToOpenFile>Datei '%1' kann zum lesen nicht geöffnet werden.</UnableToOpenFile>
+			<NoExistingFolder>Der Ordner %1 existiert nicht</NoExistingFolder>
+		</FolderToISO>
+		<UniversalConverter>
+			<AudioCDWarning>Das Abbild %1 scheint ein Audio-CD-Abbild zu sein, eine Umwandlung in ein ISO-Abbild ist nicht möglich.</AudioCDWarning>
+			<NotValidImage>Fehler: Dies ist kein gültiges CD/DVD-Abbild</NotValidImage>
+			<CannotFindSignature>Fehler: ISO 9660-Signatur wurde nicht gefunden, 5 MB-Limit erreicht</CannotFindSignature>
+			<MultiSessionImageDetected>Multisession-Diskabbild erkannt</MultiSessionImageDetected>
+			<MultiSessionNotSupported>Das Diskabbild ist ein Multisession-Diskabbild. Solche Abbilder werden nicht unterstützt.</MultiSessionNotSupported>
+		</UniversalConverter>
+		<NrgConverter>
+			<NrgParsingError>Fehler beim Parsen der NRG-Datei, bitte kontaktieren Sie den Support für Unterstützung</NrgParsingError>
+			<NoSessionsFound>Keine NRG-Sitzungen erkannt, bitte kontaktieren Sie den Support für Unterstützung</NoSessionsFound>
+		</NrgConverter>
+		<ExtractISO>
+			<LoadingImage>Abbild wird geladen...</LoadingImage>
+			<ChooseISOFS>Es sind mehrere Dateisysteme in diesem ISO-Abbild vorhanden, bitte wählen sie eines zum Entpacken aus:</ChooseISOFS>
+			<ChooseISOFSCaption>Dateisystem auswählen</ChooseISOFSCaption>
+			<ImageFound>%1 Abbild gefunden</ImageFound>
+			<InvalidISO>Die Datei ist kein gültiges ISO-Abbild oder wird im Moment nicht unterstützt</InvalidISO>
+		</ExtractISO>
+		<UIFConverter>
+			<UsingZlib>ZLIB-Entpacker verwenden</UsingZlib>
+			<UsingLZMA>LZMA-Entpacker von Igor Pavlov verwenden</UsingLZMA>
+			<MixedImageFound>Es wurden gemischte Abbildtypen %1 gefunden, diese werden in eine temporäre Datei entpackt...</MixedImageFound>
+			<UnpackingImage>Abbild entpacken...</UnpackingImage>
+		</UIFConverter>
+		<DebExtract>
+			<NotValidDeb>Die Datei ist kein gültiges Debian (Ubuntu)-Linux-Archiv</NotValidDeb>
+		</DebExtract>
+		<RpmExtract>
+			<PackageOpened>Paket %1 geöffnet</PackageOpened>
+			<DecompressingPayload>%1 wird in eine temporäre Datei entpackt...</DecompressingPayload>
+			<UnpackingArchive>Archiv entpacken...</UnpackingArchive>
+		</RpmExtract>
+		<DMG>
+			<ConvertingDmgToISO>Konvertierung von DMG zu HFS+-ISO...</ConvertingDmgToISO>
+			<Writing>%1 wird erstellt...</Writing>
+			<ExtractingMainPartition>DMG-Hauptpartition wird in eine temporäre Datei entpackt. Dies kann etwas dauern - bitte warten...</ExtractingMainPartition>
+			<NoVolumeFound>Kein Volumen gefunden, es wird nach einem HFS+-Dateisystem gesucht...</NoVolumeFound>
+			<ExtractingVolume>DMG-Volumen wird entpackt (%1)...</ExtractingVolume>
+			<CorruptedOrPasswordProtected>Fehler: defektes oder passwortgeschütztes DMG-Abbild</CorruptedOrPasswordProtected>
+			<XarArchiveDetected>Das DMG-Abbild ist eigentlich ein XAR-Archiv (normalerweise mit aktueller DMG-Datei drin), welches nur extrahiert werden kann. Bitte wählen Sie die Extrahierungs-Operation aus, um fortzufahren</XarArchiveDetected>
+			<openedAsMessage>Die Datei ist geöffnet als: %1</openedAsMessage>
+			<DmgDisk>DMG Festplattenimage</DmgDisk>
+			<GPTDisk>GPT Festplatte</GPTDisk>
+			<MBRDisk>Apple Festplatte</MBRDisk>
+			<HFSVolume>HFS+ Datenträger</HFSVolume>
+			<readingFileSystem>Reading %1 file system...</readingFileSystem>
+			<messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
+			<messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
+		</DMG>
+		<PDIConverter>
+			<InvalidOrBrokenImage>Ungültiges oder zerstörtes InstantCopy PDI-Abbild</InvalidOrBrokenImage>
+		</PDIConverter>
+		<ISZConverter>
+			<CompressionNone>Kompressionsmethode: keine</CompressionNone>
+			<WarningPassword>Die Angabe eines ungültigen Passworts macht die Ausgabedatei ungültig</WarningPassword>
+			<ImageIsSegmented>ISZ-Datei ist segmentiert</ImageIsSegmented>
+		</ISZConverter>
+		<ArchiveConverter>
+			<ReadingArchive>Archiv wird gelesen...</ReadingArchive>
+			<RemovingTempFiles>Temporäre Dateien werden entfernt...</RemovingTempFiles>
+			<ExtractError>%1 konnte nicht extrahiert werden, Fehler %2</ExtractError>
+		</ArchiveConverter>
+		<TarUnpacker>
+			<SinglePackedFileFound>Einzelne gepackte Datei erkannt: %1, wird entpackt...</SinglePackedFileFound>
+		</TarUnpacker>
+		<XarUnpacker>
+			<ReadingTOC>Inhltstabelle wird gelesen (%1 Bytes)...</ReadingTOC>
+			<NestedArchiveFound>Die extrahierte Datei '%1' kann seperat in %2 Archive entpackt werden (Erweiterung manuell anhängen)</NestedArchiveFound>
+		</XarUnpacker>
+	</StatusMessages>
+	<Misc>
+		<buttonOk>OK</buttonOk>
+		<buttonCancel>Abbrechen</buttonCancel>
+		<buttonClose>Schließen</buttonClose>
+		<buttonYes>Yes</buttonYes>
+		<buttonNo>No</buttonNo>
+		<ProVersion>Pro-Version</ProVersion>
+		<LiteVersion>Lite-Version</LiteVersion>
+	</Misc>
+	<ShellExtension>
+		<!-- This section describes Windows context menus -->
+		<ConvertToISO>Umwandeln nach "%s"</ConvertToISO>
+		<ConvertToISOInfo>Abbilddatei nach ISO konvertieren</ConvertToISOInfo>
+		<Extract>Entpacken nach "%s"</Extract>
+		<ExtractInfo>Abbilddatei entpacken</ExtractInfo>
+		<CreateISOFromFolder>"%s" wird erstellt...</CreateISOFromFolder>
+		<CreateISOFromFolderInfo>ISO-Datei von diesem Ordner mit Standardeinstellungen erstellen</CreateISOFromFolderInfo>
+		<CreateISOFromFolderWithOptions>"%s" mit Einstellungen wird erstellt...</CreateISOFromFolderWithOptions>
+		<CreateISOFromFolderWithOptionsInfo>ISO-Datei von diesem Ordner erstellen unter Angabe von Einstellungen und Volumennamen</CreateISOFromFolderWithOptionsInfo>
+		<CreateISOFromDisk>ISO-Datei von diesem Datenträger erstellen</CreateISOFromDisk>
+		<CreateISOFromDiskInfo>ISO-Datei von ausgewähltem optischen Datenträger erstellen</CreateISOFromDiskInfo>
+		<CreateBINCUEFromDisk>BIN/CUE-Abbild von dieser Disk erstellen</CreateBINCUEFromDisk>
+		<CreateBINCUEFromDiskInfo>BIN (roh)-Abbild von einem optischem Laufwerk und die dazugehörige Cuesheet-Datei erstellen</CreateBINCUEFromDiskInfo>
+	</ShellExtension>
+	<UpdateChecker>
+		<ReleasedOn>Freigabe auf %1</ReleasedOn>
+		<CheckForUpdates>Nach Aktualisierungen suchen...</CheckForUpdates>
+		<NewVersionAvailable>Eine neue Version von %1 ist verfügbar!</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 ist verfügbar (Sie verwenden Version %3). Möchten Sie die neue Version jetzt herunterladen?</NewVersionAvailableText>
+		<UpdateAlertTitle>Software-Aktualisierung</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Versionshinweise:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Später erinnern</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Diese Version überspringen</UpdateAlertSkip>
+		<UpdateAlertInstall>Installieren</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Automatisch nach Aktualisierungen suchen</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>Sie sind auf dem neuesten Stand!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 ist zur Zeit die neueste verfügbare Version.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>Beim Herunterladen ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.</MessageErrorConnect>
+		<MessageErrorParse>Beim Lesen der Aktualisierungsinformationen ist ein Fehler aufgetreten.</MessageErrorParse>
+		<UpdateProgressTitle>Aktualisierung von %1</UpdateProgressTitle>
+		<UpdateProgressCancel>Abbrechen</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Installieren und erneut starten</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Aktualisierung wird heruntergeladen...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Aktualisierung entpacken...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Bereit zum Installieren</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 von %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+	<LetsMoveMac>
+		<kStrMoveApplicationCouldNotMove>Die Anwendung konnte nicht in den Programme-Ordner verschoben werden.</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>In den Programme-Ordner verschieben?</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>In den Programme-Ordner in Ihrem Heimatverzeichnis verschieben?</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>Ich kann mich selbst (%1) in den Programme-Ordner verschieben, wenn Sie möchten.</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>In den Programme-Ordner verschieben</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>Nicht verschieben</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Bitte beachten Sie, dass für diesen Vorgang ein Administrator-Passwort benötigt wird.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Damit Ihr Downloads-Ordner aufgeräumt wird.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+	</LetsMoveMac>
+</LanguageStrings>

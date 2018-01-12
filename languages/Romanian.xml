@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.1" Author="Dorian Tănase">
+	<MainWindow>
+		<mnuFile>Fisiere</mnuFile>
+		<mnuFileExit>Ieșire</mnuFileExit>
+		<mnuHelp>Ajutor</mnuHelp>
+		<mnuHelpDocumentation>Documentație...</mnuHelpDocumentation>
+		<mnuHelpPurchase>Cumpără versiunea Pro...</mnuHelpPurchase>
+		<mnuHelpEnterCode>Introdu Codul de Înregistrare...</mnuHelpEnterCode>
+		<mnuHelpAbout>Despre...</mnuHelpAbout>
+		<mnuHomePage>Pagina AnyToISO...</mnuHomePage>
+		<menuPreferences>Preferințe...</menuPreferences>
+		<newVersionAvailable>AnyToISO %1 este disponibil!</newVersionAvailable>
+		<newVersionUpdate>Actualizează</newVersionUpdate>
+		<buttonStop>Stop</buttonStop>
+		<tabConvertExtract>
+			<Name>Extrage fișier(e)/Convertește în ISO</Name>
+			<SourceFileName>Fișierul imagine sursă:</SourceFileName>
+			<ConvertToISO>Convertește în ISO:</ConvertToISO>
+			<ExtractToFolder>Extrage conținut în director:</ExtractToFolder>
+			<buttonOpenImage>Deschide fișier imagine...</buttonOpenImage>
+			<buttonOpenImageText>Deschide fișier imagine CD/DVD</buttonOpenImageText>
+			<AllSupportedFiles>Toate tipurile de fișiere suportate</AllSupportedFiles>
+			<buttonOpenISO>Deschide ISO...</buttonOpenISO>
+			<buttonOpenISOText>Selectează fișier ISO rezultat</buttonOpenISOText>
+			<buttonOpenISOFilter>Fișiere ISO (*.iso)</buttonOpenISOFilter>
+			<buttonOpenFolder>Selectează director...</buttonOpenFolder>
+			<buttonOpenFolderText>Deschide directorul destinație</buttonOpenFolderText>
+			<buttonConvert>Convertește!</buttonConvert>
+			<buttonExtract>Extrage!</buttonExtract>
+			<labelFileSize>Dimensiune fișier</labelFileSize>
+			<labelFileFormat>format</labelFileFormat>
+			<labelOpenOrDragFile>&lt;b&gt;Deschide&lt;/b&gt; sau &lt;b&gt;trage&lt;/b&gt; o imagine pentru a o converti sau a-i extrage conținutul</labelOpenOrDragFile>
+		</tabConvertExtract>
+		<tabDiskToISO>
+			<Name>Disc CD/DVD în ISO</Name>
+			<SourceDrive>Unitatea sursă:</SourceDrive>
+			<OutputISO>Fișier ISO destinație:</OutputISO>
+			<checkCreateBinCue>Create BIN/CUE image</checkCreateBinCue>
+			<buttonRefresh>Actualizează</buttonRefresh>
+			<buttonBrowseISO>Răsfoiește...</buttonBrowseISO>
+			<NoDiskInserted>Nici un disc CD/DVD introdus în unitate</NoDiskInserted>
+			<buttonMakeISO>Convertește în ISO</buttonMakeISO>
+			<buttonMakeBinCue>Create BIN/CUE image</buttonMakeBinCue>
+			<chooseISOOrBinCueImage>Please select ISO or BIN/CUE image file</chooseISOOrBinCueImage>
+			<isoFilesFilter>ISO Files</isoFilesFilter>
+			<binCueSheetFilter>BIN Files (with CUE sheet)</binCueSheetFilter>
+		</tabDiskToISO>
+		<tabFolderToISO>
+			<Name>Director în ISO</Name>
+			<SourceFolder>Director sursă:</SourceFolder>
+			<DestinationISO>Fișier ISO destinație:</DestinationISO>
+			<VolumeLabel>Etichetă volum:</VolumeLabel>
+			<buttonBrowseForFolder>Selectează director...</buttonBrowseForFolder>
+			<buttonChooseISO>Selectează ISO...</buttonChooseISO>
+			<buttonOptions>Preferințe ISO...</buttonOptions>
+			<buttonMakeISO>Convertește în ISO</buttonMakeISO>
+			<ISOCreationOptions>Preferințe creere ISO</ISOCreationOptions>
+			<Settings>Setări</Settings>
+			<FileSystemsInsideISO>Sistem de fișiere:</FileSystemsInsideISO>
+			<buttonDefault>Valori implicite</buttonDefault>
+			<ISO9660Option1>Fișiere compatibile cu 8.3 DOS (lungime 11 caractere)</ISO9660Option1>
+			<ISO9660Option2>Nume lungi de fișiere (180 caractere)</ISO9660Option2>
+			<ISO9660Option3>ISO 9660:1999</ISO9660Option3>
+			<JolietOption1>Nume standard (64 caractere)</JolietOption1>
+			<JolietOption2>Nume lungi (110 caractere)</JolietOption2>
+		</tabFolderToISO>
+	</MainWindow>
+	<LiteVersionDialog>
+		<LiteVersionLimitText>Versiunea Lite (gratuită) a AnyToISO funcționează &lt;b&gt;doar cu imagini CD&lt;/b&gt; (de până la 870 MB). Pentru a lucra cu fișiere mai mari (DVD sau de capacitate mai mare), trebuie să &lt;a href="purchase"&gt;Cumpărați versiunea Profesională&lt;/a&gt;. Veți obține Codul de Înregistrare ce va &lt;a href="unlock"&gt;debloca aplicația&lt;/a&gt; imediat după cumpărare.</LiteVersionLimitText>
+		<buttonPurchasePro>Cumpără versiunea Profesională...</buttonPurchasePro>
+	</LiteVersionDialog>
+	<EnterKeyDialog>
+		<Caption>Introdu Codul de Înregistrare</Caption>
+		<EnterKeyToUpgradeText>Introdu datele de înregistrare pentru a activa versiunea PRO a AnyToISO.</EnterKeyToUpgradeText>
+		<RegName>Numele:</RegName>
+		<RegCode>Codul de Înregistrare:</RegCode>
+	</EnterKeyDialog>
+	<AboutDialog>
+		<Caption>Despre AnyToISO</Caption>
+		<Website>Website:</Website>
+		<Support>Suport:</Support>
+		<RunningAs>Versiunea instalată:</RunningAs>
+		<CopyRight>Această aplicație este protejată de legile drepturilor de autor și de tratatele internaționale. Distribuirea neautorizată a acestei aplicații (sau părți din această aplicație) poate atrage sancțiuni civile și penale.</CopyRight>
+		<buttonPurchasePro>Cumpără versiunea Profesională...</buttonPurchasePro>
+	</AboutDialog>
+	<PreferencesDialog>
+		<Caption>Preferințe</Caption>
+		<Language>Alege limba:</Language>
+		<CheckForNewVersions>Caută o nouă versiune a aplicației la pornire</CheckForNewVersions>
+		<ShellExtension>Integrare cu Windows Explorer</ShellExtension>
+		<ShellExtensionInfo>Adaugă meniul contextual pentru unități optice, directoare și fișiere suportate.</ShellExtensionInfo>
+	</PreferencesDialog>
+	<PasswordDialog>
+		<Caption>Parola</Caption>
+		<FileIsProtected>Acest fișier este criptat. Pentru decriptare, introduceți parola:</FileIsProtected>
+		<InvalidPassword>Invalid password</InvalidPassword>
+	</PasswordDialog>
+	<Messages>
+		<Warning>Atenție</Warning>
+		<Question>Întrebare</Question>
+		<NotEnoughDiskSpace>Aparent nu există suficient spațiu de stocare pe disc (disponibil doar %1). \n\nDorești să continui?</NotEnoughDiskSpace>
+		<ISOAlreadyExists>Fișierul ISO destinație\n%1\nexistă deja, dorești să-l suprascri?</ISOAlreadyExists>
+		<FolderAlreadyExists>Directorul destinație\n%1\nexistă deja, dorești să suprascri toate fișierele care au același nume?</FolderAlreadyExists>
+		<RestartProgram>Pentru a finaliza procedura de înregistrare, trebuie să reporniți aplicația. \n\nDorești să repornești aplicația acum?</RestartProgram>
+		<CancelOperation>Ești sigur că vrei să inchizi aplicația?</CancelOperation>
+	</Messages>
+	<StatusMessages>
+		<CheckingSourceImage>Verificare fișier imagine sursă...</CheckingSourceImage>
+		<Converting>Convertire în curs...</Converting>
+		<Extracting>Extragere în curs...</Extracting>
+		<ExtractionFailed>Extract operation failed</ExtractionFailed>
+		<Unpacking>Despachetare în curs...</Unpacking>
+		<ConvertingToTemporaryISO>Convertire într-un fișier ISO temporar...</ConvertingToTemporaryISO>
+		<ProgressBytesWritten>%1 scrisi</ProgressBytesWritten>
+		<Track>Track</Track>
+		<ISOImageTypeFound>Imagine ISO găsită (tip %1)</ISOImageTypeFound>
+		<CannotOpenSourceFile>Nu pot deschide fișierul sursă.</CannotOpenSourceFile>
+		<CannotOpenDestFile>Nu pot deschide fișierul destinație.</CannotOpenDestFile>
+		<OperationTerminated>Operațiune anulată de către utilizator.</OperationTerminated>
+		<OperationCompleted>Operațiune finalizată.</OperationCompleted>
+		<ClickToOpenISOInExplorer>Click &lt;a href="_open_local_file"&gt;aici&lt;/a&gt; pentru a deschide în Explorer fișierul ISO rezultat</ClickToOpenISOInExplorer>
+		<ClickToMountISOInFinder>Click &lt;a href="_open_local_file"&gt;aici&lt;/a&gt; pentru a deschide în Finder fișierul ISO</ClickToMountISOInFinder>
+		<ClickToOpenOutFolder>Click &lt;a href="_open_local_file"&gt;aici&lt;/a&gt; pentru a deschide directorul destinație</ClickToOpenOutFolder>
+		<DiskToISO>
+			<OpeningDevice>Accesez dispozitiv media, așteptați...</OpeningDevice>
+			<TotalDataSize>Dimensiunea totală este %1</TotalDataSize>
+			<CreatingISO>Creare ISO în curs...</CreatingISO>
+			<CannotCreateFromAudio>Nu puteți crea o imagine ISO a unui disc cu sesiuni multiple sau a unui disc audio. Contacta-ți-ne pentru asistență.</CannotCreateFromAudio>
+			<PleaseUseBinCue>Please use BIN/CUE image for such disks</PleaseUseBinCue>
+			<BlankDiskDetected>Discul CD/DVD este gol</BlankDiskDetected>
+			<DiskNotReady>Discul CD/DVD nu este pregătit</DiskNotReady>
+			<CannotOpenDevice>Nu pot deschide dispozitivul (%1)</CannotOpenDevice>
+			<ReadError>Eroare la citire %1, Contacta-ți-ne pentru asistență</ReadError>
+			<DeviceIsCopyProtected>Acest dispozitiv este protejat la copiere și criptat. Nu pot continua operațiunea.</DeviceIsCopyProtected>
+			<ISOCreationFailed>Crearea fișierului ISO a eșuat.</ISOCreationFailed>
+			<BinCueCreationFailed>BIN/CUE image creation failed</BinCueCreationFailed>
+			<CannotReadDiskToc>Failed to read TOC (table of contents) of the disk</CannotReadDiskToc>
+			<CannotReadDisk>Cannot read disk, error: %1</CannotReadDisk>
+			<DiskNotPresent>Disk not present or unknown media type</DiskNotPresent>
+			<NoTracksOnDisk>There are no tracks on the disk, it's probably blank</NoTracksOnDisk>
+			<mediaType>Media type: %1</mediaType>
+			<TrackLength>Track length is %1 sectors</TrackLength>
+			<TracksCount>Tracks count: %1</TracksCount>
+			<WritingTrack>Writing track %1, track length is %2 sectors</WritingTrack>
+			<DiskReadingStopped>Reading stopped at %1</DiskReadingStopped>
+			<TrackReadingStopped>Reading stopped at %1, resuming with next track</TrackReadingStopped>
+		</DiskToISO>
+		<FolderToISO>
+			<ScanningFolder>Scanare director sursă...</ScanningFolder>
+			<DirectorySize>Dimensiunea directorului este %1</DirectorySize>
+			<WritingISOFile>Scriu fișier ISO...</WritingISOFile>
+			<SkippingBigFile>Sar peste fișierul '%1' deoarece este mai mare de 4 GB</SkippingBigFile>
+			<SkippingFile>Sar peste fișierul '%1'.</SkippingFile>
+			<BigFileWarning>Fișierul '%1' este mai mare de 4 GB și nu va fi disponibil în sistemul de fișiere ISO 9660.</BigFileWarning>
+			<NestedDirectoriesLimitWarning>Directorul sursă este mai mult de %1 sub-sub directoare. Unele fișiere vor fi sărite.</NestedDirectoriesLimitWarning>
+			<UnableToOpenFile>Nu pot deschide pentru citire fișierul '%1'.</UnableToOpenFile>
+			<NoExistingFolder>The folder %1 doesn't exist</NoExistingFolder>
+		</FolderToISO>
+		<UniversalConverter>
+			<AudioCDWarning>Imaginea pare a fi o imagine a unui Audio CD %1, convertirea în ISO nu este posibilă.</AudioCDWarning>
+			<NotValidImage>Eroare: Fișierul selectat nu conșine o imagine CD/DVD validă</NotValidImage>
+			<CannotFindSignature>Eroare: nu pot găsi semnătura ISO_9660, am ajuns la limita de 5 MB.</CannotFindSignature>
+			<MultiSessionImageDetected>Multi-session disk image detected</MultiSessionImageDetected>
+			<MultiSessionNotSupported>The disk image is a multi-session disk image. Such images are not supported.</MultiSessionNotSupported>
+		</UniversalConverter>
+		<NrgConverter>
+			<NrgParsingError>NRG parsing error, please contact support for assistance</NrgParsingError>
+			<NoSessionsFound>No NRG sessions detected, please contact support for assistance</NoSessionsFound>
+		</NrgConverter>
+		<ExtractISO>
+			<LoadingImage>Incarc fișier imagine...</LoadingImage>
+			<ChooseISOFS>Există multiple sisteme de fișiere în acest ISO, selectați pe care din ele o voi extrage:</ChooseISOFS>
+			<ChooseISOFSCaption>Alege sistem de fișiere</ChooseISOFSCaption>
+			<ImageFound>%1 găsită</ImageFound>
+			<InvalidISO>Acest fișier nu este o imagine ISO validă sau nu este suportată momentan.</InvalidISO>
+		</ExtractISO>
+		<UIFConverter>
+			<UsingZlib>Folosesc dezarhivare zlibn</UsingZlib>
+			<UsingLZMA>Folosesc dezarhivare Lzma (de Igor Pavlov)</UsingLZMA>
+			<MixedImageFound>Am găsit o imagine ce conține mai multe tipuri %1, dezarhivez într-un director temporar...</MixedImageFound>
+			<UnpackingImage>Dezarhivez imagine...</UnpackingImage>
+		</UIFConverter>
+		<DebExtract>
+			<NotValidDeb>Acest fișier nu este o arhivă Debian (Ubuntu) Linux</NotValidDeb>
+		</DebExtract>
+		<RpmExtract>
+			<PackageOpened>Pachet deschis %1</PackageOpened>
+			<DecompressingPayload>Dezarhivez %1 într-un director temporar...</DecompressingPayload>
+			<UnpackingArchive>Dezarhivez...</UnpackingArchive>
+		</RpmExtract>
+		<DMG>
+			<ConvertingDmgToISO>Convertesc DMG în HFS+ ISO...</ConvertingDmgToISO>
+			<Writing>Scriu %1...</Writing>
+			<ExtractingMainPartition>Extrag partiția DMG principală într-un director temporar, va dura ceva timp - așteptați...</ExtractingMainPartition>
+			<NoVolumeFound>Nu am găsit nici un volum, caut un sistem de fișiere HFS+...</NoVolumeFound>
+			<ExtractingVolume>Extrag volumul DMG (%1)...</ExtractingVolume>
+			<CorruptedOrPasswordProtected>Eroare: imagine DMG coruptă sau protejată cu parolă</CorruptedOrPasswordProtected>
+			<XarArchiveDetected>DMG file is actually a XAR archive (normally with actual DMG file inside) that can be only extracted. Please choose extract operation to proceed</XarArchiveDetected>
+			<openedAsMessage>The file is opened as %1</openedAsMessage>
+			<DmgDisk>DMG disk image</DmgDisk>
+			<GPTDisk>GPT disk</GPTDisk>
+			<MBRDisk>Apple disk</MBRDisk>
+			<HFSVolume>HFS+ volume</HFSVolume>
+			<readingFileSystem>Reading %1 file system...</readingFileSystem>
+			<messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
+			<messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
+		</DMG>
+		<PDIConverter>
+			<InvalidOrBrokenImage>Imagine InstantCopy PDI invalidă sau alterată</InvalidOrBrokenImage>
+		</PDIConverter>
+		<ISZConverter>
+			<CompressionNone>Metodă de comprimare: nici una</CompressionNone>
+			<WarningPassword>O parolă incorectă va rezulta într-un fișier incorect.</WarningPassword>
+			<ImageIsSegmented>Fișierul ISZ este segmentat</ImageIsSegmented>
+		</ISZConverter>
+		<ArchiveConverter>
+			<ReadingArchive>Reading archive...</ReadingArchive>
+			<RemovingTempFiles>Removing temporary files...</RemovingTempFiles>
+			<ExtractError>Unable to extract %1, error %2</ExtractError>
+		</ArchiveConverter>
+		<TarUnpacker>
+			<SinglePackedFileFound>Single packed file detected: %1, unpacking...</SinglePackedFileFound>
+		</TarUnpacker>
+		<XarUnpacker>
+			<ReadingTOC>Reading table of contents (%1 bytes)...</ReadingTOC>
+			<NestedArchiveFound>Extracted file '%1' can be unpacked separately as %2 archive (append extension manually)</NestedArchiveFound>
+		</XarUnpacker>
+	</StatusMessages>
+	<Misc>
+		<buttonOk>OK</buttonOk>
+		<buttonCancel>Anulează</buttonCancel>
+		<buttonClose>Închide</buttonClose>
+		<buttonYes>Yes</buttonYes>
+		<buttonNo>No</buttonNo>
+		<ProVersion>Versiunea profesională (PRO)</ProVersion>
+		<LiteVersion>Versiunea gratuită (Lite)</LiteVersion>
+	</Misc>
+	<ShellExtension>
+		<!-- This section describes Windows context menus -->
+		<ConvertToISO>Convertește în "%s"</ConvertToISO>
+		<ConvertToISOInfo>Convertește fișier imagine disc în fișier format ISO</ConvertToISOInfo>
+		<Extract>Extrage conținut în "%s"</Extract>
+		<ExtractInfo>Extrage conținut din fișier imagine disc</ExtractInfo>
+		<CreateISOFromFolder>Crează "%s"</CreateISOFromFolder>
+		<CreateISOFromFolderInfo>Crează un fișier imagine ISO cu conținutul acestui director și cu setările implicite</CreateISOFromFolderInfo>
+		<CreateISOFromFolderWithOptions>Crează "%s" cu setările...</CreateISOFromFolderWithOptions>
+		<CreateISOFromFolderWithOptionsInfo>Crează un fișier imagine ISO specificând setările referitoare la sistemul de fișiere și eticheta volumului</CreateISOFromFolderWithOptionsInfo>
+		<CreateISOFromDisk>Crează un fișier imagine ISO din acest disc</CreateISOFromDisk>
+		<CreateISOFromDiskInfo>Crează un fișier imagine ISO a unei unități optice selectate</CreateISOFromDiskInfo>
+		<CreateBINCUEFromDisk>Create BIN/CUE image of this disk</CreateBINCUEFromDisk>
+		<CreateBINCUEFromDiskInfo>Create BIN (raw) image of a selected optical disk and its corresponding CUE sheet file</CreateBINCUEFromDiskInfo>
+	</ShellExtension>
+	<UpdateChecker>
+		<ReleasedOn>released on %1</ReleasedOn>
+		<CheckForUpdates>Check for updates...</CheckForUpdates>
+		<NewVersionAvailable>A new version of %1 is available!</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 is now available - you have %3. Would you like to download it now?</NewVersionAvailableText>
+		<UpdateAlertTitle>Software Update</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Release Notes:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Remind Me Later</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Skip This Version</UpdateAlertSkip>
+		<UpdateAlertInstall>Install Update</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Check for updates automatically</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>You're up to date!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 is currently the newest version available.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>An error occurred while downloading the update. Please try again later.</MessageErrorConnect>
+		<MessageErrorParse>An error occurred while parsing the update feed.</MessageErrorParse>
+		<UpdateProgressTitle>Updating %1</UpdateProgressTitle>
+		<UpdateProgressCancel>Cancel</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Install and Relaunch</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Downloading update...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Extracting update...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Ready to Install</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 of %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+	<LetsMoveMac>
+		<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+	</LetsMoveMac>
+</LanguageStrings>

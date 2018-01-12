@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.1" Author="Ioannis Pagonaris (31-01-2011)">
+	<MainWindow>
+		<mnuFile>Αρχείο</mnuFile>
+		<mnuFileExit>Έξοδος</mnuFileExit>
+		<mnuHelp>Βοήθεια</mnuHelp>
+		<mnuHelpDocumentation>Τεκμηρίωση...</mnuHelpDocumentation>
+		<mnuHelpPurchase>Αγορά έκδοσης Pro...</mnuHelpPurchase>
+		<mnuHelpEnterCode>Εισαγωγή κωδικού καταχώρησης...</mnuHelpEnterCode>
+		<mnuHelpAbout>Πληροφορίες...</mnuHelpAbout>
+		<mnuHomePage>Αρχική σελίδα AnyToISO...</mnuHomePage>
+		<menuPreferences>Προτιμήσεις...</menuPreferences>
+		<newVersionAvailable>Διαθέσιμο AnyToISO %1!</newVersionAvailable>
+		<newVersionUpdate>Αναβάθμιση</newVersionUpdate>
+		<buttonStop>Τερματισμός</buttonStop>
+		<tabConvertExtract>
+			<Name>Εξαγωγή/Μετατροπή αρχείου σε ISO</Name>
+			<SourceFileName>Προέλευση αρχείου ειδώλου:</SourceFileName>
+			<ConvertToISO>Μετατροπή σε αρχείο ISO:</ConvertToISO>
+			<ExtractToFolder>Εξαγωγή σε φάκελο:</ExtractToFolder>
+			<buttonOpenImage>Άνοιγμα ειδώλου...</buttonOpenImage>
+			<buttonOpenImageText>Άνοιγμα αρχείου ειδώλου CD/DVD</buttonOpenImageText>
+			<AllSupportedFiles>Όλοι οι υποστηριζόμενοι τύποι</AllSupportedFiles>
+			<buttonOpenISO>Άνοιγμα ISO...</buttonOpenISO>
+			<buttonOpenISOText>Επιλογή αρχείου ISO</buttonOpenISOText>
+			<buttonOpenISOFilter>Αρχεία ISO (*.iso)</buttonOpenISOFilter>
+			<buttonOpenFolder>Επιλογή φακέλου...</buttonOpenFolder>
+			<buttonOpenFolderText>Άνοιγμα φακέλου προορισμού</buttonOpenFolderText>
+			<buttonConvert>Μετατροπή!</buttonConvert>
+			<buttonExtract>Εξαγωγή!</buttonExtract>
+			<labelFileSize>Μέγεθος αρχείου</labelFileSize>
+			<labelFileFormat>τύπος</labelFileFormat>
+			<labelOpenOrDragFile>Επιλέξτε &lt;b&gt;άνοιγμα&lt;/b&gt; ή &lt;b&gt;σύρετε&lt;/b&gt; ένα είδωλο για μετατροπή ή εξαγωγή</labelOpenOrDragFile>
+		</tabConvertExtract>
+		<tabDiskToISO>
+			<Name>Δίσκος CD/DVD σε ISO</Name>
+			<SourceDrive>Συσκευή προέλευσης:</SourceDrive>
+			<OutputISO>Προορισμός αρχείου ISO:</OutputISO>
+			<checkCreateBinCue>Create BIN/CUE image</checkCreateBinCue>
+			<buttonRefresh>Ανανέωση</buttonRefresh>
+			<buttonBrowseISO>Εξερεύνηση...</buttonBrowseISO>
+			<NoDiskInserted>Δεν υπάρχει δίσκος CD/DVD</NoDiskInserted>
+			<buttonMakeISO>Δημιουργία ISO</buttonMakeISO>
+			<buttonMakeBinCue>Create BIN/CUE image</buttonMakeBinCue>
+			<chooseISOOrBinCueImage>Please select ISO or BIN/CUE image file</chooseISOOrBinCueImage>
+			<isoFilesFilter>ISO Files</isoFilesFilter>
+			<binCueSheetFilter>BIN Files (with CUE sheet)</binCueSheetFilter>
+		</tabDiskToISO>
+		<tabFolderToISO>
+			<Name>Φάκελος σε ISO</Name>
+			<SourceFolder>Φάκελος Προέλευσης:</SourceFolder>
+			<DestinationISO>Προορισμός αρχείου ISO:</DestinationISO>
+			<VolumeLabel>Ετικέτα Τόμου:</VolumeLabel>
+			<buttonBrowseForFolder>Εξερεύνηση για φάκελο...</buttonBrowseForFolder>
+			<buttonChooseISO>Επιλογή ISO...</buttonChooseISO>
+			<buttonOptions>Επιλογές...</buttonOptions>
+			<buttonMakeISO>Δημιουργία ISO</buttonMakeISO>
+			<ISOCreationOptions>Επιλογές Δημιουργίας ISO</ISOCreationOptions>
+			<Settings>Ρυθμίσεις</Settings>
+			<FileSystemsInsideISO>Συστήματα Αρχείων:</FileSystemsInsideISO>
+			<buttonDefault>Προεπιλογή</buttonDefault>
+			<ISO9660Option1>Ονόματα αρχείων DOS 8.3 (11)</ISO9660Option1>
+			<ISO9660Option2>Longer names (180)</ISO9660Option2>
+			<ISO9660Option3>ISO 9660:1999</ISO9660Option3>
+			<JolietOption1>Στάνταρ ονόματα (64)</JolietOption1>
+			<JolietOption2>Long names (110)</JolietOption2>
+		</tabFolderToISO>
+	</MainWindow>
+	<LiteVersionDialog>
+		<LiteVersionLimitText>Η Lite έκδοση AnyToISO λειτουργεί &lt;b&gt;μόνο με είδωλα CD&lt;/b&gt; (έως 870 MB). Για να μπορεί να λειτουργεί με μεγαλύτερα μεγέθη (DVD και άλλα) θα πρέπει να &lt;a href="purchase"&gt;αγοράσετε την Έκδοση Professional&lt;/a&gt;. Μετά την αγορά θα λάβετε τον κωδικό καταχώρησης &lt;a href="unlock"&gt;που ξεκλειδώνει το πρόγραμμα&lt;/a&gt;.</LiteVersionLimitText>
+		<buttonPurchasePro>Αγορά έκδοσης Pro...</buttonPurchasePro>
+	</LiteVersionDialog>
+	<EnterKeyDialog>
+		<Caption>Εισαγωγή κλειδιού καταχώρησης</Caption>
+		<EnterKeyToUpgradeText>Παρακαλώ εισάγετε το κλειδί καταχώρησης για αναβάθμιση στην έκδοση AnyToISO Pro.</EnterKeyToUpgradeText>
+		<RegName>Όνομα καταχώρησης:</RegName>
+		<RegCode>Κωδικός καταχώρησης:</RegCode>
+	</EnterKeyDialog>
+	<AboutDialog>
+		<Caption>Πληροφορίες για το AnyToISO</Caption>
+		<Website>Ιστοσελίδα:</Website>
+		<Support>Υποστήριξη:</Support>
+		<RunningAs>Το πρόγραμμα εκτελείται ως:</RunningAs>
+		<CopyRight>This computer program is protected by copyright law and international treaties. Unauthorized duplication or distribution of this program, or any portion of it, may result in severe civil or criminal penalties.</CopyRight>
+		<buttonPurchasePro>Αγορά έκδοσης Pro...</buttonPurchasePro>
+	</AboutDialog>
+	<PreferencesDialog>
+		<Caption>Προτιμήσεις</Caption>
+		<Language>Γλώσσα:</Language>
+		<CheckForNewVersions>Έλεγχος νέας έκδοσης κατα την εκκίνηση</CheckForNewVersions>
+		<ShellExtension>Ενσωμάτωση στην Εξερεύνηση των Windows</ShellExtension>
+		<ShellExtensionInfo>Προσθήκη μενού για οπτικούς δίσκους, φακέλους και αρχεία για τύπους που υποστηρίζονται</ShellExtensionInfo>
+	</PreferencesDialog>
+	<PasswordDialog>
+		<Caption>Απαιτείται κωδικός</Caption>
+		<FileIsProtected>Το αρχείο είναι κρυπτογραφημένο. Για να μπορέσει να αποκρυπτογραφηθεί παρακαλώ εισάγετε τον κωδικό:</FileIsProtected>
+		<InvalidPassword>Invalid password</InvalidPassword>
+	</PasswordDialog>
+	<Messages>
+		<Warning>Προσοχή</Warning>
+		<Question>Ερώτηση</Question>
+		<NotEnoughDiskSpace>Φαίνεται ότι δεν υπάρχει αρκετός ελεύθερος χώρος στον επιλεγμένο δίσκο (μόνο %1). \n\nΘέλετε να προχωρήσω?</NotEnoughDiskSpace>
+		<ISOAlreadyExists>Το αρχείο ISO\n%1\nυπάρχει ήδη στη θέση προορισμού, θέλετε να το αντικαταστήσω?</ISOAlreadyExists>
+		<FolderAlreadyExists>Ο φάκελος προορισμού\n%1\nυπάρχει ήδη, θέλετε να αντικαταστήσω όλα τα υπάρχοντα αρχεία?</FolderAlreadyExists>
+		<RestartProgram>Για να ολοκληρωθεί η καταχώρηση πρέπει να επανεκκινήσετε το πρόγραμμα. \n\nΘέλετε να το κάνω τώρα?</RestartProgram>
+		<CancelOperation>Είστε σίγουροι ότι θέλετε να τερματιστεί η τρέχουσα εργασία?</CancelOperation>
+	</Messages>
+	<StatusMessages>
+		<CheckingSourceImage>Έλεγχος ειδώλου εισόδου...</CheckingSourceImage>
+		<Converting>Μετατροπή...</Converting>
+		<Extracting>Εξαγωγή...</Extracting>
+		<ExtractionFailed>Extract operation failed</ExtractionFailed>
+		<Unpacking>Αποσυμπίεση...</Unpacking>
+		<ConvertingToTemporaryISO>Μετατροπή σε προσωρινό αρχείο ISO...</ConvertingToTemporaryISO>
+		<ProgressBytesWritten>%1 γράφτηκαν</ProgressBytesWritten>
+		<Track>Track</Track>
+		<ISOImageTypeFound>Βρέθηκε είδωλο ISO (τύπου %1)</ISOImageTypeFound>
+		<CannotOpenSourceFile>Δεν μπορεί να ανοιχθεί το αρχείο προέλευσης.</CannotOpenSourceFile>
+		<CannotOpenDestFile>Δεν μπορεί να ανοιχθεί το αρχείο προορισμού.</CannotOpenDestFile>
+		<OperationTerminated>Η εργασία τερματίστηκε από το χρήστη.</OperationTerminated>
+		<OperationCompleted>Η εργασία ολοκληρώθηκε.</OperationCompleted>
+		<ClickToOpenISOInExplorer>Πατήστε &lt;a href="_open_local_file"&gt;εδώ&lt;/a&gt; για να ανοίξετε το αρχείο ISO στην Εξερεύνηση των Windows</ClickToOpenISOInExplorer>
+		<ClickToMountISOInFinder>Πατήστε &lt;a href="_open_local_file"&gt;εδώ&lt;/a&gt; για προσάρτηση του αρχείου ISO στον Finder</ClickToMountISOInFinder>
+		<ClickToOpenOutFolder>Πατήστε &lt;a href="_open_local_file"&gt;εδώ&lt;/a&gt; για να ανοίξετε το φάκελο προορισμού</ClickToOpenOutFolder>
+		<DiskToISO>
+			<OpeningDevice>Άνοιγμα μέσου της συσκευής, παρακαλώ περιμένετε...</OpeningDevice>
+			<TotalDataSize>Το συνολικό μέγεθος δεδομένων είναι %1</TotalDataSize>
+			<CreatingISO>Δημιουργείται ISO...</CreatingISO>
+			<CannotCreateFromAudio>Δεν μπορείτε να δημιουργήσετε αρχείο ISO από ένα δίσκο πολλών ενοτήτων ή CD Ήχου, παρακαλώ επικοινωνήστε με την υποστήριξη για βοήθεια.</CannotCreateFromAudio>
+			<PleaseUseBinCue>Please use BIN/CUE image for such disks</PleaseUseBinCue>
+			<BlankDiskDetected>Ανιχνεύθηκε κένός δίσκος CD/DVD</BlankDiskDetected>
+			<DiskNotReady>Ο δίσκος CD/DVD δεν είναι έτοιμος</DiskNotReady>
+			<CannotOpenDevice>Δεν μπορεί να ανοιχτεί η συσκευή (%1)</CannotOpenDevice>
+			<ReadError>Σφάλμα ανάγνωσης %1, παρακαλώ επικοινωνήστε με την υποστήριξη για βοήθεια</ReadError>
+			<DeviceIsCopyProtected>Αυτή η συσκευή διαθέτει προστασία αντιγραφής και ο τομέας είναι κρυπτογραφημένος. Δεν μπορώ να συνεχίσω.</DeviceIsCopyProtected>
+			<ISOCreationFailed>Η δημιουργία ISO απέτυχε</ISOCreationFailed>
+			<BinCueCreationFailed>BIN/CUE image creation failed</BinCueCreationFailed>
+			<CannotReadDiskToc>Failed to read TOC (table of contents) of the disk</CannotReadDiskToc>
+			<CannotReadDisk>Cannot read disk, error: %1</CannotReadDisk>
+			<DiskNotPresent>Disk not present or unknown media type</DiskNotPresent>
+			<NoTracksOnDisk>There are no tracks on the disk, it's probably blank</NoTracksOnDisk>
+			<mediaType>Media type: %1</mediaType>
+			<TrackLength>Track length is %1 sectors</TrackLength>
+			<TracksCount>Tracks count: %1</TracksCount>
+			<WritingTrack>Writing track %1, track length is %2 sectors</WritingTrack>
+			<DiskReadingStopped>Reading stopped at %1</DiskReadingStopped>
+			<TrackReadingStopped>Reading stopped at %1, resuming with next track</TrackReadingStopped>
+		</DiskToISO>
+		<FolderToISO>
+			<ScanningFolder>Σάρωση φακέλου προέλευσης...</ScanningFolder>
+			<DirectorySize>Το μέγεθος του φακέλου είναι %1</DirectorySize>
+			<WritingISOFile>Δημιουργία αρχείου ISO...</WritingISOFile>
+			<SkippingBigFile>Παράλειψη αρχείου '%1'.Είναι μεγαλύτερο των 4 GB</SkippingBigFile>
+			<SkippingFile>Παράλειψη αρχείου '%1'.</SkippingFile>
+			<BigFileWarning>Το αρχείο '%1' είναι μεγαλύτερο των 4 GB και δε θα είναι ορατό σε σύστημα αρχείων ISO 9660.</BigFileWarning>
+			<NestedDirectoriesLimitWarning>Η δομή καταλόγου είναι μεγαλύτερη από %1 επίπεδα, μερικά αρχεία και φάκελοι θα παραλειφθούν.</NestedDirectoriesLimitWarning>
+			<UnableToOpenFile>Αδυναμία ανοίγματος αρχείου '%1' για ανάγνωση.</UnableToOpenFile>
+			<NoExistingFolder>The folder %1 doesn't exist</NoExistingFolder>
+		</FolderToISO>
+		<UniversalConverter>
+			<AudioCDWarning>Το αρχείο μοιάζει να είναι είδωλο CD Ήχου %1, η μετατροπή σε ISO δεν είναι δυνατή.</AudioCDWarning>
+			<NotValidImage>Σφάλμα: Δεν αποτελεί έγκυρο είδωλο CD/DVD</NotValidImage>
+			<CannotFindSignature>Σφάλμα: Δεν μπορεί να βρεθεί υπογραφή ISO_9660, έφτασε το όριο των 5 MB</CannotFindSignature>
+			<MultiSessionImageDetected>Multi-session disk image detected</MultiSessionImageDetected>
+			<MultiSessionNotSupported>The disk image is a multi-session disk image. Such images are not supported.</MultiSessionNotSupported>
+		</UniversalConverter>
+		<NrgConverter>
+			<NrgParsingError>NRG parsing error, please contact support for assistance</NrgParsingError>
+			<NoSessionsFound>No NRG sessions detected, please contact support for assistance</NoSessionsFound>
+		</NrgConverter>
+		<ExtractISO>
+			<LoadingImage>Φόρτωση ειδώλου...</LoadingImage>
+			<ChooseISOFS>Υπάρχουν πολλαπλά συστήματα αρχείων σε αυτό το είδωλο ISO, παρακαλώ επιλέξτε ένα από αυτά για εξαγωγή:</ChooseISOFS>
+			<ChooseISOFSCaption>Επιλογή συστήματος αρχείων</ChooseISOFSCaption>
+			<ImageFound>Βρέθηκε είδωλο %1</ImageFound>
+			<InvalidISO>Το αρχείο δεν αποτελεί έγκυρο είδωλο ISO ή προς το παρών δεν υποστηρίζεται</InvalidISO>
+		</ExtractISO>
+		<UIFConverter>
+			<UsingZlib>Χρησιμοποιείται αποσυμπίεση zlib</UsingZlib>
+			<UsingLZMA>Χρησιμοποιείται αποσυμπίεση Lzma του Igor Pavlov</UsingLZMA>
+			<MixedImageFound>Βρέθηκε είδωλο μεικτού τύπου %1, αποσυμπίεση σε προσωρινό αρχείο...</MixedImageFound>
+			<UnpackingImage>Αποσυμπίεση ειδώλου...</UnpackingImage>
+		</UIFConverter>
+		<DebExtract>
+			<NotValidDeb>Μη έγκυρος τύπος συμπιεσμένου αρχείου Debian (Ubuntu) Linux</NotValidDeb>
+		</DebExtract>
+		<RpmExtract>
+			<PackageOpened>Το πακέτο %1 ανοίχθηκε</PackageOpened>
+			<DecompressingPayload>Αποσυμπίεση ωφέλιμης πληροφορίας του %1 σε προσωρινό αρχείο...</DecompressingPayload>
+			<UnpackingArchive>Αποσυμπίεση αρχείου...</UnpackingArchive>
+		</RpmExtract>
+		<DMG>
+			<ConvertingDmgToISO>Μετατροπή DMG σε HFS+ ISO...</ConvertingDmgToISO>
+			<Writing>Εγγραφή %1...</Writing>
+			<ExtractingMainPartition>Εξαγωγή κύριου διαμερίσματος DMG σε προσωρινό αρχείο, αυτό μπορεί να διαρκέσει λίγη ώρα - παρακαλώ περιμένετε...</ExtractingMainPartition>
+			<NoVolumeFound>Δε βρέθηκε τόμος, έλεγχος για σύστημα αρχείων HFS+...</NoVolumeFound>
+			<ExtractingVolume>Εξαγωγή DMG τόμου (%1)...</ExtractingVolume>
+			<CorruptedOrPasswordProtected>Σφάλμα: αρχείο DMG κατεστραμμένο ή προστατευμένο με κωδικό πρόσβασης</CorruptedOrPasswordProtected>
+			<XarArchiveDetected>DMG file is actually a XAR archive (normally with actual DMG file inside) that can be only extracted. Please choose extract operation to proceed</XarArchiveDetected>
+			<openedAsMessage>The file is opened as %1</openedAsMessage>
+			<DmgDisk>DMG disk image</DmgDisk>
+			<GPTDisk>GPT disk</GPTDisk>
+			<MBRDisk>Apple disk</MBRDisk>
+			<HFSVolume>HFS+ volume</HFSVolume>
+			<readingFileSystem>Reading %1 file system...</readingFileSystem>
+			<messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
+			<messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
+		</DMG>
+		<PDIConverter>
+			<InvalidOrBrokenImage>Μη έγκυρο ή προβληματικό αρχείο PDI του InstantCopy</InvalidOrBrokenImage>
+		</PDIConverter>
+		<ISZConverter>
+			<CompressionNone>Μέθοδος συμπίεσης: καμία</CompressionNone>
+			<WarningPassword>Παρέχοντας μη έγκυρο κωδικό πρόσβασης το αρχείο εξόδου θα έχει μη έγκυρη μορφή</WarningPassword>
+			<ImageIsSegmented>Το αρχείο ISZ είναι τεμαχισμένο</ImageIsSegmented>
+		</ISZConverter>
+		<ArchiveConverter>
+			<ReadingArchive>Reading archive...</ReadingArchive>
+			<RemovingTempFiles>Removing temporary files...</RemovingTempFiles>
+			<ExtractError>Unable to extract %1, error %2</ExtractError>
+		</ArchiveConverter>
+		<TarUnpacker>
+			<SinglePackedFileFound>Single packed file detected: %1, unpacking...</SinglePackedFileFound>
+		</TarUnpacker>
+		<XarUnpacker>
+			<ReadingTOC>Reading table of contents (%1 bytes)...</ReadingTOC>
+			<NestedArchiveFound>Extracted file '%1' can be unpacked separately as %2 archive (append extension manually)</NestedArchiveFound>
+		</XarUnpacker>
+	</StatusMessages>
+	<Misc>
+		<buttonOk>Εντάξει</buttonOk>
+		<buttonCancel>Ακύρωση</buttonCancel>
+		<buttonClose>Κλείσιμο</buttonClose>
+		<buttonYes>Yes</buttonYes>
+		<buttonNo>No</buttonNo>
+		<ProVersion>Έκδοση Pro</ProVersion>
+		<LiteVersion>Έκδοση Lite</LiteVersion>
+	</Misc>
+	<ShellExtension>
+		<!-- This section describes Windows context menus -->
+		<ConvertToISO>Μετατροπή σε "%s"</ConvertToISO>
+		<ConvertToISOInfo>Μετατροπή ειδώλου σε μορφή ISO</ConvertToISOInfo>
+		<Extract>Εξαγωγή σε "%s"</Extract>
+		<ExtractInfo>Εξαγωγή ειδώλου</ExtractInfo>
+		<CreateISOFromFolder>Δημιουργία "%s"</CreateISOFromFolder>
+		<CreateISOFromFolderInfo>Δημιουργία αρχείου ISO του φακέλου με προεπιλεγμένες ρυθμίσειςCreate ISO image of this folder with default options</CreateISOFromFolderInfo>
+		<CreateISOFromFolderWithOptions>Δημιουργία "%s" με επιλογές...</CreateISOFromFolderWithOptions>
+		<CreateISOFromFolderWithOptionsInfo>Δημιουργία αρχείου ISO του φακέλου με προσδιορισμό συστήματος αρχείων και ετικέτας τόμου</CreateISOFromFolderWithOptionsInfo>
+		<CreateISOFromDisk>Δημιουργία αρχείου ISO από αυτό το δίσκο</CreateISOFromDisk>
+		<CreateISOFromDiskInfo>Δημιουργία αρχείου ISO από έναν επιλεγμένο οπτικό δίσκο</CreateISOFromDiskInfo>
+		<CreateBINCUEFromDisk>Create BIN/CUE image of this disk</CreateBINCUEFromDisk>
+		<CreateBINCUEFromDiskInfo>Create BIN (raw) image of a selected optical disk and its corresponding CUE sheet file</CreateBINCUEFromDiskInfo>
+	</ShellExtension>
+	<UpdateChecker>
+		<ReleasedOn>κυκλοφόρησε στις %1</ReleasedOn>
+		<CheckForUpdates>Έλεγχος για ενημερώσεις...</CheckForUpdates>
+		<NewVersionAvailable>Μια νεότερη έκδοση του %1 είναι διαθέσιμη!</NewVersionAvailable>
+		<NewVersionAvailableText>Το %1 %2 είναι τώρα διαθέσιμο - εσείς έχετε %3. Θέλετε να κάνετε ενημέρωση τώρα;</NewVersionAvailableText>
+		<UpdateAlertTitle>Ενημέρωση Λογισμικού</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Σημειώσεις Ενημέρωσης:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Υπενθύμιση Αργότερα</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Παράλειψη Ενημέρωσης</UpdateAlertSkip>
+		<UpdateAlertInstall>Εγκατάσταση Ενημέρωσης</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Αυτόματος έλεγχος ενημερώσεων</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>Η εφαρμογή είναι ενημερωμένη!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 είναι προς το παρόν η νεότερη έκδοση που διατίθεται.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>Παρουσιάστηκε σφάλμα κατά τη λήψη της ενημέρωσης. Παρακαλούμε δοκιμάστε ξανά αργότερα.</MessageErrorConnect>
+		<MessageErrorParse>Παρουσιάστηκε σφάλμα κατά την ανάλυση της ροής ενημέρωσης.</MessageErrorParse>
+		<UpdateProgressTitle>Ενημέρωση %1</UpdateProgressTitle>
+		<UpdateProgressCancel>Άκυρο</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Εγκατάσταση και Επανεκκίνηση</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Λήψη ενημέρωσης...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Αποσυμπίεση ενημέρωσης...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Έτοιμοι προς Εγκατάσταση</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 από %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+	<LetsMoveMac>
+		<kStrMoveApplicationCouldNotMove>Αδύνατη η μετακίνηση στο φάκελο «Εφαρμογές»</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>Μετακίνηση στις «Εφαρμογές»</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>Να μεταφερθεί στο φάκελο «Εφαρμογές» του κυρίως φακέλου χρήστη σας;</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>Θα επιθυμούσατε το %1 να μεταφερθεί μόνο του στο φάκελο «Εφαρμογές»;</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>Μετακίνηση στο φάκελο «Εφαρμογές»</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>Να μην μεταφερθεί</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Σημειωτέον ότι θα χρειαστεί ο κωδικός πρόσβασης διαχειριστή.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Αυτό θα διατηρήσει το φάκελο με τις «Λήψεις» σας πιο τακτοποιημένο.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+	</LetsMoveMac>
+</LanguageStrings>

@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.0" Author="Nardog">
+	<MainWindow>
+		<mnuFile>ファイル</mnuFile>
+		<mnuFileExit>終了</mnuFileExit>
+		<mnuHelp>ヘルプ</mnuHelp>
+		<mnuHelpDocumentation>ドキュメント...</mnuHelpDocumentation>
+		<mnuHelpPurchase>Pro バージョンの購入...</mnuHelpPurchase>
+		<mnuHelpEnterCode>登録コードの入力...</mnuHelpEnterCode>
+		<mnuHelpAbout>バージョン情報...</mnuHelpAbout>
+		<mnuHomePage>AnyToISO のホーム ページ...</mnuHomePage>
+		<menuPreferences>環境設定...</menuPreferences>
+		<newVersionAvailable>AnyToISO %1 が利用可能です!</newVersionAvailable>
+		<newVersionUpdate>更新</newVersionUpdate>
+		<buttonStop>中止</buttonStop>
+		<tabConvertExtract>
+			<Name>ISO へ展開/変換するファイル</Name>
+			<SourceFileName>ソース イメージ ファイル:</SourceFileName>
+			<ConvertToISO>ISO イメージへ変換:</ConvertToISO>
+			<ExtractToFolder>フォルダーへ展開:</ExtractToFolder>
+			<buttonOpenImage>イメージを開く...</buttonOpenImage>
+			<buttonOpenImageText>CD/DVD イメージ ファイルを開く</buttonOpenImageText>
+			<AllSupportedFiles>すべてのサポートされているファイル</AllSupportedFiles>
+			<buttonOpenISO>ISO を開く...</buttonOpenISO>
+			<buttonOpenISOText>結果となる ISO ファイルの選択</buttonOpenISOText>
+			<buttonOpenISOFilter>ISO ファイル (*.iso)</buttonOpenISOFilter>
+			<buttonOpenFolder>フォルダーの選択...</buttonOpenFolder>
+			<buttonOpenFolderText>展開先のフォルダーを開きます</buttonOpenFolderText>
+			<buttonConvert>変換!</buttonConvert>
+			<buttonExtract>展開!</buttonExtract>
+			<labelFileSize>ファイル サイズ</labelFileSize>
+			<labelFileFormat>フォーマット</labelFileFormat>
+			<labelOpenOrDragFile>変換または展開するイメージを&lt;b&gt;開く&lt;/b&gt;か&lt;b&gt;ドラッグ&lt;/b&gt;します</labelOpenOrDragFile>
+		</tabConvertExtract>
+		<tabDiskToISO>
+			<Name>CD/DVD ディスクから ISO へ</Name>
+			<SourceDrive>ソース ドライブ:</SourceDrive>
+			<OutputISO>ISO ファイルの場所:</OutputISO>
+			<checkCreateBinCue>Create BIN/CUE image</checkCreateBinCue>
+			<buttonRefresh>更新</buttonRefresh>
+			<buttonBrowseISO>参照...</buttonBrowseISO>
+			<NoDiskInserted>CD/DVD ディスクが挿入されていません</NoDiskInserted>
+			<buttonMakeISO>ISO の作成</buttonMakeISO>
+			<buttonMakeBinCue>Create BIN/CUE image</buttonMakeBinCue>
+			<chooseISOOrBinCueImage>Please select ISO or BIN/CUE image file</chooseISOOrBinCueImage>
+			<isoFilesFilter>ISO Files</isoFilesFilter>
+			<binCueSheetFilter>BIN Files (with CUE sheet)</binCueSheetFilter>
+		</tabDiskToISO>
+		<tabFolderToISO>
+			<Name>フォルダーから ISO へ</Name>
+			<SourceFolder>ソース フォルダー:</SourceFolder>
+			<DestinationISO>ISO ファイルの場所:</DestinationISO>
+			<VolumeLabel>ボリューム ラベル:</VolumeLabel>
+			<buttonBrowseForFolder>フォルダーの参照...</buttonBrowseForFolder>
+			<buttonChooseISO>ISO の選択...</buttonChooseISO>
+			<buttonOptions>オプション...</buttonOptions>
+			<buttonMakeISO>ISO の作成</buttonMakeISO>
+			<ISOCreationOptions>ISO の作成のオプション</ISOCreationOptions>
+			<Settings>設定</Settings>
+			<FileSystemsInsideISO>ファイル システム:</FileSystemsInsideISO>
+			<buttonDefault>既定</buttonDefault>
+			<ISO9660Option1>8.3 DOS ファイル名 (11)</ISO9660Option1>
+			<ISO9660Option2>さらに長い名前 (180)</ISO9660Option2>
+			<ISO9660Option3>ISO 9660:1999</ISO9660Option3>
+			<JolietOption1>標準の名前 (64)</JolietOption1>
+			<JolietOption2>長い名前 (110)</JolietOption2>
+		</tabFolderToISO>
+	</MainWindow>
+	<LiteVersionDialog>
+		<LiteVersionLimitText>AnyToISO の Lite バージョンは &lt;b&gt;CD イメージのみ&lt;/b&gt; (870 MB まで) で動作します。それ以上の大きいファイル (DVD など) で動作させるには &lt;a href="purchase"&gt;Professional バージョンを購入&lt;/a&gt;する必要があります。購入後は&lt;a href="unlock"&gt;ソフトウェアをロック解除する&lt;/a&gt;登録コードを取得します。</LiteVersionLimitText>
+		<buttonPurchasePro>Pro バージョンの購入...</buttonPurchasePro>
+	</LiteVersionDialog>
+	<EnterKeyDialog>
+		<Caption>登録コードの入力</Caption>
+		<EnterKeyToUpgradeText>AnyToISO の Pro バージョンへアップグレードするには登録の詳細を入力してください。</EnterKeyToUpgradeText>
+		<RegName>登録名:</RegName>
+		<RegCode>登録コード:</RegCode>
+	</EnterKeyDialog>
+	<AboutDialog>
+		<Caption>AnyToISO のバージョン情報</Caption>
+		<Website>Web サイト:</Website>
+		<Support>サポート:</Support>
+		<RunningAs>起動中のプログラム:</RunningAs>
+		<CopyRight>このコンピューター プログラムは著作権法および国際条約によって保護されています。このプログラム、またはその一部を無許可で複製または頒布すると、民事または刑事の厳しい処罰を受ける可能性があります。</CopyRight>
+		<buttonPurchasePro>Pro バージョンの購入...</buttonPurchasePro>
+	</AboutDialog>
+	<PreferencesDialog>
+		<Caption>環境設定</Caption>
+		<Language>インターフェイス言語:</Language>
+		<CheckForNewVersions>起動時に新しいバージョンをチェックする</CheckForNewVersions>
+		<ShellExtension>Windows Explorer shell integration</ShellExtension>
+		<ShellExtensionInfo>Add context menus for optical drives, folders and files of supported formats.</ShellExtensionInfo>
+	</PreferencesDialog>
+	<PasswordDialog>
+		<Caption>パスワードが必要です</Caption>
+		<FileIsProtected>ファイルは暗号化されています。複合化するにはパスワードを入力してください:</FileIsProtected>
+		<InvalidPassword>Invalid password</InvalidPassword>
+	</PasswordDialog>
+	<Messages>
+		<Warning>警告</Warning>
+		<Question>質問</Question>
+		<NotEnoughDiskSpace>選択されたドライブには十分な空きディスク領域がないようにみえます (残り %1)。\n\n続行しますか?</NotEnoughDiskSpace>
+		<ISOAlreadyExists>ISO ファイル\n%1\nは既に存在します、上書きしますか?</ISOAlreadyExists>
+		<FolderAlreadyExists>フォルダー\n%1\nは既に存在します、すべての同じ名前の既存のファイルを上書きしますか?</FolderAlreadyExists>
+		<RestartProgram>登録を完了するにはプログラムを再起動する必要があります。 \n\n今すぐ再起動しますか?</RestartProgram>
+		<CancelOperation>現在の操作を終了してもよろしいですか?</CancelOperation>
+	</Messages>
+	<StatusMessages>
+		<CheckingSourceImage>ソース イメージをチェックしています...</CheckingSourceImage>
+		<Converting>変換しています...</Converting>
+		<Extracting>展開しています...</Extracting>
+		<ExtractionFailed>Extract operation failed</ExtractionFailed>
+		<Unpacking>アンパックしています...</Unpacking>
+		<ConvertingToTemporaryISO>一時 ISO ファイルへ変換しています...</ConvertingToTemporaryISO>
+		<ProgressBytesWritten>%1 書き込みました</ProgressBytesWritten>
+		<Track>Track</Track>
+		<ISOImageTypeFound>ISO イメージ (種類 %1) が見つかりました</ISOImageTypeFound>
+		<CannotOpenSourceFile>ソース ファイルを開けません。</CannotOpenSourceFile>
+		<CannotOpenDestFile>ファイルを開けません。</CannotOpenDestFile>
+		<OperationTerminated>操作はユーザーによって終了されました。</OperationTerminated>
+		<OperationCompleted>操作が完了しました。</OperationCompleted>
+		<ClickToOpenISOInExplorer>エクスプローラーで出力 ISO ファイルを開くには&lt;a href="_open_local_file"&gt;ここ&lt;/a&gt;をクリックします</ClickToOpenISOInExplorer>
+		<ClickToMountISOInFinder>Finder で ISO をマウントするには&lt;a href="_open_local_file"&gt;ここ&lt;/a&gt;をクリックします</ClickToMountISOInFinder>
+		<ClickToOpenOutFolder>出力フォルダーを開くには&lt;a href="_open_local_file"&gt;ここ&lt;/a&gt;をクリックします</ClickToOpenOutFolder>
+		<DiskToISO>
+			<OpeningDevice>メディア デバイスを開いています、お待ちください...</OpeningDevice>
+			<TotalDataSize>合計データサイズは %1 です</TotalDataSize>
+			<CreatingISO>ISO を作成しています...</CreatingISO>
+			<CannotCreateFromAudio>マルチセッション ディスクまたはオーディオ ディスクの ISO イメージを作成できません、サポートに問い合わせてください。</CannotCreateFromAudio>
+			<PleaseUseBinCue>Please use BIN/CUE image for such disks</PleaseUseBinCue>
+			<BlankDiskDetected>空の CD/DVD ディスクが検出されました</BlankDiskDetected>
+			<DiskNotReady>CD/DVD ディスクが準備されていません</DiskNotReady>
+			<CannotOpenDevice>デバイスを開けません (%1)</CannotOpenDevice>
+			<ReadError>読み取りエラー %1 です、サポートに問い合わせてください</ReadError>
+			<DeviceIsCopyProtected>このデバイスは著作権保護されておりセクターは暗号化されています。続行できません。</DeviceIsCopyProtected>
+			<ISOCreationFailed>ISO の作成が失敗しました</ISOCreationFailed>
+			<BinCueCreationFailed>BIN/CUE image creation failed</BinCueCreationFailed>
+			<CannotReadDiskToc>Failed to read TOC (table of contents) of the disk</CannotReadDiskToc>
+			<CannotReadDisk>Cannot read disk, error: %1</CannotReadDisk>
+			<DiskNotPresent>Disk not present or unknown media type</DiskNotPresent>
+			<NoTracksOnDisk>There are no tracks on the disk, it's probably blank</NoTracksOnDisk>
+			<mediaType>Media type: %1</mediaType>
+			<TrackLength>Track length is %1 sectors</TrackLength>
+			<TracksCount>Tracks count: %1</TracksCount>
+			<WritingTrack>Writing track %1, track length is %2 sectors</WritingTrack>
+			<DiskReadingStopped>Reading stopped at %1</DiskReadingStopped>
+			<TrackReadingStopped>Reading stopped at %1, resuming with next track</TrackReadingStopped>
+		</DiskToISO>
+		<FolderToISO>
+			<ScanningFolder>ソース ディレクトリをスキャンしています...</ScanningFolder>
+			<DirectorySize>ディレクトリ サイズは %1 です</DirectorySize>
+			<WritingISOFile>ISO ファイルを書き込んでいます...</WritingISOFile>
+			<SkippingBigFile>4 GB より大きいファイル '%1' をスキップしています。</SkippingBigFile>
+			<SkippingFile>ファイル '%1'をスキップしています。</SkippingFile>
+			<BigFileWarning>ファイル '%1' は 4 GB より大きいので ISO 9660 ファイル システムでは表示できません。</BigFileWarning>
+			<NestedDirectoriesLimitWarning>ディレクトリの構造が %1 階層より深いです、いくつかのファイルおよびフォルダーはスキップされます。</NestedDirectoriesLimitWarning>
+			<UnableToOpenFile>読み取りアクセスのために '%1' を開くことができません。</UnableToOpenFile>
+			<NoExistingFolder>The folder %1 doesn't exist</NoExistingFolder>
+		</FolderToISO>
+		<UniversalConverter>
+			<AudioCDWarning>イメージは %1 オーディオ CD イメージのようです、ISO への変換はできません。</AudioCDWarning>
+			<NotValidImage>エラー: これは有効な CD/DVD イメージではありません</NotValidImage>
+			<CannotFindSignature>エラー: ISO_9660 署名が見つかりません、5 MB 制限に達しました</CannotFindSignature>
+			<MultiSessionImageDetected>Multi-session disk image detected</MultiSessionImageDetected>
+			<MultiSessionNotSupported>The disk image is a multi-session disk image. Such images are not supported.</MultiSessionNotSupported>
+		</UniversalConverter>
+		<NrgConverter>
+			<NrgParsingError>NRG parsing error, please contact support for assistance</NrgParsingError>
+			<NoSessionsFound>No NRG sessions detected, please contact support for assistance</NoSessionsFound>
+		</NrgConverter>
+		<ExtractISO>
+			<LoadingImage>イメージを読み込んでいます...</LoadingImage>
+			<ChooseISOFS>ISO イメージの中に複数のファイル システムがあります、展開するほうを選択してください:</ChooseISOFS>
+			<ChooseISOFSCaption>ファイル システムの選択</ChooseISOFSCaption>
+			<ImageFound>%1 イメージが見つかりました</ImageFound>
+			<InvalidISO>ファイルは有効な ISO イメージではないか現在サポートされていません</InvalidISO>
+		</ExtractISO>
+		<UIFConverter>
+			<UsingZlib>zlib 解凍を使用しています</UsingZlib>
+			<UsingLZMA>Igor Pavlov による Lzma 解凍を使用しています</UsingLZMA>
+			<MixedImageFound>混ざったイメージ タイプ %1 が見つかりました、一時ファイルへ解凍しています...</MixedImageFound>
+			<UnpackingImage>イメージをアンパックしています...</UnpackingImage>
+		</UIFConverter>
+		<DebExtract>
+			<NotValidDeb>ファイルは有効な Debian (Ubuntu) Linux アーカイブではありません</NotValidDeb>
+		</DebExtract>
+		<RpmExtract>
+			<PackageOpened>パッケージ %1 が開かれました</PackageOpened>
+			<DecompressingPayload>%1 ペイロードを一時ファイルへ解凍しています...</DecompressingPayload>
+			<UnpackingArchive>アーカイブをアンパックしています...</UnpackingArchive>
+		</RpmExtract>
+		<DMG>
+			<ConvertingDmgToISO>DMG を HFS+ ISO へ変換しています...</ConvertingDmgToISO>
+			<Writing>%1 を書き込んでいます...</Writing>
+			<ExtractingMainPartition>メインの DMG パーティションを一時ファイルへ展開しています、これには時間がかかることがあります - お待ちください...</ExtractingMainPartition>
+			<NoVolumeFound>ボリュームが見つかりません、HFS+ ファイル システムを探しています...</NoVolumeFound>
+			<ExtractingVolume>DMG ボリュームを展開しています (%1)...</ExtractingVolume>
+			<CorruptedOrPasswordProtected>エラー: 破損しているかパスワード保護された DMG イメージです</CorruptedOrPasswordProtected>
+			<XarArchiveDetected>DMG file is actually a XAR archive (normally with actual DMG file inside) that can be only extracted. Please choose extract operation to proceed</XarArchiveDetected>
+			<openedAsMessage>The file is opened as %1</openedAsMessage>
+			<DmgDisk>DMG disk image</DmgDisk>
+			<GPTDisk>GPT disk</GPTDisk>
+			<MBRDisk>Apple disk</MBRDisk>
+			<HFSVolume>HFS+ volume</HFSVolume>
+			<readingFileSystem>Reading %1 file system...</readingFileSystem>
+			<messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
+			<messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
+		</DMG>
+		<PDIConverter>
+			<InvalidOrBrokenImage>不正であるか破損した InstantCopy PDI イメージです</InvalidOrBrokenImage>
+		</PDIConverter>
+		<ISZConverter>
+			<CompressionNone>圧縮方法: なし</CompressionNone>
+			<WarningPassword>不正なパスワードを指定すると出力ファイルが無効になります</WarningPassword>
+			<ImageIsSegmented>ISZ ファイルは分割されています</ImageIsSegmented>
+		</ISZConverter>
+		<ArchiveConverter>
+			<ReadingArchive>Reading archive...</ReadingArchive>
+			<RemovingTempFiles>Removing temporary files...</RemovingTempFiles>
+			<ExtractError>Unable to extract %1, error %2</ExtractError>
+		</ArchiveConverter>
+		<TarUnpacker>
+			<SinglePackedFileFound>Single packed file detected: %1, unpacking...</SinglePackedFileFound>
+		</TarUnpacker>
+		<XarUnpacker>
+			<ReadingTOC>Reading table of contents (%1 bytes)...</ReadingTOC>
+			<NestedArchiveFound>Extracted file '%1' can be unpacked separately as %2 archive (append extension manually)</NestedArchiveFound>
+		</XarUnpacker>
+	</StatusMessages>
+	<Misc>
+		<buttonOk>OK</buttonOk>
+		<buttonCancel>キャンセル</buttonCancel>
+		<buttonClose>閉じる</buttonClose>
+		<buttonYes>Yes</buttonYes>
+		<buttonNo>No</buttonNo>
+		<ProVersion>Pro バージョン</ProVersion>
+		<LiteVersion>Lite バージョン</LiteVersion>
+	</Misc>
+	<ShellExtension>
+		<!-- This section describes Windows context menus -->
+		<ConvertToISO>Convert to "%s"</ConvertToISO>
+		<ConvertToISOInfo>Convert disk image file to ISO format</ConvertToISOInfo>
+		<Extract>Extract to "%s"</Extract>
+		<ExtractInfo>Extract disk image file</ExtractInfo>
+		<CreateISOFromFolder>Create "%s"</CreateISOFromFolder>
+		<CreateISOFromFolderInfo>Create ISO image of this folder with default options</CreateISOFromFolderInfo>
+		<CreateISOFromFolderWithOptions>Create "%s" with options...</CreateISOFromFolderWithOptions>
+		<CreateISOFromFolderWithOptionsInfo>Create ISO image of this folder with specifying file system options and volume label</CreateISOFromFolderWithOptionsInfo>
+		<CreateISOFromDisk>Create ISO image of this disk</CreateISOFromDisk>
+		<CreateISOFromDiskInfo>Create ISO image of a selected optical disk</CreateISOFromDiskInfo>
+		<CreateBINCUEFromDisk>Create BIN/CUE image of this disk</CreateBINCUEFromDisk>
+		<CreateBINCUEFromDiskInfo>Create BIN (raw) image of a selected optical disk and its corresponding CUE sheet file</CreateBINCUEFromDiskInfo>
+	</ShellExtension>
+	<UpdateChecker>
+		<ReleasedOn>%1 日にリリース</ReleasedOn>
+		<CheckForUpdates>アップデートの確認...</CheckForUpdates>
+		<NewVersionAvailable>新しいバージョンの %1 が入手できます。</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 が入手できます（使用中のバージョンは %3 です）。今すぐダウンロードしますか?</NewVersionAvailableText>
+		<UpdateAlertTitle>ソフトウェア・アップデート</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>リリースノート:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>後で通知</UpdateAlertRemindLater>
+		<UpdateAlertSkip>このバージョンはスキップ</UpdateAlertSkip>
+		<UpdateAlertInstall>アップデートをインストール</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>アップデートを自動で確認させますか</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>最新版を使用しています！</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 は現在入手できる最新バージョンです。</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>アップデートをダウンロード中にエラーが発生しました。後でもう一度やり直してください。</MessageErrorConnect>
+		<MessageErrorParse>アップデートフィードを解析中にエラーが発生しました。</MessageErrorParse>
+		<UpdateProgressTitle>%1 をアップデート中</UpdateProgressTitle>
+		<UpdateProgressCancel>キャンセル</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>インストールして再起動</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>アップデートをダウンロードしています…</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>アップデートを展開しています…</UpdateProgressExtract>
+		<UpdateProgressStatusReady>インストールできます</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 / %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+	<LetsMoveMac>
+		<kStrMoveApplicationCouldNotMove>アプリケーションフォルダに移動できませんでした</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>アプリケーション\"フォルダに移動しますか？</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>ホームフォルダ内の\"アプリケーション\"フォルダに移動しますか？</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>%1 このアプリケーションを\"アプリケーション\"フォルダに移動できます。</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>アプリケーションフォルダに移動する</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>移動しない</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>この操作には管理者パスワードが必要です。</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>これにより\"ダウンロード\"フォルダを整理できます。</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+	</LetsMoveMac>
+</LanguageStrings>
