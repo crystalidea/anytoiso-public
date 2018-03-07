@@ -41,10 +41,10 @@
 			<buttonBrowseISO>Вибрати...</buttonBrowseISO>
 			<NoDiskInserted>Не знайдено CD/DVD дисковод з диском</NoDiskInserted>
 			<buttonMakeISO>Створити ISO</buttonMakeISO>
-			<buttonMakeBinCue>Create BIN/CUE image</buttonMakeBinCue>
-			<chooseISOOrBinCueImage>Please select ISO or BIN/CUE image file</chooseISOOrBinCueImage>
-			<isoFilesFilter>ISO Files</isoFilesFilter>
-			<binCueSheetFilter>BIN Files (with CUE sheet)</binCueSheetFilter>
+			<buttonMakeBinCue>Створити BIN/CUE образ</buttonMakeBinCue>
+			<chooseISOOrBinCueImage>Будь ласка, виберіть ISO або BIN/CUE файл образу</chooseISOOrBinCueImage>
+			<isoFilesFilter>ISO файли</isoFilesFilter>
+			<binCueSheetFilter>BIN файли (з таблицею CUE)</binCueSheetFilter>
 		</tabDiskToISO>
 		<tabFolderToISO>
 			<Name>Тека в ISO</Name>
@@ -94,7 +94,7 @@
 	<PasswordDialog>
 		<Caption>Необхідний пароль</Caption>
 		<FileIsProtected>Файл зашифровано. Щоб його розшифрувати потрібно ввести пароль:</FileIsProtected>
-		<InvalidPassword>Invalid password</InvalidPassword>
+		<InvalidPassword>Неправильний пароль</InvalidPassword>
 	</PasswordDialog>
 	<Messages>
 		<Warning>Увага</Warning>
@@ -109,12 +109,12 @@
 		<CheckingSourceImage>Аналіз вихідного файлу...</CheckingSourceImage>
 		<Converting>Конвертування...</Converting>
 		<Extracting>Видобування...</Extracting>
-		<ExtractionFailed>Extract operation failed</ExtractionFailed>
+		<ExtractionFailed>Помилка операції видобування</ExtractionFailed>
 		<Unpacking>Розпакування...</Unpacking>
 		<ConvertingToTemporaryISO>Конвертувати в тимчасовий ISO файл...</ConvertingToTemporaryISO>
 		<ProgressBytesWritten>записано %1</ProgressBytesWritten>
 		<Track>Track</Track>
-		<ISOImageTypeFound>Найдено ISO образ (тип %1)</ISOImageTypeFound>
+		<ISOImageTypeFound>Знайдено ISO образ (тип %1)</ISOImageTypeFound>
 		<CannotOpenSourceFile>Не можу відкрити вихідний файл</CannotOpenSourceFile>
 		<CannotOpenDestFile>Не можу відкрити кінцевий файл.</CannotOpenDestFile>
 		<OperationTerminated>Процес зупинено користувачем.</OperationTerminated>
@@ -134,17 +134,17 @@
 			<ReadError>Помилка зчитування %1, зв'яжіться, будь ласка, з технічною підтримкою</ReadError>
 			<DeviceIsCopyProtected>Цей пристрій захищено від запису (сектор зашифровано)</DeviceIsCopyProtected>
 			<ISOCreationFailed>Сотворення ISO не виконано</ISOCreationFailed>
-			<BinCueCreationFailed>BIN/CUE image creation failed</BinCueCreationFailed>
-			<CannotReadDiskToc>Failed to read TOC (table of contents) of the disk</CannotReadDiskToc>
-			<CannotReadDisk>Cannot read disk, error: %1</CannotReadDisk>
-			<DiskNotPresent>Disk not present or unknown media type</DiskNotPresent>
-			<NoTracksOnDisk>There are no tracks on the disk, it's probably blank</NoTracksOnDisk>
-			<mediaType>Media type: %1</mediaType>
-			<TrackLength>Track length is %1 sectors</TrackLength>
-			<TracksCount>Tracks count: %1</TracksCount>
-			<WritingTrack>Writing track %1, track length is %2 sectors</WritingTrack>
-			<DiskReadingStopped>Reading stopped at %1</DiskReadingStopped>
-			<TrackReadingStopped>Reading stopped at %1, resuming with next track</TrackReadingStopped>
+			<BinCueCreationFailed>Поимлка створення образу BIN/CUE</BinCueCreationFailed>
+			<CannotReadDiskToc>Помилка читання ТК (таблиці контенту) диску</CannotReadDiskToc>
+			<CannotReadDisk>Неможливо прочитати диск, полмилка: %1</CannotReadDisk>
+			<DiskNotPresent>Диск відсутній або невідомий тип медіа</DiskNotPresent>
+			<NoTracksOnDisk>На диску немає доріжок, він, ймовірно, порожній</NoTracksOnDisk>
+			<mediaType>Тип медіа: %1</mediaType>
+			<TrackLength>Довжина доріжки %1 секторів</TrackLength>
+			<TracksCount>Кількість доріжок: %1</TracksCount>
+			<WritingTrack>Записування доріжки %1, довжина доріжки %2 секторів</WritingTrack>
+			<DiskReadingStopped>Читання зупинено %1</DiskReadingStopped>
+			<TrackReadingStopped>Читання зупинено %1, відновити з наступною доріжкою</TrackReadingStopped>
 		</DiskToISO>
 		<FolderToISO>
 			<ScanningFolder>Сканую вихідну теку...</ScanningFolder>
@@ -155,18 +155,18 @@
 			<BigFileWarning>Файл '%1' більше 4 Гб і буде невидимий в файловій системі ISO 9660.</BigFileWarning>
 			<NestedDirectoriesLimitWarning>Рівень вкладеності тек перевищує %1, деякі теки і файли будуть пропущені.</NestedDirectoriesLimitWarning>
 			<UnableToOpenFile>Не можу відкрити файл '%1' для читання.</UnableToOpenFile>
-			<NoExistingFolder>The folder %1 doesn't exist</NoExistingFolder>
+			<NoExistingFolder>Тека %1 не уснує</NoExistingFolder>
 		</FolderToISO>
 		<UniversalConverter>
 			<AudioCDWarning>Образ являється %1 Аудіо CD образом, конвертація в ISO неможлива.</AudioCDWarning>
 			<NotValidImage>Помилка: не коректний CD/DVD файл образу</NotValidImage>
 			<CannotFindSignature>Помилка: не можу знайти ISO_9660 сигнатуру, досягнутий 5 МБ ліміт</CannotFindSignature>
-			<MultiSessionImageDetected>Multi-session disk image detected</MultiSessionImageDetected>
-			<MultiSessionNotSupported>The disk image is a multi-session disk image. Such images are not supported.</MultiSessionNotSupported>
+			<MultiSessionImageDetected>Виявлено образ з кількома мультисесіями</MultiSessionImageDetected>
+			<MultiSessionNotSupported>Образ диску є образом диска мульти-сесії. Такі образи не підтримуються.</MultiSessionNotSupported>
 		</UniversalConverter>
 		<NrgConverter>
-			<NrgParsingError>NRG parsing error, please contact support for assistance</NrgParsingError>
-			<NoSessionsFound>No NRG sessions detected, please contact support for assistance</NoSessionsFound>
+			<NrgParsingError>NRG помилка синтаксичного аналізу, будь ласка, зверніться за допомогою до служби підтримки</NrgParsingError>
+			<NoSessionsFound>Не виявлено сеансів NRG, зверніться за допомогою до служби підтримки</NoSessionsFound>
 		</NrgConverter>
 		<ExtractISO>
 			<LoadingImage>Завантаження образу...</LoadingImage>
@@ -196,15 +196,15 @@
 			<NoVolumeFound>Тома не виявлено, пошук файлової системи HFS+...</NoVolumeFound>
 			<ExtractingVolume>Розпакування DMG тому (%1)...</ExtractingVolume>
 			<CorruptedOrPasswordProtected>Помилка: невірний або зашифрований DMG файл</CorruptedOrPasswordProtected>
-			<XarArchiveDetected>DMG file is actually a XAR archive (normally with actual DMG file inside) that can be only extracted. Please choose extract operation to proceed</XarArchiveDetected>
-			<openedAsMessage>The file is opened as %1</openedAsMessage>
-			<DmgDisk>DMG disk image</DmgDisk>
-			<GPTDisk>GPT disk</GPTDisk>
-			<MBRDisk>Apple disk</MBRDisk>
-			<HFSVolume>HFS+ volume</HFSVolume>
-			<readingFileSystem>Reading %1 file system...</readingFileSystem>
-			<messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
-			<messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
+			<XarArchiveDetected>DMG файл насправді являє собою архів XAR (як правило, з фактичним файлом DMG всередині), який можна тільки видобути. Будь ласка, оберіть операцію видообування, щоб продовжити</XarArchiveDetected>
+			<openedAsMessage>Файл відкрито як %1</openedAsMessage>
+			<DmgDisk>DMG образ диску</DmgDisk>
+			<GPTDisk>GPT диск</GPTDisk>
+			<MBRDisk>Apple диск</MBRDisk>
+			<HFSVolume>HFS+ розділ</HFSVolume>
+			<readingFileSystem>Читання %1 файлової системи...</readingFileSystem>
+			<messageMultiplePartitions>У образі DMG існує декілька розділів, будь ласка, оберіть один із них для видобування:</messageMultiplePartitions>
+			<messageMultiplePartitionsTitle>Виберіть розділ</messageMultiplePartitionsTitle>
 		</DMG>
 		<PDIConverter>
 			<InvalidOrBrokenImage>Невірний або зашифрований InstantCopy PDI образ</InvalidOrBrokenImage>
@@ -215,24 +215,24 @@
 			<ImageIsSegmented>ISZ файл сегментований</ImageIsSegmented>
 		</ISZConverter>
 		<ArchiveConverter>
-			<ReadingArchive>Reading archive...</ReadingArchive>
-			<RemovingTempFiles>Removing temporary files...</RemovingTempFiles>
-			<ExtractError>Unable to extract %1, error %2</ExtractError>
+			<ReadingArchive>Читання архіву...</ReadingArchive>
+			<RemovingTempFiles>Видалення тимчасових файлів...</RemovingTempFiles>
+			<ExtractError>Неможливо видобути %1, помилка %2</ExtractError>
 		</ArchiveConverter>
 		<TarUnpacker>
-			<SinglePackedFileFound>Single packed file detected: %1, unpacking...</SinglePackedFileFound>
+			<SinglePackedFileFound>Один упакований файл виявлений: %1, розпакування...</SinglePackedFileFound>
 		</TarUnpacker>
 		<XarUnpacker>
-			<ReadingTOC>Reading table of contents (%1 bytes)...</ReadingTOC>
-			<NestedArchiveFound>Extracted file '%1' can be unpacked separately as %2 archive (append extension manually)</NestedArchiveFound>
+			<ReadingTOC>Читання таблиці контенту (%1 bytes)...</ReadingTOC>
+			<NestedArchiveFound>Видобуті файли '%1' можна розпакувати окремо як %2 архіви (додати розширення вручну)</NestedArchiveFound>
 		</XarUnpacker>
 	</StatusMessages>
 	<Misc>
 		<buttonOk>ОК</buttonOk>
 		<buttonCancel>Скасувати</buttonCancel>
 		<buttonClose>Закрити</buttonClose>
-		<buttonYes>Yes</buttonYes>
-		<buttonNo>No</buttonNo>
+		<buttonYes>Так</buttonYes>
+		<buttonNo>Ні</buttonNo>
 		<ProVersion>Pro</ProVersion>
 		<LiteVersion>Lite</LiteVersion>
 	</Misc>
@@ -248,8 +248,8 @@
 		<CreateISOFromFolderWithOptionsInfo>Створити ISO образ вмісту цієї теки із зазначенням налаштувань файлової системи і мітки диска</CreateISOFromFolderWithOptionsInfo>
 		<CreateISOFromDisk>Створити ISO образ цього диска</CreateISOFromDisk>
 		<CreateISOFromDiskInfo>Створити ISO образ вибраного оптичного диска</CreateISOFromDiskInfo>
-		<CreateBINCUEFromDisk>Create BIN/CUE image of this disk</CreateBINCUEFromDisk>
-		<CreateBINCUEFromDiskInfo>Create BIN (raw) image of a selected optical disk and its corresponding CUE sheet file</CreateBINCUEFromDiskInfo>
+		<CreateBINCUEFromDisk>Створити BIN/CUE образ диску</CreateBINCUEFromDisk>
+		<CreateBINCUEFromDiskInfo>Створити BIN (raw) образ обраного диску та відповідну CUE таблицю файлів</CreateBINCUEFromDiskInfo>
 	</ShellExtension>
 	<UpdateChecker>
 		<ReleasedOn>випущено %1</ReleasedOn>
