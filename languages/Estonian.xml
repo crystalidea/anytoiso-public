@@ -156,6 +156,7 @@
 			<NestedDirectoriesLimitWarning>Kataloogi struktuur on sügavam kui %1 tasemed, mõned failid ja kaustad jäetakse vahele.</NestedDirectoriesLimitWarning>
 			<UnableToOpenFile>Ei suuda avada faili '%1' lugemisõiguseks.</UnableToOpenFile>
 			<NoExistingFolder>Kausta %1 pole olemas</NoExistingFolder>
+			<failedToCreateISOImage>Failed to create an ISO image</failedToCreateISOImage>
 		</FolderToISO>
 		<UniversalConverter>
 			<AudioCDWarning>Pilt on a %1 Audio CD pilt, teisendamine ISO-ks pole võimalik. Võite ekstraktida kõik audio lood kausta.</AudioCDWarning>
@@ -251,41 +252,59 @@
 		<CreateBINCUEFromDisk>Loo sellest kettast BIN/CUE -pilt</CreateBINCUEFromDisk>
 		<CreateBINCUEFromDiskInfo>Loo BIN (raw) pilt valitud optilise ketta ja sellele vastav CUE -lehefail</CreateBINCUEFromDiskInfo>
 	</ShellExtension>
-	<UpdateChecker>
-		<ReleasedOn>vabastatud on %1</ReleasedOn>
-		<CheckForUpdates>Kontrolli uuendusi...</CheckForUpdates>
-		<NewVersionAvailable>Uus versioon %1 on saadaval!</NewVersionAvailable>
-		<NewVersionAvailableText>%1 %2 on nüüd saadaval - sul on %3. Kas soovid selle alla laadida?</NewVersionAvailableText>
-		<UpdateAlertTitle>Tarkvara uuendamine</UpdateAlertTitle>
-		<UpdateAlertReleaseNotes>Vabastavad märkused:</UpdateAlertReleaseNotes>
-		<UpdateAlertRemindLater>Tuleta hiljem meelde</UpdateAlertRemindLater>
-		<UpdateAlertSkip>Jäta see versioon vahele</UpdateAlertSkip>
-		<UpdateAlertInstall>Installi uuendus</UpdateAlertInstall>
-		<UpdateAlertAutomaticUpdates>Kontrolli uuendusi automaatselt</UpdateAlertAutomaticUpdates>
-		<MessageNoUpdateAvailable>Sul on uusim!</MessageNoUpdateAvailable>
-		<MessageNoUpdateAvailableDescription>%1 %2 on praegu uusim versioon saadaval.</MessageNoUpdateAvailableDescription>
-		<MessageErrorConnect>Viga uuenduse allalaadimisel. Palun proovi hiljem uuesti.</MessageErrorConnect>
-		<MessageErrorParse>Ilmnes tõrge, kui liigendas uuendusi.</MessageErrorParse>
-		<UpdateProgressTitle>Uuendatud %1</UpdateProgressTitle>
-		<UpdateProgressCancel>Tühista</UpdateProgressCancel>
-		<UpdateProgressInstallAndRelaunch>Installi ja taaskäivita</UpdateProgressInstallAndRelaunch>
-		<UpdateProgressStatusDownloading>Lae uuendus alla...</UpdateProgressStatusDownloading>
-		<UpdateProgressExtract>Ekstrakti uuendus...</UpdateProgressExtract>
-		<UpdateProgressStatusReady>Valmis installiks</UpdateProgressStatusReady>
-		<UpdateProgressSize>%1 of %2</UpdateProgressSize>
-		<UpdateProgressB>B</UpdateProgressB>
-		<UpdateProgressKB>KB</UpdateProgressKB>
-		<UpdateProgressMB>MB</UpdateProgressMB>
-		<UpdateProgressGB>GB</UpdateProgressGB>
-	</UpdateChecker>
-	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-	</LetsMoveMac>
+	<core>
+		<UpdateChecker>
+			<ReleasedOn>vabastatud on %1</ReleasedOn>
+			<CheckForUpdates>Kontrolli uuendusi...</CheckForUpdates>
+			<NewVersionAvailable>Uus versioon %1 on saadaval!</NewVersionAvailable>
+			<NewVersionAvailableText>%1 %2 on nüüd saadaval - sul on %3. Kas soovid selle alla laadida?</NewVersionAvailableText>
+			<UpdateAlertTitle>Tarkvara uuendamine</UpdateAlertTitle>
+			<UpdateAlertReleaseNotes>Vabastavad märkused:</UpdateAlertReleaseNotes>
+			<UpdateAlertRemindLater>Tuleta hiljem meelde</UpdateAlertRemindLater>
+			<UpdateAlertSkip>Jäta see versioon vahele</UpdateAlertSkip>
+			<UpdateAlertInstall>Installi uuendus</UpdateAlertInstall>
+			<UpdateAlertAutomaticUpdates>Kontrolli uuendusi automaatselt</UpdateAlertAutomaticUpdates>
+			<MessageNoUpdateAvailable>Sul on uusim!</MessageNoUpdateAvailable>
+			<MessageNoUpdateAvailableDescription>%1 %2 on praegu uusim versioon saadaval.</MessageNoUpdateAvailableDescription>
+			<MessageErrorConnect>Viga uuenduse allalaadimisel. Palun proovi hiljem uuesti.</MessageErrorConnect>
+			<MessageErrorParse>Ilmnes tõrge, kui liigendas uuendusi.</MessageErrorParse>
+			<UpdateProgressTitle>Uuendatud %1</UpdateProgressTitle>
+			<UpdateProgressCancel>Tühista</UpdateProgressCancel>
+			<UpdateProgressInstallAndRelaunch>Installi ja taaskäivita</UpdateProgressInstallAndRelaunch>
+			<UpdateProgressStatusDownloading>Lae uuendus alla...</UpdateProgressStatusDownloading>
+			<UpdateProgressExtract>Ekstrakti uuendus...</UpdateProgressExtract>
+			<UpdateProgressStatusReady>Valmis installiks</UpdateProgressStatusReady>
+			<UpdateProgressSize>%1 of %2</UpdateProgressSize>
+			<UpdateProgressB>B</UpdateProgressB>
+			<UpdateProgressKB>KB</UpdateProgressKB>
+			<UpdateProgressMB>MB</UpdateProgressMB>
+			<UpdateProgressGB>GB</UpdateProgressGB>
+		</UpdateChecker>
+		<LetsMoveMac>
+			<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
+			<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
+			<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
+			<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
+			<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
+			<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
+			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+			<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		</LetsMoveMac>
+		<QLineEditEx>
+			<actionUndo>Undo</actionUndo>
+			<actionRedo>Redo</actionRedo>
+			<actionCut>Cut</actionCut>
+			<actionCopy>Copy</actionCopy>
+			<actionPaste>Paste</actionPaste>
+			<actionDelete>Delete</actionDelete>
+			<actionSelectAll>Select All</actionSelectAll>
+		</QLineEditEx>
+		<QMessageBoxEx>
+			<buttonOK>OK</buttonOK>
+			<buttonCancel>Cancel</buttonCancel>
+			<buttonClose>Close</buttonClose>
+			<buttonYes>Yes</buttonYes>
+			<buttonNo>No</buttonNo>
+		</QMessageBoxEx>
+	</core>
 </LanguageStrings>

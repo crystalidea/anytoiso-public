@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="3.7" Author="Hessam Mohamadi">
+<LanguageStrings version="3.8" Author="Hessam Mohamadi">
 	<MainWindow>
 		<mnuFile>فایل</mnuFile>
 		<mnuFileExit>خروج</mnuFileExit>
@@ -156,6 +156,7 @@
 			<NestedDirectoriesLimitWarning>ساختار دایرکتوری عمیق تر ازسطح %1 هست، بعضی از فایل ها و پوشه ها رد میشود</NestedDirectoriesLimitWarning>
 			<UnableToOpenFile>قادر به خواندن فایل '%1' برای خواندن دسترسی نیست</UnableToOpenFile>
 			<NoExistingFolder>پوشه %1 وجود ندارد</NoExistingFolder>
+			<failedToCreateISOImage>Failed to create an ISO image</failedToCreateISOImage>
 		</FolderToISO>
 		<UniversalConverter>
 			<AudioCDWarning>ایمیج %1 بنظر میرسد یک ایمیج سی دی صوتی باشد،تبدیل به ایزو ممکن نیست</AudioCDWarning>
@@ -202,9 +203,9 @@
 			<GPTDisk>دیسک جی پی تی</GPTDisk>
 			<MBRDisk>دیسک اَپل</MBRDisk>
 			<HFSVolume>اِچ اِف اِس+درایو</HFSVolume>
-			<readingFileSystem>Reading %1 file system...</readingFileSystem>
-			<messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
-			<messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
+			<readingFileSystem>..خواندن %1 فایل سیستم</readingFileSystem>
+			<messageMultiplePartitions>چندین پارتیشن داخل ایمیج دی اِم جی وجود دارد،لطفا یکی از آنها را برای استخراج انتخاب کنید</messageMultiplePartitions>
+			<messageMultiplePartitionsTitle>یک پارتیشن انتخاب کنید</messageMultiplePartitionsTitle>
 		</DMG>
 		<PDIConverter>
 			<InvalidOrBrokenImage>ایمیج پی دی آی اینتنت کپی خراب یا نامعتبر است</InvalidOrBrokenImage>
@@ -231,8 +232,8 @@
 		<buttonOk>تایید</buttonOk>
 		<buttonCancel>لغو</buttonCancel>
 		<buttonClose>بستن</buttonClose>
-		<buttonYes>Yes</buttonYes>
-		<buttonNo>No</buttonNo>
+		<buttonYes>بله</buttonYes>
+		<buttonNo>خير</buttonNo>
 		<ProVersion>نسخه حرفه ای</ProVersion>
 		<LiteVersion>نسخه کوچک</LiteVersion>
 	</Misc>
@@ -251,41 +252,59 @@
 		<CreateBINCUEFromDisk>ایجاد ایمیج بین/کیو از این دیسک</CreateBINCUEFromDisk>
 		<CreateBINCUEFromDiskInfo>ایجاد ایمیج بین (خام) از دیسک نوری انتخاب شده و از فایل ورقه کیو مطابق با آن</CreateBINCUEFromDiskInfo>
 	</ShellExtension>
-	<UpdateChecker>
-		<ReleasedOn>منتشر شده در %1</ReleasedOn>
-		<CheckForUpdates>بررسی برای بروزرسانی...</CheckForUpdates>
-		<NewVersionAvailable>نسخه جدید %1 موجود است</NewVersionAvailable>
-		<NewVersionAvailableText>%1 %2 حالا موجود است - شما %3 را دارید.حالا دانلود می کنید؟</NewVersionAvailableText>
-		<UpdateAlertTitle>بروزرسانی نرم افزار</UpdateAlertTitle>
-		<UpdateAlertReleaseNotes>جزئیات انتشار:</UpdateAlertReleaseNotes>
-		<UpdateAlertRemindLater>بعدا یادآوری کن</UpdateAlertRemindLater>
-		<UpdateAlertSkip>رد این نسخه</UpdateAlertSkip>
-		<UpdateAlertInstall>نصب بروزرسانی</UpdateAlertInstall>
-		<UpdateAlertAutomaticUpdates>بررسی خودکار برای بروزرسانی</UpdateAlertAutomaticUpdates>
-		<MessageNoUpdateAvailable>نسخه شما بروز است</MessageNoUpdateAvailable>
-		<MessageNoUpdateAvailableDescription>%1 %2 اکنون جدیدترین نسخه موجود است</MessageNoUpdateAvailableDescription>
-		<MessageErrorConnect>یک خطا حین دانلود بروزرسانی رخ داد. لطفا بعدا دوباره سعی کنید</MessageErrorConnect>
-		<MessageErrorParse>یک خطا حین تحلیل فید بروزرسانی رخ داد</MessageErrorParse>
-		<UpdateProgressTitle>بروزرسانی %1</UpdateProgressTitle>
-		<UpdateProgressCancel>لغو</UpdateProgressCancel>
-		<UpdateProgressInstallAndRelaunch>نصب و اِجرای مجدد</UpdateProgressInstallAndRelaunch>
-		<UpdateProgressStatusDownloading>دانلود بروزرسانی...</UpdateProgressStatusDownloading>
-		<UpdateProgressExtract>استخراج بروزرسانی..</UpdateProgressExtract>
-		<UpdateProgressStatusReady>آماده نصب</UpdateProgressStatusReady>
-		<UpdateProgressSize>%1 از %2</UpdateProgressSize>
-		<UpdateProgressB>بایت</UpdateProgressB>
-		<UpdateProgressKB>کیلوبایت</UpdateProgressKB>
-		<UpdateProgressMB>مگابایت</UpdateProgressMB>
-		<UpdateProgressGB>گیگابایت</UpdateProgressGB>
-	</UpdateChecker>
-	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-	</LetsMoveMac>
+	<core>
+		<UpdateChecker>
+			<ReleasedOn>منتشر شده در %1</ReleasedOn>
+			<CheckForUpdates>بررسی برای بروزرسانی...</CheckForUpdates>
+			<NewVersionAvailable>نسخه جدید %1 موجود است</NewVersionAvailable>
+			<NewVersionAvailableText>%1 %2 حالا موجود است - شما %3 را دارید.حالا دانلود می کنید؟</NewVersionAvailableText>
+			<UpdateAlertTitle>بروزرسانی نرم افزار</UpdateAlertTitle>
+			<UpdateAlertReleaseNotes>جزئیات انتشار:</UpdateAlertReleaseNotes>
+			<UpdateAlertRemindLater>بعدا یادآوری کن</UpdateAlertRemindLater>
+			<UpdateAlertSkip>رد این نسخه</UpdateAlertSkip>
+			<UpdateAlertInstall>نصب بروزرسانی</UpdateAlertInstall>
+			<UpdateAlertAutomaticUpdates>بررسی خودکار برای بروزرسانی</UpdateAlertAutomaticUpdates>
+			<MessageNoUpdateAvailable>نسخه شما بروز است</MessageNoUpdateAvailable>
+			<MessageNoUpdateAvailableDescription>%1 %2 اکنون جدیدترین نسخه موجود است</MessageNoUpdateAvailableDescription>
+			<MessageErrorConnect>یک خطا حین دانلود بروزرسانی رخ داد. لطفا بعدا دوباره سعی کنید</MessageErrorConnect>
+			<MessageErrorParse>یک خطا حین تحلیل فید بروزرسانی رخ داد</MessageErrorParse>
+			<UpdateProgressTitle>بروزرسانی %1</UpdateProgressTitle>
+			<UpdateProgressCancel>لغو</UpdateProgressCancel>
+			<UpdateProgressInstallAndRelaunch>نصب و اِجرای مجدد</UpdateProgressInstallAndRelaunch>
+			<UpdateProgressStatusDownloading>دانلود بروزرسانی...</UpdateProgressStatusDownloading>
+			<UpdateProgressExtract>استخراج بروزرسانی..</UpdateProgressExtract>
+			<UpdateProgressStatusReady>آماده نصب</UpdateProgressStatusReady>
+			<UpdateProgressSize>%1 از %2</UpdateProgressSize>
+			<UpdateProgressB>بایت</UpdateProgressB>
+			<UpdateProgressKB>کیلوبایت</UpdateProgressKB>
+			<UpdateProgressMB>مگابایت</UpdateProgressMB>
+			<UpdateProgressGB>گیگابایت</UpdateProgressGB>
+		</UpdateChecker>
+		<LetsMoveMac>
+			<kStrMoveApplicationCouldNotMove>نمیتواند به پوشه برنامه ها منتقل کرد</kStrMoveApplicationCouldNotMove>
+			<kStrMoveApplicationQuestionTitle>انتقال به برنامه ها</kStrMoveApplicationQuestionTitle>
+			<kStrMoveApplicationQuestionTitleHome>انتقال به پوشه برنامه ها در پوشه خانگی شما؟</kStrMoveApplicationQuestionTitleHome>
+			<kStrMoveApplicationQuestionMessage>آیا میخواهید %1 تا خودش را به پوشه برنامه ها منتقل کند؟</kStrMoveApplicationQuestionMessage>
+			<kStrMoveApplicationButtonMove>انتقال به پوشه برنامه ها</kStrMoveApplicationButtonMove>
+			<kStrMoveApplicationButtonDoNotMove>منتقل نکن</kStrMoveApplicationButtonDoNotMove>
+			<kStrMoveApplicationQuestionInfoWillRequirePasswd>توجه به رمزعبور آدمین نیاز دارد</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+			<kStrMoveApplicationQuestionInfoInDownloadsFolder>این پوشه شما را دست نخورده باقی می گذارد</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		</LetsMoveMac>
+		<QLineEditEx>
+			<actionUndo>آندو</actionUndo>
+			<actionRedo>ریدو</actionRedo>
+			<actionCut>کات</actionCut>
+			<actionCopy>کپی</actionCopy>
+			<actionPaste>چسباندن</actionPaste>
+			<actionDelete>حذف</actionDelete>
+			<actionSelectAll>انتخاب همه</actionSelectAll>
+		</QLineEditEx>
+		<QMessageBoxEx>
+			<buttonOK>تأیید</buttonOK>
+			<buttonCancel>لغو</buttonCancel>
+			<buttonClose>بستن</buttonClose>
+			<buttonYes>بله</buttonYes>
+			<buttonNo>خیر</buttonNo>
+		</QMessageBoxEx>
+	</core>
 </LanguageStrings>

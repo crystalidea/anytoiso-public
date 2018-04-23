@@ -156,6 +156,7 @@
 			<NestedDirectoriesLimitWarning>Direktorija struktūra ir dziļāka nekā %1 līmeni, daži faili un mapes tiks izlaisti.</NestedDirectoriesLimitWarning>
 			<UnableToOpenFile>Nevar atvērt failu '%1' lasīšanas piekļuvei.</UnableToOpenFile>
 			<NoExistingFolder>Mapi %1 neeksistē</NoExistingFolder>
+			<failedToCreateISOImage>Failed to create an ISO image</failedToCreateISOImage>
 		</FolderToISO>
 		<UniversalConverter>
 			<AudioCDWarning>Attēls tiek %1 Audio CD image konversijas ISO nav iespējama. Varat izgūt visus audio ierakstus uz mapi.</AudioCDWarning>
@@ -251,41 +252,59 @@
 		<CreateBINCUEFromDisk>Izveidotu šī diska attēlu BIN/CUE</CreateBINCUEFromDisk>
 		<CreateBINCUEFromDiskInfo>Izveidot BIN (izejvielas) attēlu atlasītajā optisko disku un tās atbilstošo CUE loksnes failu</CreateBINCUEFromDiskInfo>
 	</ShellExtension>
-	<UpdateChecker>
-		<ReleasedOn>izdots %1</ReleasedOn>
-		<CheckForUpdates>Pārbaudīt, vai nav atjauninājumu...</CheckForUpdates>
-		<NewVersionAvailable>Jaunā versija %1 ir pieejama!</NewVersionAvailable>
-		<NewVersionAvailableText>%1 %2 tagad ir pieejams - jums ir %3. Vai vēlaties to lejupielādēt tagad?</NewVersionAvailableText>
-		<UpdateAlertTitle>Programmatūras atjauninājumu</UpdateAlertTitle>
-		<UpdateAlertReleaseNotes>Informācija par laidienu:</UpdateAlertReleaseNotes>
-		<UpdateAlertRemindLater>Atgādināt vēlāk</UpdateAlertRemindLater>
-		<UpdateAlertSkip>Izlaist šo versiju</UpdateAlertSkip>
-		<UpdateAlertInstall>Instalētu atjauninājumu</UpdateAlertInstall>
-		<UpdateAlertAutomaticUpdates>Automātiski pārbaudīt atjauninājumus.</UpdateAlertAutomaticUpdates>
-		<MessageNoUpdateAvailable>Jūs esat līdz dienai!</MessageNoUpdateAvailable>
-		<MessageNoUpdateAvailableDescription>%1 %2 pašlaik pieejama jaunākā versija.</MessageNoUpdateAvailableDescription>
-		<MessageErrorConnect>Atjauninājumu lejupielādes laikā radusies kļūda. Lūdzu, vēlāk mēģiniet vēlreiz.</MessageErrorConnect>
-		<MessageErrorParse>Radās kļūda, parsējot update barības.</MessageErrorParse>
-		<UpdateProgressTitle>Atjaunināšana %1</UpdateProgressTitle>
-		<UpdateProgressCancel>Atcelt</UpdateProgressCancel>
-		<UpdateProgressInstallAndRelaunch>Instalēt un aktivizēt</UpdateProgressInstallAndRelaunch>
-		<UpdateProgressStatusDownloading>Atjauninājumu lejupielāde...</UpdateProgressStatusDownloading>
-		<UpdateProgressExtract>Ieguves atjauninājumu...</UpdateProgressExtract>
-		<UpdateProgressStatusReady>Gatavs instalēt</UpdateProgressStatusReady>
-		<UpdateProgressSize>%1 no %2</UpdateProgressSize>
-		<UpdateProgressB>B</UpdateProgressB>
-		<UpdateProgressKB>KB</UpdateProgressKB>
-		<UpdateProgressMB>MB</UpdateProgressMB>
-		<UpdateProgressGB>GB</UpdateProgressGB>
-	</UpdateChecker>
-	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-	</LetsMoveMac>
+	<core>
+		<UpdateChecker>
+			<ReleasedOn>izdots %1</ReleasedOn>
+			<CheckForUpdates>Pārbaudīt, vai nav atjauninājumu...</CheckForUpdates>
+			<NewVersionAvailable>Jaunā versija %1 ir pieejama!</NewVersionAvailable>
+			<NewVersionAvailableText>%1 %2 tagad ir pieejams - jums ir %3. Vai vēlaties to lejupielādēt tagad?</NewVersionAvailableText>
+			<UpdateAlertTitle>Programmatūras atjauninājumu</UpdateAlertTitle>
+			<UpdateAlertReleaseNotes>Informācija par laidienu:</UpdateAlertReleaseNotes>
+			<UpdateAlertRemindLater>Atgādināt vēlāk</UpdateAlertRemindLater>
+			<UpdateAlertSkip>Izlaist šo versiju</UpdateAlertSkip>
+			<UpdateAlertInstall>Instalētu atjauninājumu</UpdateAlertInstall>
+			<UpdateAlertAutomaticUpdates>Automātiski pārbaudīt atjauninājumus.</UpdateAlertAutomaticUpdates>
+			<MessageNoUpdateAvailable>Jūs esat līdz dienai!</MessageNoUpdateAvailable>
+			<MessageNoUpdateAvailableDescription>%1 %2 pašlaik pieejama jaunākā versija.</MessageNoUpdateAvailableDescription>
+			<MessageErrorConnect>Atjauninājumu lejupielādes laikā radusies kļūda. Lūdzu, vēlāk mēģiniet vēlreiz.</MessageErrorConnect>
+			<MessageErrorParse>Radās kļūda, parsējot update barības.</MessageErrorParse>
+			<UpdateProgressTitle>Atjaunināšana %1</UpdateProgressTitle>
+			<UpdateProgressCancel>Atcelt</UpdateProgressCancel>
+			<UpdateProgressInstallAndRelaunch>Instalēt un aktivizēt</UpdateProgressInstallAndRelaunch>
+			<UpdateProgressStatusDownloading>Atjauninājumu lejupielāde...</UpdateProgressStatusDownloading>
+			<UpdateProgressExtract>Ieguves atjauninājumu...</UpdateProgressExtract>
+			<UpdateProgressStatusReady>Gatavs instalēt</UpdateProgressStatusReady>
+			<UpdateProgressSize>%1 no %2</UpdateProgressSize>
+			<UpdateProgressB>B</UpdateProgressB>
+			<UpdateProgressKB>KB</UpdateProgressKB>
+			<UpdateProgressMB>MB</UpdateProgressMB>
+			<UpdateProgressGB>GB</UpdateProgressGB>
+		</UpdateChecker>
+		<LetsMoveMac>
+			<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
+			<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
+			<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
+			<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
+			<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
+			<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
+			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+			<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		</LetsMoveMac>
+		<QLineEditEx>
+			<actionUndo>Undo</actionUndo>
+			<actionRedo>Redo</actionRedo>
+			<actionCut>Cut</actionCut>
+			<actionCopy>Copy</actionCopy>
+			<actionPaste>Paste</actionPaste>
+			<actionDelete>Delete</actionDelete>
+			<actionSelectAll>Select All</actionSelectAll>
+		</QLineEditEx>
+		<QMessageBoxEx>
+			<buttonOK>OK</buttonOK>
+			<buttonCancel>Cancel</buttonCancel>
+			<buttonClose>Close</buttonClose>
+			<buttonYes>Yes</buttonYes>
+			<buttonNo>No</buttonNo>
+		</QMessageBoxEx>
+	</core>
 </LanguageStrings>

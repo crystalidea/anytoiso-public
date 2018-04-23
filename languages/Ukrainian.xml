@@ -156,6 +156,7 @@
 			<NestedDirectoriesLimitWarning>Рівень вкладеності тек перевищує %1, деякі теки і файли будуть пропущені.</NestedDirectoriesLimitWarning>
 			<UnableToOpenFile>Не можу відкрити файл '%1' для читання.</UnableToOpenFile>
 			<NoExistingFolder>Тека %1 не уснує</NoExistingFolder>
+			<failedToCreateISOImage>Failed to create an ISO image</failedToCreateISOImage>
 		</FolderToISO>
 		<UniversalConverter>
 			<AudioCDWarning>Образ являється %1 Аудіо CD образом, конвертація в ISO неможлива.</AudioCDWarning>
@@ -251,41 +252,59 @@
 		<CreateBINCUEFromDisk>Створити BIN/CUE образ диску</CreateBINCUEFromDisk>
 		<CreateBINCUEFromDiskInfo>Створити BIN (raw) образ обраного диску та відповідну CUE таблицю файлів</CreateBINCUEFromDiskInfo>
 	</ShellExtension>
-	<UpdateChecker>
-		<ReleasedOn>випущено %1</ReleasedOn>
-		<CheckForUpdates>Перевірка оновлень...</CheckForUpdates>
-		<NewVersionAvailable>Є нова версія %1!</NewVersionAvailable>
-		<NewVersionAvailableText>%1 %2 тепер доступний - ви маєте %3. Хочете завантажити його зараз?</NewVersionAvailableText>
-		<UpdateAlertTitle>Оновлення програмного забезпечення</UpdateAlertTitle>
-		<UpdateAlertReleaseNotes>Нотатки про випуск:</UpdateAlertReleaseNotes>
-		<UpdateAlertRemindLater>Нагадувати пізніше</UpdateAlertRemindLater>
-		<UpdateAlertSkip>Пропустити цю версію</UpdateAlertSkip>
-		<UpdateAlertInstall>Встановити оновлення</UpdateAlertInstall>
-		<UpdateAlertAutomaticUpdates>Перевіряти оновлення автоматично</UpdateAlertAutomaticUpdates>
-		<MessageNoUpdateAvailable>В вас встановлено останню версію.</MessageNoUpdateAvailable>
-		<MessageNoUpdateAvailableDescription>В вас вже встановлено останню версію %1 %2.</MessageNoUpdateAvailableDescription>
-		<MessageErrorConnect>При отриманні інформації про оновлення виникла помилка. Спробуйте пізніше.</MessageErrorConnect>
-		<MessageErrorParse>При обробці інформації про оновлення сталася помилка.</MessageErrorParse>
-		<UpdateProgressTitle>Оновлюю %1</UpdateProgressTitle>
-		<UpdateProgressCancel>Скасувати</UpdateProgressCancel>
-		<UpdateProgressInstallAndRelaunch>Встановити та перезавантажити</UpdateProgressInstallAndRelaunch>
-		<UpdateProgressStatusDownloading>Завантажую оновлення...</UpdateProgressStatusDownloading>
-		<UpdateProgressExtract>Розпаковую оновлення...</UpdateProgressExtract>
-		<UpdateProgressStatusReady>Готовий до встановлення</UpdateProgressStatusReady>
-		<UpdateProgressSize>%1 з %2</UpdateProgressSize>
-		<UpdateProgressB>Б</UpdateProgressB>
-		<UpdateProgressKB>КБ</UpdateProgressKB>
-		<UpdateProgressMB>МБ</UpdateProgressMB>
-		<UpdateProgressGB>ГБ</UpdateProgressGB>
-	</UpdateChecker>
-	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>Не вдалося перемістити.</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>Перемістити до папки Програми</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>Перемістити до папки Програми, що розташована у домашній директорії?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>Ви хочете %1 перемістити себе у папку Програми?</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>Перемістити</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>Не переміщувати</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Вам знадобиться пароль адміністратора.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Це допоможе утримувати папку з завантаженнями у чистоті.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-	</LetsMoveMac>
+	<core>
+		<UpdateChecker>
+			<ReleasedOn>випущено %1</ReleasedOn>
+			<CheckForUpdates>Перевірка оновлень...</CheckForUpdates>
+			<NewVersionAvailable>Є нова версія %1!</NewVersionAvailable>
+			<NewVersionAvailableText>%1 %2 тепер доступний - ви маєте %3. Хочете завантажити його зараз?</NewVersionAvailableText>
+			<UpdateAlertTitle>Оновлення програмного забезпечення</UpdateAlertTitle>
+			<UpdateAlertReleaseNotes>Нотатки про випуск:</UpdateAlertReleaseNotes>
+			<UpdateAlertRemindLater>Нагадувати пізніше</UpdateAlertRemindLater>
+			<UpdateAlertSkip>Пропустити цю версію</UpdateAlertSkip>
+			<UpdateAlertInstall>Встановити оновлення</UpdateAlertInstall>
+			<UpdateAlertAutomaticUpdates>Перевіряти оновлення автоматично</UpdateAlertAutomaticUpdates>
+			<MessageNoUpdateAvailable>В вас встановлено останню версію.</MessageNoUpdateAvailable>
+			<MessageNoUpdateAvailableDescription>В вас вже встановлено останню версію %1 %2.</MessageNoUpdateAvailableDescription>
+			<MessageErrorConnect>При отриманні інформації про оновлення виникла помилка. Спробуйте пізніше.</MessageErrorConnect>
+			<MessageErrorParse>При обробці інформації про оновлення сталася помилка.</MessageErrorParse>
+			<UpdateProgressTitle>Оновлюю %1</UpdateProgressTitle>
+			<UpdateProgressCancel>Скасувати</UpdateProgressCancel>
+			<UpdateProgressInstallAndRelaunch>Встановити та перезавантажити</UpdateProgressInstallAndRelaunch>
+			<UpdateProgressStatusDownloading>Завантажую оновлення...</UpdateProgressStatusDownloading>
+			<UpdateProgressExtract>Розпаковую оновлення...</UpdateProgressExtract>
+			<UpdateProgressStatusReady>Готовий до встановлення</UpdateProgressStatusReady>
+			<UpdateProgressSize>%1 з %2</UpdateProgressSize>
+			<UpdateProgressB>Б</UpdateProgressB>
+			<UpdateProgressKB>КБ</UpdateProgressKB>
+			<UpdateProgressMB>МБ</UpdateProgressMB>
+			<UpdateProgressGB>ГБ</UpdateProgressGB>
+		</UpdateChecker>
+		<LetsMoveMac>
+			<kStrMoveApplicationCouldNotMove>Не вдалося перемістити.</kStrMoveApplicationCouldNotMove>
+			<kStrMoveApplicationQuestionTitle>Перемістити до папки Програми</kStrMoveApplicationQuestionTitle>
+			<kStrMoveApplicationQuestionTitleHome>Перемістити до папки Програми, що розташована у домашній директорії?</kStrMoveApplicationQuestionTitleHome>
+			<kStrMoveApplicationQuestionMessage>Ви хочете %1 перемістити себе у папку Програми?</kStrMoveApplicationQuestionMessage>
+			<kStrMoveApplicationButtonMove>Перемістити</kStrMoveApplicationButtonMove>
+			<kStrMoveApplicationButtonDoNotMove>Не переміщувати</kStrMoveApplicationButtonDoNotMove>
+			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Вам знадобиться пароль адміністратора.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+			<kStrMoveApplicationQuestionInfoInDownloadsFolder>Це допоможе утримувати папку з завантаженнями у чистоті.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		</LetsMoveMac>
+		<QLineEditEx>
+			<actionUndo>Відмінити</actionUndo>
+			<actionRedo>Повторити</actionRedo>
+			<actionCut>Вирізати</actionCut>
+			<actionCopy>Копіювати</actionCopy>
+			<actionPaste>Вставити</actionPaste>
+			<actionDelete>Видалити</actionDelete>
+			<actionSelectAll>Вибрати все</actionSelectAll>
+		</QLineEditEx>
+		<QMessageBoxEx>
+			<buttonOK>OK</buttonOK>
+			<buttonCancel>Скасувати</buttonCancel>
+			<buttonClose>Закрити</buttonClose>
+			<buttonYes>Так</buttonYes>
+			<buttonNo>Ні</buttonNo>
+		</QMessageBoxEx>
+	</core>
 </LanguageStrings>
