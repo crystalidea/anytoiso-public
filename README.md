@@ -1,4 +1,4 @@
-Though [AnyToISO](https://www.crystalidea.com/anytoiso) is not open-source, we use this GitHub repository to track bugs, feature requests and technical support problems (see [issues](https://github.com/crystalidea/anytoiso/issues))
+Though [AnyToISO](https://www.crystalidea.com/anytoiso) is not open-source, we use this GitHub repository to track bugs, feature requests and technical support problems (see [issues](https://github.com/crystalidea/anytoiso/issues)).
 
 # Translating the app
 
