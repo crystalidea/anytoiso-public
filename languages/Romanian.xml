@@ -86,6 +86,8 @@
 	</AboutDialog>
 	<PreferencesDialog>
 		<Caption>Preferințe</Caption>
+		<PreferencesGeneral>General</PreferencesGeneral>
+		<PreferencesUpdates>Updates</PreferencesUpdates>
 		<Language>Alege limba:</Language>
 		<CheckForNewVersions>Caută o nouă versiune a aplicației la pornire</CheckForNewVersions>
 		<ShellExtension>Integrare cu Windows Explorer</ShellExtension>

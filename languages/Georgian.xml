@@ -86,6 +86,8 @@
 	</AboutDialog>
 	<PreferencesDialog>
 		<Caption>პარამეტრები</Caption>
+		<PreferencesGeneral>General</PreferencesGeneral>
+		<PreferencesUpdates>Updates</PreferencesUpdates>
 		<Language>ენა:</Language>
 		<CheckForNewVersions>ჩართვისთანავე, ახალი ვერსიის შემოწმება</CheckForNewVersions>
 		<ShellExtension>Windows Explorer-ში ინტეგრაცია</ShellExtension>

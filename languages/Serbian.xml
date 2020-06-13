@@ -1,310 +1,312 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="3.1" Author="Digital Power Team/Milenko Skoric">
-	<MainWindow>
-		<mnuFile>Datoteka</mnuFile>
-		<mnuFileExit>Izlaz</mnuFileExit>
-		<mnuHelp>Pomoc</mnuHelp>
-		<mnuHelpDocumentation>Dokumentacija...</mnuHelpDocumentation>
-		<mnuHelpPurchase>Kupite Pro Verziju...</mnuHelpPurchase>
-		<mnuHelpEnterCode>Unesite registarski kod...</mnuHelpEnterCode>
-		<mnuHelpAbout>O nama...</mnuHelpAbout>
-		<mnuHomePage>AnyToISO Pocetna strana...</mnuHomePage>
-		<menuPreferences>Podesavanja...</menuPreferences>
-		<newVersionAvailable>AnyToISO %1 je dostupna!</newVersionAvailable>
-		<newVersionUpdate>Azuriraj</newVersionUpdate>
-		<buttonStop>Stop</buttonStop>
-		<tabConvertExtract>
-			<Name>Raspakuj datoteku/Konvertuj u ISO</Name>
-			<SourceFileName>Izvorna image datoteka:</SourceFileName>
-			<ConvertToISO>Konvertuj u ISO image:</ConvertToISO>
-			<ExtractToFolder>Raspakuj u folder:</ExtractToFolder>
-			<buttonOpenImage>Otvori image...</buttonOpenImage>
-			<buttonOpenImageText>Otvori CD/DVD Image datoteku</buttonOpenImageText>
-			<AllSupportedFiles>Sve Podrzavane Datoteke</AllSupportedFiles>
-			<buttonOpenISO>Otvori ISO...</buttonOpenISO>
-			<buttonOpenISOText>Odaberite izlaznu ISO datoteku</buttonOpenISOText>
-			<buttonOpenISOFilter>ISO Datoteka (*.iso)</buttonOpenISOFilter>
-			<buttonOpenFolder>Odaberite folder...</buttonOpenFolder>
-			<buttonOpenFolderText>Otvorite izlazni folder</buttonOpenFolderText>
-			<buttonConvert>Konvertuj!</buttonConvert>
-			<buttonExtract>Raspakuj!</buttonExtract>
-			<labelFileSize>Velicina datoteke</labelFileSize>
-			<labelFileFormat>format</labelFileFormat>
-			<labelOpenOrDragFile>&lt;b&gt;Open&lt;/b&gt; or &lt;b&gt;drag&lt;/b&gt; an image to convert or extract</labelOpenOrDragFile>
-		</tabConvertExtract>
-		<tabDiskToISO>
-			<Name>CD/DVD Disk u ISO</Name>
-			<SourceDrive>Izvorni Drajv:</SourceDrive>
-			<OutputISO>Izlazna ISO datoteka:</OutputISO>
-			<checkCreateBinCue>Create BIN/CUE image</checkCreateBinCue>
-			<buttonRefresh>Osvezi</buttonRefresh>
-			<buttonBrowseISO>Pregledaj...</buttonBrowseISO>
-			<NoDiskInserted>CD/DVD disk nije unet</NoDiskInserted>
-			<buttonMakeISO>Napravi ISO</buttonMakeISO>
-			<buttonMakeBinCue>Create BIN/CUE image</buttonMakeBinCue>
-			<chooseISOOrBinCueImage>Please select ISO or BIN/CUE image file</chooseISOOrBinCueImage>
-			<isoFilesFilter>ISO Files</isoFilesFilter>
-			<binCueSheetFilter>BIN Files (with CUE sheet)</binCueSheetFilter>
-		</tabDiskToISO>
-		<tabFolderToISO>
-			<Name>ISO Folder</Name>
-			<SourceFolder>Izvorni Folder:</SourceFolder>
-			<DestinationISO>Izlazna ISO datoteka:</DestinationISO>
-			<VolumeLabel>Volume Label:</VolumeLabel>
-			<buttonBrowseForFolder>Pregledaj Folder...</buttonBrowseForFolder>
-			<buttonChooseISO>Izaberite ISO...</buttonChooseISO>
-			<buttonOptions>Opcije...</buttonOptions>
-			<buttonMakeISO>Napravi ISO</buttonMakeISO>
-			<ISOCreationOptions>ISO Stvaralacke Opcije</ISOCreationOptions>
-			<Settings>Podesavanja</Settings>
-			<FileSystemsInsideISO>Sistemi datoteka:</FileSystemsInsideISO>
-			<buttonDefault>Osnovno</buttonDefault>
-			<ISO9660Option1>8.3 DOS Imena datoteka (11)</ISO9660Option1>
-			<ISO9660Option2>Duza imena (180)</ISO9660Option2>
-			<ISO9660Option3>ISO 9660:1999</ISO9660Option3>
-			<JolietOption1>Standardna imena (64)</JolietOption1>
-			<JolietOption2>Dugacka imena (110)</JolietOption2>
-		</tabFolderToISO>
-	</MainWindow>
-	<LiteVersionDialog>
-		<LiteVersionLimitText>Lite version of AnyToISO works with &lt;b&gt;CD images only&lt;/b&gt; (up to 870 MB). In order to work with larger files (DVD and more) you should &lt;a href="purchase"&gt;Purchase Professional version&lt;/a&gt;. You'll obtain the registration code &lt;a href="unlock"&gt;unlocking the software&lt;/a&gt; after the purchase.</LiteVersionLimitText>
-		<buttonPurchasePro>Kupi Pro Verziju...</buttonPurchasePro>
-	</LiteVersionDialog>
-	<EnterKeyDialog>
-		<Caption>Unesi Registarski Kod</Caption>
-		<EnterKeyToUpgradeText>Molimo unesite vas registarski kod da nadogradite AnyToISO u Pro Verziju.</EnterKeyToUpgradeText>
-		<RegName>Registracioni ime:</RegName>
-		<RegCode>Registracioni kod:</RegCode>
-	</EnterKeyDialog>
-	<AboutDialog>
-		<Caption>O AnyToISO</Caption>
-		<Website>Vebsajt:</Website>
-		<Support>Podrska:</Support>
-		<RunningAs>Program je pokrenut kao:</RunningAs>
-		<CopyRight>Ovaj kompjuterski program je zasticen zakonom o autorskim pravima i medunarodnim ugovorima. Neovlasceno umnozavanje ili distribucija ovog programa ili bilo kog njegovog dela, moze da dovede do ozbiljnih krivicnih kazni.</CopyRight>
-		<buttonPurchasePro>Kupite Pro Verziju...</buttonPurchasePro>
-	</AboutDialog>
-	<PreferencesDialog>
-		<Caption>Podesavanja</Caption>
-		<Language>Interface jezik:</Language>
-		<CheckForNewVersions>Proveri novu verziju na pocetku</CheckForNewVersions>
-		<ShellExtension>Skoljke Windovs Explorer integracije</ShellExtension>
-		<ShellExtensionInfo>Dodaj contekt menije za opticke diskove, foldere i fajlove podrzanih formata.</ShellExtensionInfo>
-	</PreferencesDialog>
-	<PasswordDialog>
-		<Caption>Potrebna lozinka</Caption>
-		<FileIsProtected>Datoteka je sifrovana. Da bi desifrovali unesite lozinku:</FileIsProtected>
-		<InvalidPassword>Invalid password</InvalidPassword>
-	</PasswordDialog>
-	<Messages>
-		<Warning>Warning</Warning>
-		<Question>Pitanje</Question>
-		<NotEnoughDiskSpace>Izgleda da nema dovoljno slobodnog prostora na disku (samo %1) na izabranom disku. \n\nDa li zelite da nastavite?</NotEnoughDiskSpace>
-		<ISOAlreadyExists>Izlazna ISO datoteka\n%1\nvec postoji, da li zelite da je presnimite?</ISOAlreadyExists>
-		<FolderAlreadyExists>Izlazni folder\n%1\nvec postoji, da li zelite da presnimite sve postojece datoteke sa istim imenom?</FolderAlreadyExists>
-		<RestartProgram>Da biste dovrsili registraciju morate restartovati program. \n\nDa li zelite sada da restartujete?</RestartProgram>
-		<CancelOperation>Da li ste sigurni da zelite da prekine tekuce operacije?</CancelOperation>
-	</Messages>
-	<StatusMessages>
-		<CheckingSourceImage>Provera izvorne image...</CheckingSourceImage>
-		<Converting>konvertovanje...</Converting>
-		<Extracting>Raspakivanje...</Extracting>
-		<ExtractionFailed>Extract operation failed</ExtractionFailed>
-		<Unpacking>Raspakivanje...</Unpacking>
-		<ConvertingToTemporaryISO>Konvertovanje u privremenu ISO datoteku...</ConvertingToTemporaryISO>
-		<ProgressBytesWritten>%1 ispisivanje</ProgressBytesWritten>
-		<Track>Track</Track>
-		<ISOImageTypeFound>ISO image (type %1) pronadjen</ISOImageTypeFound>
-		<CannotOpenSourceFile>Nije moguce je otvoriti izvornu datoteku.</CannotOpenSourceFile>
-		<CannotOpenDestFile>Nije moguce otvoriti izlaznu datoteku.</CannotOpenDestFile>
-		<OperationTerminated>Rad prekinut od strane korisnika.</OperationTerminated>
-		<OperationCompleted>Operacija je kompletna.</OperationCompleted>
-		<ClickToOpenISOInExplorer>Click &lt;a href="_open_local_file"&gt;here&lt;/a&gt; to open the output ISO file in Explorer</ClickToOpenISOInExplorer>
-		<ClickToMountISOInFinder>Click &lt;a href="_open_local_file"&gt;here&lt;/a&gt; to mount the ISO in Finder</ClickToMountISOInFinder>
-		<ClickToOpenOutFolder>Click &lt;a href="_open_local_file"&gt;here&lt;/a&gt; to open the output folder</ClickToOpenOutFolder>
-		<DiskToISO>
-			<OpeningDevice>Otvaranje medija uredaja, sacekajte...</OpeningDevice>
-			<TotalDataSize>Totalna velicina podataka je %1</TotalDataSize>
-			<CreatingISO>Kreiranje ISO...</CreatingISO>
-			<CannotCreateFromAudio>Ne mozete da kreirate ISO image sa vise sesija disk ili audio disk, da bi mogli kontaktirajte korisnicku podrsku za pomoc.</CannotCreateFromAudio>
-			<PleaseUseBinCue>Please use BIN/CUE image for such disks</PleaseUseBinCue>
-			<BlankDiskDetected>Prazan CD/DVD disk je detektovan</BlankDiskDetected>
-			<DiskNotReady>CD/DVD disk nije spreman</DiskNotReady>
-			<CannotOpenDevice>Ne mogu da otvorim uredaj (%1)</CannotOpenDevice>
-			<ReadError>Greska pri citanju podataka %1, kontaktirajte podrsku za pomoc</ReadError>
-			<DeviceIsCopyProtected>Ovaj uredaj je verna kopija zaљticen je i sifrovan. Nije moguce nastaviti.</DeviceIsCopyProtected>
-			<ISOCreationFailed>Kreiranje ISO image prekinuto</ISOCreationFailed>
-			<BinCueCreationFailed>BIN/CUE image creation failed</BinCueCreationFailed>
-			<CannotReadDiskToc>Failed to read TOC (table of contents) of the disk</CannotReadDiskToc>
-			<CannotReadDisk>Cannot read disk, error: %1</CannotReadDisk>
-			<DiskNotPresent>Disk not present or unknown media type</DiskNotPresent>
-			<NoTracksOnDisk>There are no tracks on the disk, it's probably blank</NoTracksOnDisk>
-			<mediaType>Media type: %1</mediaType>
-			<TrackLength>Track length is %1 sectors</TrackLength>
-			<TracksCount>Tracks count: %1</TracksCount>
-			<WritingTrack>Writing track %1, track length is %2 sectors</WritingTrack>
-			<DiskReadingStopped>Reading stopped at %1</DiskReadingStopped>
-			<TrackReadingStopped>Reading stopped at %1, resuming with next track</TrackReadingStopped>
-		</DiskToISO>
-		<FolderToISO>
-			<ScanningFolder>Skeniranje izvornog direktorijuma...</ScanningFolder>
-			<DirectorySize>Velicina direktorijuma je %1</DirectorySize>
-			<WritingISOFile>Ispisivanje ISO datoteke...</WritingISOFile>
-			<SkippingBigFile>Preskakanje datoteke '%1'. Veca je od 4 GB</SkippingBigFile>
-			<SkippingFile>Preskakanje datoteke '%1'.</SkippingFile>
-			<BigFileWarning>Datoteka '%1' je veca od 4 GB i nece biti vidljiva u ISO 9660 sistemu datoteka.</BigFileWarning>
-			<NestedDirectoriesLimitWarning>Struktura direktorijuma je dublja nego %1 nivo, neke datoteke i folderi bice preskoceni.</NestedDirectoriesLimitWarning>
-			<UnableToOpenFile>Nije moguce otvoriti datoteku '%1' za citanje.</UnableToOpenFile>
-			<NoExistingFolder>The folder %1 doesn't exist</NoExistingFolder>
-			<failedToCreateISOImage>Failed to create an ISO image</failedToCreateISOImage>
-		</FolderToISO>
-		<UniversalConverter>
-			<AudioCDWarning>Image izgleda da %1 Audio CD image, konvertovanje u ISO nije moguce.</AudioCDWarning>
-			<NotValidImage>Greska: Ovo nije validan CD/DVD image</NotValidImage>
-			<CannotFindSignature>Greska: nije moguce pronaci ISO_9660 potpis, dostignuto je 5 MB limita.</CannotFindSignature>
-			<MultiSessionImageDetected>Multi-session disk image detected</MultiSessionImageDetected>
-			<MultiSessionNotSupported>The disk image is a multi-session disk image. Such images are not supported.</MultiSessionNotSupported>
-		</UniversalConverter>
-		<NrgConverter>
-			<NrgParsingError>NRG parsing error, please contact support for assistance</NrgParsingError>
-			<NoSessionsFound>No NRG sessions detected, please contact support for assistance</NoSessionsFound>
-		</NrgConverter>
-		<ExtractISO>
-			<LoadingImage>Ucitavanje image...</LoadingImage>
-			<ChooseISOFS>Tamo vise fajl sistema u ovoj ISO otisak, molimo Vas da izaberete jedan od njih da izvuce:</ChooseISOFS>
-			<ChooseISOFSCaption>Choose file system</ChooseISOFSCaption>
-			<ImageFound>%1 image nadjeno</ImageFound>
-			<InvalidISO>Datoteka nije validan ISO image ili trenutno nije podrzan</InvalidISO>
-		</ExtractISO>
-		<UIFConverter>
-			<UsingZlib>Koristeci zlib dekompresije</UsingZlib>
-			<UsingLZMA>Koristeci LZMA dekompresiju Igora Pavlova</UsingLZMA>
-			<MixedImageFound>Mesoviti tip image %1 pronadjen, unkompresovanje u privremeniu datoteku...</MixedImageFound>
-			<UnpackingImage>Raspakivanje image...</UnpackingImage>
-		</UIFConverter>
-		<DebExtract>
-			<NotValidDeb>Fajl nije validan Debian (Ubuntu) Linuks-arhiva</NotValidDeb>
-		</DebExtract>
-		<RpmExtract>
-			<PackageOpened>Pakovanje %1 otvoreno</PackageOpened>
-			<DecompressingPayload>Dekompresovanje %1 nosivost na privremenu datoteku...</DecompressingPayload>
-			<UnpackingArchive>Odpakivanje arhive...</UnpackingArchive>
-		</RpmExtract>
-		<DMG>
-			<ConvertingDmgToISO>Konvertovanje DMG u HFS+ ISO...</ConvertingDmgToISO>
-			<Writing>Ispisivanje %1...</Writing>
-			<ExtractingMainPartition>Vadenje glavne DMG particije na privremenu datoteku, to moze potrajati neko vreme - sacekajte...</ExtractingMainPartition>
-			<NoVolumeFound>Volume nije nadjeno, u potrazi za HFS + fajl sistemu...</NoVolumeFound>
-			<ExtractingVolume>Vadenje DMG obima (%1)...</ExtractingVolume>
-			<CorruptedOrPasswordProtected>Greska: ostecena ili zasticena lozinkom DMG image</CorruptedOrPasswordProtected>
-			<XarArchiveDetected>DMG file is actually a XAR archive (normally with actual DMG file inside) that can be only extracted. Please choose extract operation to proceed</XarArchiveDetected>
-			<openedAsMessage>The file is opened as %1</openedAsMessage>
-			<DmgDisk>DMG disk image</DmgDisk>
-			<GPTDisk>GPT disk</GPTDisk>
-			<MBRDisk>Apple disk</MBRDisk>
-			<HFSVolume>HFS+ volume</HFSVolume>
-			<readingFileSystem>Reading %1 file system...</readingFileSystem>
-			<messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
-			<messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
-		</DMG>
-		<PDIConverter>
-			<InvalidOrBrokenImage>Nevazeci ili polomljen InstantCopi PIO image</InvalidOrBrokenImage>
-		</PDIConverter>
-		<ISZConverter>
-			<CompressionNone>Metoda kompresije: nema</CompressionNone>
-			<WarningPassword>Neispravna lozinka ce izlaznu gatoteku dati ntvazecom</WarningPassword>
-			<ImageIsSegmented>ISZ je segmentiran</ImageIsSegmented>
-		</ISZConverter>
-		<ArchiveConverter>
-			<ReadingArchive>Reading archive...</ReadingArchive>
-			<RemovingTempFiles>Removing temporary files...</RemovingTempFiles>
-			<ExtractError>Unable to extract %1, error %2</ExtractError>
-		</ArchiveConverter>
-		<TarUnpacker>
-			<SinglePackedFileFound>Single packed file detected: %1, unpacking...</SinglePackedFileFound>
-		</TarUnpacker>
-		<XarUnpacker>
-			<ReadingTOC>Reading table of contents (%1 bytes)...</ReadingTOC>
-			<NestedArchiveFound>Extracted file '%1' can be unpacked separately as %2 archive (append extension manually)</NestedArchiveFound>
-		</XarUnpacker>
-	</StatusMessages>
-	<Misc>
-		<buttonOk>OK</buttonOk>
-		<buttonCancel>Otkazi</buttonCancel>
-		<buttonClose>Zatvori</buttonClose>
-		<buttonYes>Yes</buttonYes>
-		<buttonNo>No</buttonNo>
-		<ProVersion>Pro Verzija</ProVersion>
-		<LiteVersion>Lite Verzija</LiteVersion>
-	</Misc>
-	<ShellExtension>
-		<!-- This section describes Windows context menus -->
-		<ConvertToISO>Konvertuj u "%s"</ConvertToISO>
-		<ConvertToISOInfo>Konvertuj disk image datoteku u ISO format</ConvertToISOInfo>
-		<Extract>Raspakuj u "%s"</Extract>
-		<ExtractInfo>Raspakuj disk image datoteku</ExtractInfo>
-		<CreateISOFromFolder>Kreiraj "%s"</CreateISOFromFolder>
-		<CreateISOFromFolderInfo>Kreiraj ISO image u ovaj folder sa osnovnim opcijama</CreateISOFromFolderInfo>
-		<CreateISOFromFolderWithOptions>Kreiraj "%s" sa opcijama...</CreateISOFromFolderWithOptions>
-		<CreateISOFromFolderWithOptionsInfo>Napravi ISO image ovog foldera sa navodenjem opcije sistema datoteka i Volume Label</CreateISOFromFolderWithOptionsInfo>
-		<CreateISOFromDisk>Kreiraj ISO image na ovaj disk</CreateISOFromDisk>
-		<CreateISOFromDiskInfo>Napravi ISO image odabranog optickog diska</CreateISOFromDiskInfo>
-		<CreateBINCUEFromDisk>Create BIN/CUE image of this disk</CreateBINCUEFromDisk>
-		<CreateBINCUEFromDiskInfo>Create BIN (raw) image of a selected optical disk and its corresponding CUE sheet file</CreateBINCUEFromDiskInfo>
-	</ShellExtension>
-	<core>
-		<UpdateChecker>
-			<ReleasedOn>released on %1</ReleasedOn>
-			<CheckForUpdates>Check for updates...</CheckForUpdates>
-			<NewVersionAvailable>A new version of %1 is available!</NewVersionAvailable>
-			<NewVersionAvailableText>%1 %2 is now available - you have %3. Would you like to download it now?</NewVersionAvailableText>
-			<UpdateAlertTitle>Software Update</UpdateAlertTitle>
-			<UpdateAlertReleaseNotes>Release Notes:</UpdateAlertReleaseNotes>
-			<UpdateAlertRemindLater>Remind Me Later</UpdateAlertRemindLater>
-			<UpdateAlertSkip>Skip This Version</UpdateAlertSkip>
-			<UpdateAlertInstall>Install Update</UpdateAlertInstall>
-			<UpdateAlertAutomaticUpdates>Check for updates automatically</UpdateAlertAutomaticUpdates>
-			<MessageNoUpdateAvailable>You're up to date!</MessageNoUpdateAvailable>
-			<MessageNoUpdateAvailableDescription>%1 %2 is currently the newest version available.</MessageNoUpdateAvailableDescription>
-			<MessageErrorConnect>An error occurred while downloading the update. Please try again later.</MessageErrorConnect>
-			<MessageErrorParse>An error occurred while parsing the update feed.</MessageErrorParse>
-			<UpdateProgressTitle>Updating %1</UpdateProgressTitle>
-			<UpdateProgressCancel>Cancel</UpdateProgressCancel>
-			<UpdateProgressInstallAndRelaunch>Install and Relaunch</UpdateProgressInstallAndRelaunch>
-			<UpdateProgressStatusDownloading>Downloading update...</UpdateProgressStatusDownloading>
-			<UpdateProgressExtract>Extracting update...</UpdateProgressExtract>
-			<UpdateProgressStatusReady>Ready to Install</UpdateProgressStatusReady>
-			<UpdateProgressSize>%1 of %2</UpdateProgressSize>
-			<UpdateProgressB>B</UpdateProgressB>
-			<UpdateProgressKB>KB</UpdateProgressKB>
-			<UpdateProgressMB>MB</UpdateProgressMB>
-			<UpdateProgressGB>GB</UpdateProgressGB>
-		</UpdateChecker>
-		<LetsMoveMac>
-			<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
-			<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
-			<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
-			<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
-			<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
-			<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
-			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-			<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-		</LetsMoveMac>
-		<QLineEditEx>
-			<actionUndo>Undo</actionUndo>
-			<actionRedo>Redo</actionRedo>
-			<actionCut>Cut</actionCut>
-			<actionCopy>Copy</actionCopy>
-			<actionPaste>Paste</actionPaste>
-			<actionDelete>Delete</actionDelete>
-			<actionSelectAll>Select All</actionSelectAll>
-		</QLineEditEx>
-		<QMessageBoxEx>
-			<buttonOK>OK</buttonOK>
-			<buttonCancel>Cancel</buttonCancel>
-			<buttonClose>Close</buttonClose>
-			<buttonYes>Yes</buttonYes>
-			<buttonNo>No</buttonNo>
-		</QMessageBoxEx>
-	</core>
+    <MainWindow>
+        <mnuFile>Datoteka</mnuFile>
+        <mnuFileExit>Izlaz</mnuFileExit>
+        <mnuHelp>Pomoc</mnuHelp>
+        <mnuHelpDocumentation>Dokumentacija...</mnuHelpDocumentation>
+        <mnuHelpPurchase>Kupite Pro Verziju...</mnuHelpPurchase>
+        <mnuHelpEnterCode>Unesite registarski kod...</mnuHelpEnterCode>
+        <mnuHelpAbout>O nama...</mnuHelpAbout>
+        <mnuHomePage>AnyToISO Pocetna strana...</mnuHomePage>
+        <menuPreferences>Podesavanja...</menuPreferences>
+        <newVersionAvailable>AnyToISO %1 je dostupna!</newVersionAvailable>
+        <newVersionUpdate>Azuriraj</newVersionUpdate>
+        <buttonStop>Stop</buttonStop>
+        <tabConvertExtract>
+            <Name>Raspakuj datoteku/Konvertuj u ISO</Name>
+            <SourceFileName>Izvorna image datoteka:</SourceFileName>
+            <ConvertToISO>Konvertuj u ISO image:</ConvertToISO>
+            <ExtractToFolder>Raspakuj u folder:</ExtractToFolder>
+            <buttonOpenImage>Otvori image...</buttonOpenImage>
+            <buttonOpenImageText>Otvori CD/DVD Image datoteku</buttonOpenImageText>
+            <AllSupportedFiles>Sve Podrzavane Datoteke</AllSupportedFiles>
+            <buttonOpenISO>Otvori ISO...</buttonOpenISO>
+            <buttonOpenISOText>Odaberite izlaznu ISO datoteku</buttonOpenISOText>
+            <buttonOpenISOFilter>ISO Datoteka (*.iso)</buttonOpenISOFilter>
+            <buttonOpenFolder>Odaberite folder...</buttonOpenFolder>
+            <buttonOpenFolderText>Otvorite izlazni folder</buttonOpenFolderText>
+            <buttonConvert>Konvertuj!</buttonConvert>
+            <buttonExtract>Raspakuj!</buttonExtract>
+            <labelFileSize>Velicina datoteke</labelFileSize>
+            <labelFileFormat>format</labelFileFormat>
+            <labelOpenOrDragFile>&lt;b&gt;Open&lt;/b&gt; or &lt;b&gt;drag&lt;/b&gt; an image to convert or extract</labelOpenOrDragFile>
+        </tabConvertExtract>
+        <tabDiskToISO>
+            <Name>CD/DVD Disk u ISO</Name>
+            <SourceDrive>Izvorni Drajv:</SourceDrive>
+            <OutputISO>Izlazna ISO datoteka:</OutputISO>
+            <checkCreateBinCue>Create BIN/CUE image</checkCreateBinCue>
+            <buttonRefresh>Osvezi</buttonRefresh>
+            <buttonBrowseISO>Pregledaj...</buttonBrowseISO>
+            <NoDiskInserted>CD/DVD disk nije unet</NoDiskInserted>
+            <buttonMakeISO>Napravi ISO</buttonMakeISO>
+            <buttonMakeBinCue>Create BIN/CUE image</buttonMakeBinCue>
+            <chooseISOOrBinCueImage>Please select ISO or BIN/CUE image file</chooseISOOrBinCueImage>
+            <isoFilesFilter>ISO Files</isoFilesFilter>
+            <binCueSheetFilter>BIN Files (with CUE sheet)</binCueSheetFilter>
+        </tabDiskToISO>
+        <tabFolderToISO>
+            <Name>ISO Folder</Name>
+            <SourceFolder>Izvorni Folder:</SourceFolder>
+            <DestinationISO>Izlazna ISO datoteka:</DestinationISO>
+            <VolumeLabel>Volume Label:</VolumeLabel>
+            <buttonBrowseForFolder>Pregledaj Folder...</buttonBrowseForFolder>
+            <buttonChooseISO>Izaberite ISO...</buttonChooseISO>
+            <buttonOptions>Opcije...</buttonOptions>
+            <buttonMakeISO>Napravi ISO</buttonMakeISO>
+            <ISOCreationOptions>ISO Stvaralacke Opcije</ISOCreationOptions>
+            <Settings>Podesavanja</Settings>
+            <FileSystemsInsideISO>Sistemi datoteka:</FileSystemsInsideISO>
+            <buttonDefault>Osnovno</buttonDefault>
+            <ISO9660Option1>8.3 DOS Imena datoteka (11)</ISO9660Option1>
+            <ISO9660Option2>Duza imena (180)</ISO9660Option2>
+            <ISO9660Option3>ISO 9660:1999</ISO9660Option3>
+            <JolietOption1>Standardna imena (64)</JolietOption1>
+            <JolietOption2>Dugacka imena (110)</JolietOption2>
+        </tabFolderToISO>
+    </MainWindow>
+    <LiteVersionDialog>
+        <LiteVersionLimitText>Lite version of AnyToISO works with &lt;b&gt;CD images only&lt;/b&gt; (up to 870 MB). In order to work with larger files (DVD and more) you should &lt;a href="purchase"&gt;Purchase Professional version&lt;/a&gt;. You'll obtain the registration code &lt;a href="unlock"&gt;unlocking the software&lt;/a&gt; after the purchase.</LiteVersionLimitText>
+        <buttonPurchasePro>Kupi Pro Verziju...</buttonPurchasePro>
+    </LiteVersionDialog>
+    <EnterKeyDialog>
+        <Caption>Unesi Registarski Kod</Caption>
+        <EnterKeyToUpgradeText>Molimo unesite vas registarski kod da nadogradite AnyToISO u Pro Verziju.</EnterKeyToUpgradeText>
+        <RegName>Registracioni ime:</RegName>
+        <RegCode>Registracioni kod:</RegCode>
+    </EnterKeyDialog>
+    <AboutDialog>
+        <Caption>O AnyToISO</Caption>
+        <Website>Vebsajt:</Website>
+        <Support>Podrska:</Support>
+        <RunningAs>Program je pokrenut kao:</RunningAs>
+        <CopyRight>Ovaj kompjuterski program je zasticen zakonom o autorskim pravima i medunarodnim ugovorima. Neovlasceno umnozavanje ili distribucija ovog programa ili bilo kog njegovog dela, moze da dovede do ozbiljnih krivicnih kazni.</CopyRight>
+        <buttonPurchasePro>Kupite Pro Verziju...</buttonPurchasePro>
+    </AboutDialog>
+    <PreferencesDialog>
+        <Caption>Podesavanja</Caption>
+        <PreferencesGeneral>General</PreferencesGeneral>
+        <PreferencesUpdates>Updates</PreferencesUpdates>
+        <Language>Interface jezik:</Language>
+        <CheckForNewVersions>Proveri novu verziju na pocetku</CheckForNewVersions>
+        <ShellExtension>Skoljke Windovs Explorer integracije</ShellExtension>
+        <ShellExtensionInfo>Dodaj contekt menije za opticke diskove, foldere i fajlove podrzanih formata.</ShellExtensionInfo>
+    </PreferencesDialog>
+    <PasswordDialog>
+        <Caption>Potrebna lozinka</Caption>
+        <FileIsProtected>Datoteka je sifrovana. Da bi desifrovali unesite lozinku:</FileIsProtected>
+        <InvalidPassword>Invalid password</InvalidPassword>
+    </PasswordDialog>
+    <Messages>
+        <Warning>Warning</Warning>
+        <Question>Pitanje</Question>
+        <NotEnoughDiskSpace>Izgleda da nema dovoljno slobodnog prostora na disku (samo %1) na izabranom disku. \n\nDa li zelite da nastavite?</NotEnoughDiskSpace>
+        <ISOAlreadyExists>Izlazna ISO datoteka\n%1\nvec postoji, da li zelite da je presnimite?</ISOAlreadyExists>
+        <FolderAlreadyExists>Izlazni folder\n%1\nvec postoji, da li zelite da presnimite sve postojece datoteke sa istim imenom?</FolderAlreadyExists>
+        <RestartProgram>Da biste dovrsili registraciju morate restartovati program. \n\nDa li zelite sada da restartujete?</RestartProgram>
+        <CancelOperation>Da li ste sigurni da zelite da prekine tekuce operacije?</CancelOperation>
+    </Messages>
+    <StatusMessages>
+        <CheckingSourceImage>Provera izvorne image...</CheckingSourceImage>
+        <Converting>konvertovanje...</Converting>
+        <Extracting>Raspakivanje...</Extracting>
+        <ExtractionFailed>Extract operation failed</ExtractionFailed>
+        <Unpacking>Raspakivanje...</Unpacking>
+        <ConvertingToTemporaryISO>Konvertovanje u privremenu ISO datoteku...</ConvertingToTemporaryISO>
+        <ProgressBytesWritten>%1 ispisivanje</ProgressBytesWritten>
+        <Track>Track</Track>
+        <ISOImageTypeFound>ISO image (type %1) pronadjen</ISOImageTypeFound>
+        <CannotOpenSourceFile>Nije moguce je otvoriti izvornu datoteku.</CannotOpenSourceFile>
+        <CannotOpenDestFile>Nije moguce otvoriti izlaznu datoteku.</CannotOpenDestFile>
+        <OperationTerminated>Rad prekinut od strane korisnika.</OperationTerminated>
+        <OperationCompleted>Operacija je kompletna.</OperationCompleted>
+        <ClickToOpenISOInExplorer>Click &lt;a href="_open_local_file"&gt;here&lt;/a&gt; to open the output ISO file in Explorer</ClickToOpenISOInExplorer>
+        <ClickToMountISOInFinder>Click &lt;a href="_open_local_file"&gt;here&lt;/a&gt; to mount the ISO in Finder</ClickToMountISOInFinder>
+        <ClickToOpenOutFolder>Click &lt;a href="_open_local_file"&gt;here&lt;/a&gt; to open the output folder</ClickToOpenOutFolder>
+        <DiskToISO>
+            <OpeningDevice>Otvaranje medija uredaja, sacekajte...</OpeningDevice>
+            <TotalDataSize>Totalna velicina podataka je %1</TotalDataSize>
+            <CreatingISO>Kreiranje ISO...</CreatingISO>
+            <CannotCreateFromAudio>Ne mozete da kreirate ISO image sa vise sesija disk ili audio disk, da bi mogli kontaktirajte korisnicku podrsku za pomoc.</CannotCreateFromAudio>
+            <PleaseUseBinCue>Please use BIN/CUE image for such disks</PleaseUseBinCue>
+            <BlankDiskDetected>Prazan CD/DVD disk je detektovan</BlankDiskDetected>
+            <DiskNotReady>CD/DVD disk nije spreman</DiskNotReady>
+            <CannotOpenDevice>Ne mogu da otvorim uredaj (%1)</CannotOpenDevice>
+            <ReadError>Greska pri citanju podataka %1, kontaktirajte podrsku za pomoc</ReadError>
+            <DeviceIsCopyProtected>Ovaj uredaj je verna kopija zaљticen je i sifrovan. Nije moguce nastaviti.</DeviceIsCopyProtected>
+            <ISOCreationFailed>Kreiranje ISO image prekinuto</ISOCreationFailed>
+            <BinCueCreationFailed>BIN/CUE image creation failed</BinCueCreationFailed>
+            <CannotReadDiskToc>Failed to read TOC (table of contents) of the disk</CannotReadDiskToc>
+            <CannotReadDisk>Cannot read disk, error: %1</CannotReadDisk>
+            <DiskNotPresent>Disk not present or unknown media type</DiskNotPresent>
+            <NoTracksOnDisk>There are no tracks on the disk, it's probably blank</NoTracksOnDisk>
+            <mediaType>Media type: %1</mediaType>
+            <TrackLength>Track length is %1 sectors</TrackLength>
+            <TracksCount>Tracks count: %1</TracksCount>
+            <WritingTrack>Writing track %1, track length is %2 sectors</WritingTrack>
+            <DiskReadingStopped>Reading stopped at %1</DiskReadingStopped>
+            <TrackReadingStopped>Reading stopped at %1, resuming with next track</TrackReadingStopped>
+        </DiskToISO>
+        <FolderToISO>
+            <ScanningFolder>Skeniranje izvornog direktorijuma...</ScanningFolder>
+            <DirectorySize>Velicina direktorijuma je %1</DirectorySize>
+            <WritingISOFile>Ispisivanje ISO datoteke...</WritingISOFile>
+            <SkippingBigFile>Preskakanje datoteke '%1'. Veca je od 4 GB</SkippingBigFile>
+            <SkippingFile>Preskakanje datoteke '%1'.</SkippingFile>
+            <BigFileWarning>Datoteka '%1' je veca od 4 GB i nece biti vidljiva u ISO 9660 sistemu datoteka.</BigFileWarning>
+            <NestedDirectoriesLimitWarning>Struktura direktorijuma je dublja nego %1 nivo, neke datoteke i folderi bice preskoceni.</NestedDirectoriesLimitWarning>
+            <UnableToOpenFile>Nije moguce otvoriti datoteku '%1' za citanje.</UnableToOpenFile>
+            <NoExistingFolder>The folder %1 doesn't exist</NoExistingFolder>
+            <failedToCreateISOImage>Failed to create an ISO image</failedToCreateISOImage>
+        </FolderToISO>
+        <UniversalConverter>
+            <AudioCDWarning>Image izgleda da %1 Audio CD image, konvertovanje u ISO nije moguce.</AudioCDWarning>
+            <NotValidImage>Greska: Ovo nije validan CD/DVD image</NotValidImage>
+            <CannotFindSignature>Greska: nije moguce pronaci ISO_9660 potpis, dostignuto je 5 MB limita.</CannotFindSignature>
+            <MultiSessionImageDetected>Multi-session disk image detected</MultiSessionImageDetected>
+            <MultiSessionNotSupported>The disk image is a multi-session disk image. Such images are not supported.</MultiSessionNotSupported>
+        </UniversalConverter>
+        <NrgConverter>
+            <NrgParsingError>NRG parsing error, please contact support for assistance</NrgParsingError>
+            <NoSessionsFound>No NRG sessions detected, please contact support for assistance</NoSessionsFound>
+        </NrgConverter>
+        <ExtractISO>
+            <LoadingImage>Ucitavanje image...</LoadingImage>
+            <ChooseISOFS>Tamo vise fajl sistema u ovoj ISO otisak, molimo Vas da izaberete jedan od njih da izvuce:</ChooseISOFS>
+            <ChooseISOFSCaption>Choose file system</ChooseISOFSCaption>
+            <ImageFound>%1 image nadjeno</ImageFound>
+            <InvalidISO>Datoteka nije validan ISO image ili trenutno nije podrzan</InvalidISO>
+        </ExtractISO>
+        <UIFConverter>
+            <UsingZlib>Koristeci zlib dekompresije</UsingZlib>
+            <UsingLZMA>Koristeci LZMA dekompresiju Igora Pavlova</UsingLZMA>
+            <MixedImageFound>Mesoviti tip image %1 pronadjen, unkompresovanje u privremeniu datoteku...</MixedImageFound>
+            <UnpackingImage>Raspakivanje image...</UnpackingImage>
+        </UIFConverter>
+        <DebExtract>
+            <NotValidDeb>Fajl nije validan Debian (Ubuntu) Linuks-arhiva</NotValidDeb>
+        </DebExtract>
+        <RpmExtract>
+            <PackageOpened>Pakovanje %1 otvoreno</PackageOpened>
+            <DecompressingPayload>Dekompresovanje %1 nosivost na privremenu datoteku...</DecompressingPayload>
+            <UnpackingArchive>Odpakivanje arhive...</UnpackingArchive>
+        </RpmExtract>
+        <DMG>
+            <ConvertingDmgToISO>Konvertovanje DMG u HFS+ ISO...</ConvertingDmgToISO>
+            <Writing>Ispisivanje %1...</Writing>
+            <ExtractingMainPartition>Vadenje glavne DMG particije na privremenu datoteku, to moze potrajati neko vreme - sacekajte...</ExtractingMainPartition>
+            <NoVolumeFound>Volume nije nadjeno, u potrazi za HFS + fajl sistemu...</NoVolumeFound>
+            <ExtractingVolume>Vadenje DMG obima (%1)...</ExtractingVolume>
+            <CorruptedOrPasswordProtected>Greska: ostecena ili zasticena lozinkom DMG image</CorruptedOrPasswordProtected>
+            <XarArchiveDetected>DMG file is actually a XAR archive (normally with actual DMG file inside) that can be only extracted. Please choose extract operation to proceed</XarArchiveDetected>
+            <openedAsMessage>The file is opened as %1</openedAsMessage>
+            <DmgDisk>DMG disk image</DmgDisk>
+            <GPTDisk>GPT disk</GPTDisk>
+            <MBRDisk>Apple disk</MBRDisk>
+            <HFSVolume>HFS+ volume</HFSVolume>
+            <readingFileSystem>Reading %1 file system...</readingFileSystem>
+            <messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
+            <messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
+        </DMG>
+        <PDIConverter>
+            <InvalidOrBrokenImage>Nevazeci ili polomljen InstantCopi PIO image</InvalidOrBrokenImage>
+        </PDIConverter>
+        <ISZConverter>
+            <CompressionNone>Metoda kompresije: nema</CompressionNone>
+            <WarningPassword>Neispravna lozinka ce izlaznu gatoteku dati ntvazecom</WarningPassword>
+            <ImageIsSegmented>ISZ je segmentiran</ImageIsSegmented>
+        </ISZConverter>
+        <ArchiveConverter>
+            <ReadingArchive>Reading archive...</ReadingArchive>
+            <RemovingTempFiles>Removing temporary files...</RemovingTempFiles>
+            <ExtractError>Unable to extract %1, error %2</ExtractError>
+        </ArchiveConverter>
+        <TarUnpacker>
+            <SinglePackedFileFound>Single packed file detected: %1, unpacking...</SinglePackedFileFound>
+        </TarUnpacker>
+        <XarUnpacker>
+            <ReadingTOC>Reading table of contents (%1 bytes)...</ReadingTOC>
+            <NestedArchiveFound>Extracted file '%1' can be unpacked separately as %2 archive (append extension manually)</NestedArchiveFound>
+        </XarUnpacker>
+    </StatusMessages>
+    <Misc>
+        <buttonOk>OK</buttonOk>
+        <buttonCancel>Otkazi</buttonCancel>
+        <buttonClose>Zatvori</buttonClose>
+        <buttonYes>Yes</buttonYes>
+        <buttonNo>No</buttonNo>
+        <ProVersion>Pro Verzija</ProVersion>
+        <LiteVersion>Lite Verzija</LiteVersion>
+    </Misc>
+    <ShellExtension>
+        <!-- This section describes Windows context menus -->
+        <ConvertToISO>Konvertuj u "%s"</ConvertToISO>
+        <ConvertToISOInfo>Konvertuj disk image datoteku u ISO format</ConvertToISOInfo>
+        <Extract>Raspakuj u "%s"</Extract>
+        <ExtractInfo>Raspakuj disk image datoteku</ExtractInfo>
+        <CreateISOFromFolder>Kreiraj "%s"</CreateISOFromFolder>
+        <CreateISOFromFolderInfo>Kreiraj ISO image u ovaj folder sa osnovnim opcijama</CreateISOFromFolderInfo>
+        <CreateISOFromFolderWithOptions>Kreiraj "%s" sa opcijama...</CreateISOFromFolderWithOptions>
+        <CreateISOFromFolderWithOptionsInfo>Napravi ISO image ovog foldera sa navodenjem opcije sistema datoteka i Volume Label</CreateISOFromFolderWithOptionsInfo>
+        <CreateISOFromDisk>Kreiraj ISO image na ovaj disk</CreateISOFromDisk>
+        <CreateISOFromDiskInfo>Napravi ISO image odabranog optickog diska</CreateISOFromDiskInfo>
+        <CreateBINCUEFromDisk>Create BIN/CUE image of this disk</CreateBINCUEFromDisk>
+        <CreateBINCUEFromDiskInfo>Create BIN (raw) image of a selected optical disk and its corresponding CUE sheet file</CreateBINCUEFromDiskInfo>
+    </ShellExtension>
+    <core>
+        <UpdateChecker>
+            <ReleasedOn>released on %1</ReleasedOn>
+            <CheckForUpdates>Check for updates...</CheckForUpdates>
+            <NewVersionAvailable>A new version of %1 is available!</NewVersionAvailable>
+            <NewVersionAvailableText>%1 %2 is now available - you have %3. Would you like to download it now?</NewVersionAvailableText>
+            <UpdateAlertTitle>Software Update</UpdateAlertTitle>
+            <UpdateAlertReleaseNotes>Release Notes:</UpdateAlertReleaseNotes>
+            <UpdateAlertRemindLater>Remind Me Later</UpdateAlertRemindLater>
+            <UpdateAlertSkip>Skip This Version</UpdateAlertSkip>
+            <UpdateAlertInstall>Install Update</UpdateAlertInstall>
+            <UpdateAlertAutomaticUpdates>Check for updates automatically</UpdateAlertAutomaticUpdates>
+            <MessageNoUpdateAvailable>You're up to date!</MessageNoUpdateAvailable>
+            <MessageNoUpdateAvailableDescription>%1 %2 is currently the newest version available.</MessageNoUpdateAvailableDescription>
+            <MessageErrorConnect>An error occurred while downloading the update. Please try again later.</MessageErrorConnect>
+            <MessageErrorParse>An error occurred while parsing the update feed.</MessageErrorParse>
+            <UpdateProgressTitle>Updating %1</UpdateProgressTitle>
+            <UpdateProgressCancel>Cancel</UpdateProgressCancel>
+            <UpdateProgressInstallAndRelaunch>Install and Relaunch</UpdateProgressInstallAndRelaunch>
+            <UpdateProgressStatusDownloading>Downloading update...</UpdateProgressStatusDownloading>
+            <UpdateProgressExtract>Extracting update...</UpdateProgressExtract>
+            <UpdateProgressStatusReady>Ready to Install</UpdateProgressStatusReady>
+            <UpdateProgressSize>%1 of %2</UpdateProgressSize>
+            <UpdateProgressB>B</UpdateProgressB>
+            <UpdateProgressKB>KB</UpdateProgressKB>
+            <UpdateProgressMB>MB</UpdateProgressMB>
+            <UpdateProgressGB>GB</UpdateProgressGB>
+        </UpdateChecker>
+        <LetsMoveMac>
+            <kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
+            <kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+        </LetsMoveMac>
+        <QLineEditEx>
+            <actionUndo>Undo</actionUndo>
+            <actionRedo>Redo</actionRedo>
+            <actionCut>Cut</actionCut>
+            <actionCopy>Copy</actionCopy>
+            <actionPaste>Paste</actionPaste>
+            <actionDelete>Delete</actionDelete>
+            <actionSelectAll>Select All</actionSelectAll>
+        </QLineEditEx>
+        <QMessageBoxEx>
+            <buttonOK>OK</buttonOK>
+            <buttonCancel>Cancel</buttonCancel>
+            <buttonClose>Close</buttonClose>
+            <buttonYes>Yes</buttonYes>
+            <buttonNo>No</buttonNo>
+        </QMessageBoxEx>
+    </core>
 </LanguageStrings>

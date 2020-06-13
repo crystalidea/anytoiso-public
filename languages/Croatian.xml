@@ -86,6 +86,8 @@
 	</AboutDialog>
 	<PreferencesDialog>
 		<Caption>Postavke</Caption>
+		<PreferencesGeneral>General</PreferencesGeneral>
+		<PreferencesUpdates>Updates</PreferencesUpdates>
 		<Language>Jezik sučelja:</Language>
 		<CheckForNewVersions>Kod pokretanja provjeri za noviju verziju</CheckForNewVersions>
 		<ShellExtension>Windows Explorer integracija</ShellExtension>

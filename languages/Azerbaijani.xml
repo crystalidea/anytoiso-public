@@ -1,310 +1,312 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="3.7.0" Author="İbrahim İbrahimov (AMAROK) - Azerbaijan">
-	<MainWindow>
-		<mnuFile>Fayl</mnuFile>
-		<mnuFileExit>Çıxış</mnuFileExit>
-		<mnuHelp>Yardım</mnuHelp>
-		<mnuHelpDocumentation>Sənədlər...</mnuHelpDocumentation>
-		<mnuHelpPurchase>Pro Versiyanı Satın Al...</mnuHelpPurchase>
-		<mnuHelpEnterCode>Qeydiyyat Kodunu Gir...</mnuHelpEnterCode>
-		<mnuHelpAbout>Haqqında...</mnuHelpAbout>
-		<mnuHomePage>AnyToISO Giriş Səhfəsi...</mnuHomePage>
-		<menuPreferences>Özəlliklər...</menuPreferences>
-		<newVersionAvailable>AnyToISO %1 yayınlandı!</newVersionAvailable>
-		<newVersionUpdate>Yenilə</newVersionUpdate>
-		<buttonStop>Dayan</buttonStop>
-		<tabConvertExtract>
-			<Name>Görünüş Məzmununu Çıxart/ISO et</Name>
-			<SourceFileName>Qaynaq görünüş faylı:</SourceFileName>
-			<ConvertToISO>ISO görünüşünə çevir:</ConvertToISO>
-			<ExtractToFolder>Qovluğa çıxart:</ExtractToFolder>
-			<buttonOpenImage>Görünüşü aç...</buttonOpenImage>
-			<buttonOpenImageText>CD/DVD görünüş faylını aç</buttonOpenImageText>
-			<AllSupportedFiles>Bütün Dəstəklənən fayllar</AllSupportedFiles>
-			<buttonOpenISO>ISO faylı aç...</buttonOpenISO>
-			<buttonOpenISOText>Seçiləcək ISO faylı</buttonOpenISOText>
-			<buttonOpenISOFilter>ISO Faylları (*.iso)</buttonOpenISOFilter>
-			<buttonOpenFolder>Qovluğ seç...</buttonOpenFolder>
-			<buttonOpenFolderText>Hədəf qovluğu aç</buttonOpenFolderText>
-			<buttonConvert>Çevir!</buttonConvert>
-			<buttonExtract>Çıxart!</buttonExtract>
-			<labelFileSize>Fayl ölçüsü</labelFileSize>
-			<labelFileFormat>forma</labelFileFormat>
-			<labelOpenOrDragFile>Çevirmək ya da çıxartmaq üçün bir görünüş faylını &lt;b&gt;aç&lt;/b&gt; ya da &lt;b&gt;sürüklə&lt;/b&gt;</labelOpenOrDragFile>
-		</tabConvertExtract>
-		<tabDiskToISO>
-			<Name>CD/DVD Diski ISO et</Name>
-			<SourceDrive>Qaynaq Sürücü:</SourceDrive>
-			<OutputISO>Hədəf görünüş:</OutputISO>
-			<checkCreateBinCue>BIN/CUE görünüşü yarat</checkCreateBinCue>
-			<buttonRefresh>Yenilə</buttonRefresh>
-			<buttonBrowseISO>Araşdır...</buttonBrowseISO>
-			<NoDiskInserted>CD/DVD disk mevcud deyil</NoDiskInserted>
-			<buttonMakeISO>ISO et</buttonMakeISO>
-			<buttonMakeBinCue>BIN/CUE görünüşü yarat</buttonMakeBinCue>
-			<chooseISOOrBinCueImage>Zəhmət olmasa ISO ya da BIN/CUE görünüş faylını seçin</chooseISOOrBinCueImage>
-			<isoFilesFilter>ISO Faylları</isoFilesFilter>
-			<binCueSheetFilter>BIN faylları (CUE laylarıyla)</binCueSheetFilter>
-		</tabDiskToISO>
-		<tabFolderToISO>
-			<Name>Qovluğu ISO et</Name>
-			<SourceFolder>Qaynaq Qovluğ:</SourceFolder>
-			<DestinationISO>Hədəf ISO faylı:</DestinationISO>
-			<VolumeLabel>Bölmə Etiketi:</VolumeLabel>
-			<buttonBrowseForFolder>Qovluğ üçün göz at...</buttonBrowseForFolder>
-			<buttonChooseISO>ISO faylı seç...</buttonChooseISO>
-			<buttonOptions>Variantlar...</buttonOptions>
-			<buttonMakeISO>ISO et</buttonMakeISO>
-			<ISOCreationOptions>ISO Yaratma Variantları</ISOCreationOptions>
-			<Settings>Nizamlar</Settings>
-			<FileSystemsInsideISO>Fayl Sistemləri:</FileSystemsInsideISO>
-			<buttonDefault>Fərz edilən</buttonDefault>
-			<ISO9660Option1>8.3 DOS fayl adları (11)</ISO9660Option1>
-			<ISO9660Option2>Daha uzun adlar (180)</ISO9660Option2>
-			<ISO9660Option3>ISO 9660:1999</ISO9660Option3>
-			<JolietOption1>Standard adlar (64)</JolietOption1>
-			<JolietOption2>Uzun adlar (110)</JolietOption2>
-		</tabFolderToISO>
-	</MainWindow>
-	<LiteVersionDialog>
-		<LiteVersionLimitText>AnyToISO Lite versiyası yalnızca &lt;b&gt;CD görüntüləriylə&lt;/b&gt; (870 MB'a qədər) çalışır. Daha böyük ölçülü fayllarla çalışmaq üçün (DVD və çoxu) &lt;a href="purchase"&gt;Professional versiyanı satın almalısınız&lt;/a&gt;. Satın almadan sonra &lt;a href="unlock"&gt;proqramın kilidini açmaq üçün&lt;/a&gt; lazım olan qeydiyyat kodunu alacağsınız.</LiteVersionLimitText>
-		<buttonPurchasePro>Pro Versiyanı Satın Al...</buttonPurchasePro>
-	</LiteVersionDialog>
-	<EnterKeyDialog>
-		<Caption>Qeydiyyat Kodunu Gir</Caption>
-		<EnterKeyToUpgradeText>AnyToISO Pro Versiyasına yüksəltmək üçün zəhmət omasa qeydiyyat detallarınızı girin.</EnterKeyToUpgradeText>
-		<RegName>Qeyd Adı:</RegName>
-		<RegCode>Qeyd Kodu:</RegCode>
-	</EnterKeyDialog>
-	<AboutDialog>
-		<Caption>AnyToISO Haqqında</Caption>
-		<Website>Web saytı:</Website>
-		<Support>Dəstək:</Support>
-		<RunningAs>Proqram bu şəkildə çalışır:</RunningAs>
-		<CopyRight>Bu kompüter proqramı, təlif haqları qanunu və beynəlxalq razılaşmalarla qorunmaqdadır. Bu proqramın səlahiyyətsiz surətinin çıxarılması ya da hər hansı bir hissəsinin paylanması, ciddi hüquqi və ya cəza sanksiyalarına səbəb ola bilər.</CopyRight>
-		<buttonPurchasePro>Pro versiyanı satın al...</buttonPurchasePro>
-	</AboutDialog>
-	<PreferencesDialog>
-		<Caption>Özəlliklər</Caption>
-		<Language>İnterfeys Dili:</Language>
-		<CheckForNewVersions>Açılışlarda yeni distributivi yoxla</CheckForNewVersions>
-		<ShellExtension>Windows Səyyahına inteqrasiya ol</ShellExtension>
-		<ShellExtensionInfo>Optik sürücülər, qovluqlar və dəstəklənən fayl formaları üçün məzmun menyusu əlavə et.</ShellExtensionInfo>
-	</PreferencesDialog>
-	<PasswordDialog>
-		<Caption>Parol lazımdı</Caption>
-		<FileIsProtected>Fayl kodlaşdırılıb. Açmaq üçün zəhmət olmasa parolu girin:</FileIsProtected>
-		<InvalidPassword>Keçərsiz parol</InvalidPassword>
-	</PasswordDialog>
-	<Messages>
-		<Warning>Xəbərdarlıq</Warning>
-		<Question>Sual</Question>
-		<NotEnoughDiskSpace>Seçilən diskdə kafi boş sahə yoxdu (sadəcə%1). \n\nDavam etmək istəyirsinizmi?</NotEnoughDiskSpace>
-		<ISOAlreadyExists>Hədəf ISO faylı\n%1\nonsuzda mövcuddur, üzərinə yazmaq istəyirsinizmi?</ISOAlreadyExists>
-		<FolderAlreadyExists>Hedef klasör\n%1\nonsuzda mövcuddur, eyni addakı faylların üzərinə yazmaq istəyirsinizmi?</FolderAlreadyExists>
-		<RestartProgram>Qeydiyyat əməliyyatını tamamlamaq üçün proqramı yenidən başlatmalısınız. \n\nBunu indi etmək ister istəyirsinizmi?</RestartProgram>
-		<CancelOperation>Mövcud əməliyyatı ləğv etmək istədiyinizdən əminsinizmi?</CancelOperation>
-	</Messages>
-	<StatusMessages>
-		<CheckingSourceImage>Qaynaq görünüş yoxlanılır...</CheckingSourceImage>
-		<Converting>Çevrilir...</Converting>
-		<Extracting>Çıxardılır...</Extracting>
-		<ExtractionFailed>Çıxartma əməliyyatı müvəffəqiyyətsiz oldu</ExtractionFailed>
-		<Unpacking>Açılır...</Unpacking>
-		<ConvertingToTemporaryISO>Keçici ISO faylına çevrilir...</ConvertingToTemporaryISO>
-		<ProgressBytesWritten>%1 yazıldı</ProgressBytesWritten>
-		<Track>İz</Track>
-		<ISOImageTypeFound>ISO görünüşü (%1 tip) tapıldı</ISOImageTypeFound>
-		<CannotOpenSourceFile>Qaynaq fayl açılmır.</CannotOpenSourceFile>
-		<CannotOpenDestFile>Hədəf fayl açılmır, zəhmət olmasa fayl adına və müraciət icazələrinə nəzarət edin</CannotOpenDestFile>
-		<OperationTerminated>Əməliyyat istifadəçi tərəfindən ləğv edildi.</OperationTerminated>
-		<OperationCompleted>Əməliyyat tamamlandı.</OperationCompleted>
-		<ClickToOpenISOInExplorer>ISO faylını Windows Səyyahında açmaq üçün &lt;a href="_open_local_file"&gt;buraya&lt;/a&gt; basın</ClickToOpenISOInExplorer>
-		<ClickToMountISOInFinder>ISO faylını Finder'a yerləştirmək üçün &lt;a href="_open_local_file"&gt;buraya&lt;/a&gt; basın</ClickToMountISOInFinder>
-		<ClickToOpenOutFolder>Çıxış qovluğunu açmaq üçün &lt;a href="_open_local_file"&gt;buraya&lt;/a&gt; basın</ClickToOpenOutFolder>
-		<DiskToISO>
-			<OpeningDevice>Mühit cihazı açılır, zəhmət olmasa gözləyin...</OpeningDevice>
-			<TotalDataSize>Cəmi məlumat ölçüsü %1</TotalDataSize>
-			<CreatingISO>ISO yaradılır...</CreatingISO>
-			<CannotCreateFromAudio>Bir çoxlu-mühit ya da səs diski üçün ISO görüntüsü yaradabilməzsiniz, zəhmət olmasa yardım üçün dəstək bölməsi üzərindən əlaqəyə keçin.</CannotCreateFromAudio>
-			<PleaseUseBinCue>Zəhmət olmasa bu cür disklər üçün BIN/CUE görünüşü istifadə edin</PleaseUseBinCue>
-			<BlankDiskDetected>Boş CD/DVD diski tapıldı</BlankDiskDetected>
-			<DiskNotReady>CD/DVD diski hazır deyil</DiskNotReady>
-			<CannotOpenDevice>(%1) cihazı açılmır</CannotOpenDevice>
-			<ReadError>%1 oxuma xətası, zəhmət olmasa yardım üçün dəstək bölməsi üzərindən əlaqəyə keçin</ReadError>
-			<DeviceIsCopyProtected>Bu cihaz sürət qorumalıdır və ya sektor kodlanıb. Davam edilə bilmir.</DeviceIsCopyProtected>
-			<ISOCreationFailed>ISO hazırlanması müvəffəqiyyətsiz oldu</ISOCreationFailed>
-			<BinCueCreationFailed>BIN/CUE görünüş hazırlanması müvəffəqiyyətsiz oldu</BinCueCreationFailed>
-			<CannotReadDiskToc>Diskin TOC (məzmun tablosu/cədvəli) oxuması müvəffəqiyyətsiz oldu</CannotReadDiskToc>
-			<CannotReadDisk>Disk oxunmur, xəta: %1</CannotReadDisk>
-			<DiskNotPresent>Disk hazır deyil ya da bilinməyən medya tipi</DiskNotPresent>
-			<NoTracksOnDisk>Disk üzərində heç iz tapılmadı, böyük ehtimalla boşdur</NoTracksOnDisk>
-			<mediaType>Medya tipi: %1</mediaType>
-			<TrackLength>İz uzunluğu %1 sektor</TrackLength>
-			<TracksCount>%1 iz sayıldı</TracksCount>
-			<WritingTrack>%1 iz yazılır, iz uzunluğu %2 sektor</WritingTrack>
-			<DiskReadingStopped>Oxuma %1 də dayandı</DiskReadingStopped>
-			<TrackReadingStopped>Oxuma %1 də dayandı, sonrakı izdən davam edilir</TrackReadingStopped>
-		</DiskToISO>
-		<FolderToISO>
-			<ScanningFolder>Qaynaq kataloq yoxlanılır...</ScanningFolder>
-			<DirectorySize>Kataloq ölçüsü %1</DirectorySize>
-			<WritingISOFile>ISO faylı yazılır...</WritingISOFile>
-			<SkippingBigFile>'%1' faylı buraxılır. Fayl 4 GB' dan büyükdür.</SkippingBigFile>
-			<SkippingFile>'%1' faylı buraxılır.</SkippingFile>
-			<BigFileWarning>'%1' faylı 4 GB' dan büyükdür və ISO 9660 fayl sistemində görüntülənmeyəcək.</BigFileWarning>
-			<NestedDirectoriesLimitWarning>Kataloq quruluşu %1 səviyyəsindən daha dərindir, bəzi fayl və Qovluğlar buraxılacaq.</NestedDirectoriesLimitWarning>
-			<UnableToOpenFile>Oxuma müraciəti üçün '%1' faylı açılmır.</UnableToOpenFile>
-			<NoExistingFolder>%1 qovluğu mövcud deyil</NoExistingFolder>
-			<failedToCreateISOImage>Failed to create an ISO image</failedToCreateISOImage>
-		</FolderToISO>
-		<UniversalConverter>
-			<AudioCDWarning>Görünüş bir %1 Səs CD'si görünüşü, ISO çevrilməsi mümkün deyil. Bütün səs izlərini bir qovluğa çıxardabilərsiniz.</AudioCDWarning>
-			<NotValidImage>Xəta: Bu keçərli bir CD/DVD görünüşü deyil</NotValidImage>
-			<CannotFindSignature>Xəta: ISO_9660 imzası tapılmır, 5 MB limitinə çatdı</CannotFindSignature>
-			<MultiSessionImageDetected>Çoxlu-mühit disk görünüşü təsbit edildi</MultiSessionImageDetected>
-			<MultiSessionNotSupported>Bu görüntü bir çoxlu-mühit disk görünüşüdür. Bu cür görünüşlər dəstəklənmir.</MultiSessionNotSupported>
-		</UniversalConverter>
-		<NrgConverter>
-			<NrgParsingError>NRG təhlil etmə xətası, zəhmət olmasa yardım üçün dəstək bölməsi üzərindən əlaqəyə keçin</NrgParsingError>
-			<NoSessionsFound>Heçbir NRG sessiyası təsbit edilmədi, zəhmət olmasa yardım üçün dəstək bölməsi üzərindən əlaqəyə keçin</NoSessionsFound>
-		</NrgConverter>
-		<ExtractISO>
-			<LoadingImage>Görüntü yüklənir...</LoadingImage>
-			<ChooseISOFS>ISO görünüşündə birdən çox fayl sistemi var, zəhmət olmasa çıxartmaq üçün bir dənəsini seçin:</ChooseISOFS>
-			<ChooseISOFSCaption>Fayl sistemini seçin</ChooseISOFSCaption>
-			<ImageFound>%1 görüntü tapıldı</ImageFound>
-			<InvalidISO>Fayl keçərli bir ISO görünüşü deyil ya da bu anda dəstəklənmir</InvalidISO>
-		</ExtractISO>
-		<UIFConverter>
-			<UsingZlib>zlib genişlətməsi istifadə edilir</UsingZlib>
-			<UsingLZMA>Lzma (Igor Pavlov) genişlətməsi istifadə edilir</UsingLZMA>
-			<MixedImageFound>Qarışıq görünüş tipi %1 tapıldı, keçici bir fayla genişləndirilir...</MixedImageFound>
-			<UnpackingImage>Görünüş məzmunu çıxardılır...</UnpackingImage>
-		</UIFConverter>
-		<DebExtract>
-			<NotValidDeb>Fayl keçərli bir Debian (Ubuntu) Linux arxivi deyil</NotValidDeb>
-		</DebExtract>
-		<RpmExtract>
-			<PackageOpened>Paketin %1' i açıldı</PackageOpened>
-			<DecompressingPayload>%1 yük keçici bir fayla genişləndirilir...</DecompressingPayload>
-			<UnpackingArchive>Arxiv məzmunu çıxardılır...</UnpackingArchive>
-		</RpmExtract>
-		<DMG>
-			<ConvertingDmgToISO>DMG, HFS+ ISO'ya çevrilir...</ConvertingDmgToISO>
-			<Writing>%1 yazıldı...</Writing>
-			<ExtractingMainPartition>Ana DMG bölümləməsi keçici bir fayla genişləndirilir, bu biraz zaman ala bilər - zəhmət olmasa gözləyin...</ExtractingMainPartition>
-			<NoVolumeFound>Bölmə tapılmadı, HFS+ fayl sistemi axtarılır...</NoVolumeFound>
-			<ExtractingVolume>DMG bölməsi açılır (%1)...</ExtractingVolume>
-			<CorruptedOrPasswordProtected>Xəta: xarab ya da parol qorumalı DMG görünüşü</CorruptedOrPasswordProtected>
-			<XarArchiveDetected>DMG faylı əslində sadəcə məzmunu çıxardılabilən bir XAR arxividir (normalda içində həqiqi bir DMG faylı ehtiva edən). Davam etmək üçün məzmun çıxartma əməliyyatını seçin</XarArchiveDetected>
-			<openedAsMessage>Fayl %1 olaraq açıldı</openedAsMessage>
-			<DmgDisk>DMG diski görünüşü</DmgDisk>
-			<GPTDisk>GPT diski</GPTDisk>
-			<MBRDisk>Apple diski</MBRDisk>
-			<HFSVolume>HFS+ bölməsi</HFSVolume>
-			<readingFileSystem>Reading %1 file system...</readingFileSystem>
-			<messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
-			<messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
-		</DMG>
-		<PDIConverter>
-			<InvalidOrBrokenImage>Keçərsiz ya da xarab InstantCopy PDI görünüşü</InvalidOrBrokenImage>
-		</PDIConverter>
-		<ISZConverter>
-			<CompressionNone>Sıxıştırma metodu: heçbiri</CompressionNone>
-			<WarningPassword>Keçərsiz bir parol istifadə edilməsi çıxış faylını etibarsız hala getirəcək</WarningPassword>
-			<ImageIsSegmented>ISZ faylı parçalara ayrılıb</ImageIsSegmented>
-		</ISZConverter>
-		<ArchiveConverter>
-			<ReadingArchive>Arxiv oxunur...</ReadingArchive>
-			<RemovingTempFiles>Keçici fayl qaldırılır...</RemovingTempFiles>
-			<ExtractError>%1' e genişləndirilmir, xəta %2</ExtractError>
-		</ArchiveConverter>
-		<TarUnpacker>
-			<SinglePackedFileFound>Tək paketlənmiş fayl təsbit edildi: %1, paketdən çıxardılır...</SinglePackedFileFound>
-		</TarUnpacker>
-		<XarUnpacker>
-			<ReadingTOC>Məzmun oxunur (%1 byte)...</ReadingTOC>
-			<NestedArchiveFound>'%1' ayırd edilmiş faylı ayrı ayrı %2 arxivi olaraq paketdən çıxarıla bilər (atributu əl ilə əlavə edin)</NestedArchiveFound>
-		</XarUnpacker>
-	</StatusMessages>
-	<Misc>
-		<buttonOk>Oldu</buttonOk>
-		<buttonCancel>Ləğv</buttonCancel>
-		<buttonClose>Bağla</buttonClose>
-		<buttonYes>Yes</buttonYes>
-		<buttonNo>No</buttonNo>
-		<ProVersion>Pro Versiya</ProVersion>
-		<LiteVersion>Lite Versiya</LiteVersion>
-	</Misc>
-	<ShellExtension>
-		<!-- This section describes Windows context menus -->
-		<ConvertToISO>Çevir:"%s"</ConvertToISO>
-		<ConvertToISOInfo>Disk görünüşünü ISO'ya çevir</ConvertToISOInfo>
-		<Extract>Genişlət:"%s"</Extract>
-		<ExtractInfo>Disk görünüşünü genişlət</ExtractInfo>
-		<CreateISOFromFolder>Yarat:"%s"</CreateISOFromFolder>
-		<CreateISOFromFolderInfo>Bu qovluğun ISO görünüşünü fərz edilən variantlarla yarat</CreateISOFromFolderInfo>
-		<CreateISOFromFolderWithOptions>"%s"'i variantlarla yarat...</CreateISOFromFolderWithOptions>
-		<CreateISOFromFolderWithOptionsInfo>Fayl sistemi variantları və bölüm etiketi istifadə edərək, bu qovluğun ISO görünüşünü meydana gətir.</CreateISOFromFolderWithOptionsInfo>
-		<CreateISOFromDisk>Bu diskin ISO görünüşünü meydana gətir</CreateISOFromDisk>
-		<CreateISOFromDiskInfo>Seçilən optik diskin ISO görünüşünü meydana gətir</CreateISOFromDiskInfo>
-		<CreateBINCUEFromDisk>Bu diskin BIN/CUE görünüşünü meydana gətir</CreateBINCUEFromDisk>
-		<CreateBINCUEFromDiskInfo>Seçilən bir optik diskin BIN (raw) görünüçünü və ona aid CUE lay faylını meydana gətir</CreateBINCUEFromDiskInfo>
-	</ShellExtension>
-	<core>
-		<UpdateChecker>
-			<ReleasedOn>%1 tarixində yayınlandı</ReleasedOn>
-			<CheckForUpdates>Yeniləmələrə nəzarət et...</CheckForUpdates>
-			<NewVersionAvailable>%1'un yeni distributivi mövcuddur!</NewVersionAvailable>
-			<NewVersionAvailableText>%1 %2 bu an mövcud - sizdə mövcud olan %3. İndi yükləmək istəyirsinizmi?</NewVersionAvailableText>
-			<UpdateAlertTitle>Proqram Yeniləmə</UpdateAlertTitle>
-			<UpdateAlertReleaseNotes>Distributiv Qeydləri:</UpdateAlertReleaseNotes>
-			<UpdateAlertRemindLater>Daha Sonra Xatırlat</UpdateAlertRemindLater>
-			<UpdateAlertSkip>Bu Versiyanı Keç</UpdateAlertSkip>
-			<UpdateAlertInstall>Yeniləməni Yüklə</UpdateAlertInstall>
-			<UpdateAlertAutomaticUpdates>Yeniləmələrə Avtomatik nəzarət et</UpdateAlertAutomaticUpdates>
-			<MessageNoUpdateAvailable>Distributiviniz yenidir!</MessageNoUpdateAvailable>
-			<MessageNoUpdateAvailableDescription>%1 %2 mövcud olan ən yeni versiya.</MessageNoUpdateAvailableDescription>
-			<MessageErrorConnect>Yeniləməni yükləyərkən bir xəta meydana gəldi. Zəhmət olmasa daha sonra təkrar yoxlayın.</MessageErrorConnect>
-			<MessageErrorParse>Yeniləmə məlumatlarını alarkən bir xəta meydana gəldi.</MessageErrorParse>
-			<UpdateProgressTitle>Yenilənir %1</UpdateProgressTitle>
-			<UpdateProgressCancel>Ləğv</UpdateProgressCancel>
-			<UpdateProgressInstallAndRelaunch>Yükləyin və Yenidən Başladın</UpdateProgressInstallAndRelaunch>
-			<UpdateProgressStatusDownloading>Yeniləmə yüklənir...</UpdateProgressStatusDownloading>
-			<UpdateProgressExtract>Yeniləmə ayırd edilir...</UpdateProgressExtract>
-			<UpdateProgressStatusReady>Yükləməyə Hazır</UpdateProgressStatusReady>
-			<UpdateProgressSize>%2 de %1</UpdateProgressSize>
-			<UpdateProgressB>B</UpdateProgressB>
-			<UpdateProgressKB>KB</UpdateProgressKB>
-			<UpdateProgressMB>MB</UpdateProgressMB>
-			<UpdateProgressGB>GB</UpdateProgressGB>
-		</UpdateChecker>
-		<LetsMoveMac>
-			<kStrMoveApplicationCouldNotMove>Applications qovluğuna daşına bilmədi</kStrMoveApplicationCouldNotMove>
-			<kStrMoveApplicationQuestionTitle>Application Qovluğuna Daşınma</kStrMoveApplicationQuestionTitle>
-			<kStrMoveApplicationQuestionTitleHome>Applications qovluğu İstifadəçi qovluğunuza daşınsınmı?</kStrMoveApplicationQuestionTitleHome>
-			<kStrMoveApplicationQuestionMessage>İstəsəniz tətbiq %1 Applications qovluğuna Daşınabilər.</kStrMoveApplicationQuestionMessage>
-			<kStrMoveApplicationButtonMove>Applications Qovluğuna Daşınsın</kStrMoveApplicationButtonMove>
-			<kStrMoveApplicationButtonDoNotMove>Daşınmasın</kStrMoveApplicationButtonDoNotMove>
-			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Bu əməliyyat üçün idarəçi parolunun istənəcəyəni unutmayın.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-			<kStrMoveApplicationQuestionInfoInDownloadsFolder>Bu əməliyyat Yükləmələr qovluğunun dağılmasına mane olur.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-		</LetsMoveMac>
-		<QLineEditEx>
-			<actionUndo>Undo</actionUndo>
-			<actionRedo>Redo</actionRedo>
-			<actionCut>Cut</actionCut>
-			<actionCopy>Copy</actionCopy>
-			<actionPaste>Paste</actionPaste>
-			<actionDelete>Delete</actionDelete>
-			<actionSelectAll>Select All</actionSelectAll>
-		</QLineEditEx>
-		<QMessageBoxEx>
-			<buttonOK>OK</buttonOK>
-			<buttonCancel>Cancel</buttonCancel>
-			<buttonClose>Close</buttonClose>
-			<buttonYes>Yes</buttonYes>
-			<buttonNo>No</buttonNo>
-		</QMessageBoxEx>
-	</core>
+    <MainWindow>
+        <mnuFile>Fayl</mnuFile>
+        <mnuFileExit>Çıxış</mnuFileExit>
+        <mnuHelp>Yardım</mnuHelp>
+        <mnuHelpDocumentation>Sənədlər...</mnuHelpDocumentation>
+        <mnuHelpPurchase>Pro Versiyanı Satın Al...</mnuHelpPurchase>
+        <mnuHelpEnterCode>Qeydiyyat Kodunu Gir...</mnuHelpEnterCode>
+        <mnuHelpAbout>Haqqında...</mnuHelpAbout>
+        <mnuHomePage>AnyToISO Giriş Səhfəsi...</mnuHomePage>
+        <menuPreferences>Özəlliklər...</menuPreferences>
+        <newVersionAvailable>AnyToISO %1 yayınlandı!</newVersionAvailable>
+        <newVersionUpdate>Yenilə</newVersionUpdate>
+        <buttonStop>Dayan</buttonStop>
+        <tabConvertExtract>
+            <Name>Görünüş Məzmununu Çıxart/ISO et</Name>
+            <SourceFileName>Qaynaq görünüş faylı:</SourceFileName>
+            <ConvertToISO>ISO görünüşünə çevir:</ConvertToISO>
+            <ExtractToFolder>Qovluğa çıxart:</ExtractToFolder>
+            <buttonOpenImage>Görünüşü aç...</buttonOpenImage>
+            <buttonOpenImageText>CD/DVD görünüş faylını aç</buttonOpenImageText>
+            <AllSupportedFiles>Bütün Dəstəklənən fayllar</AllSupportedFiles>
+            <buttonOpenISO>ISO faylı aç...</buttonOpenISO>
+            <buttonOpenISOText>Seçiləcək ISO faylı</buttonOpenISOText>
+            <buttonOpenISOFilter>ISO Faylları (*.iso)</buttonOpenISOFilter>
+            <buttonOpenFolder>Qovluğ seç...</buttonOpenFolder>
+            <buttonOpenFolderText>Hədəf qovluğu aç</buttonOpenFolderText>
+            <buttonConvert>Çevir!</buttonConvert>
+            <buttonExtract>Çıxart!</buttonExtract>
+            <labelFileSize>Fayl ölçüsü</labelFileSize>
+            <labelFileFormat>forma</labelFileFormat>
+            <labelOpenOrDragFile>Çevirmək ya da çıxartmaq üçün bir görünüş faylını &lt;b&gt;aç&lt;/b&gt; ya da &lt;b&gt;sürüklə&lt;/b&gt;</labelOpenOrDragFile>
+        </tabConvertExtract>
+        <tabDiskToISO>
+            <Name>CD/DVD Diski ISO et</Name>
+            <SourceDrive>Qaynaq Sürücü:</SourceDrive>
+            <OutputISO>Hədəf görünüş:</OutputISO>
+            <checkCreateBinCue>BIN/CUE görünüşü yarat</checkCreateBinCue>
+            <buttonRefresh>Yenilə</buttonRefresh>
+            <buttonBrowseISO>Araşdır...</buttonBrowseISO>
+            <NoDiskInserted>CD/DVD disk mevcud deyil</NoDiskInserted>
+            <buttonMakeISO>ISO et</buttonMakeISO>
+            <buttonMakeBinCue>BIN/CUE görünüşü yarat</buttonMakeBinCue>
+            <chooseISOOrBinCueImage>Zəhmət olmasa ISO ya da BIN/CUE görünüş faylını seçin</chooseISOOrBinCueImage>
+            <isoFilesFilter>ISO Faylları</isoFilesFilter>
+            <binCueSheetFilter>BIN faylları (CUE laylarıyla)</binCueSheetFilter>
+        </tabDiskToISO>
+        <tabFolderToISO>
+            <Name>Qovluğu ISO et</Name>
+            <SourceFolder>Qaynaq Qovluğ:</SourceFolder>
+            <DestinationISO>Hədəf ISO faylı:</DestinationISO>
+            <VolumeLabel>Bölmə Etiketi:</VolumeLabel>
+            <buttonBrowseForFolder>Qovluğ üçün göz at...</buttonBrowseForFolder>
+            <buttonChooseISO>ISO faylı seç...</buttonChooseISO>
+            <buttonOptions>Variantlar...</buttonOptions>
+            <buttonMakeISO>ISO et</buttonMakeISO>
+            <ISOCreationOptions>ISO Yaratma Variantları</ISOCreationOptions>
+            <Settings>Nizamlar</Settings>
+            <FileSystemsInsideISO>Fayl Sistemləri:</FileSystemsInsideISO>
+            <buttonDefault>Fərz edilən</buttonDefault>
+            <ISO9660Option1>8.3 DOS fayl adları (11)</ISO9660Option1>
+            <ISO9660Option2>Daha uzun adlar (180)</ISO9660Option2>
+            <ISO9660Option3>ISO 9660:1999</ISO9660Option3>
+            <JolietOption1>Standard adlar (64)</JolietOption1>
+            <JolietOption2>Uzun adlar (110)</JolietOption2>
+        </tabFolderToISO>
+    </MainWindow>
+    <LiteVersionDialog>
+        <LiteVersionLimitText>AnyToISO Lite versiyası yalnızca &lt;b&gt;CD görüntüləriylə&lt;/b&gt; (870 MB'a qədər) çalışır. Daha böyük ölçülü fayllarla çalışmaq üçün (DVD və çoxu) &lt;a href="purchase"&gt;Professional versiyanı satın almalısınız&lt;/a&gt;. Satın almadan sonra &lt;a href="unlock"&gt;proqramın kilidini açmaq üçün&lt;/a&gt; lazım olan qeydiyyat kodunu alacağsınız.</LiteVersionLimitText>
+        <buttonPurchasePro>Pro Versiyanı Satın Al...</buttonPurchasePro>
+    </LiteVersionDialog>
+    <EnterKeyDialog>
+        <Caption>Qeydiyyat Kodunu Gir</Caption>
+        <EnterKeyToUpgradeText>AnyToISO Pro Versiyasına yüksəltmək üçün zəhmət omasa qeydiyyat detallarınızı girin.</EnterKeyToUpgradeText>
+        <RegName>Qeyd Adı:</RegName>
+        <RegCode>Qeyd Kodu:</RegCode>
+    </EnterKeyDialog>
+    <AboutDialog>
+        <Caption>AnyToISO Haqqında</Caption>
+        <Website>Web saytı:</Website>
+        <Support>Dəstək:</Support>
+        <RunningAs>Proqram bu şəkildə çalışır:</RunningAs>
+        <CopyRight>Bu kompüter proqramı, təlif haqları qanunu və beynəlxalq razılaşmalarla qorunmaqdadır. Bu proqramın səlahiyyətsiz surətinin çıxarılması ya da hər hansı bir hissəsinin paylanması, ciddi hüquqi və ya cəza sanksiyalarına səbəb ola bilər.</CopyRight>
+        <buttonPurchasePro>Pro versiyanı satın al...</buttonPurchasePro>
+    </AboutDialog>
+    <PreferencesDialog>
+        <Caption>Özəlliklər</Caption>
+        <PreferencesGeneral>General</PreferencesGeneral>
+        <PreferencesUpdates>Updates</PreferencesUpdates>
+        <Language>İnterfeys Dili:</Language>
+        <CheckForNewVersions>Açılışlarda yeni distributivi yoxla</CheckForNewVersions>
+        <ShellExtension>Windows Səyyahına inteqrasiya ol</ShellExtension>
+        <ShellExtensionInfo>Optik sürücülər, qovluqlar və dəstəklənən fayl formaları üçün məzmun menyusu əlavə et.</ShellExtensionInfo>
+    </PreferencesDialog>
+    <PasswordDialog>
+        <Caption>Parol lazımdı</Caption>
+        <FileIsProtected>Fayl kodlaşdırılıb. Açmaq üçün zəhmət olmasa parolu girin:</FileIsProtected>
+        <InvalidPassword>Keçərsiz parol</InvalidPassword>
+    </PasswordDialog>
+    <Messages>
+        <Warning>Xəbərdarlıq</Warning>
+        <Question>Sual</Question>
+        <NotEnoughDiskSpace>Seçilən diskdə kafi boş sahə yoxdu (sadəcə%1). \n\nDavam etmək istəyirsinizmi?</NotEnoughDiskSpace>
+        <ISOAlreadyExists>Hədəf ISO faylı\n%1\nonsuzda mövcuddur, üzərinə yazmaq istəyirsinizmi?</ISOAlreadyExists>
+        <FolderAlreadyExists>Hedef klasör\n%1\nonsuzda mövcuddur, eyni addakı faylların üzərinə yazmaq istəyirsinizmi?</FolderAlreadyExists>
+        <RestartProgram>Qeydiyyat əməliyyatını tamamlamaq üçün proqramı yenidən başlatmalısınız. \n\nBunu indi etmək ister istəyirsinizmi?</RestartProgram>
+        <CancelOperation>Mövcud əməliyyatı ləğv etmək istədiyinizdən əminsinizmi?</CancelOperation>
+    </Messages>
+    <StatusMessages>
+        <CheckingSourceImage>Qaynaq görünüş yoxlanılır...</CheckingSourceImage>
+        <Converting>Çevrilir...</Converting>
+        <Extracting>Çıxardılır...</Extracting>
+        <ExtractionFailed>Çıxartma əməliyyatı müvəffəqiyyətsiz oldu</ExtractionFailed>
+        <Unpacking>Açılır...</Unpacking>
+        <ConvertingToTemporaryISO>Keçici ISO faylına çevrilir...</ConvertingToTemporaryISO>
+        <ProgressBytesWritten>%1 yazıldı</ProgressBytesWritten>
+        <Track>İz</Track>
+        <ISOImageTypeFound>ISO görünüşü (%1 tip) tapıldı</ISOImageTypeFound>
+        <CannotOpenSourceFile>Qaynaq fayl açılmır.</CannotOpenSourceFile>
+        <CannotOpenDestFile>Hədəf fayl açılmır, zəhmət olmasa fayl adına və müraciət icazələrinə nəzarət edin</CannotOpenDestFile>
+        <OperationTerminated>Əməliyyat istifadəçi tərəfindən ləğv edildi.</OperationTerminated>
+        <OperationCompleted>Əməliyyat tamamlandı.</OperationCompleted>
+        <ClickToOpenISOInExplorer>ISO faylını Windows Səyyahında açmaq üçün &lt;a href="_open_local_file"&gt;buraya&lt;/a&gt; basın</ClickToOpenISOInExplorer>
+        <ClickToMountISOInFinder>ISO faylını Finder'a yerləştirmək üçün &lt;a href="_open_local_file"&gt;buraya&lt;/a&gt; basın</ClickToMountISOInFinder>
+        <ClickToOpenOutFolder>Çıxış qovluğunu açmaq üçün &lt;a href="_open_local_file"&gt;buraya&lt;/a&gt; basın</ClickToOpenOutFolder>
+        <DiskToISO>
+            <OpeningDevice>Mühit cihazı açılır, zəhmət olmasa gözləyin...</OpeningDevice>
+            <TotalDataSize>Cəmi məlumat ölçüsü %1</TotalDataSize>
+            <CreatingISO>ISO yaradılır...</CreatingISO>
+            <CannotCreateFromAudio>Bir çoxlu-mühit ya da səs diski üçün ISO görüntüsü yaradabilməzsiniz, zəhmət olmasa yardım üçün dəstək bölməsi üzərindən əlaqəyə keçin.</CannotCreateFromAudio>
+            <PleaseUseBinCue>Zəhmət olmasa bu cür disklər üçün BIN/CUE görünüşü istifadə edin</PleaseUseBinCue>
+            <BlankDiskDetected>Boş CD/DVD diski tapıldı</BlankDiskDetected>
+            <DiskNotReady>CD/DVD diski hazır deyil</DiskNotReady>
+            <CannotOpenDevice>(%1) cihazı açılmır</CannotOpenDevice>
+            <ReadError>%1 oxuma xətası, zəhmət olmasa yardım üçün dəstək bölməsi üzərindən əlaqəyə keçin</ReadError>
+            <DeviceIsCopyProtected>Bu cihaz sürət qorumalıdır və ya sektor kodlanıb. Davam edilə bilmir.</DeviceIsCopyProtected>
+            <ISOCreationFailed>ISO hazırlanması müvəffəqiyyətsiz oldu</ISOCreationFailed>
+            <BinCueCreationFailed>BIN/CUE görünüş hazırlanması müvəffəqiyyətsiz oldu</BinCueCreationFailed>
+            <CannotReadDiskToc>Diskin TOC (məzmun tablosu/cədvəli) oxuması müvəffəqiyyətsiz oldu</CannotReadDiskToc>
+            <CannotReadDisk>Disk oxunmur, xəta: %1</CannotReadDisk>
+            <DiskNotPresent>Disk hazır deyil ya da bilinməyən medya tipi</DiskNotPresent>
+            <NoTracksOnDisk>Disk üzərində heç iz tapılmadı, böyük ehtimalla boşdur</NoTracksOnDisk>
+            <mediaType>Medya tipi: %1</mediaType>
+            <TrackLength>İz uzunluğu %1 sektor</TrackLength>
+            <TracksCount>%1 iz sayıldı</TracksCount>
+            <WritingTrack>%1 iz yazılır, iz uzunluğu %2 sektor</WritingTrack>
+            <DiskReadingStopped>Oxuma %1 də dayandı</DiskReadingStopped>
+            <TrackReadingStopped>Oxuma %1 də dayandı, sonrakı izdən davam edilir</TrackReadingStopped>
+        </DiskToISO>
+        <FolderToISO>
+            <ScanningFolder>Qaynaq kataloq yoxlanılır...</ScanningFolder>
+            <DirectorySize>Kataloq ölçüsü %1</DirectorySize>
+            <WritingISOFile>ISO faylı yazılır...</WritingISOFile>
+            <SkippingBigFile>'%1' faylı buraxılır. Fayl 4 GB' dan büyükdür.</SkippingBigFile>
+            <SkippingFile>'%1' faylı buraxılır.</SkippingFile>
+            <BigFileWarning>'%1' faylı 4 GB' dan büyükdür və ISO 9660 fayl sistemində görüntülənmeyəcək.</BigFileWarning>
+            <NestedDirectoriesLimitWarning>Kataloq quruluşu %1 səviyyəsindən daha dərindir, bəzi fayl və Qovluğlar buraxılacaq.</NestedDirectoriesLimitWarning>
+            <UnableToOpenFile>Oxuma müraciəti üçün '%1' faylı açılmır.</UnableToOpenFile>
+            <NoExistingFolder>%1 qovluğu mövcud deyil</NoExistingFolder>
+            <failedToCreateISOImage>Failed to create an ISO image</failedToCreateISOImage>
+        </FolderToISO>
+        <UniversalConverter>
+            <AudioCDWarning>Görünüş bir %1 Səs CD'si görünüşü, ISO çevrilməsi mümkün deyil. Bütün səs izlərini bir qovluğa çıxardabilərsiniz.</AudioCDWarning>
+            <NotValidImage>Xəta: Bu keçərli bir CD/DVD görünüşü deyil</NotValidImage>
+            <CannotFindSignature>Xəta: ISO_9660 imzası tapılmır, 5 MB limitinə çatdı</CannotFindSignature>
+            <MultiSessionImageDetected>Çoxlu-mühit disk görünüşü təsbit edildi</MultiSessionImageDetected>
+            <MultiSessionNotSupported>Bu görüntü bir çoxlu-mühit disk görünüşüdür. Bu cür görünüşlər dəstəklənmir.</MultiSessionNotSupported>
+        </UniversalConverter>
+        <NrgConverter>
+            <NrgParsingError>NRG təhlil etmə xətası, zəhmət olmasa yardım üçün dəstək bölməsi üzərindən əlaqəyə keçin</NrgParsingError>
+            <NoSessionsFound>Heçbir NRG sessiyası təsbit edilmədi, zəhmət olmasa yardım üçün dəstək bölməsi üzərindən əlaqəyə keçin</NoSessionsFound>
+        </NrgConverter>
+        <ExtractISO>
+            <LoadingImage>Görüntü yüklənir...</LoadingImage>
+            <ChooseISOFS>ISO görünüşündə birdən çox fayl sistemi var, zəhmət olmasa çıxartmaq üçün bir dənəsini seçin:</ChooseISOFS>
+            <ChooseISOFSCaption>Fayl sistemini seçin</ChooseISOFSCaption>
+            <ImageFound>%1 görüntü tapıldı</ImageFound>
+            <InvalidISO>Fayl keçərli bir ISO görünüşü deyil ya da bu anda dəstəklənmir</InvalidISO>
+        </ExtractISO>
+        <UIFConverter>
+            <UsingZlib>zlib genişlətməsi istifadə edilir</UsingZlib>
+            <UsingLZMA>Lzma (Igor Pavlov) genişlətməsi istifadə edilir</UsingLZMA>
+            <MixedImageFound>Qarışıq görünüş tipi %1 tapıldı, keçici bir fayla genişləndirilir...</MixedImageFound>
+            <UnpackingImage>Görünüş məzmunu çıxardılır...</UnpackingImage>
+        </UIFConverter>
+        <DebExtract>
+            <NotValidDeb>Fayl keçərli bir Debian (Ubuntu) Linux arxivi deyil</NotValidDeb>
+        </DebExtract>
+        <RpmExtract>
+            <PackageOpened>Paketin %1' i açıldı</PackageOpened>
+            <DecompressingPayload>%1 yük keçici bir fayla genişləndirilir...</DecompressingPayload>
+            <UnpackingArchive>Arxiv məzmunu çıxardılır...</UnpackingArchive>
+        </RpmExtract>
+        <DMG>
+            <ConvertingDmgToISO>DMG, HFS+ ISO'ya çevrilir...</ConvertingDmgToISO>
+            <Writing>%1 yazıldı...</Writing>
+            <ExtractingMainPartition>Ana DMG bölümləməsi keçici bir fayla genişləndirilir, bu biraz zaman ala bilər - zəhmət olmasa gözləyin...</ExtractingMainPartition>
+            <NoVolumeFound>Bölmə tapılmadı, HFS+ fayl sistemi axtarılır...</NoVolumeFound>
+            <ExtractingVolume>DMG bölməsi açılır (%1)...</ExtractingVolume>
+            <CorruptedOrPasswordProtected>Xəta: xarab ya da parol qorumalı DMG görünüşü</CorruptedOrPasswordProtected>
+            <XarArchiveDetected>DMG faylı əslində sadəcə məzmunu çıxardılabilən bir XAR arxividir (normalda içində həqiqi bir DMG faylı ehtiva edən). Davam etmək üçün məzmun çıxartma əməliyyatını seçin</XarArchiveDetected>
+            <openedAsMessage>Fayl %1 olaraq açıldı</openedAsMessage>
+            <DmgDisk>DMG diski görünüşü</DmgDisk>
+            <GPTDisk>GPT diski</GPTDisk>
+            <MBRDisk>Apple diski</MBRDisk>
+            <HFSVolume>HFS+ bölməsi</HFSVolume>
+            <readingFileSystem>Reading %1 file system...</readingFileSystem>
+            <messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
+            <messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
+        </DMG>
+        <PDIConverter>
+            <InvalidOrBrokenImage>Keçərsiz ya da xarab InstantCopy PDI görünüşü</InvalidOrBrokenImage>
+        </PDIConverter>
+        <ISZConverter>
+            <CompressionNone>Sıxıştırma metodu: heçbiri</CompressionNone>
+            <WarningPassword>Keçərsiz bir parol istifadə edilməsi çıxış faylını etibarsız hala getirəcək</WarningPassword>
+            <ImageIsSegmented>ISZ faylı parçalara ayrılıb</ImageIsSegmented>
+        </ISZConverter>
+        <ArchiveConverter>
+            <ReadingArchive>Arxiv oxunur...</ReadingArchive>
+            <RemovingTempFiles>Keçici fayl qaldırılır...</RemovingTempFiles>
+            <ExtractError>%1' e genişləndirilmir, xəta %2</ExtractError>
+        </ArchiveConverter>
+        <TarUnpacker>
+            <SinglePackedFileFound>Tək paketlənmiş fayl təsbit edildi: %1, paketdən çıxardılır...</SinglePackedFileFound>
+        </TarUnpacker>
+        <XarUnpacker>
+            <ReadingTOC>Məzmun oxunur (%1 byte)...</ReadingTOC>
+            <NestedArchiveFound>'%1' ayırd edilmiş faylı ayrı ayrı %2 arxivi olaraq paketdən çıxarıla bilər (atributu əl ilə əlavə edin)</NestedArchiveFound>
+        </XarUnpacker>
+    </StatusMessages>
+    <Misc>
+        <buttonOk>Oldu</buttonOk>
+        <buttonCancel>Ləğv</buttonCancel>
+        <buttonClose>Bağla</buttonClose>
+        <buttonYes>Yes</buttonYes>
+        <buttonNo>No</buttonNo>
+        <ProVersion>Pro Versiya</ProVersion>
+        <LiteVersion>Lite Versiya</LiteVersion>
+    </Misc>
+    <ShellExtension>
+        <!-- This section describes Windows context menus -->
+        <ConvertToISO>Çevir:"%s"</ConvertToISO>
+        <ConvertToISOInfo>Disk görünüşünü ISO'ya çevir</ConvertToISOInfo>
+        <Extract>Genişlət:"%s"</Extract>
+        <ExtractInfo>Disk görünüşünü genişlət</ExtractInfo>
+        <CreateISOFromFolder>Yarat:"%s"</CreateISOFromFolder>
+        <CreateISOFromFolderInfo>Bu qovluğun ISO görünüşünü fərz edilən variantlarla yarat</CreateISOFromFolderInfo>
+        <CreateISOFromFolderWithOptions>"%s"'i variantlarla yarat...</CreateISOFromFolderWithOptions>
+        <CreateISOFromFolderWithOptionsInfo>Fayl sistemi variantları və bölüm etiketi istifadə edərək, bu qovluğun ISO görünüşünü meydana gətir.</CreateISOFromFolderWithOptionsInfo>
+        <CreateISOFromDisk>Bu diskin ISO görünüşünü meydana gətir</CreateISOFromDisk>
+        <CreateISOFromDiskInfo>Seçilən optik diskin ISO görünüşünü meydana gətir</CreateISOFromDiskInfo>
+        <CreateBINCUEFromDisk>Bu diskin BIN/CUE görünüşünü meydana gətir</CreateBINCUEFromDisk>
+        <CreateBINCUEFromDiskInfo>Seçilən bir optik diskin BIN (raw) görünüçünü və ona aid CUE lay faylını meydana gətir</CreateBINCUEFromDiskInfo>
+    </ShellExtension>
+    <core>
+        <UpdateChecker>
+            <ReleasedOn>%1 tarixində yayınlandı</ReleasedOn>
+            <CheckForUpdates>Yeniləmələrə nəzarət et...</CheckForUpdates>
+            <NewVersionAvailable>%1'un yeni distributivi mövcuddur!</NewVersionAvailable>
+            <NewVersionAvailableText>%1 %2 bu an mövcud - sizdə mövcud olan %3. İndi yükləmək istəyirsinizmi?</NewVersionAvailableText>
+            <UpdateAlertTitle>Proqram Yeniləmə</UpdateAlertTitle>
+            <UpdateAlertReleaseNotes>Distributiv Qeydləri:</UpdateAlertReleaseNotes>
+            <UpdateAlertRemindLater>Daha Sonra Xatırlat</UpdateAlertRemindLater>
+            <UpdateAlertSkip>Bu Versiyanı Keç</UpdateAlertSkip>
+            <UpdateAlertInstall>Yeniləməni Yüklə</UpdateAlertInstall>
+            <UpdateAlertAutomaticUpdates>Yeniləmələrə Avtomatik nəzarət et</UpdateAlertAutomaticUpdates>
+            <MessageNoUpdateAvailable>Distributiviniz yenidir!</MessageNoUpdateAvailable>
+            <MessageNoUpdateAvailableDescription>%1 %2 mövcud olan ən yeni versiya.</MessageNoUpdateAvailableDescription>
+            <MessageErrorConnect>Yeniləməni yükləyərkən bir xəta meydana gəldi. Zəhmət olmasa daha sonra təkrar yoxlayın.</MessageErrorConnect>
+            <MessageErrorParse>Yeniləmə məlumatlarını alarkən bir xəta meydana gəldi.</MessageErrorParse>
+            <UpdateProgressTitle>Yenilənir %1</UpdateProgressTitle>
+            <UpdateProgressCancel>Ləğv</UpdateProgressCancel>
+            <UpdateProgressInstallAndRelaunch>Yükləyin və Yenidən Başladın</UpdateProgressInstallAndRelaunch>
+            <UpdateProgressStatusDownloading>Yeniləmə yüklənir...</UpdateProgressStatusDownloading>
+            <UpdateProgressExtract>Yeniləmə ayırd edilir...</UpdateProgressExtract>
+            <UpdateProgressStatusReady>Yükləməyə Hazır</UpdateProgressStatusReady>
+            <UpdateProgressSize>%2 de %1</UpdateProgressSize>
+            <UpdateProgressB>B</UpdateProgressB>
+            <UpdateProgressKB>KB</UpdateProgressKB>
+            <UpdateProgressMB>MB</UpdateProgressMB>
+            <UpdateProgressGB>GB</UpdateProgressGB>
+        </UpdateChecker>
+        <LetsMoveMac>
+            <kStrMoveApplicationCouldNotMove>Applications qovluğuna daşına bilmədi</kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>Application Qovluğuna Daşınma</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>Applications qovluğu İstifadəçi qovluğunuza daşınsınmı?</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>İstəsəniz tətbiq %1 Applications qovluğuna Daşınabilər.</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationButtonMove>Applications Qovluğuna Daşınsın</kStrMoveApplicationButtonMove>
+            <kStrMoveApplicationButtonDoNotMove>Daşınmasın</kStrMoveApplicationButtonDoNotMove>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>Bu əməliyyat üçün idarəçi parolunun istənəcəyəni unutmayın.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>Bu əməliyyat Yükləmələr qovluğunun dağılmasına mane olur.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+        </LetsMoveMac>
+        <QLineEditEx>
+            <actionUndo>Undo</actionUndo>
+            <actionRedo>Redo</actionRedo>
+            <actionCut>Cut</actionCut>
+            <actionCopy>Copy</actionCopy>
+            <actionPaste>Paste</actionPaste>
+            <actionDelete>Delete</actionDelete>
+            <actionSelectAll>Select All</actionSelectAll>
+        </QLineEditEx>
+        <QMessageBoxEx>
+            <buttonOK>OK</buttonOK>
+            <buttonCancel>Cancel</buttonCancel>
+            <buttonClose>Close</buttonClose>
+            <buttonYes>Yes</buttonYes>
+            <buttonNo>No</buttonNo>
+        </QMessageBoxEx>
+    </core>
 </LanguageStrings>

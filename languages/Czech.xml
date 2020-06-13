@@ -1,310 +1,312 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="3.5" Author="CrystalIdea Software Team">
-	<MainWindow>
-		<mnuFile>Soubor</mnuFile>
-		<mnuFileExit>Ukončit</mnuFileExit>
-		<mnuHelp>Help</mnuHelp>
-		<mnuHelpDocumentation>Dokumentace...</mnuHelpDocumentation>
-		<mnuHelpPurchase>Zakoupit verzi Pro...</mnuHelpPurchase>
-		<mnuHelpEnterCode>Vložte registrační kód...</mnuHelpEnterCode>
-		<mnuHelpAbout>Popis...</mnuHelpAbout>
-		<mnuHomePage>AnyToISO web...</mnuHomePage>
-		<menuPreferences>Předvolby...</menuPreferences>
-		<newVersionAvailable>AnyToISO %1 je dostupné!</newVersionAvailable>
-		<newVersionUpdate>Aktualizovat</newVersionUpdate>
-		<buttonStop>Stop</buttonStop>
-		<tabConvertExtract>
-			<Name>Rozbalit/Převést na ISO</Name>
-			<SourceFileName>Zdrojový obraz:</SourceFileName>
-			<ConvertToISO>Převést na ISO obraz:</ConvertToISO>
-			<ExtractToFolder>Rozbalit do složky:</ExtractToFolder>
-			<buttonOpenImage>Otevřít obraz...</buttonOpenImage>
-			<buttonOpenImageText>Otevřít soubor obrazu CD/DVD</buttonOpenImageText>
-			<AllSupportedFiles>Všechny podporované soubory</AllSupportedFiles>
-			<buttonOpenISO>Otevřít ISO...</buttonOpenISO>
-			<buttonOpenISOText>Vybrat umístění ISO souboru</buttonOpenISOText>
-			<buttonOpenISOFilter>ISO soubory (*.iso)</buttonOpenISOFilter>
-			<buttonOpenFolder>Vybrat složku...</buttonOpenFolder>
-			<buttonOpenFolderText>Otevřít cílovou složku</buttonOpenFolderText>
-			<buttonConvert>Převést!</buttonConvert>
-			<buttonExtract>Rozbalit!</buttonExtract>
-			<labelFileSize>Velikost</labelFileSize>
-			<labelFileFormat>formát</labelFileFormat>
-			<labelOpenOrDragFile>&lt;b&gt;Otevřít&lt;/b&gt; nebo &lt;b&gt;táhnout&lt;/b&gt; nějaký obraz k převodu nebo rozbalení</labelOpenOrDragFile>
-		</tabConvertExtract>
-		<tabDiskToISO>
-			<Name>CD/DVD Disk do ISO</Name>
-			<SourceDrive>Zdrojová jednotka:</SourceDrive>
-			<OutputISO>Umístění ISO souboru:</OutputISO>
-			<checkCreateBinCue>Vytvořit obraz disku BIN/CUE</checkCreateBinCue>
-			<buttonRefresh>Obnovit</buttonRefresh>
-			<buttonBrowseISO>Hledat...</buttonBrowseISO>
-			<NoDiskInserted>Není vložen CD/DVD disk</NoDiskInserted>
-			<buttonMakeISO>Vytvořit ISO</buttonMakeISO>
-			<buttonMakeBinCue>Vytvořit obraz disku BIN/CUE</buttonMakeBinCue>
-			<chooseISOOrBinCueImage>Vyberte soubor obrazu disku ISO nebo BIN/CUE</chooseISOOrBinCueImage>
-			<isoFilesFilter>ISO Files</isoFilesFilter>
-			<binCueSheetFilter>Soubory BIN (se seznamem CUE)</binCueSheetFilter>
-		</tabDiskToISO>
-		<tabFolderToISO>
-			<Name>Složka do ISO</Name>
-			<SourceFolder>Zdrojová složka:</SourceFolder>
-			<DestinationISO>Umístění ISO souboru:</DestinationISO>
-			<VolumeLabel>Popisek:</VolumeLabel>
-			<buttonBrowseForFolder>Hledat složku...</buttonBrowseForFolder>
-			<buttonChooseISO>Vybrat ISO...</buttonChooseISO>
-			<buttonOptions>Volby...</buttonOptions>
-			<buttonMakeISO>Vytvořit ISO</buttonMakeISO>
-			<ISOCreationOptions>Volby pro ISO</ISOCreationOptions>
-			<Settings>Nastavení</Settings>
-			<FileSystemsInsideISO>Souborový systém:</FileSystemsInsideISO>
-			<buttonDefault>Výchozí</buttonDefault>
-			<ISO9660Option1>8.3 DOS názvosloví (11)</ISO9660Option1>
-			<ISO9660Option2>Dlouhý název (180)</ISO9660Option2>
-			<ISO9660Option3>ISO 9660:1999</ISO9660Option3>
-			<JolietOption1>Standardní název (64)</JolietOption1>
-			<JolietOption2>Dlouhý název (110)</JolietOption2>
-		</tabFolderToISO>
-	</MainWindow>
-	<LiteVersionDialog>
-		<LiteVersionLimitText>Lite veze AnyToISO pracuje jen s obrazy &lt;b&gt;CD&lt;/b&gt; (do 870 MB). Chcete-li pracovat s větším (DVD a více) musíte &lt;a href="zakoupit"&gt;Koupit verzi Pro&lt;/a&gt;. Registrační kód obdržíte &lt;a href="odemknout"&gt;odemknout software&lt;/a&gt; po zakoupení.</LiteVersionLimitText>
-		<buttonPurchasePro>Koupit verzi Pro...</buttonPurchasePro>
-	</LiteVersionDialog>
-	<EnterKeyDialog>
-		<Caption>Vložte registraci</Caption>
-		<EnterKeyToUpgradeText>Vložte detaily registrace, a získáte AnyToISO Pro.</EnterKeyToUpgradeText>
-		<RegName>Jméno:</RegName>
-		<RegCode>Kód:</RegCode>
-	</EnterKeyDialog>
-	<AboutDialog>
-		<Caption>Popis AnyToISO</Caption>
-		<Website>web:</Website>
-		<Support>Podpora:</Support>
-		<RunningAs>Program běží v režimu:</RunningAs>
-		<CopyRight>Tento program je chráněn copyrightem a mezinárodními úmluvami. Neautorizované manipulace s programem, nebo s jeho částí, může způsobit trestní stíhání.</CopyRight>
-		<buttonPurchasePro>Koupit verzi Pro...</buttonPurchasePro>
-	</AboutDialog>
-	<PreferencesDialog>
-		<Caption>Předvolby</Caption>
-		<Language>Jazyk rozhraní:</Language>
-		<CheckForNewVersions>Po spuštění hledat aktualizace</CheckForNewVersions>
-		<ShellExtension>Integrace win IE shellu</ShellExtension>
-		<ShellExtensionInfo>Přidá kontextuální nabídku pro optické mechaniky, složky a soubory podporovaných formátů.</ShellExtensionInfo>
-	</PreferencesDialog>
-	<PasswordDialog>
-		<Caption>Vyžadováno heslo</Caption>
-		<FileIsProtected>Soubor je šifrován. Pro otevření je nutné vložit heslo:</FileIsProtected>
-		<InvalidPassword>Neplatné heslo</InvalidPassword>
-	</PasswordDialog>
-	<Messages>
-		<Warning>Varování</Warning>
-		<Question>Otázky</Question>
-		<NotEnoughDiskSpace>Vypadá to na nedostatek volného místa je(pouze %1) na vybrané jednotce. \n\nChcete pokračovat?</NotEnoughDiskSpace>
-		<ISOAlreadyExists>Cílový soubor ISO \n%1\njiž existuje, chcete ho přepsat?</ISOAlreadyExists>
-		<FolderAlreadyExists>Cílová složka\n%1\njiž existuje, chcete soubory se stejným názvem přepsat?</FolderAlreadyExists>
-		<RestartProgram>Pro dokončení registrace musíte program restartovat. \n\nChcete to nyní udělat?</RestartProgram>
-		<CancelOperation>Jste si jisti, že chcete ukončit probíhající operaci?</CancelOperation>
-	</Messages>
-	<StatusMessages>
-		<CheckingSourceImage>Kontroluji zdrojový obraz disku...</CheckingSourceImage>
-		<Converting>Převádím...</Converting>
-		<Extracting>Extrahuji...</Extracting>
-		<ExtractionFailed>Extract operation failed</ExtractionFailed>
-		<Unpacking>Rozbaluji...</Unpacking>
-		<ConvertingToTemporaryISO>Převádím do dočasného ISO souboru...</ConvertingToTemporaryISO>
-		<ProgressBytesWritten>%1 zapsán</ProgressBytesWritten>
-		<Track>Stopa</Track>
-		<ISOImageTypeFound>Nalezen obraz disku ISO (typ %1)</ISOImageTypeFound>
-		<CannotOpenSourceFile>&gt;Nelze otevřít zdrojový soubor.</CannotOpenSourceFile>
-		<CannotOpenDestFile>Nelze otevřít cílový soubor.</CannotOpenDestFile>
-		<OperationTerminated>Operace byla uživatelem zrušena.</OperationTerminated>
-		<OperationCompleted>Operace byla dokončena.</OperationCompleted>
-		<ClickToOpenISOInExplorer>Stiskněte &lt;a href="_open_local_file"&gt;zde&lt;/a&gt; k otevření souboru ISO v Exploreru</ClickToOpenISOInExplorer>
-		<ClickToMountISOInFinder>Stiskněte &lt;a href="_open_local_file"&gt;zde&lt;/a&gt; k připojení ISO obrazu ve Finderu</ClickToMountISOInFinder>
-		<ClickToOpenOutFolder>Stiskněte &lt;a href="_open_local_file"&gt;zde&lt;/a&gt; k otevření výstupní složky</ClickToOpenOutFolder>
-		<DiskToISO>
-			<OpeningDevice>Otevírám jednotku, čekejte prosím...</OpeningDevice>
-			<TotalDataSize>Celková velikost dat %1</TotalDataSize>
-			<CreatingISO>Vytvářím ISO...</CreatingISO>
-			<CannotCreateFromAudio>Nemůžete vytvořit obraz disku ISO z více oddílového ,nebo audio disku, kontaktujte podporu pro pomoc.</CannotCreateFromAudio>
-			<PleaseUseBinCue>Pro tyto disky použijte obraz disku BIN/CUE </PleaseUseBinCue>
-			<BlankDiskDetected>Zjištěn prázdný disk CD/DVD</BlankDiskDetected>
-			<DiskNotReady>CD/DVD disk nelze číst</DiskNotReady>
-			<CannotOpenDevice>Nelze otevřít zařízení (%1)</CannotOpenDevice>
-			<ReadError>Chyba při čtení %1, kontaktujte podporu pro pomoc</ReadError>
-			<DeviceIsCopyProtected>Tato jednotka je chráněná proti kopírování a sektor je zašifrován. Nemohu pokračovat.</DeviceIsCopyProtected>
-			<ISOCreationFailed>Vytvoření ISO selhalo</ISOCreationFailed>
-			<BinCueCreationFailed>Vytvoření obrazu disku BIN/CUE selhalo</BinCueCreationFailed>
-			<CannotReadDiskToc>Pro disk nelze načíst TOC (table of contents)</CannotReadDiskToc>
-			<CannotReadDisk>Z disku nelze číst, chyba: %1</CannotReadDisk>
-			<DiskNotPresent>Disk není připojen nebo má neznámy typ</DiskNotPresent>
-			<NoTracksOnDisk>Na disku nejsou žádné stopy, je pravděpodobně prázdný</NoTracksOnDisk>
-			<mediaType>Typ média: %1</mediaType>
-			<TrackLength>Délka stopy je %1 sektorů</TrackLength>
-			<TracksCount>Počet stop: %1</TracksCount>
-			<WritingTrack>Zápis stopy %1, délka stopy je %2 sektorů</WritingTrack>
-			<DiskReadingStopped>Čtení zastaveno na %1</DiskReadingStopped>
-			<TrackReadingStopped>Čtení zastaveno na %1, pokračuji následující stopou</TrackReadingStopped>
-		</DiskToISO>
-		<FolderToISO>
-			<ScanningFolder>Skenuji zdrojový adresář...</ScanningFolder>
-			<DirectorySize>Velikost adresáře je %1</DirectorySize>
-			<WritingISOFile>Zapisuji ISO soubor...</WritingISOFile>
-			<SkippingBigFile>Vynechávám soubor '%1'. Je větší, jak 4 GB</SkippingBigFile>
-			<SkippingFile>Vynechávám soubor '%1'.</SkippingFile>
-			<BigFileWarning>Soubor '%1' je větší, jak 4 GB a v souborovém systému ISO 9660 nebude viditelný.</BigFileWarning>
-			<NestedDirectoriesLimitWarning>Adresářová struktura je hlubší než %1 úrovní, některé složky a soubory budou přeskočeny.</NestedDirectoriesLimitWarning>
-			<UnableToOpenFile>Nelze otevřít soubor '%1' pro čtení.</UnableToOpenFile>
-			<NoExistingFolder>The folder %1 doesn't exist</NoExistingFolder>
-			<failedToCreateISOImage>Failed to create an ISO image</failedToCreateISOImage>
-		</FolderToISO>
-		<UniversalConverter>
-			<AudioCDWarning>Obraz se zdá být %1 obrazem Audio CD disku, převod do ISO není možný.</AudioCDWarning>
-			<NotValidImage>Chyba: Toto není platný obraz disku CD/DVD</NotValidImage>
-			<CannotFindSignature>Chyba: nemohu nalézt signaturu ISO_9660 , překročen 5 MB limit</CannotFindSignature>
-			<MultiSessionImageDetected>Detekován obraz Multi-session disku</MultiSessionImageDetected>
-			<MultiSessionNotSupported>Obraz disku je multi-session disk. Takové obrazy nejsou podporovány.</MultiSessionNotSupported>
-		</UniversalConverter>
-		<NrgConverter>
-			<NrgParsingError>Chyba NRG analýzy, kontaktujte podporu pro pomoc</NrgParsingError>
-			<NoSessionsFound>Žádný oddíl NRG nezjištěn, kontaktujte podporu pro pomoc</NoSessionsFound>
-		</NrgConverter>
-		<ExtractISO>
-			<LoadingImage>Načítám obraz disku...</LoadingImage>
-			<ChooseISOFS>V tomto ISO obrazu je více souborových systémů, vyberte jeden k rozbalení:</ChooseISOFS>
-			<ChooseISOFSCaption>Vybrat souborový systém</ChooseISOFSCaption>
-			<ImageFound>%1 obraz disku nalezen</ImageFound>
-			<InvalidISO>Soubor není platný obraz disku ISO nebo není podporován</InvalidISO>
-		</ExtractISO>
-		<UIFConverter>
-			<UsingZlib>Použít zlib dekompresi</UsingZlib>
-			<UsingLZMA>Použít Lzma dekompresi od Igora Pavlova</UsingLZMA>
-			<MixedImageFound>Nalezen složený obraz typu %1 , rozbaluji do dočasného souboru...</MixedImageFound>
-			<UnpackingImage>Rozbaluji obraz...</UnpackingImage>
-		</UIFConverter>
-		<DebExtract>
-			<NotValidDeb>Soubor není platný archiv Debian (Ubuntu) Linux</NotValidDeb>
-		</DebExtract>
-		<RpmExtract>
-			<PackageOpened>Balíček %1 je otevřen</PackageOpened>
-			<DecompressingPayload>Dekomprese %1 payload do dočasného souboru...</DecompressingPayload>
-			<UnpackingArchive>Rozbalování arhivu...</UnpackingArchive>
-		</RpmExtract>
-		<DMG>
-			<ConvertingDmgToISO>Převádím DMG do HFS+ ISO...</ConvertingDmgToISO>
-			<Writing>Zapisuji %1...</Writing>
-			<ExtractingMainPartition>Rozbalování hlavního oddílu DMG do dočasného oddílu, to zabere nějaký čas - čekejte prosím...</ExtractingMainPartition>
-			<NoVolumeFound>Nenalezen svazek, hledá se souborový systém HFS+ file ...</NoVolumeFound>
-			<ExtractingVolume>Rozbalování DMG svazku (%1)...</ExtractingVolume>
-			<CorruptedOrPasswordProtected>Chyba: poškozený nebo heslem chráněný obraz DMG</CorruptedOrPasswordProtected>
-			<XarArchiveDetected>DMG file is actually a XAR archive (normally with actual DMG file inside) that can be only extracted. Please choose extract operation to proceed</XarArchiveDetected>
-			<openedAsMessage>The file is opened as %1</openedAsMessage>
-			<DmgDisk>DMG disk image</DmgDisk>
-			<GPTDisk>GPT disk</GPTDisk>
-			<MBRDisk>Apple disk</MBRDisk>
-			<HFSVolume>HFS+ volume</HFSVolume>
-			<readingFileSystem>Reading %1 file system...</readingFileSystem>
-			<messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
-			<messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
-		</DMG>
-		<PDIConverter>
-			<InvalidOrBrokenImage>Neplatný nebo poškozený obraz InstantCopy PDI</InvalidOrBrokenImage>
-		</PDIConverter>
-		<ISZConverter>
-			<CompressionNone>Způsob komprese: žádný</CompressionNone>
-			<WarningPassword>Zadáním neplatného hesla se stane výstupní soubor nečitelným</WarningPassword>
-			<ImageIsSegmented>Soubor ISZ je segmentován</ImageIsSegmented>
-		</ISZConverter>
-		<ArchiveConverter>
-			<ReadingArchive>Načítám archiv...</ReadingArchive>
-			<RemovingTempFiles>Přesunuji dočasné soubory...</RemovingTempFiles>
-			<ExtractError>Nelze rozbalit %1, chyba %2</ExtractError>
-		</ArchiveConverter>
-		<TarUnpacker>
-			<SinglePackedFileFound>Single packed file detected: %1, unpacking...</SinglePackedFileFound>
-		</TarUnpacker>
-		<XarUnpacker>
-			<ReadingTOC>Načítám TOC (%1 bytů)...</ReadingTOC>
-			<NestedArchiveFound>Rozbalovaný soubor '%1' nelze rozbalit jako 2 samostatné %2 archívy (koncovku přidejte manuálně)</NestedArchiveFound>
-		</XarUnpacker>
-	</StatusMessages>
-	<Misc>
-		<buttonOk>Budiž</buttonOk>
-		<buttonCancel>Zrušit</buttonCancel>
-		<buttonClose>Zavřít</buttonClose>
-		<buttonYes>Yes</buttonYes>
-		<buttonNo>No</buttonNo>
-		<ProVersion>Verze Pro</ProVersion>
-		<LiteVersion>Verze Lite</LiteVersion>
-	</Misc>
-	<ShellExtension>
-		<!-- This section describes Windows context menus -->
-		<ConvertToISO>Převést do "%s"</ConvertToISO>
-		<ConvertToISOInfo>Převést obraz disku do formátu ISO</ConvertToISOInfo>
-		<Extract>Rozbalit do "%s"</Extract>
-		<ExtractInfo>Rozbalit soubor obrazu</ExtractInfo>
-		<CreateISOFromFolder>Vytvoří "%s"</CreateISOFromFolder>
-		<CreateISOFromFolderInfo>Vytvoří z této složky obraz disku ISO s výchozím nastaveným</CreateISOFromFolderInfo>
-		<CreateISOFromFolderWithOptions>Vytvoří "%s" dle nastavení...</CreateISOFromFolderWithOptions>
-		<CreateISOFromFolderWithOptionsInfo>Vytvoří z této složky obraz disku ISO s visačkou a nastaveným souborovým formátem</CreateISOFromFolderWithOptionsInfo>
-		<CreateISOFromDisk>Vytvoří obraz disku ISO z tohoto disku</CreateISOFromDisk>
-		<CreateISOFromDiskInfo>Vytvoří obraz disku ISO z vybraného optického disku</CreateISOFromDiskInfo>
-		<CreateBINCUEFromDisk>Vytvoří obraz disku BIN/CUE z tohoto disku</CreateBINCUEFromDisk>
-		<CreateBINCUEFromDiskInfo>Vytvoří obraz disku BIN (raw) z vybraného optického disku a odpovídajícího seznamu souboru CUE</CreateBINCUEFromDiskInfo>
-	</ShellExtension>
-	<core>
-		<UpdateChecker>
-			<ReleasedOn>vydaná v %1</ReleasedOn>
-			<CheckForUpdates>Vyhledání aktualizací...</CheckForUpdates>
-			<NewVersionAvailable>Je dostupná nová verze %1!</NewVersionAvailable>
-			<NewVersionAvailableText>K dispozici je %1 %2 - máte %3. Chcete ji nyní stáhnout?</NewVersionAvailableText>
-			<UpdateAlertTitle>Aktualizace software</UpdateAlertTitle>
-			<UpdateAlertReleaseNotes>Historie verzí:</UpdateAlertReleaseNotes>
-			<UpdateAlertRemindLater>Připomenout později</UpdateAlertRemindLater>
-			<UpdateAlertSkip>Přeskočit tuto verzi</UpdateAlertSkip>
-			<UpdateAlertInstall>Nainstalovat</UpdateAlertInstall>
-			<UpdateAlertAutomaticUpdates>Aktualizovat automaticky</UpdateAlertAutomaticUpdates>
-			<MessageNoUpdateAvailable>Máte aktualizováno!</MessageNoUpdateAvailable>
-			<MessageNoUpdateAvailableDescription>%1 %2 je nejnovější dostupná verze.</MessageNoUpdateAvailableDescription>
-			<MessageErrorConnect>Při stahování došlo k chybě. Zkuste to později znovu.</MessageErrorConnect>
-			<MessageErrorParse>Došlo k chybě při analýze zdroje aktualizací.</MessageErrorParse>
-			<UpdateProgressTitle>Aktualizace %1</UpdateProgressTitle>
-			<UpdateProgressCancel>Zrušit</UpdateProgressCancel>
-			<UpdateProgressInstallAndRelaunch>Instalovat a spustit</UpdateProgressInstallAndRelaunch>
-			<UpdateProgressStatusDownloading>Stahování aktualizace...</UpdateProgressStatusDownloading>
-			<UpdateProgressExtract>Rozbalovaní aktualizace...</UpdateProgressExtract>
-			<UpdateProgressStatusReady>Připraven instalovat</UpdateProgressStatusReady>
-			<UpdateProgressSize>%1 ze %2</UpdateProgressSize>
-			<UpdateProgressB>b</UpdateProgressB>
-			<UpdateProgressKB>Kb</UpdateProgressKB>
-			<UpdateProgressMB>Mb</UpdateProgressMB>
-			<UpdateProgressGB>Gb</UpdateProgressGB>
-		</UpdateChecker>
-		<LetsMoveMac>
-			<kStrMoveApplicationCouldNotMove>Nelze přesunout do složky Aplikace</kStrMoveApplicationCouldNotMove>
-			<kStrMoveApplicationQuestionTitle>Přesunout do složky Aplikace?</kStrMoveApplicationQuestionTitle>
-			<kStrMoveApplicationQuestionTitleHome>Přesunout do složky Aplikace v domovské složce?</kStrMoveApplicationQuestionTitleHome>
-			<kStrMoveApplicationQuestionMessage>Přejete-li si to, lze přesunout aplikaci %1 do složky Aplikace.</kStrMoveApplicationQuestionMessage>
-			<kStrMoveApplicationButtonMove>Přesunout do složky Aplikace</kStrMoveApplicationButtonMove>
-			<kStrMoveApplicationButtonDoNotMove>Nepřesouvat</kStrMoveApplicationButtonDoNotMove>
-			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Poznámka: Tato akce vyžaduje oprávnění pro správu systému.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-			<kStrMoveApplicationQuestionInfoInDownloadsFolder>Umožní vám to mít složku Stahování/Downloads přehlednou.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-		</LetsMoveMac>
-		<QLineEditEx>
-			<actionUndo>Undo</actionUndo>
-			<actionRedo>Redo</actionRedo>
-			<actionCut>Cut</actionCut>
-			<actionCopy>Copy</actionCopy>
-			<actionPaste>Paste</actionPaste>
-			<actionDelete>Delete</actionDelete>
-			<actionSelectAll>Select All</actionSelectAll>
-		</QLineEditEx>
-		<QMessageBoxEx>
-			<buttonOK>OK</buttonOK>
-			<buttonCancel>Cancel</buttonCancel>
-			<buttonClose>Close</buttonClose>
-			<buttonYes>Yes</buttonYes>
-			<buttonNo>No</buttonNo>
-		</QMessageBoxEx>
-	</core>
+<LanguageStrings version="3.9" Author="jerry00">
+    <MainWindow>
+        <mnuFile>Soubor</mnuFile>
+        <mnuFileExit>Ukončit</mnuFileExit>
+        <mnuHelp>Help</mnuHelp>
+        <mnuHelpDocumentation>Dokumentace...</mnuHelpDocumentation>
+        <mnuHelpPurchase>Zakoupit verzi Pro...</mnuHelpPurchase>
+        <mnuHelpEnterCode>Vložte registrační kód...</mnuHelpEnterCode>
+        <mnuHelpAbout>Popis...</mnuHelpAbout>
+        <mnuHomePage>AnyToISO web...</mnuHomePage>
+        <menuPreferences>Předvolby...</menuPreferences>
+        <newVersionAvailable>AnyToISO %1 je dostupné!</newVersionAvailable>
+        <newVersionUpdate>Aktualizovat</newVersionUpdate>
+        <buttonStop>Stop</buttonStop>
+        <tabConvertExtract>
+            <Name>Rozbalit/Převést na ISO</Name>
+            <SourceFileName>Zdrojový obraz:</SourceFileName>
+            <ConvertToISO>Převést na ISO obraz:</ConvertToISO>
+            <ExtractToFolder>Rozbalit do složky:</ExtractToFolder>
+            <buttonOpenImage>Otevřít obraz...</buttonOpenImage>
+            <buttonOpenImageText>Otevřít soubor obrazu CD/DVD</buttonOpenImageText>
+            <AllSupportedFiles>Všechny podporované soubory</AllSupportedFiles>
+            <buttonOpenISO>Otevřít ISO...</buttonOpenISO>
+            <buttonOpenISOText>Vybrat umístění ISO souboru</buttonOpenISOText>
+            <buttonOpenISOFilter>ISO soubory (*.iso)</buttonOpenISOFilter>
+            <buttonOpenFolder>Vybrat složku...</buttonOpenFolder>
+            <buttonOpenFolderText>Otevřít cílovou složku</buttonOpenFolderText>
+            <buttonConvert>Převést!</buttonConvert>
+            <buttonExtract>Rozbalit!</buttonExtract>
+            <labelFileSize>Velikost</labelFileSize>
+            <labelFileFormat>formát</labelFileFormat>
+            <labelOpenOrDragFile>&lt;b&gt;Otevřít&lt;/b&gt; nebo &lt;b&gt;táhnout&lt;/b&gt; nějaký obraz k převodu nebo rozbalení</labelOpenOrDragFile>
+        </tabConvertExtract>
+        <tabDiskToISO>
+            <Name>CD/DVD Disk do ISO</Name>
+            <SourceDrive>Zdrojová jednotka:</SourceDrive>
+            <OutputISO>Umístění ISO souboru:</OutputISO>
+            <checkCreateBinCue>Vytvořit obraz disku BIN/CUE</checkCreateBinCue>
+            <buttonRefresh>Obnovit</buttonRefresh>
+            <buttonBrowseISO>Hledat...</buttonBrowseISO>
+            <NoDiskInserted>Není vložen CD/DVD disk</NoDiskInserted>
+            <buttonMakeISO>Vytvořit ISO</buttonMakeISO>
+            <buttonMakeBinCue>Vytvořit obraz disku BIN/CUE</buttonMakeBinCue>
+            <chooseISOOrBinCueImage>Vyberte soubor obrazu disku ISO nebo BIN/CUE</chooseISOOrBinCueImage>
+            <isoFilesFilter>Soubory ISO</isoFilesFilter>
+            <binCueSheetFilter>Soubory BIN (se seznamem CUE)</binCueSheetFilter>
+        </tabDiskToISO>
+        <tabFolderToISO>
+            <Name>Složka do ISO</Name>
+            <SourceFolder>Zdrojová složka:</SourceFolder>
+            <DestinationISO>Umístění ISO souboru:</DestinationISO>
+            <VolumeLabel>Popisek:</VolumeLabel>
+            <buttonBrowseForFolder>Hledat složku...</buttonBrowseForFolder>
+            <buttonChooseISO>Vybrat ISO...</buttonChooseISO>
+            <buttonOptions>Volby...</buttonOptions>
+            <buttonMakeISO>Vytvořit ISO</buttonMakeISO>
+            <ISOCreationOptions>Volby pro ISO</ISOCreationOptions>
+            <Settings>Nastavení</Settings>
+            <FileSystemsInsideISO>Souborový systém:</FileSystemsInsideISO>
+            <buttonDefault>Výchozí</buttonDefault>
+            <ISO9660Option1>8.3 DOS názvosloví (11)</ISO9660Option1>
+            <ISO9660Option2>Dlouhý název (180)</ISO9660Option2>
+            <ISO9660Option3>ISO 9660:1999</ISO9660Option3>
+            <JolietOption1>Standardní název (64)</JolietOption1>
+            <JolietOption2>Dlouhý název (110)</JolietOption2>
+        </tabFolderToISO>
+    </MainWindow>
+    <LiteVersionDialog>
+        <LiteVersionLimitText>Lite veze AnyToISO pracuje jen s obrazy &lt;b&gt;CD&lt;/b&gt; (do 870 MB). Chcete-li pracovat s větším (DVD a více) musíte &lt;a href="zakoupit"&gt;Koupit verzi Pro&lt;/a&gt;. Registrační kód obdržíte &lt;a href="odemknout"&gt;odemknout software&lt;/a&gt; po zakoupení.</LiteVersionLimitText>
+        <buttonPurchasePro>Koupit verzi Pro...</buttonPurchasePro>
+    </LiteVersionDialog>
+    <EnterKeyDialog>
+        <Caption>Vložte registraci</Caption>
+        <EnterKeyToUpgradeText>Vložte detaily registrace, a získáte AnyToISO Pro.</EnterKeyToUpgradeText>
+        <RegName>Jméno:</RegName>
+        <RegCode>Kód:</RegCode>
+    </EnterKeyDialog>
+    <AboutDialog>
+        <Caption>Popis AnyToISO</Caption>
+        <Website>web:</Website>
+        <Support>Podpora:</Support>
+        <RunningAs>Program běží v režimu:</RunningAs>
+        <CopyRight>Tento program je chráněn copyrightem a mezinárodními úmluvami. Neautorizované manipulace s programem, nebo s jeho částí, může způsobit trestní stíhání.</CopyRight>
+        <buttonPurchasePro>Koupit verzi Pro...</buttonPurchasePro>
+    </AboutDialog>
+    <PreferencesDialog>
+        <Caption>Předvolby</Caption>
+        <PreferencesGeneral>General</PreferencesGeneral>
+        <PreferencesUpdates>Updates</PreferencesUpdates>
+        <Language>Jazyk rozhraní:</Language>
+        <CheckForNewVersions>Po spuštění hledat aktualizace</CheckForNewVersions>
+        <ShellExtension>Integrace win IE shellu</ShellExtension>
+        <ShellExtensionInfo>Přidá kontextuální nabídku pro optické mechaniky, složky a soubory podporovaných formátů.</ShellExtensionInfo>
+    </PreferencesDialog>
+    <PasswordDialog>
+        <Caption>Vyžadováno heslo</Caption>
+        <FileIsProtected>Soubor je šifrován. Pro otevření je nutné vložit heslo:</FileIsProtected>
+        <InvalidPassword>Neplatné heslo</InvalidPassword>
+    </PasswordDialog>
+    <Messages>
+        <Warning>Varování</Warning>
+        <Question>Otázky</Question>
+        <NotEnoughDiskSpace>Vypadá to na nedostatek volného místa je(pouze %1) na vybrané jednotce. \n\nChcete pokračovat?</NotEnoughDiskSpace>
+        <ISOAlreadyExists>Cílový soubor ISO \n%1\njiž existuje, chcete ho přepsat?</ISOAlreadyExists>
+        <FolderAlreadyExists>Cílová složka\n%1\njiž existuje, chcete soubory se stejným názvem přepsat?</FolderAlreadyExists>
+        <RestartProgram>Pro dokončení registrace musíte program restartovat. \n\nChcete to nyní udělat?</RestartProgram>
+        <CancelOperation>Jste si jisti, že chcete ukončit probíhající operaci?</CancelOperation>
+    </Messages>
+    <StatusMessages>
+        <CheckingSourceImage>Kontroluji zdrojový obraz disku...</CheckingSourceImage>
+        <Converting>Převádím...</Converting>
+        <Extracting>Extrahuji...</Extracting>
+        <ExtractionFailed>Extrakce selhala</ExtractionFailed>
+        <Unpacking>Rozbaluji...</Unpacking>
+        <ConvertingToTemporaryISO>Převádím do dočasného ISO souboru...</ConvertingToTemporaryISO>
+        <ProgressBytesWritten>%1 zapsán</ProgressBytesWritten>
+        <Track>Stopa</Track>
+        <ISOImageTypeFound>Nalezen obraz disku ISO (typ %1)</ISOImageTypeFound>
+        <CannotOpenSourceFile>&gt;Nelze otevřít zdrojový soubor.</CannotOpenSourceFile>
+        <CannotOpenDestFile>Nelze otevřít cílový soubor.</CannotOpenDestFile>
+        <OperationTerminated>Operace byla uživatelem zrušena.</OperationTerminated>
+        <OperationCompleted>Operace byla dokončena.</OperationCompleted>
+        <ClickToOpenISOInExplorer>Stiskněte &lt;a href="_open_local_file"&gt;zde&lt;/a&gt; k otevření souboru ISO v Exploreru</ClickToOpenISOInExplorer>
+        <ClickToMountISOInFinder>Stiskněte &lt;a href="_open_local_file"&gt;zde&lt;/a&gt; k připojení ISO obrazu ve Finderu</ClickToMountISOInFinder>
+        <ClickToOpenOutFolder>Stiskněte &lt;a href="_open_local_file"&gt;zde&lt;/a&gt; k otevření výstupní složky</ClickToOpenOutFolder>
+        <DiskToISO>
+            <OpeningDevice>Otevírám jednotku, čekejte prosím...</OpeningDevice>
+            <TotalDataSize>Celková velikost dat %1</TotalDataSize>
+            <CreatingISO>Vytvářím ISO...</CreatingISO>
+            <CannotCreateFromAudio>Nemůžete vytvořit obraz disku ISO z více oddílového ,nebo audio disku, kontaktujte podporu pro pomoc.</CannotCreateFromAudio>
+            <PleaseUseBinCue>Pro tyto disky použijte obraz disku BIN/CUE </PleaseUseBinCue>
+            <BlankDiskDetected>Zjištěn prázdný disk CD/DVD</BlankDiskDetected>
+            <DiskNotReady>CD/DVD disk nelze číst</DiskNotReady>
+            <CannotOpenDevice>Nelze otevřít zařízení (%1)</CannotOpenDevice>
+            <ReadError>Chyba při čtení %1, kontaktujte podporu pro pomoc</ReadError>
+            <DeviceIsCopyProtected>Tato jednotka je chráněná proti kopírování a sektor je zašifrován. Nemohu pokračovat.</DeviceIsCopyProtected>
+            <ISOCreationFailed>Vytvoření ISO selhalo</ISOCreationFailed>
+            <BinCueCreationFailed>Vytvoření obrazu disku BIN/CUE selhalo</BinCueCreationFailed>
+            <CannotReadDiskToc>Pro disk nelze načíst TOC (table of contents)</CannotReadDiskToc>
+            <CannotReadDisk>Z disku nelze číst, chyba: %1</CannotReadDisk>
+            <DiskNotPresent>Disk není připojen nebo má neznámy typ</DiskNotPresent>
+            <NoTracksOnDisk>Na disku nejsou žádné stopy, je pravděpodobně prázdný</NoTracksOnDisk>
+            <mediaType>Typ média: %1</mediaType>
+            <TrackLength>Délka stopy je %1 sektorů</TrackLength>
+            <TracksCount>Počet stop: %1</TracksCount>
+            <WritingTrack>Zápis stopy %1, délka stopy je %2 sektorů</WritingTrack>
+            <DiskReadingStopped>Čtení zastaveno na %1</DiskReadingStopped>
+            <TrackReadingStopped>Čtení zastaveno na %1, pokračuji následující stopou</TrackReadingStopped>
+        </DiskToISO>
+        <FolderToISO>
+            <ScanningFolder>Skenuji zdrojový adresář...</ScanningFolder>
+            <DirectorySize>Velikost adresáře je %1</DirectorySize>
+            <WritingISOFile>Zapisuji ISO soubor...</WritingISOFile>
+            <SkippingBigFile>Vynechávám soubor '%1'. Je větší, než 4 GB</SkippingBigFile>
+            <SkippingFile>Vynechávám soubor '%1'.</SkippingFile>
+            <BigFileWarning>Soubor '%1' je větší, než 4 GB a v souborovém systému ISO 9660 nebude viditelný.</BigFileWarning>
+            <NestedDirectoriesLimitWarning>Adresářová struktura je hlubší než %1 úrovní, některé složky a soubory budou přeskočeny.</NestedDirectoriesLimitWarning>
+            <UnableToOpenFile>Nelze otevřít soubor '%1' pro čtení.</UnableToOpenFile>
+            <NoExistingFolder>Složka %1 neexistuje</NoExistingFolder>
+            <failedToCreateISOImage>Vytvoření ISO obrazu selhalo</failedToCreateISOImage>
+        </FolderToISO>
+        <UniversalConverter>
+            <AudioCDWarning>Obraz se zdá být %1 obrazem Audio CD disku, převod do ISO není možný.</AudioCDWarning>
+            <NotValidImage>Chyba: Toto není platný obraz disku CD/DVD</NotValidImage>
+            <CannotFindSignature>Chyba: nemohu nalézt signaturu ISO_9660 , překročen 5 MB limit</CannotFindSignature>
+            <MultiSessionImageDetected>Detekován obraz Multi-session disku</MultiSessionImageDetected>
+            <MultiSessionNotSupported>Obraz disku je multi-session disk. Takové obrazy nejsou podporovány.</MultiSessionNotSupported>
+        </UniversalConverter>
+        <NrgConverter>
+            <NrgParsingError>Chyba NRG analýzy, kontaktujte podporu pro pomoc</NrgParsingError>
+            <NoSessionsFound>Žádný oddíl NRG nezjištěn, kontaktujte podporu pro pomoc</NoSessionsFound>
+        </NrgConverter>
+        <ExtractISO>
+            <LoadingImage>Načítám obraz disku...</LoadingImage>
+            <ChooseISOFS>V tomto ISO obrazu je více souborových systémů, vyberte jeden k rozbalení:</ChooseISOFS>
+            <ChooseISOFSCaption>Vybrat souborový systém</ChooseISOFSCaption>
+            <ImageFound>%1 obraz disku nalezen</ImageFound>
+            <InvalidISO>Soubor není platný obraz disku ISO nebo není podporován</InvalidISO>
+        </ExtractISO>
+        <UIFConverter>
+            <UsingZlib>Použít zlib dekompresi</UsingZlib>
+            <UsingLZMA>Použít Lzma dekompresi od Igora Pavlova</UsingLZMA>
+            <MixedImageFound>Nalezen složený obraz typu %1 , rozbaluji do dočasného souboru...</MixedImageFound>
+            <UnpackingImage>Rozbaluji obraz...</UnpackingImage>
+        </UIFConverter>
+        <DebExtract>
+            <NotValidDeb>Soubor není platný archiv Debian (Ubuntu) Linux</NotValidDeb>
+        </DebExtract>
+        <RpmExtract>
+            <PackageOpened>Balíček %1 je otevřen</PackageOpened>
+            <DecompressingPayload>Dekomprese %1 payload do dočasného souboru...</DecompressingPayload>
+            <UnpackingArchive>Rozbalování arhivu...</UnpackingArchive>
+        </RpmExtract>
+        <DMG>
+            <ConvertingDmgToISO>Převádím DMG do HFS+ ISO...</ConvertingDmgToISO>
+            <Writing>Zapisuji %1...</Writing>
+            <ExtractingMainPartition>Rozbalování hlavního oddílu DMG do dočasného oddílu, to zabere nějaký čas - čekejte prosím...</ExtractingMainPartition>
+            <NoVolumeFound>Nenalezen svazek, hledá se souborový systém HFS+ file ...</NoVolumeFound>
+            <ExtractingVolume>Rozbalování DMG svazku (%1)...</ExtractingVolume>
+            <CorruptedOrPasswordProtected>Chyba: poškozený nebo heslem chráněný obraz DMG</CorruptedOrPasswordProtected>
+            <XarArchiveDetected>DMG soubor je aktuálně nějaký XAR archiv (normálně je DMG soubor uvnitř) a bude pouze extrahován. Pro pokračování zvolte Extrahovat</XarArchiveDetected>
+            <openedAsMessage>Soubor je otevřen jako %1</openedAsMessage>
+            <DmgDisk>DMG oraz disku</DmgDisk>
+            <GPTDisk>GPT disk</GPTDisk>
+            <MBRDisk>Apple disk</MBRDisk>
+            <HFSVolume>HFS+ volume</HFSVolume>
+            <readingFileSystem>Načítám %1 souborový systém...</readingFileSystem>
+            <messageMultiplePartitions>Uvnitř obrazu DMG je více oddílů, vyberte jeden a extrahujte ho:</messageMultiplePartitions>
+            <messageMultiplePartitionsTitle>Vyberte nějaký oddíl</messageMultiplePartitionsTitle>
+        </DMG>
+        <PDIConverter>
+            <InvalidOrBrokenImage>Neplatný nebo poškozený obraz InstantCopy PDI</InvalidOrBrokenImage>
+        </PDIConverter>
+        <ISZConverter>
+            <CompressionNone>Způsob komprese: žádný</CompressionNone>
+            <WarningPassword>Zadáním neplatného hesla se stane výstupní soubor nečitelným</WarningPassword>
+            <ImageIsSegmented>Soubor ISZ je segmentován</ImageIsSegmented>
+        </ISZConverter>
+        <ArchiveConverter>
+            <ReadingArchive>Načítám archiv...</ReadingArchive>
+            <RemovingTempFiles>Přesunuji dočasné soubory...</RemovingTempFiles>
+            <ExtractError>Nelze rozbalit %1, chyba %2</ExtractError>
+        </ArchiveConverter>
+        <TarUnpacker>
+            <SinglePackedFileFound>Single packed file detected: %1, unpacking...</SinglePackedFileFound>
+        </TarUnpacker>
+        <XarUnpacker>
+            <ReadingTOC>Načítám TOC (%1 bytů)...</ReadingTOC>
+            <NestedArchiveFound>Rozbalovaný soubor '%1' nelze rozbalit jako 2 samostatné %2 archívy (koncovku přidejte manuálně)</NestedArchiveFound>
+        </XarUnpacker>
+    </StatusMessages>
+    <Misc>
+        <buttonOk>Budiž</buttonOk>
+        <buttonCancel>Zrušit</buttonCancel>
+        <buttonClose>Zavřít</buttonClose>
+        <buttonYes>Ano</buttonYes>
+        <buttonNo>Ne</buttonNo>
+        <ProVersion>Verze Pro</ProVersion>
+        <LiteVersion>Verze Lite</LiteVersion>
+    </Misc>
+    <ShellExtension>
+        <!-- This section describes Windows context menus -->
+        <ConvertToISO>Převést do "%s"</ConvertToISO>
+        <ConvertToISOInfo>Převést obraz disku do formátu ISO</ConvertToISOInfo>
+        <Extract>Rozbalit do "%s"</Extract>
+        <ExtractInfo>Rozbalit soubor obrazu</ExtractInfo>
+        <CreateISOFromFolder>Vytvoří "%s"</CreateISOFromFolder>
+        <CreateISOFromFolderInfo>Vytvoří z této složky obraz disku ISO s výchozím nastaveným</CreateISOFromFolderInfo>
+        <CreateISOFromFolderWithOptions>Vytvoří "%s" dle nastavení...</CreateISOFromFolderWithOptions>
+        <CreateISOFromFolderWithOptionsInfo>Vytvoří z této složky obraz disku ISO s visačkou a nastaveným souborovým formátem</CreateISOFromFolderWithOptionsInfo>
+        <CreateISOFromDisk>Vytvoří obraz disku ISO z tohoto disku</CreateISOFromDisk>
+        <CreateISOFromDiskInfo>Vytvoří obraz disku ISO z vybraného optického disku</CreateISOFromDiskInfo>
+        <CreateBINCUEFromDisk>Vytvoří obraz disku BIN/CUE z tohoto disku</CreateBINCUEFromDisk>
+        <CreateBINCUEFromDiskInfo>Vytvoří obraz disku BIN (raw) z vybraného optického disku a odpovídajícího seznamu souboru CUE</CreateBINCUEFromDiskInfo>
+    </ShellExtension>
+    <core>
+        <UpdateChecker>
+            <ReleasedOn>vydaná v %1</ReleasedOn>
+            <CheckForUpdates>Vyhledání aktualizací...</CheckForUpdates>
+            <NewVersionAvailable>Je dostupná nová verze %1!</NewVersionAvailable>
+            <NewVersionAvailableText>K dispozici je %1 %2 - máte %3. Chcete ji nyní stáhnout?</NewVersionAvailableText>
+            <UpdateAlertTitle>Aktualizace software</UpdateAlertTitle>
+            <UpdateAlertReleaseNotes>Historie verzí:</UpdateAlertReleaseNotes>
+            <UpdateAlertRemindLater>Připomenout později</UpdateAlertRemindLater>
+            <UpdateAlertSkip>Přeskočit tuto verzi</UpdateAlertSkip>
+            <UpdateAlertInstall>Nainstalovat</UpdateAlertInstall>
+            <UpdateAlertAutomaticUpdates>Aktualizovat automaticky</UpdateAlertAutomaticUpdates>
+            <MessageNoUpdateAvailable>Máte aktualizováno!</MessageNoUpdateAvailable>
+            <MessageNoUpdateAvailableDescription>%1 %2 je nejnovější dostupná verze.</MessageNoUpdateAvailableDescription>
+            <MessageErrorConnect>Při stahování došlo k chybě. Zkuste to později znovu.</MessageErrorConnect>
+            <MessageErrorParse>Došlo k chybě při analýze zdroje aktualizací.</MessageErrorParse>
+            <UpdateProgressTitle>Aktualizace %1</UpdateProgressTitle>
+            <UpdateProgressCancel>Zrušit</UpdateProgressCancel>
+            <UpdateProgressInstallAndRelaunch>Instalovat a spustit</UpdateProgressInstallAndRelaunch>
+            <UpdateProgressStatusDownloading>Stahování aktualizace...</UpdateProgressStatusDownloading>
+            <UpdateProgressExtract>Rozbalovaní aktualizace...</UpdateProgressExtract>
+            <UpdateProgressStatusReady>Připraven instalovat</UpdateProgressStatusReady>
+            <UpdateProgressSize>%1 ze %2</UpdateProgressSize>
+            <UpdateProgressB>b</UpdateProgressB>
+            <UpdateProgressKB>Kb</UpdateProgressKB>
+            <UpdateProgressMB>Mb</UpdateProgressMB>
+            <UpdateProgressGB>Gb</UpdateProgressGB>
+        </UpdateChecker>
+        <LetsMoveMac>
+            <kStrMoveApplicationCouldNotMove>Nelze přesunout do složky Aplikace</kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>Přesunout do složky Aplikace?</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>Přesunout do složky Aplikace v domovské složce?</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>Přejete-li si to, lze přesunout aplikaci %1 do složky Aplikace.</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationButtonMove>Přesunout do složky Aplikace</kStrMoveApplicationButtonMove>
+            <kStrMoveApplicationButtonDoNotMove>Nepřesouvat</kStrMoveApplicationButtonDoNotMove>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>Poznámka: Tato akce vyžaduje oprávnění pro správu systému.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>Umožní vám to mít složku Stahování/Downloads přehlednou.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+        </LetsMoveMac>
+        <QLineEditEx>
+            <actionUndo>Odvolat</actionUndo>
+            <actionRedo>Znovu</actionRedo>
+            <actionCut>Vyjmout</actionCut>
+            <actionCopy>Kopírovat</actionCopy>
+            <actionPaste>Vložit</actionPaste>
+            <actionDelete>Smazat</actionDelete>
+            <actionSelectAll>Vybrat vše</actionSelectAll>
+        </QLineEditEx>
+        <QMessageBoxEx>
+            <buttonOK>Budiž</buttonOK>
+            <buttonCancel>Zrušit</buttonCancel>
+            <buttonClose>Zavřít</buttonClose>
+            <buttonYes>Ano</buttonYes>
+            <buttonNo>Ne</buttonNo>
+        </QMessageBoxEx>
+    </core>
 </LanguageStrings>

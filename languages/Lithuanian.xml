@@ -1,310 +1,312 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="3.4" Author="Andrius Ukelis">
-	<MainWindow>
-		<mnuFile>Failas</mnuFile>
-		<mnuFileExit>Išeiti</mnuFileExit>
-		<mnuHelp>Pagalba</mnuHelp>
-		<mnuHelpDocumentation>Dokumentacija...</mnuHelpDocumentation>
-		<mnuHelpPurchase>Pirkti Pro versiją...</mnuHelpPurchase>
-		<mnuHelpEnterCode>Įvesti registracijos kodą...</mnuHelpEnterCode>
-		<mnuHelpAbout>Apie...</mnuHelpAbout>
-		<mnuHomePage>AnyToISO Pagrindinis puslapis...</mnuHomePage>
-		<menuPreferences>Nustatymai...</menuPreferences>
-		<newVersionAvailable>AnyToISO %1 yra galima!</newVersionAvailable>
-		<newVersionUpdate>Naujinti</newVersionUpdate>
-		<buttonStop>Stop</buttonStop>
-		<tabConvertExtract>
-			<Name>Failo išskyrimas/Konvertavimas į ISO</Name>
-			<SourceFileName>Šaltinio atvaizdo failas:</SourceFileName>
-			<ConvertToISO>Konvertuoti į ISO atvaizdą:</ConvertToISO>
-			<ExtractToFolder>Išskirti į aplanką:</ExtractToFolder>
-			<buttonOpenImage>Atverti atvaizdą...</buttonOpenImage>
-			<buttonOpenImageText>Atverti CD/DVD Atvaizdo failą</buttonOpenImageText>
-			<AllSupportedFiles>Visi palaikomi failai</AllSupportedFiles>
-			<buttonOpenISO>Atverti ISO...</buttonOpenISO>
-			<buttonOpenISOText>Pasirinkite gautą ISO failą</buttonOpenISOText>
-			<buttonOpenISOFilter>ISO Failai (*.iso)</buttonOpenISOFilter>
-			<buttonOpenFolder>Rinktis aplanką...</buttonOpenFolder>
-			<buttonOpenFolderText>Atidaryti paskirties aplanką</buttonOpenFolderText>
-			<buttonConvert>Konvertuoti!</buttonConvert>
-			<buttonExtract>Išskirti!</buttonExtract>
-			<labelFileSize>Failo dydis</labelFileSize>
-			<labelFileFormat>formatas</labelFileFormat>
-			<labelOpenOrDragFile>&lt;b&gt;Atidaryti&lt;/b&gt; ar &lt;b&gt;vilkti&lt;/b&gt; atvaizdo failą norint konvertuoti ar išskirti</labelOpenOrDragFile>
-		</tabConvertExtract>
-		<tabDiskToISO>
-			<Name>CD/DVD Disko atvaizdas į ISO</Name>
-			<SourceDrive>Šaltinio Diskas:</SourceDrive>
-			<OutputISO>Paskirties atvaizdas:</OutputISO>
-			<checkCreateBinCue>Kurti BIN/CUE atvaizdą</checkCreateBinCue>
-			<buttonRefresh>Naujinti</buttonRefresh>
-			<buttonBrowseISO>Naršyti...</buttonBrowseISO>
-			<NoDiskInserted>Nėra įterpto CD/DVD disko</NoDiskInserted>
-			<buttonMakeISO>Kurti ISO</buttonMakeISO>
-			<buttonMakeBinCue>Kurti BIN/CUE atvaizdą</buttonMakeBinCue>
-			<chooseISOOrBinCueImage>Pasirinkite ISO ar BIN/CUE atvaizdo failą</chooseISOOrBinCueImage>
-			<isoFilesFilter>ISO Failai</isoFilesFilter>
-			<binCueSheetFilter>BIN Failai (su CUE lentele)</binCueSheetFilter>
-		</tabDiskToISO>
-		<tabFolderToISO>
-			<Name>Aplankas į ISO</Name>
-			<SourceFolder>Šaltinio aplankas:</SourceFolder>
-			<DestinationISO>Paskirties ISO failas:</DestinationISO>
-			<VolumeLabel>Tomo žymė:</VolumeLabel>
-			<buttonBrowseForFolder>Naršyti aplankus...</buttonBrowseForFolder>
-			<buttonChooseISO>Pasirinkti ISO...</buttonChooseISO>
-			<buttonOptions>Parinktys...</buttonOptions>
-			<buttonMakeISO>Kurti ISO</buttonMakeISO>
-			<ISOCreationOptions>ISO Kūrimo Parinktys</ISOCreationOptions>
-			<Settings>Nustatymai</Settings>
-			<FileSystemsInsideISO>Failų sistemos:</FileSystemsInsideISO>
-			<buttonDefault>Numatytasis</buttonDefault>
-			<ISO9660Option1>8.3 DOS failų vardai (11)</ISO9660Option1>
-			<ISO9660Option2>Ilgesni vardai (180)</ISO9660Option2>
-			<ISO9660Option3>ISO 9660:1999</ISO9660Option3>
-			<JolietOption1>Standartiniai vardai (64)</JolietOption1>
-			<JolietOption2>Ilgi vardai (110)</JolietOption2>
-		</tabFolderToISO>
-	</MainWindow>
-	<LiteVersionDialog>
-		<LiteVersionLimitText>AnyToIso Lite versija dirba su &lt;b&gt;Tik su CD atvaizdais&lt;/b&gt; (iki 870 MB). Norint dirbti su didesniais failais (DVD ir daugiau) jūs turėtumėte &lt;a href="purchase"&gt;Nusipirkti profesionalią versiją&lt;/a&gt;. Jūs gausite registracijos kodą &lt;a href="unlock"&gt;kuris atrakins programinę įrangą&lt;/a&gt; po pirkimo.</LiteVersionLimitText>
-		<buttonPurchasePro>Buy Pro Version...</buttonPurchasePro>
-	</LiteVersionDialog>
-	<EnterKeyDialog>
-		<Caption>Įveskite registracijos kodą</Caption>
-		<EnterKeyToUpgradeText>Prašome įvesti jūsų registracijos detales norint naujinti į AnyToISO Pro versiją.</EnterKeyToUpgradeText>
-		<RegName>Registracijos vardas:</RegName>
-		<RegCode>Registracijos kodas:</RegCode>
-	</EnterKeyDialog>
-	<AboutDialog>
-		<Caption>Apie AnyToISO</Caption>
-		<Website>Interneto svetainė:</Website>
-		<Support>Palaikymas:</Support>
-		<RunningAs>Prigrama veikia kaip:</RunningAs>
-		<CopyRight>Ši kompiuterinė programa yra apsaugota autorių teisių įstatymų ir tarptautinių sutarčių. Neteisėtas kopijavimas ar šios programos platinimas, ar bet kurią jos dalį, gali sukelti civilines arba baudžiamąsias sankcijas.</CopyRight>
-		<buttonPurchasePro>Pirkti Pro versiją...</buttonPurchasePro>
-	</AboutDialog>
-	<PreferencesDialog>
-		<Caption>Parinktys</Caption>
-		<Language>Sąsajos kalba:</Language>
-		<CheckForNewVersions>Tikrinti naujas versijas pradedant</CheckForNewVersions>
-		<ShellExtension>Windows Explorer integracija</ShellExtension>
-		<ShellExtensionInfo>Pridėti kontekstinio meniu palaikomų formatų optinių diskų, aplankų ir failų.</ShellExtensionInfo>
-	</PreferencesDialog>
-	<PasswordDialog>
-		<Caption>Reikalingas slaptažodis</Caption>
-		<FileIsProtected>Failas užšifruotas. Norint iššifruoti prašome įvesti slaptažodį:</FileIsProtected>
-		<InvalidPassword>Neteisingas slaptažodis</InvalidPassword>
-	</PasswordDialog>
-	<Messages>
-		<Warning>Įspėjimas</Warning>
-		<Question>Klausimas</Question>
-		<NotEnoughDiskSpace>Rodos, kad nepakanka tuščios vietos (tik %1) pasirinktame diske. \n\nAr vis tiek norite tęsti?</NotEnoughDiskSpace>
-		<ISOAlreadyExists>Toks paskirties ISO failas\n%1\njau yra, ar norite jį perrašyti?</ISOAlreadyExists>
-		<FolderAlreadyExists>Toks paskirties aplankas\n%1\njau yra, ar norite perrašyti visus esančius failus su tuo pačiu vardu??</FolderAlreadyExists>
-		<RestartProgram>Norint užbaigti registraciją jūs privalote iš naujo paleisti programą. \n\nAr norite tai padaryti dabar?</RestartProgram>
-		<CancelOperation>Ar jūs tikrai norite nutraukti dabartinę operaciją?</CancelOperation>
-	</Messages>
-	<StatusMessages>
-		<CheckingSourceImage>Tikrinamas šaltinio atvaizdas...</CheckingSourceImage>
-		<Converting>Konvertuojama...</Converting>
-		<Extracting>Išskleidžiama...</Extracting>
-		<ExtractionFailed>Extract operation failed</ExtractionFailed>
-		<Unpacking>Išpakuojama...</Unpacking>
-		<ConvertingToTemporaryISO>Konvertuojama į laikinajį ISO failą...</ConvertingToTemporaryISO>
-		<ProgressBytesWritten>%1 įrašyta</ProgressBytesWritten>
-		<Track>Takelis</Track>
-		<ISOImageTypeFound>ISO atvaizdas (tipas %1) rastas</ISOImageTypeFound>
-		<CannotOpenSourceFile>Neįmanoma atverti šaltinio failo.</CannotOpenSourceFile>
-		<CannotOpenDestFile>Neįmanoma atverti paskirties failo, patikrinkite failo vardą ir prieigos teises</CannotOpenDestFile>
-		<OperationTerminated>Operaciją nutraukė vartotojas.</OperationTerminated>
-		<OperationCompleted>Operacija baigta.</OperationCompleted>
-		<ClickToOpenISOInExplorer>Spauskite &lt;a href="_open_local_file"&gt;čia&lt;/a&gt; norint atidaryti išvesties ISO failą</ClickToOpenISOInExplorer>
-		<ClickToMountISOInFinder>Spauskite &lt;a href="_open_local_file"&gt;čia&lt;/a&gt; norint prijungti ISO atvaizdą</ClickToMountISOInFinder>
-		<ClickToOpenOutFolder>Spauskite &lt;a href="_open_local_file"&gt;čia&lt;/a&gt; norint atverti išvesties aplanką</ClickToOpenOutFolder>
-		<DiskToISO>
-			<OpeningDevice>Atidaroma laikmena, prašome palaukti...</OpeningDevice>
-			<TotalDataSize>Iš viso duomenų dydis yra is %1</TotalDataSize>
-			<CreatingISO>Kuriamas ISO...</CreatingISO>
-			<CannotCreateFromAudio>Jūs negalite kurti ISO muti-sesijos ar garso disko atvaizdo, prašome kreiptis dėl techninės pagalbos.</CannotCreateFromAudio>
-			<PleaseUseBinCue>Prašome naudoti BIN/CUE atvaizdus tokiems diskams</PleaseUseBinCue>
-			<BlankDiskDetected>Tuščias CD/DVD diskas aptiktas</BlankDiskDetected>
-			<DiskNotReady>CD/DVD diskas nepasiruošęs</DiskNotReady>
-			<CannotOpenDevice>Neįmanoma atverti laikmenos (%1)</CannotOpenDevice>
-			<ReadError>Skaitymo klaida %1, prašome kreiptis dėl techninės pagalbos</ReadError>
-			<DeviceIsCopyProtected>Ši laikmena yra apsaugota nuo kopijavimo ir sektorius užšifruotas. Neįmanoma tęsti.</DeviceIsCopyProtected>
-			<ISOCreationFailed>ISO kūrimas nepavyko</ISOCreationFailed>
-			<BinCueCreationFailed>BIN/CUE atvaizdo kūrimas nepavyko</BinCueCreationFailed>
-			<CannotReadDiskToc>Nepavyko nuskaityti disko turinio</CannotReadDiskToc>
-			<CannotReadDisk>Neįmanoma nuskaityti disko, klaida: %1</CannotReadDisk>
-			<DiskNotPresent>Disko nėra arba nepalaikomas laikmenos tipas</DiskNotPresent>
-			<NoTracksOnDisk>Diske nėra taklelių, jis turbūt tuščias</NoTracksOnDisk>
-			<mediaType>Laikmenos tipas: %1</mediaType>
-			<TrackLength>Takelio ilgis yra %1 sektoriai</TrackLength>
-			<TracksCount>Takelių skaičius: %1</TracksCount>
-			<WritingTrack>Rašomas takelis %1, takelio ilgis yra %2 sektoriai</WritingTrack>
-			<DiskReadingStopped>Skaitymas sustabdytas ties %1</DiskReadingStopped>
-			<TrackReadingStopped>Skaitymas sustabdytas ties %1, pratesiama su kitu takeliu</TrackReadingStopped>
-		</DiskToISO>
-		<FolderToISO>
-			<ScanningFolder>Nuskaitomas šaltinio katalogas...</ScanningFolder>
-			<DirectorySize>Katalogo dydis yra %1</DirectorySize>
-			<WritingISOFile>Rašomas ISO failas...</WritingISOFile>
-			<SkippingBigFile>Praleidžiamas failas '%1'. Jis didesnis nei 4 GB</SkippingBigFile>
-			<SkippingFile>Praleidžiamas failas '%1'.</SkippingFile>
-			<BigFileWarning>Failas '%1' yra didesnis nei 4 GB ir bus nematomas ISO 9660 failų sistemoje.</BigFileWarning>
-			<NestedDirectoriesLimitWarning>Katalogų struktūra yra giliau nei %1 lygiuose, kai kurie failai ir aplankai bus praleisti.</NestedDirectoriesLimitWarning>
-			<UnableToOpenFile>Neįmanoma atidaryti failo '%1' skaitymui.</UnableToOpenFile>
-			<NoExistingFolder>The folder %1 doesn't exist</NoExistingFolder>
-			<failedToCreateISOImage>Failed to create an ISO image</failedToCreateISOImage>
-		</FolderToISO>
-		<UniversalConverter>
-			<AudioCDWarning>Atvaizdas yra %1 Garso disko atvaizdas, neįmanoma konvertuoti į ISO atvaizdą. Jūs galite išskirti visus garso takelius į aplanką.</AudioCDWarning>
-			<NotValidImage>Error: Tai negaliojantis CD/DVD atvaizdas</NotValidImage>
-			<CannotFindSignature>Klaida: neįmanoma rasti ISO_9660 parašo, pasiektas 5MB limitas</CannotFindSignature>
-			<MultiSessionImageDetected>Multi-sesinio disko atvaizdas aptiktas</MultiSessionImageDetected>
-			<MultiSessionNotSupported>Disko atvaizdas yra multi-sesinis. Tokie atvaizdai nėra palaikomi.</MultiSessionNotSupported>
-		</UniversalConverter>
-		<NrgConverter>
-			<NrgParsingError>NRG apdorojimo klaida, prašome kreiptis dėl techninės pagalbos</NrgParsingError>
-			<NoSessionsFound>Neaptikta jokių NRG sesijų, prašome kreiptis dėl techninės pagalbos</NoSessionsFound>
-		</NrgConverter>
-		<ExtractISO>
-			<LoadingImage>Kraunamas atvaizdas...</LoadingImage>
-			<ChooseISOFS>Šiame ISO atvaizde yra daugiau nei viena failų sistema, prašome pasirinkti kurią iš jų išskirti:</ChooseISOFS>
-			<ChooseISOFSCaption>Pasirinkite failų sistemą</ChooseISOFSCaption>
-			<ImageFound>%1 atvaizdas surastas</ImageFound>
-			<InvalidISO>Šis failas nėra galiojantis ISO atvaizdas arba jis šiuo metu nepalaikomas</InvalidISO>
-		</ExtractISO>
-		<UIFConverter>
-			<UsingZlib>Naudojama zlib dekompresija</UsingZlib>
-			<UsingLZMA>Naudojama Lzma dekompresija pagal Igor Pavlov</UsingLZMA>
-			<MixedImageFound>Maišyti atvaizdų tipai %1 rasti, skleidžiama į laikinąjį failą...</MixedImageFound>
-			<UnpackingImage>Išpakuojamas atvaizdas...</UnpackingImage>
-		</UIFConverter>
-		<DebExtract>
-			<NotValidDeb>Failas nėra galiojantis Debian (Ubuntu) Linux archyvas</NotValidDeb>
-		</DebExtract>
-		<RpmExtract>
-			<PackageOpened>Paketas %1 atvertas</PackageOpened>
-			<DecompressingPayload>Išpakuojama %1 naudingoji apkrova į laikinąjį failą...</DecompressingPayload>
-			<UnpackingArchive>Išpakuojamas archyvas...</UnpackingArchive>
-		</RpmExtract>
-		<DMG>
-			<ConvertingDmgToISO>Konvertuojama DMG į HFS+ ISO...</ConvertingDmgToISO>
-			<Writing>Rašoma %1...</Writing>
-			<ExtractingMainPartition>Išpakuojamas pagrindinis DMG skaidinys į laikinąjį failą, tai gali užtrukti - prašome palaukti...</ExtractingMainPartition>
-			<NoVolumeFound>Nerasta jokių tomų, ieškoma HFS+ failų sistemos...</NoVolumeFound>
-			<ExtractingVolume>Išpakuojamas DMG tomas (%1)...</ExtractingVolume>
-			<CorruptedOrPasswordProtected>Klaida: sugadintas ar slaptažodžiu apsaugotas DMG atvaizdas</CorruptedOrPasswordProtected>
-			<XarArchiveDetected>DMG file is actually a XAR archive (normally with actual DMG file inside) that can be only extracted. Please choose extract operation to proceed</XarArchiveDetected>
-			<openedAsMessage>The file is opened as %1</openedAsMessage>
-			<DmgDisk>DMG disk image</DmgDisk>
-			<GPTDisk>GPT disk</GPTDisk>
-			<MBRDisk>Apple disk</MBRDisk>
-			<HFSVolume>HFS+ volume</HFSVolume>
-			<readingFileSystem>Reading %1 file system...</readingFileSystem>
-			<messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
-			<messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
-		</DMG>
-		<PDIConverter>
-			<InvalidOrBrokenImage>Neteisingas arba sugadintas InstantCopy PDI atvaizdas</InvalidOrBrokenImage>
-		</PDIConverter>
-		<ISZConverter>
-			<CompressionNone>Kompresijos metodas: joks</CompressionNone>
-			<WarningPassword>Nurodžius neteisingą slaptažodį išvesties failas bus neteisingas</WarningPassword>
-			<ImageIsSegmented>ISZ failas yra segmentuotas</ImageIsSegmented>
-		</ISZConverter>
-		<ArchiveConverter>
-			<ReadingArchive>Skaitomas archyvas...</ReadingArchive>
-			<RemovingTempFiles>Naikinami laikinieji failai...</RemovingTempFiles>
-			<ExtractError>Neįmanoma išskirti į %1, klaida %2</ExtractError>
-		</ArchiveConverter>
-		<TarUnpacker>
-			<SinglePackedFileFound>Single packed file detected: %1, unpacking...</SinglePackedFileFound>
-		</TarUnpacker>
-		<XarUnpacker>
-			<ReadingTOC>Reading table of contents (%1 bytes)...</ReadingTOC>
-			<NestedArchiveFound>Extracted file '%1' can be unpacked separately as %2 archive (append extension manually)</NestedArchiveFound>
-		</XarUnpacker>
-	</StatusMessages>
-	<Misc>
-		<buttonOk>Gerai</buttonOk>
-		<buttonCancel>Atšaukti</buttonCancel>
-		<buttonClose>Uždaryti</buttonClose>
-		<buttonYes>Yes</buttonYes>
-		<buttonNo>No</buttonNo>
-		<ProVersion>Pro Versija</ProVersion>
-		<LiteVersion>Lite Versija</LiteVersion>
-	</Misc>
-	<ShellExtension>
-		<!-- This section describes Windows context menus -->
-		<ConvertToISO>Konvertuoti į "%s"</ConvertToISO>
-		<ConvertToISOInfo>Konvertuoti disko atvaizdo failą į ISO formatą</ConvertToISOInfo>
-		<Extract>Išskleisti į "%s"</Extract>
-		<ExtractInfo>Išskleisti disko atvaizdo failą</ExtractInfo>
-		<CreateISOFromFolder>Kurti "%s"</CreateISOFromFolder>
-		<CreateISOFromFolderInfo>Kurti šio aplanko ISO atvaizdą naudojant numatytuosius parametrus</CreateISOFromFolderInfo>
-		<CreateISOFromFolderWithOptions>Kurti "%s" su nustatymais...</CreateISOFromFolderWithOptions>
-		<CreateISOFromFolderWithOptionsInfo>Kurti šio aplanko ISO atvaizdą pasirenkant failų sistemos nustatymus ir tomo žymę</CreateISOFromFolderWithOptionsInfo>
-		<CreateISOFromDisk>Kurti šio disko ISO atvaizdą</CreateISOFromDisk>
-		<CreateISOFromDiskInfo>Kurti pasirinkto optinio disko ISO atvaizdą</CreateISOFromDiskInfo>
-		<CreateBINCUEFromDisk>Kurti šio disko BIN/CUE atvaizdą</CreateBINCUEFromDisk>
-		<CreateBINCUEFromDiskInfo>Kurti pasirinkto optinio disko atvaizdo BIN failą ir atitinkamą CUE failą</CreateBINCUEFromDiskInfo>
-	</ShellExtension>
-	<core>
-		<UpdateChecker>
-			<ReleasedOn>išleista %1</ReleasedOn>
-			<CheckForUpdates>Ieškoti naujinimų…</CheckForUpdates>
-			<NewVersionAvailable>Nauja programos versija %1 yra pasiekiama!</NewVersionAvailable>
-			<NewVersionAvailableText>%1 %2 dabar pasiekiama - jūs turite %3. Ar norėtumėte atsisiųsti dabar?</NewVersionAvailableText>
-			<UpdateAlertTitle>Atnaujinimas</UpdateAlertTitle>
-			<UpdateAlertReleaseNotes>Užrašai:</UpdateAlertReleaseNotes>
-			<UpdateAlertRemindLater>Priminti vėliau</UpdateAlertRemindLater>
-			<UpdateAlertSkip>Praleisti šią versiją</UpdateAlertSkip>
-			<UpdateAlertInstall>Įrašyti naujinimą</UpdateAlertInstall>
-			<UpdateAlertAutomaticUpdates>Ieškoti naujinimų dabar</UpdateAlertAutomaticUpdates>
-			<MessageNoUpdateAvailable>Jūs turite naujausią versiją!</MessageNoUpdateAvailable>
-			<MessageNoUpdateAvailableDescription>%1 %2 yra naujausia versiją.</MessageNoUpdateAvailableDescription>
-			<MessageErrorConnect>Įvyko klaida siunčiantis atnaujinimą. Pameginkite vėiau.</MessageErrorConnect>
-			<MessageErrorParse>Įvyko klaida naujinant</MessageErrorParse>
-			<UpdateProgressTitle>Naujinama %1</UpdateProgressTitle>
-			<UpdateProgressCancel>Atšaukti</UpdateProgressCancel>
-			<UpdateProgressInstallAndRelaunch>Įrašyti ir perkrauti</UpdateProgressInstallAndRelaunch>
-			<UpdateProgressStatusDownloading>Siunčiamas naujinimas…</UpdateProgressStatusDownloading>
-			<UpdateProgressExtract>Atidaromas naujinimas…</UpdateProgressExtract>
-			<UpdateProgressStatusReady>Paruošta naujinimui</UpdateProgressStatusReady>
-			<UpdateProgressSize>%1 iš %2</UpdateProgressSize>
-			<UpdateProgressB>B</UpdateProgressB>
-			<UpdateProgressKB>KB</UpdateProgressKB>
-			<UpdateProgressMB>MB</UpdateProgressMB>
-			<UpdateProgressGB>GB</UpdateProgressGB>
-		</UpdateChecker>
-		<LetsMoveMac>
-			<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
-			<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
-			<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
-			<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
-			<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
-			<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
-			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-			<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-		</LetsMoveMac>
-		<QLineEditEx>
-			<actionUndo>Undo</actionUndo>
-			<actionRedo>Redo</actionRedo>
-			<actionCut>Cut</actionCut>
-			<actionCopy>Copy</actionCopy>
-			<actionPaste>Paste</actionPaste>
-			<actionDelete>Delete</actionDelete>
-			<actionSelectAll>Select All</actionSelectAll>
-		</QLineEditEx>
-		<QMessageBoxEx>
-			<buttonOK>OK</buttonOK>
-			<buttonCancel>Cancel</buttonCancel>
-			<buttonClose>Close</buttonClose>
-			<buttonYes>Yes</buttonYes>
-			<buttonNo>No</buttonNo>
-		</QMessageBoxEx>
-	</core>
+    <MainWindow>
+        <mnuFile>Failas</mnuFile>
+        <mnuFileExit>Išeiti</mnuFileExit>
+        <mnuHelp>Pagalba</mnuHelp>
+        <mnuHelpDocumentation>Dokumentacija...</mnuHelpDocumentation>
+        <mnuHelpPurchase>Pirkti Pro versiją...</mnuHelpPurchase>
+        <mnuHelpEnterCode>Įvesti registracijos kodą...</mnuHelpEnterCode>
+        <mnuHelpAbout>Apie...</mnuHelpAbout>
+        <mnuHomePage>AnyToISO Pagrindinis puslapis...</mnuHomePage>
+        <menuPreferences>Nustatymai...</menuPreferences>
+        <newVersionAvailable>AnyToISO %1 yra galima!</newVersionAvailable>
+        <newVersionUpdate>Naujinti</newVersionUpdate>
+        <buttonStop>Stop</buttonStop>
+        <tabConvertExtract>
+            <Name>Failo išskyrimas/Konvertavimas į ISO</Name>
+            <SourceFileName>Šaltinio atvaizdo failas:</SourceFileName>
+            <ConvertToISO>Konvertuoti į ISO atvaizdą:</ConvertToISO>
+            <ExtractToFolder>Išskirti į aplanką:</ExtractToFolder>
+            <buttonOpenImage>Atverti atvaizdą...</buttonOpenImage>
+            <buttonOpenImageText>Atverti CD/DVD Atvaizdo failą</buttonOpenImageText>
+            <AllSupportedFiles>Visi palaikomi failai</AllSupportedFiles>
+            <buttonOpenISO>Atverti ISO...</buttonOpenISO>
+            <buttonOpenISOText>Pasirinkite gautą ISO failą</buttonOpenISOText>
+            <buttonOpenISOFilter>ISO Failai (*.iso)</buttonOpenISOFilter>
+            <buttonOpenFolder>Rinktis aplanką...</buttonOpenFolder>
+            <buttonOpenFolderText>Atidaryti paskirties aplanką</buttonOpenFolderText>
+            <buttonConvert>Konvertuoti!</buttonConvert>
+            <buttonExtract>Išskirti!</buttonExtract>
+            <labelFileSize>Failo dydis</labelFileSize>
+            <labelFileFormat>formatas</labelFileFormat>
+            <labelOpenOrDragFile>&lt;b&gt;Atidaryti&lt;/b&gt; ar &lt;b&gt;vilkti&lt;/b&gt; atvaizdo failą norint konvertuoti ar išskirti</labelOpenOrDragFile>
+        </tabConvertExtract>
+        <tabDiskToISO>
+            <Name>CD/DVD Disko atvaizdas į ISO</Name>
+            <SourceDrive>Šaltinio Diskas:</SourceDrive>
+            <OutputISO>Paskirties atvaizdas:</OutputISO>
+            <checkCreateBinCue>Kurti BIN/CUE atvaizdą</checkCreateBinCue>
+            <buttonRefresh>Naujinti</buttonRefresh>
+            <buttonBrowseISO>Naršyti...</buttonBrowseISO>
+            <NoDiskInserted>Nėra įterpto CD/DVD disko</NoDiskInserted>
+            <buttonMakeISO>Kurti ISO</buttonMakeISO>
+            <buttonMakeBinCue>Kurti BIN/CUE atvaizdą</buttonMakeBinCue>
+            <chooseISOOrBinCueImage>Pasirinkite ISO ar BIN/CUE atvaizdo failą</chooseISOOrBinCueImage>
+            <isoFilesFilter>ISO Failai</isoFilesFilter>
+            <binCueSheetFilter>BIN Failai (su CUE lentele)</binCueSheetFilter>
+        </tabDiskToISO>
+        <tabFolderToISO>
+            <Name>Aplankas į ISO</Name>
+            <SourceFolder>Šaltinio aplankas:</SourceFolder>
+            <DestinationISO>Paskirties ISO failas:</DestinationISO>
+            <VolumeLabel>Tomo žymė:</VolumeLabel>
+            <buttonBrowseForFolder>Naršyti aplankus...</buttonBrowseForFolder>
+            <buttonChooseISO>Pasirinkti ISO...</buttonChooseISO>
+            <buttonOptions>Parinktys...</buttonOptions>
+            <buttonMakeISO>Kurti ISO</buttonMakeISO>
+            <ISOCreationOptions>ISO Kūrimo Parinktys</ISOCreationOptions>
+            <Settings>Nustatymai</Settings>
+            <FileSystemsInsideISO>Failų sistemos:</FileSystemsInsideISO>
+            <buttonDefault>Numatytasis</buttonDefault>
+            <ISO9660Option1>8.3 DOS failų vardai (11)</ISO9660Option1>
+            <ISO9660Option2>Ilgesni vardai (180)</ISO9660Option2>
+            <ISO9660Option3>ISO 9660:1999</ISO9660Option3>
+            <JolietOption1>Standartiniai vardai (64)</JolietOption1>
+            <JolietOption2>Ilgi vardai (110)</JolietOption2>
+        </tabFolderToISO>
+    </MainWindow>
+    <LiteVersionDialog>
+        <LiteVersionLimitText>AnyToIso Lite versija dirba su &lt;b&gt;Tik su CD atvaizdais&lt;/b&gt; (iki 870 MB). Norint dirbti su didesniais failais (DVD ir daugiau) jūs turėtumėte &lt;a href="purchase"&gt;Nusipirkti profesionalią versiją&lt;/a&gt;. Jūs gausite registracijos kodą &lt;a href="unlock"&gt;kuris atrakins programinę įrangą&lt;/a&gt; po pirkimo.</LiteVersionLimitText>
+        <buttonPurchasePro>Buy Pro Version...</buttonPurchasePro>
+    </LiteVersionDialog>
+    <EnterKeyDialog>
+        <Caption>Įveskite registracijos kodą</Caption>
+        <EnterKeyToUpgradeText>Prašome įvesti jūsų registracijos detales norint naujinti į AnyToISO Pro versiją.</EnterKeyToUpgradeText>
+        <RegName>Registracijos vardas:</RegName>
+        <RegCode>Registracijos kodas:</RegCode>
+    </EnterKeyDialog>
+    <AboutDialog>
+        <Caption>Apie AnyToISO</Caption>
+        <Website>Interneto svetainė:</Website>
+        <Support>Palaikymas:</Support>
+        <RunningAs>Prigrama veikia kaip:</RunningAs>
+        <CopyRight>Ši kompiuterinė programa yra apsaugota autorių teisių įstatymų ir tarptautinių sutarčių. Neteisėtas kopijavimas ar šios programos platinimas, ar bet kurią jos dalį, gali sukelti civilines arba baudžiamąsias sankcijas.</CopyRight>
+        <buttonPurchasePro>Pirkti Pro versiją...</buttonPurchasePro>
+    </AboutDialog>
+    <PreferencesDialog>
+        <Caption>Parinktys</Caption>
+        <PreferencesGeneral>General</PreferencesGeneral>
+        <PreferencesUpdates>Updates</PreferencesUpdates>
+        <Language>Sąsajos kalba:</Language>
+        <CheckForNewVersions>Tikrinti naujas versijas pradedant</CheckForNewVersions>
+        <ShellExtension>Windows Explorer integracija</ShellExtension>
+        <ShellExtensionInfo>Pridėti kontekstinio meniu palaikomų formatų optinių diskų, aplankų ir failų.</ShellExtensionInfo>
+    </PreferencesDialog>
+    <PasswordDialog>
+        <Caption>Reikalingas slaptažodis</Caption>
+        <FileIsProtected>Failas užšifruotas. Norint iššifruoti prašome įvesti slaptažodį:</FileIsProtected>
+        <InvalidPassword>Neteisingas slaptažodis</InvalidPassword>
+    </PasswordDialog>
+    <Messages>
+        <Warning>Įspėjimas</Warning>
+        <Question>Klausimas</Question>
+        <NotEnoughDiskSpace>Rodos, kad nepakanka tuščios vietos (tik %1) pasirinktame diske. \n\nAr vis tiek norite tęsti?</NotEnoughDiskSpace>
+        <ISOAlreadyExists>Toks paskirties ISO failas\n%1\njau yra, ar norite jį perrašyti?</ISOAlreadyExists>
+        <FolderAlreadyExists>Toks paskirties aplankas\n%1\njau yra, ar norite perrašyti visus esančius failus su tuo pačiu vardu??</FolderAlreadyExists>
+        <RestartProgram>Norint užbaigti registraciją jūs privalote iš naujo paleisti programą. \n\nAr norite tai padaryti dabar?</RestartProgram>
+        <CancelOperation>Ar jūs tikrai norite nutraukti dabartinę operaciją?</CancelOperation>
+    </Messages>
+    <StatusMessages>
+        <CheckingSourceImage>Tikrinamas šaltinio atvaizdas...</CheckingSourceImage>
+        <Converting>Konvertuojama...</Converting>
+        <Extracting>Išskleidžiama...</Extracting>
+        <ExtractionFailed>Extract operation failed</ExtractionFailed>
+        <Unpacking>Išpakuojama...</Unpacking>
+        <ConvertingToTemporaryISO>Konvertuojama į laikinajį ISO failą...</ConvertingToTemporaryISO>
+        <ProgressBytesWritten>%1 įrašyta</ProgressBytesWritten>
+        <Track>Takelis</Track>
+        <ISOImageTypeFound>ISO atvaizdas (tipas %1) rastas</ISOImageTypeFound>
+        <CannotOpenSourceFile>Neįmanoma atverti šaltinio failo.</CannotOpenSourceFile>
+        <CannotOpenDestFile>Neįmanoma atverti paskirties failo, patikrinkite failo vardą ir prieigos teises</CannotOpenDestFile>
+        <OperationTerminated>Operaciją nutraukė vartotojas.</OperationTerminated>
+        <OperationCompleted>Operacija baigta.</OperationCompleted>
+        <ClickToOpenISOInExplorer>Spauskite &lt;a href="_open_local_file"&gt;čia&lt;/a&gt; norint atidaryti išvesties ISO failą</ClickToOpenISOInExplorer>
+        <ClickToMountISOInFinder>Spauskite &lt;a href="_open_local_file"&gt;čia&lt;/a&gt; norint prijungti ISO atvaizdą</ClickToMountISOInFinder>
+        <ClickToOpenOutFolder>Spauskite &lt;a href="_open_local_file"&gt;čia&lt;/a&gt; norint atverti išvesties aplanką</ClickToOpenOutFolder>
+        <DiskToISO>
+            <OpeningDevice>Atidaroma laikmena, prašome palaukti...</OpeningDevice>
+            <TotalDataSize>Iš viso duomenų dydis yra is %1</TotalDataSize>
+            <CreatingISO>Kuriamas ISO...</CreatingISO>
+            <CannotCreateFromAudio>Jūs negalite kurti ISO muti-sesijos ar garso disko atvaizdo, prašome kreiptis dėl techninės pagalbos.</CannotCreateFromAudio>
+            <PleaseUseBinCue>Prašome naudoti BIN/CUE atvaizdus tokiems diskams</PleaseUseBinCue>
+            <BlankDiskDetected>Tuščias CD/DVD diskas aptiktas</BlankDiskDetected>
+            <DiskNotReady>CD/DVD diskas nepasiruošęs</DiskNotReady>
+            <CannotOpenDevice>Neįmanoma atverti laikmenos (%1)</CannotOpenDevice>
+            <ReadError>Skaitymo klaida %1, prašome kreiptis dėl techninės pagalbos</ReadError>
+            <DeviceIsCopyProtected>Ši laikmena yra apsaugota nuo kopijavimo ir sektorius užšifruotas. Neįmanoma tęsti.</DeviceIsCopyProtected>
+            <ISOCreationFailed>ISO kūrimas nepavyko</ISOCreationFailed>
+            <BinCueCreationFailed>BIN/CUE atvaizdo kūrimas nepavyko</BinCueCreationFailed>
+            <CannotReadDiskToc>Nepavyko nuskaityti disko turinio</CannotReadDiskToc>
+            <CannotReadDisk>Neįmanoma nuskaityti disko, klaida: %1</CannotReadDisk>
+            <DiskNotPresent>Disko nėra arba nepalaikomas laikmenos tipas</DiskNotPresent>
+            <NoTracksOnDisk>Diske nėra taklelių, jis turbūt tuščias</NoTracksOnDisk>
+            <mediaType>Laikmenos tipas: %1</mediaType>
+            <TrackLength>Takelio ilgis yra %1 sektoriai</TrackLength>
+            <TracksCount>Takelių skaičius: %1</TracksCount>
+            <WritingTrack>Rašomas takelis %1, takelio ilgis yra %2 sektoriai</WritingTrack>
+            <DiskReadingStopped>Skaitymas sustabdytas ties %1</DiskReadingStopped>
+            <TrackReadingStopped>Skaitymas sustabdytas ties %1, pratesiama su kitu takeliu</TrackReadingStopped>
+        </DiskToISO>
+        <FolderToISO>
+            <ScanningFolder>Nuskaitomas šaltinio katalogas...</ScanningFolder>
+            <DirectorySize>Katalogo dydis yra %1</DirectorySize>
+            <WritingISOFile>Rašomas ISO failas...</WritingISOFile>
+            <SkippingBigFile>Praleidžiamas failas '%1'. Jis didesnis nei 4 GB</SkippingBigFile>
+            <SkippingFile>Praleidžiamas failas '%1'.</SkippingFile>
+            <BigFileWarning>Failas '%1' yra didesnis nei 4 GB ir bus nematomas ISO 9660 failų sistemoje.</BigFileWarning>
+            <NestedDirectoriesLimitWarning>Katalogų struktūra yra giliau nei %1 lygiuose, kai kurie failai ir aplankai bus praleisti.</NestedDirectoriesLimitWarning>
+            <UnableToOpenFile>Neįmanoma atidaryti failo '%1' skaitymui.</UnableToOpenFile>
+            <NoExistingFolder>The folder %1 doesn't exist</NoExistingFolder>
+            <failedToCreateISOImage>Failed to create an ISO image</failedToCreateISOImage>
+        </FolderToISO>
+        <UniversalConverter>
+            <AudioCDWarning>Atvaizdas yra %1 Garso disko atvaizdas, neįmanoma konvertuoti į ISO atvaizdą. Jūs galite išskirti visus garso takelius į aplanką.</AudioCDWarning>
+            <NotValidImage>Error: Tai negaliojantis CD/DVD atvaizdas</NotValidImage>
+            <CannotFindSignature>Klaida: neįmanoma rasti ISO_9660 parašo, pasiektas 5MB limitas</CannotFindSignature>
+            <MultiSessionImageDetected>Multi-sesinio disko atvaizdas aptiktas</MultiSessionImageDetected>
+            <MultiSessionNotSupported>Disko atvaizdas yra multi-sesinis. Tokie atvaizdai nėra palaikomi.</MultiSessionNotSupported>
+        </UniversalConverter>
+        <NrgConverter>
+            <NrgParsingError>NRG apdorojimo klaida, prašome kreiptis dėl techninės pagalbos</NrgParsingError>
+            <NoSessionsFound>Neaptikta jokių NRG sesijų, prašome kreiptis dėl techninės pagalbos</NoSessionsFound>
+        </NrgConverter>
+        <ExtractISO>
+            <LoadingImage>Kraunamas atvaizdas...</LoadingImage>
+            <ChooseISOFS>Šiame ISO atvaizde yra daugiau nei viena failų sistema, prašome pasirinkti kurią iš jų išskirti:</ChooseISOFS>
+            <ChooseISOFSCaption>Pasirinkite failų sistemą</ChooseISOFSCaption>
+            <ImageFound>%1 atvaizdas surastas</ImageFound>
+            <InvalidISO>Šis failas nėra galiojantis ISO atvaizdas arba jis šiuo metu nepalaikomas</InvalidISO>
+        </ExtractISO>
+        <UIFConverter>
+            <UsingZlib>Naudojama zlib dekompresija</UsingZlib>
+            <UsingLZMA>Naudojama Lzma dekompresija pagal Igor Pavlov</UsingLZMA>
+            <MixedImageFound>Maišyti atvaizdų tipai %1 rasti, skleidžiama į laikinąjį failą...</MixedImageFound>
+            <UnpackingImage>Išpakuojamas atvaizdas...</UnpackingImage>
+        </UIFConverter>
+        <DebExtract>
+            <NotValidDeb>Failas nėra galiojantis Debian (Ubuntu) Linux archyvas</NotValidDeb>
+        </DebExtract>
+        <RpmExtract>
+            <PackageOpened>Paketas %1 atvertas</PackageOpened>
+            <DecompressingPayload>Išpakuojama %1 naudingoji apkrova į laikinąjį failą...</DecompressingPayload>
+            <UnpackingArchive>Išpakuojamas archyvas...</UnpackingArchive>
+        </RpmExtract>
+        <DMG>
+            <ConvertingDmgToISO>Konvertuojama DMG į HFS+ ISO...</ConvertingDmgToISO>
+            <Writing>Rašoma %1...</Writing>
+            <ExtractingMainPartition>Išpakuojamas pagrindinis DMG skaidinys į laikinąjį failą, tai gali užtrukti - prašome palaukti...</ExtractingMainPartition>
+            <NoVolumeFound>Nerasta jokių tomų, ieškoma HFS+ failų sistemos...</NoVolumeFound>
+            <ExtractingVolume>Išpakuojamas DMG tomas (%1)...</ExtractingVolume>
+            <CorruptedOrPasswordProtected>Klaida: sugadintas ar slaptažodžiu apsaugotas DMG atvaizdas</CorruptedOrPasswordProtected>
+            <XarArchiveDetected>DMG file is actually a XAR archive (normally with actual DMG file inside) that can be only extracted. Please choose extract operation to proceed</XarArchiveDetected>
+            <openedAsMessage>The file is opened as %1</openedAsMessage>
+            <DmgDisk>DMG disk image</DmgDisk>
+            <GPTDisk>GPT disk</GPTDisk>
+            <MBRDisk>Apple disk</MBRDisk>
+            <HFSVolume>HFS+ volume</HFSVolume>
+            <readingFileSystem>Reading %1 file system...</readingFileSystem>
+            <messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
+            <messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
+        </DMG>
+        <PDIConverter>
+            <InvalidOrBrokenImage>Neteisingas arba sugadintas InstantCopy PDI atvaizdas</InvalidOrBrokenImage>
+        </PDIConverter>
+        <ISZConverter>
+            <CompressionNone>Kompresijos metodas: joks</CompressionNone>
+            <WarningPassword>Nurodžius neteisingą slaptažodį išvesties failas bus neteisingas</WarningPassword>
+            <ImageIsSegmented>ISZ failas yra segmentuotas</ImageIsSegmented>
+        </ISZConverter>
+        <ArchiveConverter>
+            <ReadingArchive>Skaitomas archyvas...</ReadingArchive>
+            <RemovingTempFiles>Naikinami laikinieji failai...</RemovingTempFiles>
+            <ExtractError>Neįmanoma išskirti į %1, klaida %2</ExtractError>
+        </ArchiveConverter>
+        <TarUnpacker>
+            <SinglePackedFileFound>Single packed file detected: %1, unpacking...</SinglePackedFileFound>
+        </TarUnpacker>
+        <XarUnpacker>
+            <ReadingTOC>Reading table of contents (%1 bytes)...</ReadingTOC>
+            <NestedArchiveFound>Extracted file '%1' can be unpacked separately as %2 archive (append extension manually)</NestedArchiveFound>
+        </XarUnpacker>
+    </StatusMessages>
+    <Misc>
+        <buttonOk>Gerai</buttonOk>
+        <buttonCancel>Atšaukti</buttonCancel>
+        <buttonClose>Uždaryti</buttonClose>
+        <buttonYes>Yes</buttonYes>
+        <buttonNo>No</buttonNo>
+        <ProVersion>Pro Versija</ProVersion>
+        <LiteVersion>Lite Versija</LiteVersion>
+    </Misc>
+    <ShellExtension>
+        <!-- This section describes Windows context menus -->
+        <ConvertToISO>Konvertuoti į "%s"</ConvertToISO>
+        <ConvertToISOInfo>Konvertuoti disko atvaizdo failą į ISO formatą</ConvertToISOInfo>
+        <Extract>Išskleisti į "%s"</Extract>
+        <ExtractInfo>Išskleisti disko atvaizdo failą</ExtractInfo>
+        <CreateISOFromFolder>Kurti "%s"</CreateISOFromFolder>
+        <CreateISOFromFolderInfo>Kurti šio aplanko ISO atvaizdą naudojant numatytuosius parametrus</CreateISOFromFolderInfo>
+        <CreateISOFromFolderWithOptions>Kurti "%s" su nustatymais...</CreateISOFromFolderWithOptions>
+        <CreateISOFromFolderWithOptionsInfo>Kurti šio aplanko ISO atvaizdą pasirenkant failų sistemos nustatymus ir tomo žymę</CreateISOFromFolderWithOptionsInfo>
+        <CreateISOFromDisk>Kurti šio disko ISO atvaizdą</CreateISOFromDisk>
+        <CreateISOFromDiskInfo>Kurti pasirinkto optinio disko ISO atvaizdą</CreateISOFromDiskInfo>
+        <CreateBINCUEFromDisk>Kurti šio disko BIN/CUE atvaizdą</CreateBINCUEFromDisk>
+        <CreateBINCUEFromDiskInfo>Kurti pasirinkto optinio disko atvaizdo BIN failą ir atitinkamą CUE failą</CreateBINCUEFromDiskInfo>
+    </ShellExtension>
+    <core>
+        <UpdateChecker>
+            <ReleasedOn>išleista %1</ReleasedOn>
+            <CheckForUpdates>Ieškoti naujinimų…</CheckForUpdates>
+            <NewVersionAvailable>Nauja programos versija %1 yra pasiekiama!</NewVersionAvailable>
+            <NewVersionAvailableText>%1 %2 dabar pasiekiama - jūs turite %3. Ar norėtumėte atsisiųsti dabar?</NewVersionAvailableText>
+            <UpdateAlertTitle>Atnaujinimas</UpdateAlertTitle>
+            <UpdateAlertReleaseNotes>Užrašai:</UpdateAlertReleaseNotes>
+            <UpdateAlertRemindLater>Priminti vėliau</UpdateAlertRemindLater>
+            <UpdateAlertSkip>Praleisti šią versiją</UpdateAlertSkip>
+            <UpdateAlertInstall>Įrašyti naujinimą</UpdateAlertInstall>
+            <UpdateAlertAutomaticUpdates>Ieškoti naujinimų dabar</UpdateAlertAutomaticUpdates>
+            <MessageNoUpdateAvailable>Jūs turite naujausią versiją!</MessageNoUpdateAvailable>
+            <MessageNoUpdateAvailableDescription>%1 %2 yra naujausia versiją.</MessageNoUpdateAvailableDescription>
+            <MessageErrorConnect>Įvyko klaida siunčiantis atnaujinimą. Pameginkite vėiau.</MessageErrorConnect>
+            <MessageErrorParse>Įvyko klaida naujinant</MessageErrorParse>
+            <UpdateProgressTitle>Naujinama %1</UpdateProgressTitle>
+            <UpdateProgressCancel>Atšaukti</UpdateProgressCancel>
+            <UpdateProgressInstallAndRelaunch>Įrašyti ir perkrauti</UpdateProgressInstallAndRelaunch>
+            <UpdateProgressStatusDownloading>Siunčiamas naujinimas…</UpdateProgressStatusDownloading>
+            <UpdateProgressExtract>Atidaromas naujinimas…</UpdateProgressExtract>
+            <UpdateProgressStatusReady>Paruošta naujinimui</UpdateProgressStatusReady>
+            <UpdateProgressSize>%1 iš %2</UpdateProgressSize>
+            <UpdateProgressB>B</UpdateProgressB>
+            <UpdateProgressKB>KB</UpdateProgressKB>
+            <UpdateProgressMB>MB</UpdateProgressMB>
+            <UpdateProgressGB>GB</UpdateProgressGB>
+        </UpdateChecker>
+        <LetsMoveMac>
+            <kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
+            <kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+        </LetsMoveMac>
+        <QLineEditEx>
+            <actionUndo>Undo</actionUndo>
+            <actionRedo>Redo</actionRedo>
+            <actionCut>Cut</actionCut>
+            <actionCopy>Copy</actionCopy>
+            <actionPaste>Paste</actionPaste>
+            <actionDelete>Delete</actionDelete>
+            <actionSelectAll>Select All</actionSelectAll>
+        </QLineEditEx>
+        <QMessageBoxEx>
+            <buttonOK>OK</buttonOK>
+            <buttonCancel>Cancel</buttonCancel>
+            <buttonClose>Close</buttonClose>
+            <buttonYes>Yes</buttonYes>
+            <buttonNo>No</buttonNo>
+        </QMessageBoxEx>
+    </core>
 </LanguageStrings>

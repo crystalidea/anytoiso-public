@@ -1,310 +1,312 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="3.3" Author="Oren Peretz">
-	<MainWindow>
-		<mnuFile>קובץ</mnuFile>
-		<mnuFileExit>יציאה</mnuFileExit>
-		<mnuHelp>עזרה</mnuHelp>
-		<mnuHelpDocumentation>...מסמכים</mnuHelpDocumentation>
-		<mnuHelpPurchase>...קנה גרסא מקצועית</mnuHelpPurchase>
-		<mnuHelpEnterCode>...הקש קוד רישום</mnuHelpEnterCode>
-		<mnuHelpAbout>אודות</mnuHelpAbout>
-		<mnuHomePage>...AnyToISO דף הבית של</mnuHomePage>
-		<menuPreferences>...העדפות</menuPreferences>
-		<newVersionAvailable>!%1קיימת AnyToISO</newVersionAvailable>
-		<newVersionUpdate>עידכון</newVersionUpdate>
-		<buttonStop>עצור</buttonStop>
-		<tabConvertExtract>
-			<Name>ISO -חילוץ קובץ / המרה ל</Name>
-			<SourceFileName>קובץ דמות מקורי</SourceFileName>
-			<ConvertToISO>:ISO המרה לדמות</ConvertToISO>
-			<ExtractToFolder>:חילוץ אל תיקייה</ExtractToFolder>
-			<buttonOpenImage>...פתח קובץ דמות</buttonOpenImage>
-			<buttonOpenImageText>CD/DVD פתח קובץ דמות של</buttonOpenImageText>
-			<AllSupportedFiles>כל הקבצים הנתמכים</AllSupportedFiles>
-			<buttonOpenISO>...ISO פתיחת</buttonOpenISO>
-			<buttonOpenISOText>הנדון ISO -פתיחת קובץ ה</buttonOpenISOText>
-			<buttonOpenISOFilter>ISO קבצים מסוג (*.iso)</buttonOpenISOFilter>
-			<buttonOpenFolder>...בחר תיקייה</buttonOpenFolder>
-			<buttonOpenFolderText>פתח תיקיית יעד</buttonOpenFolderText>
-			<buttonConvert>!המר</buttonConvert>
-			<buttonExtract>!חלץ</buttonExtract>
-			<labelFileSize>גודל קובץ</labelFileSize>
-			<labelFileFormat>תבנית קובץ</labelFileFormat>
-			<labelOpenOrDragFile>&lt;b&gt;Open&lt;/b&gt; or &lt;b&gt;drag&lt;/b&gt; קובץ דמות להמרה או לחילוץ</labelOpenOrDragFile>
-		</tabConvertExtract>
-		<tabDiskToISO>
-			<Name>ISO -ל CD/DVD דיסק</Name>
-			<SourceDrive>:כונן מקור</SourceDrive>
-			<OutputISO>:ISO קובץ יעד</OutputISO>
-			<checkCreateBinCue>BIN/CUE צור דמות מסוג</checkCreateBinCue>
-			<buttonRefresh>ריענון</buttonRefresh>
-			<buttonBrowseISO>...עיין</buttonBrowseISO>
-			<NoDiskInserted>CD/DVD לא הוכנס דיסק</NoDiskInserted>
-			<buttonMakeISO>ISO צור</buttonMakeISO>
-			<buttonMakeBinCue>BIN/CUE צור דמות</buttonMakeBinCue>
-			<chooseISOOrBinCueImage>BIN/CUE או ISO בחר בבקשה קובץ דמות מסוג</chooseISOOrBinCueImage>
-			<isoFilesFilter>ISO קבצי</isoFilesFilter>
-			<binCueSheetFilter>(CUE עם גליון) BIN קבצי</binCueSheetFilter>
-		</tabDiskToISO>
-		<tabFolderToISO>
-			<Name>ISO -תיקייה ל</Name>
-			<SourceFolder>:תיקיית מקור</SourceFolder>
-			<DestinationISO>:ISO תיקיית יעד</DestinationISO>
-			<VolumeLabel>:תווית כרך</VolumeLabel>
-			<buttonBrowseForFolder>:נווט לתיקייה</buttonBrowseForFolder>
-			<buttonChooseISO>...ISO בחר</buttonChooseISO>
-			<buttonOptions>...אפשרויות</buttonOptions>
-			<buttonMakeISO>ISO צור</buttonMakeISO>
-			<ISOCreationOptions>ISO אופציות יצירת</ISOCreationOptions>
-			<Settings>הגדרות</Settings>
-			<FileSystemsInsideISO>:מערכת קבצים</FileSystemsInsideISO>
-			<buttonDefault>ברירת מחדל</buttonDefault>
-			<ISO9660Option1>(11) 8.3 DOS שמות קבצי</ISO9660Option1>
-			<ISO9660Option2>(180) שמות ארוכים יותר</ISO9660Option2>
-			<ISO9660Option3>ISO 9660:1999</ISO9660Option3>
-			<JolietOption1>(64) שמות סטנדרטיים</JolietOption1>
-			<JolietOption2>(110) שמות ארוכים</JolietOption2>
-		</tabFolderToISO>
-	</MainWindow>
-	<LiteVersionDialog>
-		<LiteVersionLimitText>.לאחר הקנייה &lt;/a&gt;פתיחת התוכנה&gt;&lt;a href="פתח"קוד הרישום ישלח .&lt;/a&gt; לקנות גרסא מקצועית&gt;&lt;a href="קנייה"לשם עבודה עם קבצים גדולים (די וי די או יותר) עלייך .(up to 870 MB) &lt;/b&gt;דמויות סי די בלבד&lt;b&gt;עובדת עם AnyToISO גרסא קלה של</LiteVersionLimitText>
-		<buttonPurchasePro>...קנה גרסא מקצועית</buttonPurchasePro>
-	</LiteVersionDialog>
-	<EnterKeyDialog>
-		<Caption>הכנס קוד רישום</Caption>
-		<EnterKeyToUpgradeText>.AnyToISO הכנס את פרטי הרישום בבקשה לשם ביצוע השידרוג לגרסא המקצועית של</EnterKeyToUpgradeText>
-		<RegName>:שם רישום</RegName>
-		<RegCode>:קוד רישום</RegCode>
-	</EnterKeyDialog>
-	<AboutDialog>
-		<Caption>AnyToISO אודות</Caption>
-		<Website>:אתר אינטרנט</Website>
-		<Support>:תמיכה</Support>
-		<RunningAs>:התוכנה פועלת כ</RunningAs>
-		<CopyRight>תוכנת מחשב זו מוגנת בחוק זכויות יוצרים והסכמים בינלאומיים. שכפול או הפצה לא מאושרים של התוכנה, או כל חלק ממנה, עלולים לגרור תביעות אזרחיות ופליליות חמורות</CopyRight>
-		<buttonPurchasePro>...רכוש גרסא מקצועית</buttonPurchasePro>
-	</AboutDialog>
-	<PreferencesDialog>
-		<Caption>העדפות</Caption>
-		<Language>:שפת ממשק</Language>
-		<CheckForNewVersions>חפש גרסא עדכנית עם כל הפעלה</CheckForNewVersions>
-		<ShellExtension>שילוב במעטפת סייר חלונות</ShellExtension>
-		<ShellExtensionInfo>.הוסף תפריטי קונטקסט לכוננים אופטיים, תיקיות וקבצים של פורמטים נתמכים</ShellExtensionInfo>
-	</PreferencesDialog>
-	<PasswordDialog>
-		<Caption>דרושה סיסמא</Caption>
-		<FileIsProtected>:הקובץ מוצפן. לשם פיענוחו הכנס בבקשה את הסיסמא</FileIsProtected>
-		<InvalidPassword>Invalid password</InvalidPassword>
-	</PasswordDialog>
-	<Messages>
-		<Warning>אזהרה</Warning>
-		<Question>שאלה</Question>
-		<NotEnoughDiskSpace>?האם ברצונך להמשיך\n\n .נראה שאין מספיק מקום חופשי (רק %1) בדיסק הנבחר</NotEnoughDiskSpace>
-		<ISOAlreadyExists>?כבר קיים, האם ברצונך לשכתבו ISO -יעד קובץ ה\n%1\n</ISOAlreadyExists>
-		<FolderAlreadyExists>?תיקיית יעד בשם זה קיימת כבר, האם ברצונך לשכתב את כל הקבצים הזהים\n%1\n</FolderAlreadyExists>
-		<RestartProgram>?האם ברצונך לעשות זאת כעת\n\n .להשלמת הרישום הנך נדרש לאתחל את התוכנה</RestartProgram>
-		<CancelOperation>?האם אתה בטוח שברצונך להפסיק את הפעולה הנוכחית</CancelOperation>
-	</Messages>
-	<StatusMessages>
-		<CheckingSourceImage>...בודק קובץ דמות מקור</CheckingSourceImage>
-		<Converting>...ממיר</Converting>
-		<Extracting>...מחלץ</Extracting>
-		<ExtractionFailed>Extract operation failed</ExtractionFailed>
-		<Unpacking>...פותח</Unpacking>
-		<ConvertingToTemporaryISO>...זמני ISO ממיר לקובץ</ConvertingToTemporaryISO>
-		<ProgressBytesWritten>נכתבו %1</ProgressBytesWritten>
-		<Track>ערוץ</Track>
-		<ISOImageTypeFound>.(%1 סוג) ISO נמצא קובץ</ISOImageTypeFound>
-		<CannotOpenSourceFile>.לא ניתן לפתוח את קובץ המקור</CannotOpenSourceFile>
-		<CannotOpenDestFile>.לא ניתן לפתוח את קובץ היעד</CannotOpenDestFile>
-		<OperationTerminated>.הפעולה הופסקה על-ידי המשתמש</OperationTerminated>
-		<OperationCompleted>.הפעולה הושלמה</OperationCompleted>
-		<ClickToOpenISOInExplorer>לחץ &lt;a href="_open_local_file"&gt;כאן&lt;/a&gt; ISO -בכדי לפתוח בסייר של חלונות את קובץ ה</ClickToOpenISOInExplorer>
-		<ClickToMountISOInFinder>לחץ &lt;a href="_open_local_file"&gt;כאן&lt;/a&gt; Finder -ב ISO-להתקין את ה</ClickToMountISOInFinder>
-		<ClickToOpenOutFolder>לחץ &lt;a href="_open_local_file"&gt;כאן&lt;/a&gt; לפתוח את תיקיית הפלט</ClickToOpenOutFolder>
-		<DiskToISO>
-			<OpeningDevice>...פתיחת התקן מדיה, נא להמתין בבקשה</OpeningDevice>
-			<TotalDataSize>גודל הנתונים הכולל הינו %1</TotalDataSize>
-			<CreatingISO>...ISO יצירת</CreatingISO>
-			<CannotCreateFromAudio>.של דיסק רב מחזורי או דיסק אודיו, נא ליצור קשר עם התמיכה לעזרה ISO לא ניתן ליצור קובץ</CannotCreateFromAudio>
-			<PleaseUseBinCue>לדיסקים מסוג זה BIN/CUE בבקשה השתמש בדמות</PleaseUseBinCue>
-			<BlankDiskDetected>.ריק CD/DVD נתגלה דיסק</BlankDiskDetected>
-			<DiskNotReady>דיסק אינו מוכן CD/DVD</DiskNotReady>
-			<CannotOpenDevice>(לא ניתן לפתוח את ההתקן (%1</CannotOpenDevice>
-			<ReadError>.ארעה שגיאה בקריאה %1, נא ליצור קשר עם התמיכה לעזרה</ReadError>
-			<DeviceIsCopyProtected>.התקן זה מוגן מפני העתקה והסקטור מוצפן. אין אפשרות להמשיך</DeviceIsCopyProtected>
-			<ISOCreationFailed>נכשלה ISO יצירת</ISOCreationFailed>
-			<BinCueCreationFailed>נכשלה BIN/CUE יצירת דמות</BinCueCreationFailed>
-			<CannotReadDiskToc>של הדיסק נכשלה (טבלת תוכן העניינים) TOC קריאת</CannotReadDiskToc>
-			<CannotReadDisk>לא ניתן לקרוא את הדיסק, שגיאה: %1</CannotReadDisk>
-			<DiskNotPresent>רא קיים דיסק או סוג מדיה לא מוכר</DiskNotPresent>
-			<NoTracksOnDisk>אין ערוצים על הדיסק, הוא ככל הנראה ריק</NoTracksOnDisk>
-			<mediaType>סוג מדיה: %1</mediaType>
-			<TrackLength>אורך הערוץ הוא %1 סקטורים</TrackLength>
-			<TracksCount>כמות ערוצים: %1</TracksCount>
-			<WritingTrack>כתיבת ערוץ %1, אורך הערוץ הוא %2 סקטורים</WritingTrack>
-			<DiskReadingStopped>קריאה הופסקה ב- %1</DiskReadingStopped>
-			<TrackReadingStopped>קריאה הופסקה ב- %1, מתחיל מחדש עם הערוץ הבא</TrackReadingStopped>
-		</DiskToISO>
-		<FolderToISO>
-			<ScanningFolder>...סריקת ספריית מקור</ScanningFolder>
-			<DirectorySize>%1 גודל הספרייה הינו</DirectorySize>
-			<WritingISOFile>...ISO כתיבת קובץ</WritingISOFile>
-			<SkippingBigFile>.4GB-דילוג על קובץ '%1'. הקובץ גדול מ</SkippingBigFile>
-			<SkippingFile>.'דילוג על קובץ '%1</SkippingFile>
-			<BigFileWarning>.4GB -משום שהוא גדול מ ISO 9660 קובץ '%1' לא יוכל להראות במערכת קבצים מסוג</BigFileWarning>
-			<NestedDirectoriesLimitWarning>.מבנה הספרייה גדול מ- %1 רמות ולכן התוכנה תדלג על מספר קבצים ותיקיות</NestedDirectoriesLimitWarning>
-			<UnableToOpenFile>.לא ניתן לפתוח את קובץ '%1' לקריאת נתונים</UnableToOpenFile>
-			<NoExistingFolder>The folder %1 doesn't exist</NoExistingFolder>
-			<failedToCreateISOImage>Failed to create an ISO image</failedToCreateISOImage>
-		</FolderToISO>
-		<UniversalConverter>
-			<AudioCDWarning>.אינה אפשרית ISO -המרה ל ,CD הקובץ דמות נראה כ %1 קובץ דמות אודיו של</AudioCDWarning>
-			<NotValidImage>.תקני CD\DVD שגיאה: זהו אינו קובץ דמות</NotValidImage>
-			<CannotFindSignature>.5MB הושגה מגבלת ,ISO_9660 שגיאה: לא נמצאה חתימת</CannotFindSignature>
-			<MultiSessionImageDetected>נתגלתה דמות דיסק מרובה-מקטעים</MultiSessionImageDetected>
-			<MultiSessionNotSupported>.דמות הדיסק היא דמות דיסק מרובה-מקטעים. דמויות דיסק מסוג זה אינן נתמכות</MultiSessionNotSupported>
-		</UniversalConverter>
-		<NrgConverter>
-			<NrgParsingError>צור בבקשה קשר עם התמיכה לקבלת סיוע ,NRG שגיאת ניתוח נתוני</NrgParsingError>
-			<NoSessionsFound>צור בבקשה קשר עם התמיכה לקבלת סיוע ,NRG לא התגלו מקטעי</NoSessionsFound>
-		</NrgConverter>
-		<ExtractISO>
-			<LoadingImage>...טוען קובץ דמות</LoadingImage>
-			<ChooseISOFS>:ISO - בחר מערכת מתוך רשימת מערכות הקבצים בקובץ ה</ChooseISOFS>
-			<ChooseISOFSCaption>בחר מערכת קבצים</ChooseISOFSCaption>
-			<ImageFound>%1 קובץ דמות שנמצא</ImageFound>
-			<InvalidISO>תקני או שאינו נתמך כרגע ISO הקובץ אינו קובץ</InvalidISO>
-		</ExtractISO>
-		<UIFConverter>
-			<UsingZlib>zlib משתמש בפריסת</UsingZlib>
-			<UsingLZMA>Igor Pavlov של Lzma משתמש בפריסת</UsingLZMA>
-			<MixedImageFound>...סוג קובץ דמות מעורב %1 נמצא, פריסה לקובץ זמני</MixedImageFound>
-			<UnpackingImage>...פתיחת קובץ</UnpackingImage>
-		</UIFConverter>
-		<DebExtract>
-			<NotValidDeb>הקובץ אינו קובץ דחוס תקני של דביאן (אובונטו) לינוקס</NotValidDeb>
-		</DebExtract>
-		<RpmExtract>
-			<PackageOpened>חבילה %1 נפתחה</PackageOpened>
-			<DecompressingPayload>...פריסת %1 מטען אל קובץ זמני</DecompressingPayload>
-			<UnpackingArchive>...פתיחת קובץ דחוס</UnpackingArchive>
-		</RpmExtract>
-		<DMG>
-			<ConvertingDmgToISO>...HFS + ISO אל DMG ממיר</ConvertingDmgToISO>
-			<Writing>... כותב %1</Writing>
-			<ExtractingMainPartition>...ראשית אל קובץ זמני, זה יכול לקחת מעט זמן - נא לחכות בבקשה DMG חילוץ מחיצת</ExtractingMainPartition>
-			<NoVolumeFound>...מערכת קבצים +HFS קובץ לא נמצא, מחפש</NoVolumeFound>
-			<ExtractingVolume>... (%1) DMG חילוץ קובץ</ExtractingVolume>
-			<CorruptedOrPasswordProtected>פגומה או מוגנת בסיסמא DMG שגיאה: תמונת</CorruptedOrPasswordProtected>
-			<XarArchiveDetected>DMG file is actually a XAR archive (normally with actual DMG file inside) that can be only extracted. Please choose extract operation to proceed</XarArchiveDetected>
-			<openedAsMessage>The file is opened as %1</openedAsMessage>
-			<DmgDisk>DMG disk image</DmgDisk>
-			<GPTDisk>GPT disk</GPTDisk>
-			<MBRDisk>Apple disk</MBRDisk>
-			<HFSVolume>HFS+ volume</HFSVolume>
-			<readingFileSystem>Reading %1 file system...</readingFileSystem>
-			<messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
-			<messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
-		</DMG>
-		<PDIConverter>
-			<InvalidOrBrokenImage>ראשוני שגוי או שבור PDI עותק מצג</InvalidOrBrokenImage>
-		</PDIConverter>
-		<ISZConverter>
-			<CompressionNone>שיטת דחיסה: אין</CompressionNone>
-			<WarningPassword>הגדרת סיסמא לא נכונה תגרום ליצירת קובץ לא תקין</WarningPassword>
-			<ImageIsSegmented>מחולק ISZ קובץ</ImageIsSegmented>
-		</ISZConverter>
-		<ArchiveConverter>
-			<ReadingArchive>Reading archive...</ReadingArchive>
-			<RemovingTempFiles>Removing temporary files...</RemovingTempFiles>
-			<ExtractError>Unable to extract %1, error %2</ExtractError>
-		</ArchiveConverter>
-		<TarUnpacker>
-			<SinglePackedFileFound>Single packed file detected: %1, unpacking...</SinglePackedFileFound>
-		</TarUnpacker>
-		<XarUnpacker>
-			<ReadingTOC>Reading table of contents (%1 bytes)...</ReadingTOC>
-			<NestedArchiveFound>Extracted file '%1' can be unpacked separately as %2 archive (append extension manually)</NestedArchiveFound>
-		</XarUnpacker>
-	</StatusMessages>
-	<Misc>
-		<buttonOk>אישור</buttonOk>
-		<buttonCancel>ביטול</buttonCancel>
-		<buttonClose>סגירה</buttonClose>
-		<buttonYes>Yes</buttonYes>
-		<buttonNo>No</buttonNo>
-		<ProVersion>גרסא מקצועית</ProVersion>
-		<LiteVersion>גרסא קלה</LiteVersion>
-	</Misc>
-	<ShellExtension>
-		<!-- This section describes Windows context menus -->
-		<ConvertToISO>"%s" המר ל</ConvertToISO>
-		<ConvertToISOInfo>ISO המר קובץ דמות דיסק לפורמט</ConvertToISOInfo>
-		<Extract>"%s" חלץ ל</Extract>
-		<ExtractInfo>חלץ קובץ דמות דיסק</ExtractInfo>
-		<CreateISOFromFolder>"%s" צור</CreateISOFromFolder>
-		<CreateISOFromFolderInfo>של תיקייה זו עם הגדרות ברירת מחדל ISO צור דמות</CreateISOFromFolderInfo>
-		<CreateISOFromFolderWithOptions>...עם הגדרות "%s" צור</CreateISOFromFolderWithOptions>
-		<CreateISOFromFolderWithOptionsInfo>של תיקייה זו עם פירוט מערכת קבצים ותווית כרך ISO צור דמות</CreateISOFromFolderWithOptionsInfo>
-		<CreateISOFromDisk>של דיסק זה ISO צור דמות</CreateISOFromDisk>
-		<CreateISOFromDiskInfo>של דיסק אופטי נבחר ISO צור דמות</CreateISOFromDiskInfo>
-		<CreateBINCUEFromDisk>של דיסק זה BIN/CUE צור דמות</CreateBINCUEFromDisk>
-		<CreateBINCUEFromDiskInfo>התואם שלו CUE של דיסק אופטי נבחר וקובץ גיליון BIN (raw) צור דמות</CreateBINCUEFromDiskInfo>
-	</ShellExtension>
-	<core>
-		<UpdateChecker>
-			<ReleasedOn>released on %1</ReleasedOn>
-			<CheckForUpdates>Check for updates...</CheckForUpdates>
-			<NewVersionAvailable>A new version of %1 is available!</NewVersionAvailable>
-			<NewVersionAvailableText>%1 %2 is now available - you have %3. Would you like to download it now?</NewVersionAvailableText>
-			<UpdateAlertTitle>Software Update</UpdateAlertTitle>
-			<UpdateAlertReleaseNotes>Release Notes:</UpdateAlertReleaseNotes>
-			<UpdateAlertRemindLater>Remind Me Later</UpdateAlertRemindLater>
-			<UpdateAlertSkip>Skip This Version</UpdateAlertSkip>
-			<UpdateAlertInstall>Install Update</UpdateAlertInstall>
-			<UpdateAlertAutomaticUpdates>Check for updates automatically</UpdateAlertAutomaticUpdates>
-			<MessageNoUpdateAvailable>You're up to date!</MessageNoUpdateAvailable>
-			<MessageNoUpdateAvailableDescription>%1 %2 is currently the newest version available.</MessageNoUpdateAvailableDescription>
-			<MessageErrorConnect>An error occurred while downloading the update. Please try again later.</MessageErrorConnect>
-			<MessageErrorParse>An error occurred while parsing the update feed.</MessageErrorParse>
-			<UpdateProgressTitle>Updating %1</UpdateProgressTitle>
-			<UpdateProgressCancel>Cancel</UpdateProgressCancel>
-			<UpdateProgressInstallAndRelaunch>Install and Relaunch</UpdateProgressInstallAndRelaunch>
-			<UpdateProgressStatusDownloading>Downloading update...</UpdateProgressStatusDownloading>
-			<UpdateProgressExtract>Extracting update...</UpdateProgressExtract>
-			<UpdateProgressStatusReady>Ready to Install</UpdateProgressStatusReady>
-			<UpdateProgressSize>%1 of %2</UpdateProgressSize>
-			<UpdateProgressB>B</UpdateProgressB>
-			<UpdateProgressKB>KB</UpdateProgressKB>
-			<UpdateProgressMB>MB</UpdateProgressMB>
-			<UpdateProgressGB>GB</UpdateProgressGB>
-		</UpdateChecker>
-		<LetsMoveMac>
-			<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
-			<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
-			<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
-			<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
-			<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
-			<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
-			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-			<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-		</LetsMoveMac>
-		<QLineEditEx>
-			<actionUndo>Undo</actionUndo>
-			<actionRedo>Redo</actionRedo>
-			<actionCut>Cut</actionCut>
-			<actionCopy>Copy</actionCopy>
-			<actionPaste>Paste</actionPaste>
-			<actionDelete>Delete</actionDelete>
-			<actionSelectAll>Select All</actionSelectAll>
-		</QLineEditEx>
-		<QMessageBoxEx>
-			<buttonOK>OK</buttonOK>
-			<buttonCancel>Cancel</buttonCancel>
-			<buttonClose>Close</buttonClose>
-			<buttonYes>Yes</buttonYes>
-			<buttonNo>No</buttonNo>
-		</QMessageBoxEx>
-	</core>
+    <MainWindow>
+        <mnuFile>קובץ</mnuFile>
+        <mnuFileExit>יציאה</mnuFileExit>
+        <mnuHelp>עזרה</mnuHelp>
+        <mnuHelpDocumentation>...מסמכים</mnuHelpDocumentation>
+        <mnuHelpPurchase>...קנה גרסא מקצועית</mnuHelpPurchase>
+        <mnuHelpEnterCode>...הקש קוד רישום</mnuHelpEnterCode>
+        <mnuHelpAbout>אודות</mnuHelpAbout>
+        <mnuHomePage>...AnyToISO דף הבית של</mnuHomePage>
+        <menuPreferences>...העדפות</menuPreferences>
+        <newVersionAvailable>!%1קיימת AnyToISO</newVersionAvailable>
+        <newVersionUpdate>עידכון</newVersionUpdate>
+        <buttonStop>עצור</buttonStop>
+        <tabConvertExtract>
+            <Name>ISO -חילוץ קובץ / המרה ל</Name>
+            <SourceFileName>קובץ דמות מקורי</SourceFileName>
+            <ConvertToISO>:ISO המרה לדמות</ConvertToISO>
+            <ExtractToFolder>:חילוץ אל תיקייה</ExtractToFolder>
+            <buttonOpenImage>...פתח קובץ דמות</buttonOpenImage>
+            <buttonOpenImageText>CD/DVD פתח קובץ דמות של</buttonOpenImageText>
+            <AllSupportedFiles>כל הקבצים הנתמכים</AllSupportedFiles>
+            <buttonOpenISO>...ISO פתיחת</buttonOpenISO>
+            <buttonOpenISOText>הנדון ISO -פתיחת קובץ ה</buttonOpenISOText>
+            <buttonOpenISOFilter>ISO קבצים מסוג (*.iso)</buttonOpenISOFilter>
+            <buttonOpenFolder>...בחר תיקייה</buttonOpenFolder>
+            <buttonOpenFolderText>פתח תיקיית יעד</buttonOpenFolderText>
+            <buttonConvert>!המר</buttonConvert>
+            <buttonExtract>!חלץ</buttonExtract>
+            <labelFileSize>גודל קובץ</labelFileSize>
+            <labelFileFormat>תבנית קובץ</labelFileFormat>
+            <labelOpenOrDragFile>&lt;b&gt;Open&lt;/b&gt; or &lt;b&gt;drag&lt;/b&gt; קובץ דמות להמרה או לחילוץ</labelOpenOrDragFile>
+        </tabConvertExtract>
+        <tabDiskToISO>
+            <Name>ISO -ל CD/DVD דיסק</Name>
+            <SourceDrive>:כונן מקור</SourceDrive>
+            <OutputISO>:ISO קובץ יעד</OutputISO>
+            <checkCreateBinCue>BIN/CUE צור דמות מסוג</checkCreateBinCue>
+            <buttonRefresh>ריענון</buttonRefresh>
+            <buttonBrowseISO>...עיין</buttonBrowseISO>
+            <NoDiskInserted>CD/DVD לא הוכנס דיסק</NoDiskInserted>
+            <buttonMakeISO>ISO צור</buttonMakeISO>
+            <buttonMakeBinCue>BIN/CUE צור דמות</buttonMakeBinCue>
+            <chooseISOOrBinCueImage>BIN/CUE או ISO בחר בבקשה קובץ דמות מסוג</chooseISOOrBinCueImage>
+            <isoFilesFilter>ISO קבצי</isoFilesFilter>
+            <binCueSheetFilter>(CUE עם גליון) BIN קבצי</binCueSheetFilter>
+        </tabDiskToISO>
+        <tabFolderToISO>
+            <Name>ISO -תיקייה ל</Name>
+            <SourceFolder>:תיקיית מקור</SourceFolder>
+            <DestinationISO>:ISO תיקיית יעד</DestinationISO>
+            <VolumeLabel>:תווית כרך</VolumeLabel>
+            <buttonBrowseForFolder>:נווט לתיקייה</buttonBrowseForFolder>
+            <buttonChooseISO>...ISO בחר</buttonChooseISO>
+            <buttonOptions>...אפשרויות</buttonOptions>
+            <buttonMakeISO>ISO צור</buttonMakeISO>
+            <ISOCreationOptions>ISO אופציות יצירת</ISOCreationOptions>
+            <Settings>הגדרות</Settings>
+            <FileSystemsInsideISO>:מערכת קבצים</FileSystemsInsideISO>
+            <buttonDefault>ברירת מחדל</buttonDefault>
+            <ISO9660Option1>(11) 8.3 DOS שמות קבצי</ISO9660Option1>
+            <ISO9660Option2>(180) שמות ארוכים יותר</ISO9660Option2>
+            <ISO9660Option3>ISO 9660:1999</ISO9660Option3>
+            <JolietOption1>(64) שמות סטנדרטיים</JolietOption1>
+            <JolietOption2>(110) שמות ארוכים</JolietOption2>
+        </tabFolderToISO>
+    </MainWindow>
+    <LiteVersionDialog>
+        <LiteVersionLimitText>.לאחר הקנייה &lt;/a&gt;פתיחת התוכנה&gt;&lt;a href="פתח"קוד הרישום ישלח .&lt;/a&gt; לקנות גרסא מקצועית&gt;&lt;a href="קנייה"לשם עבודה עם קבצים גדולים (די וי די או יותר) עלייך .(up to 870 MB) &lt;/b&gt;דמויות סי די בלבד&lt;b&gt;עובדת עם AnyToISO גרסא קלה של</LiteVersionLimitText>
+        <buttonPurchasePro>...קנה גרסא מקצועית</buttonPurchasePro>
+    </LiteVersionDialog>
+    <EnterKeyDialog>
+        <Caption>הכנס קוד רישום</Caption>
+        <EnterKeyToUpgradeText>.AnyToISO הכנס את פרטי הרישום בבקשה לשם ביצוע השידרוג לגרסא המקצועית של</EnterKeyToUpgradeText>
+        <RegName>:שם רישום</RegName>
+        <RegCode>:קוד רישום</RegCode>
+    </EnterKeyDialog>
+    <AboutDialog>
+        <Caption>AnyToISO אודות</Caption>
+        <Website>:אתר אינטרנט</Website>
+        <Support>:תמיכה</Support>
+        <RunningAs>:התוכנה פועלת כ</RunningAs>
+        <CopyRight>תוכנת מחשב זו מוגנת בחוק זכויות יוצרים והסכמים בינלאומיים. שכפול או הפצה לא מאושרים של התוכנה, או כל חלק ממנה, עלולים לגרור תביעות אזרחיות ופליליות חמורות</CopyRight>
+        <buttonPurchasePro>...רכוש גרסא מקצועית</buttonPurchasePro>
+    </AboutDialog>
+    <PreferencesDialog>
+        <Caption>העדפות</Caption>
+        <PreferencesGeneral>General</PreferencesGeneral>
+        <PreferencesUpdates>Updates</PreferencesUpdates>
+        <Language>:שפת ממשק</Language>
+        <CheckForNewVersions>חפש גרסא עדכנית עם כל הפעלה</CheckForNewVersions>
+        <ShellExtension>שילוב במעטפת סייר חלונות</ShellExtension>
+        <ShellExtensionInfo>.הוסף תפריטי קונטקסט לכוננים אופטיים, תיקיות וקבצים של פורמטים נתמכים</ShellExtensionInfo>
+    </PreferencesDialog>
+    <PasswordDialog>
+        <Caption>דרושה סיסמא</Caption>
+        <FileIsProtected>:הקובץ מוצפן. לשם פיענוחו הכנס בבקשה את הסיסמא</FileIsProtected>
+        <InvalidPassword>Invalid password</InvalidPassword>
+    </PasswordDialog>
+    <Messages>
+        <Warning>אזהרה</Warning>
+        <Question>שאלה</Question>
+        <NotEnoughDiskSpace>?האם ברצונך להמשיך\n\n .נראה שאין מספיק מקום חופשי (רק %1) בדיסק הנבחר</NotEnoughDiskSpace>
+        <ISOAlreadyExists>?כבר קיים, האם ברצונך לשכתבו ISO -יעד קובץ ה\n%1\n</ISOAlreadyExists>
+        <FolderAlreadyExists>?תיקיית יעד בשם זה קיימת כבר, האם ברצונך לשכתב את כל הקבצים הזהים\n%1\n</FolderAlreadyExists>
+        <RestartProgram>?האם ברצונך לעשות זאת כעת\n\n .להשלמת הרישום הנך נדרש לאתחל את התוכנה</RestartProgram>
+        <CancelOperation>?האם אתה בטוח שברצונך להפסיק את הפעולה הנוכחית</CancelOperation>
+    </Messages>
+    <StatusMessages>
+        <CheckingSourceImage>...בודק קובץ דמות מקור</CheckingSourceImage>
+        <Converting>...ממיר</Converting>
+        <Extracting>...מחלץ</Extracting>
+        <ExtractionFailed>Extract operation failed</ExtractionFailed>
+        <Unpacking>...פותח</Unpacking>
+        <ConvertingToTemporaryISO>...זמני ISO ממיר לקובץ</ConvertingToTemporaryISO>
+        <ProgressBytesWritten>נכתבו %1</ProgressBytesWritten>
+        <Track>ערוץ</Track>
+        <ISOImageTypeFound>.(%1 סוג) ISO נמצא קובץ</ISOImageTypeFound>
+        <CannotOpenSourceFile>.לא ניתן לפתוח את קובץ המקור</CannotOpenSourceFile>
+        <CannotOpenDestFile>.לא ניתן לפתוח את קובץ היעד</CannotOpenDestFile>
+        <OperationTerminated>.הפעולה הופסקה על-ידי המשתמש</OperationTerminated>
+        <OperationCompleted>.הפעולה הושלמה</OperationCompleted>
+        <ClickToOpenISOInExplorer>לחץ &lt;a href="_open_local_file"&gt;כאן&lt;/a&gt; ISO -בכדי לפתוח בסייר של חלונות את קובץ ה</ClickToOpenISOInExplorer>
+        <ClickToMountISOInFinder>לחץ &lt;a href="_open_local_file"&gt;כאן&lt;/a&gt; Finder -ב ISO-להתקין את ה</ClickToMountISOInFinder>
+        <ClickToOpenOutFolder>לחץ &lt;a href="_open_local_file"&gt;כאן&lt;/a&gt; לפתוח את תיקיית הפלט</ClickToOpenOutFolder>
+        <DiskToISO>
+            <OpeningDevice>...פתיחת התקן מדיה, נא להמתין בבקשה</OpeningDevice>
+            <TotalDataSize>גודל הנתונים הכולל הינו %1</TotalDataSize>
+            <CreatingISO>...ISO יצירת</CreatingISO>
+            <CannotCreateFromAudio>.של דיסק רב מחזורי או דיסק אודיו, נא ליצור קשר עם התמיכה לעזרה ISO לא ניתן ליצור קובץ</CannotCreateFromAudio>
+            <PleaseUseBinCue>לדיסקים מסוג זה BIN/CUE בבקשה השתמש בדמות</PleaseUseBinCue>
+            <BlankDiskDetected>.ריק CD/DVD נתגלה דיסק</BlankDiskDetected>
+            <DiskNotReady>דיסק אינו מוכן CD/DVD</DiskNotReady>
+            <CannotOpenDevice>(לא ניתן לפתוח את ההתקן (%1</CannotOpenDevice>
+            <ReadError>.ארעה שגיאה בקריאה %1, נא ליצור קשר עם התמיכה לעזרה</ReadError>
+            <DeviceIsCopyProtected>.התקן זה מוגן מפני העתקה והסקטור מוצפן. אין אפשרות להמשיך</DeviceIsCopyProtected>
+            <ISOCreationFailed>נכשלה ISO יצירת</ISOCreationFailed>
+            <BinCueCreationFailed>נכשלה BIN/CUE יצירת דמות</BinCueCreationFailed>
+            <CannotReadDiskToc>של הדיסק נכשלה (טבלת תוכן העניינים) TOC קריאת</CannotReadDiskToc>
+            <CannotReadDisk>לא ניתן לקרוא את הדיסק, שגיאה: %1</CannotReadDisk>
+            <DiskNotPresent>רא קיים דיסק או סוג מדיה לא מוכר</DiskNotPresent>
+            <NoTracksOnDisk>אין ערוצים על הדיסק, הוא ככל הנראה ריק</NoTracksOnDisk>
+            <mediaType>סוג מדיה: %1</mediaType>
+            <TrackLength>אורך הערוץ הוא %1 סקטורים</TrackLength>
+            <TracksCount>כמות ערוצים: %1</TracksCount>
+            <WritingTrack>כתיבת ערוץ %1, אורך הערוץ הוא %2 סקטורים</WritingTrack>
+            <DiskReadingStopped>קריאה הופסקה ב- %1</DiskReadingStopped>
+            <TrackReadingStopped>קריאה הופסקה ב- %1, מתחיל מחדש עם הערוץ הבא</TrackReadingStopped>
+        </DiskToISO>
+        <FolderToISO>
+            <ScanningFolder>...סריקת ספריית מקור</ScanningFolder>
+            <DirectorySize>%1 גודל הספרייה הינו</DirectorySize>
+            <WritingISOFile>...ISO כתיבת קובץ</WritingISOFile>
+            <SkippingBigFile>.4GB-דילוג על קובץ '%1'. הקובץ גדול מ</SkippingBigFile>
+            <SkippingFile>.'דילוג על קובץ '%1</SkippingFile>
+            <BigFileWarning>.4GB -משום שהוא גדול מ ISO 9660 קובץ '%1' לא יוכל להראות במערכת קבצים מסוג</BigFileWarning>
+            <NestedDirectoriesLimitWarning>.מבנה הספרייה גדול מ- %1 רמות ולכן התוכנה תדלג על מספר קבצים ותיקיות</NestedDirectoriesLimitWarning>
+            <UnableToOpenFile>.לא ניתן לפתוח את קובץ '%1' לקריאת נתונים</UnableToOpenFile>
+            <NoExistingFolder>The folder %1 doesn't exist</NoExistingFolder>
+            <failedToCreateISOImage>Failed to create an ISO image</failedToCreateISOImage>
+        </FolderToISO>
+        <UniversalConverter>
+            <AudioCDWarning>.אינה אפשרית ISO -המרה ל ,CD הקובץ דמות נראה כ %1 קובץ דמות אודיו של</AudioCDWarning>
+            <NotValidImage>.תקני CD\DVD שגיאה: זהו אינו קובץ דמות</NotValidImage>
+            <CannotFindSignature>.5MB הושגה מגבלת ,ISO_9660 שגיאה: לא נמצאה חתימת</CannotFindSignature>
+            <MultiSessionImageDetected>נתגלתה דמות דיסק מרובה-מקטעים</MultiSessionImageDetected>
+            <MultiSessionNotSupported>.דמות הדיסק היא דמות דיסק מרובה-מקטעים. דמויות דיסק מסוג זה אינן נתמכות</MultiSessionNotSupported>
+        </UniversalConverter>
+        <NrgConverter>
+            <NrgParsingError>צור בבקשה קשר עם התמיכה לקבלת סיוע ,NRG שגיאת ניתוח נתוני</NrgParsingError>
+            <NoSessionsFound>צור בבקשה קשר עם התמיכה לקבלת סיוע ,NRG לא התגלו מקטעי</NoSessionsFound>
+        </NrgConverter>
+        <ExtractISO>
+            <LoadingImage>...טוען קובץ דמות</LoadingImage>
+            <ChooseISOFS>:ISO - בחר מערכת מתוך רשימת מערכות הקבצים בקובץ ה</ChooseISOFS>
+            <ChooseISOFSCaption>בחר מערכת קבצים</ChooseISOFSCaption>
+            <ImageFound>%1 קובץ דמות שנמצא</ImageFound>
+            <InvalidISO>תקני או שאינו נתמך כרגע ISO הקובץ אינו קובץ</InvalidISO>
+        </ExtractISO>
+        <UIFConverter>
+            <UsingZlib>zlib משתמש בפריסת</UsingZlib>
+            <UsingLZMA>Igor Pavlov של Lzma משתמש בפריסת</UsingLZMA>
+            <MixedImageFound>...סוג קובץ דמות מעורב %1 נמצא, פריסה לקובץ זמני</MixedImageFound>
+            <UnpackingImage>...פתיחת קובץ</UnpackingImage>
+        </UIFConverter>
+        <DebExtract>
+            <NotValidDeb>הקובץ אינו קובץ דחוס תקני של דביאן (אובונטו) לינוקס</NotValidDeb>
+        </DebExtract>
+        <RpmExtract>
+            <PackageOpened>חבילה %1 נפתחה</PackageOpened>
+            <DecompressingPayload>...פריסת %1 מטען אל קובץ זמני</DecompressingPayload>
+            <UnpackingArchive>...פתיחת קובץ דחוס</UnpackingArchive>
+        </RpmExtract>
+        <DMG>
+            <ConvertingDmgToISO>...HFS + ISO אל DMG ממיר</ConvertingDmgToISO>
+            <Writing>... כותב %1</Writing>
+            <ExtractingMainPartition>...ראשית אל קובץ זמני, זה יכול לקחת מעט זמן - נא לחכות בבקשה DMG חילוץ מחיצת</ExtractingMainPartition>
+            <NoVolumeFound>...מערכת קבצים +HFS קובץ לא נמצא, מחפש</NoVolumeFound>
+            <ExtractingVolume>... (%1) DMG חילוץ קובץ</ExtractingVolume>
+            <CorruptedOrPasswordProtected>פגומה או מוגנת בסיסמא DMG שגיאה: תמונת</CorruptedOrPasswordProtected>
+            <XarArchiveDetected>DMG file is actually a XAR archive (normally with actual DMG file inside) that can be only extracted. Please choose extract operation to proceed</XarArchiveDetected>
+            <openedAsMessage>The file is opened as %1</openedAsMessage>
+            <DmgDisk>DMG disk image</DmgDisk>
+            <GPTDisk>GPT disk</GPTDisk>
+            <MBRDisk>Apple disk</MBRDisk>
+            <HFSVolume>HFS+ volume</HFSVolume>
+            <readingFileSystem>Reading %1 file system...</readingFileSystem>
+            <messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
+            <messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
+        </DMG>
+        <PDIConverter>
+            <InvalidOrBrokenImage>ראשוני שגוי או שבור PDI עותק מצג</InvalidOrBrokenImage>
+        </PDIConverter>
+        <ISZConverter>
+            <CompressionNone>שיטת דחיסה: אין</CompressionNone>
+            <WarningPassword>הגדרת סיסמא לא נכונה תגרום ליצירת קובץ לא תקין</WarningPassword>
+            <ImageIsSegmented>מחולק ISZ קובץ</ImageIsSegmented>
+        </ISZConverter>
+        <ArchiveConverter>
+            <ReadingArchive>Reading archive...</ReadingArchive>
+            <RemovingTempFiles>Removing temporary files...</RemovingTempFiles>
+            <ExtractError>Unable to extract %1, error %2</ExtractError>
+        </ArchiveConverter>
+        <TarUnpacker>
+            <SinglePackedFileFound>Single packed file detected: %1, unpacking...</SinglePackedFileFound>
+        </TarUnpacker>
+        <XarUnpacker>
+            <ReadingTOC>Reading table of contents (%1 bytes)...</ReadingTOC>
+            <NestedArchiveFound>Extracted file '%1' can be unpacked separately as %2 archive (append extension manually)</NestedArchiveFound>
+        </XarUnpacker>
+    </StatusMessages>
+    <Misc>
+        <buttonOk>אישור</buttonOk>
+        <buttonCancel>ביטול</buttonCancel>
+        <buttonClose>סגירה</buttonClose>
+        <buttonYes>Yes</buttonYes>
+        <buttonNo>No</buttonNo>
+        <ProVersion>גרסא מקצועית</ProVersion>
+        <LiteVersion>גרסא קלה</LiteVersion>
+    </Misc>
+    <ShellExtension>
+        <!-- This section describes Windows context menus -->
+        <ConvertToISO>"%s" המר ל</ConvertToISO>
+        <ConvertToISOInfo>ISO המר קובץ דמות דיסק לפורמט</ConvertToISOInfo>
+        <Extract>"%s" חלץ ל</Extract>
+        <ExtractInfo>חלץ קובץ דמות דיסק</ExtractInfo>
+        <CreateISOFromFolder>"%s" צור</CreateISOFromFolder>
+        <CreateISOFromFolderInfo>של תיקייה זו עם הגדרות ברירת מחדל ISO צור דמות</CreateISOFromFolderInfo>
+        <CreateISOFromFolderWithOptions>...עם הגדרות "%s" צור</CreateISOFromFolderWithOptions>
+        <CreateISOFromFolderWithOptionsInfo>של תיקייה זו עם פירוט מערכת קבצים ותווית כרך ISO צור דמות</CreateISOFromFolderWithOptionsInfo>
+        <CreateISOFromDisk>של דיסק זה ISO צור דמות</CreateISOFromDisk>
+        <CreateISOFromDiskInfo>של דיסק אופטי נבחר ISO צור דמות</CreateISOFromDiskInfo>
+        <CreateBINCUEFromDisk>של דיסק זה BIN/CUE צור דמות</CreateBINCUEFromDisk>
+        <CreateBINCUEFromDiskInfo>התואם שלו CUE של דיסק אופטי נבחר וקובץ גיליון BIN (raw) צור דמות</CreateBINCUEFromDiskInfo>
+    </ShellExtension>
+    <core>
+        <UpdateChecker>
+            <ReleasedOn>שוחרר ב %1</ReleasedOn>
+            <CheckForUpdates>בדוק לעדכונים‫...‬</CheckForUpdates>
+            <NewVersionAvailable>גרסה חדשה של %1 זמינה‫!‬</NewVersionAvailable>
+            <NewVersionAvailableText>%1 %2 עכשיו זמינה - יש לך %3. אתה מעוניין להוריד אותה כעת‫?‬</NewVersionAvailableText>
+            <UpdateAlertTitle>עדכון תוכנה</UpdateAlertTitle>
+            <UpdateAlertReleaseNotes>הערות לגרסא</UpdateAlertReleaseNotes>
+            <UpdateAlertRemindLater>ידע אותי מאוחר יותר</UpdateAlertRemindLater>
+            <UpdateAlertSkip>Skip This Version</UpdateAlertSkip>
+            <UpdateAlertInstall>התקן עדכונים</UpdateAlertInstall>
+            <UpdateAlertAutomaticUpdates>בדוק לעדכונים באופן אוטומטי</UpdateAlertAutomaticUpdates>
+            <MessageNoUpdateAvailable>אתה מעודכן‫!‬</MessageNoUpdateAvailable>
+            <MessageNoUpdateAvailableDescription>%1 %2 זה הגירסא העדכנית ביותר שזמינה</MessageNoUpdateAvailableDescription>
+            <MessageErrorConnect>קרתה שגיאה בהורדת העדכון‫,‬ אנא נסה שוב מאוחר יותר</MessageErrorConnect>
+            <MessageErrorParse>אירעה שגיאה בעת ניתוח עדכון התוכנה‫.‬</MessageErrorParse>
+            <UpdateProgressTitle>מעדכן %1</UpdateProgressTitle>
+            <UpdateProgressCancel>בטל</UpdateProgressCancel>
+            <UpdateProgressInstallAndRelaunch>התקן והפעל מחדש</UpdateProgressInstallAndRelaunch>
+            <UpdateProgressStatusDownloading>מוריד עדכון‫...‬</UpdateProgressStatusDownloading>
+            <UpdateProgressExtract>מחלץ עדכון‫...‬</UpdateProgressExtract>
+            <UpdateProgressStatusReady>מוכן להתקנה</UpdateProgressStatusReady>
+            <UpdateProgressSize>%1 מתוך %2</UpdateProgressSize>
+            <UpdateProgressB>B</UpdateProgressB>
+            <UpdateProgressKB>KB</UpdateProgressKB>
+            <UpdateProgressMB>MB</UpdateProgressMB>
+            <UpdateProgressGB>GB</UpdateProgressGB>
+        </UpdateChecker>
+        <LetsMoveMac>
+            <kStrMoveApplicationCouldNotMove>לא יכול להעביר לתיקיית היישומים</kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>העבר לתקיית היישומים</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>האם להעביר לתיקיית היישומים שלך‫?‬</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>האם אתה מעוניין %1 יעביר את עצמו לתיקיית היישומים‫?‬</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationButtonMove>העבר לתיקיית היישומים</kStrMoveApplicationButtonMove>
+            <kStrMoveApplicationButtonDoNotMove>אל תעביר</kStrMoveApplicationButtonDoNotMove>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>פעולה זו תדרוש ממך סיסמת מנהל מערכת</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>פעולה זו תשאיר את תיקיית ההורדות שלך במצב לא מסודר.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+        </LetsMoveMac>
+        <QLineEditEx>
+            <actionUndo>חזור אחורה</actionUndo>
+            <actionRedo>בצע שוב</actionRedo>
+            <actionCut>גזור</actionCut>
+            <actionCopy>העתק</actionCopy>
+            <actionPaste>הדבק</actionPaste>
+            <actionDelete>מחק</actionDelete>
+            <actionSelectAll>בחר הכל</actionSelectAll>
+        </QLineEditEx>
+        <QMessageBoxEx>
+            <buttonOK>בסדר</buttonOK>
+            <buttonCancel>בטל</buttonCancel>
+            <buttonClose>סגור</buttonClose>
+            <buttonYes>כן</buttonYes>
+            <buttonNo>לא</buttonNo>
+        </QMessageBoxEx>
+    </core>
 </LanguageStrings>

@@ -1,310 +1,312 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="3.6" Author="Zityi&apos;s Software Translator Te@m">
-	<MainWindow>
-		<mnuFile>Fájl</mnuFile>
-		<mnuFileExit>Kilépés</mnuFileExit>
-		<mnuHelp>Súgó</mnuHelp>
-		<mnuHelpDocumentation>Dokumentáció...</mnuHelpDocumentation>
-		<mnuHelpPurchase>Pro verzió megvásárlása...</mnuHelpPurchase>
-		<mnuHelpEnterCode>Regisztrációs kód megadása...</mnuHelpEnterCode>
-		<mnuHelpAbout>Névjegy...</mnuHelpAbout>
-		<mnuHomePage>AnyToISO weboldal...</mnuHomePage>
-		<menuPreferences>Beállítások...</menuPreferences>
-		<newVersionAvailable>Új AnyToISO %1 verzió érhető el!</newVersionAvailable>
-		<newVersionUpdate>Frissítés</newVersionUpdate>
-		<buttonStop>Leállítás</buttonStop>
-		<tabConvertExtract>
-			<Name>Fájl kibontás/ISO konvertálás</Name>
-			<SourceFileName>Forrás kép/archív fájl:</SourceFileName>
-			<ConvertToISO>Konvertálás ISO képfájlba:</ConvertToISO>
-			<ExtractToFolder>Kicsomagolás mappába:</ExtractToFolder>
-			<buttonOpenImage>Képfájl megnyitása...</buttonOpenImage>
-			<buttonOpenImageText>CD/DVD képfájl megnyitása</buttonOpenImageText>
-			<AllSupportedFiles>Az összes támogatott fájl</AllSupportedFiles>
-			<buttonOpenISO>ISO megnyitása...</buttonOpenISO>
-			<buttonOpenISOText>Forrás ISO fájl kiválasztása</buttonOpenISOText>
-			<buttonOpenISOFilter>ISO fájlok (*.iso)</buttonOpenISOFilter>
-			<buttonOpenFolder>Mappa kiválasztása...</buttonOpenFolder>
-			<buttonOpenFolderText>Célmappa megnyitása</buttonOpenFolderText>
-			<buttonConvert>Konvertálás!</buttonConvert>
-			<buttonExtract>Kibontás!</buttonExtract>
-			<labelFileSize>Fájlméret</labelFileSize>
-			<labelFileFormat>Formátum</labelFileFormat>
-			<labelOpenOrDragFile>&lt;b&gt;Nyissa meg&lt;/b&gt; vagy&lt;b&gt;húzza ide&lt;/b&gt; a fájlt a konvertáláshoz vagy kibontáshoz</labelOpenOrDragFile>
-		</tabConvertExtract>
-		<tabDiskToISO>
-			<Name>CD/DVD lemez ISO képfájlba</Name>
-			<SourceDrive>Forrásmeghajtó:</SourceDrive>
-			<OutputISO>Cél képfájl:</OutputISO>
-			<checkCreateBinCue>BIN/CUE képfájl készítés</checkCreateBinCue>
-			<buttonRefresh>Frissítés</buttonRefresh>
-			<buttonBrowseISO>Tallózás...</buttonBrowseISO>
-			<NoDiskInserted>Nincs CD/DVD lemez behelyezve</NoDiskInserted>
-			<buttonMakeISO>ISO készítés</buttonMakeISO>
-			<buttonMakeBinCue>BIN/CUE képfájl készítés</buttonMakeBinCue>
-			<chooseISOOrBinCueImage>Kérjük válasszon ISO vagy BIN/CUE képfájlt</chooseISOOrBinCueImage>
-			<isoFilesFilter>ISO fájlok</isoFilesFilter>
-			<binCueSheetFilter>BIN fájlok (CUE sheet-el)</binCueSheetFilter>
-		</tabDiskToISO>
-		<tabFolderToISO>
-			<Name>Mappa ISO képfájlba</Name>
-			<SourceFolder>Forrásmappa:</SourceFolder>
-			<DestinationISO>Cél ISO fájl:</DestinationISO>
-			<VolumeLabel>Kötetcímke:</VolumeLabel>
-			<buttonBrowseForFolder>Mappa keresése...</buttonBrowseForFolder>
-			<buttonChooseISO>ISO kiválasztása...</buttonChooseISO>
-			<buttonOptions>Opciók...</buttonOptions>
-			<buttonMakeISO>ISO készítés</buttonMakeISO>
-			<ISOCreationOptions>ISO készítési opciók</ISOCreationOptions>
-			<Settings>Beállítások</Settings>
-			<FileSystemsInsideISO>Fájlrendszerek:</FileSystemsInsideISO>
-			<buttonDefault>Alapértelmezett</buttonDefault>
-			<ISO9660Option1>8.3 DOS fájlnevek (11)</ISO9660Option1>
-			<ISO9660Option2>Hosszabb nevek (180)</ISO9660Option2>
-			<ISO9660Option3>ISO 9660:1999</ISO9660Option3>
-			<JolietOption1>Standard nevek (64)</JolietOption1>
-			<JolietOption2>Hosszú nevek (110)</JolietOption2>
-		</tabFolderToISO>
-	</MainWindow>
-	<LiteVersionDialog>
-		<LiteVersionLimitText>Az AnyToISO lite verziója csak &lt;b&gt;CD képfájlokkal működik&lt;/b&gt; (870 MB). A nagyobb fájlok használatához (DVD vagy nagyobb) a &lt;a href="purchase"&gt;Professional verzió megvásárlása&lt;/a&gt; szükséges. A regisztrációs kódot a &lt;a href="unlock"&gt;szoftver feloldásához&lt;/a&gt; a vásárlás után kapja kézhez.</LiteVersionLimitText>
-		<buttonPurchasePro>Pro verzió megvásárlása</buttonPurchasePro>
-	</LiteVersionDialog>
-	<EnterKeyDialog>
-		<Caption>Regisztrációs kód megadása</Caption>
-		<EnterKeyToUpgradeText>Kérjük, adja meg a regisztrációs adatokat az AnyToISO Pro verzióra frissítéshez.</EnterKeyToUpgradeText>
-		<RegName>Regisztrációs név:</RegName>
-		<RegCode>Regisztrációs kód:</RegCode>
-	</EnterKeyDialog>
-	<AboutDialog>
-		<Caption>Az AnyToISO névjegye</Caption>
-		<Website>Weboldal:</Website>
-		<Support>Támogatás:</Support>
-		<RunningAs>A program futtatási módja:</RunningAs>
-		<CopyRight>Ezt a számítógépes programot szerzői jogi törvények és nemzetközi jogszabályok védik. A programnak vagy bármely részének engedély nélküli sokszorosítása és/vagy forgalmazása, szigorú polgári vagy büntetőjogi következményeket vonhat maga után.</CopyRight>
-		<buttonPurchasePro>Pro verzió megvásárlása...</buttonPurchasePro>
-	</AboutDialog>
-	<PreferencesDialog>
-		<Caption>Beállítások</Caption>
-		<Language>Felhasználói felület nyelve:</Language>
-		<CheckForNewVersions>Új verzió ellenőrzése indításkor</CheckForNewVersions>
-		<ShellExtension>Beépítés a Windows Intéző helyi menüjébe</ShellExtension>
-		<ShellExtensionInfo>Szövegkörnyezeti menük hozzáadása az optikai meghajtók, mappák és támogatott fájl formátumok számára.</ShellExtensionInfo>
-	</PreferencesDialog>
-	<PasswordDialog>
-		<Caption>Jelszó szükséges</Caption>
-		<FileIsProtected>A fájl kódolt. Kérjük, adja meg a megfelelő jelszót:</FileIsProtected>
-		<InvalidPassword>Érvénytelen jelszó lett megadva</InvalidPassword>
-	</PasswordDialog>
-	<Messages>
-		<Warning>Figyelem</Warning>
-		<Question>Kérdés</Question>
-		<NotEnoughDiskSpace>Nincs elegendő szabad lemezterület (csak %1) a kiválasztott meghajtón. \n\nFolytatja a műveletet?</NotEnoughDiskSpace>
-		<ISOAlreadyExists>A(z)\n%1\ncélfájl már létezik. Felülírja?</ISOAlreadyExists>
-		<FolderAlreadyExists>A(z)\n%1\ncélmappa már létezik. Felülírja az összes létező fájlt ugyanazzal a névvel?</FolderAlreadyExists>
-		<RestartProgram>A regisztráció befejezéséhez, újra kell indítania a programot. \n\nÚjraindítja most?</RestartProgram>
-		<CancelOperation>Valóban megszakítja az aktuális folyamatot?</CancelOperation>
-	</Messages>
-	<StatusMessages>
-		<CheckingSourceImage>Forráskép ellenőrzése...</CheckingSourceImage>
-		<Converting>Konvertálás...</Converting>
-		<Extracting>Tartalom kiemelése...</Extracting>
-		<ExtractionFailed>A kibontási művelet sikertelen volt</ExtractionFailed>
-		<Unpacking>Kicsomagolás...</Unpacking>
-		<ConvertingToTemporaryISO>Konvertálás egy ideiglenes ISO fájlba...</ConvertingToTemporaryISO>
-		<ProgressBytesWritten>%1 írása</ProgressBytesWritten>
-		<Track>Sáv</Track>
-		<ISOImageTypeFound>ISO képfájl (típus: %1) találat</ISOImageTypeFound>
-		<CannotOpenSourceFile>Nem lehet megnyitni a forrásfájlt</CannotOpenSourceFile>
-		<CannotOpenDestFile>Nem lehet megnyitni a célfájlt, ellenőrizze a fájl nevét és a hozzáférési jogokat</CannotOpenDestFile>
-		<OperationTerminated>A műveletet a felhasználó leállította.</OperationTerminated>
-		<OperationCompleted>A művelet befejeződött.</OperationCompleted>
-		<ClickToOpenISOInExplorer>Kattintson &lt;a href="_open_local_file"&gt;ide&lt;/a&gt; a cél ISO fájlt tartalmazó mappa megnyitásához</ClickToOpenISOInExplorer>
-		<ClickToMountISOInFinder>Kattintson &lt;a href="_open_local_file"&gt;ide&lt;/a&gt; az ISO csatolásához</ClickToMountISOInFinder>
-		<ClickToOpenOutFolder>Kattintson &lt;a href="_open_local_file"&gt;ide&lt;/a&gt; a fájlt tartalmazó mappa megnyitásához</ClickToOpenOutFolder>
-		<DiskToISO>
-			<OpeningDevice>Médiaeszköz megnyitása folyamatban. Kis türelmet...</OpeningDevice>
-			<TotalDataSize>Teljes adatméret: %1</TotalDataSize>
-			<CreatingISO>ISO készítés...</CreatingISO>
-			<CannotCreateFromAudio>Nem hozhat létre ISO képfájl egy többmenetes vagy audió lemezről. Segítségért, forduljon a támogatási csoporthoz.</CannotCreateFromAudio>
-			<PleaseUseBinCue>Ilyen lemeznél használja a BIN/CUE képet</PleaseUseBinCue>
-			<BlankDiskDetected>Üres CD/DVD lemez lett behelyezve</BlankDiskDetected>
-			<DiskNotReady>A CD/DVD lemez nem áll készen</DiskNotReady>
-			<CannotOpenDevice>Az eszköz nem nyitható meg (%1)</CannotOpenDevice>
-			<ReadError>%1 olvasási hiba. Segítségért, lépjen kapcsolatba a támogatási csapattal</ReadError>
-			<DeviceIsCopyProtected>Ez az eszköz másolásvédett és szektora kódolva van. Nem folytatható.</DeviceIsCopyProtected>
-			<ISOCreationFailed>Az ISO készítés sikertelen</ISOCreationFailed>
-			<BinCueCreationFailed>A BIN/CUE képfájl készítés sikertelen</BinCueCreationFailed>
-			<CannotReadDiskToc>A lemez TOC (tartalomjegyzék) nem olvasható</CannotReadDiskToc>
-			<CannotReadDisk>A lemez nem olvasható, hiba: %1</CannotReadDisk>
-			<DiskNotPresent>A lemez nincs jelen vagy ismeretlen média típus</DiskNotPresent>
-			<NoTracksOnDisk>Nincsenek sávok a lemezen, valószínűleg üres</NoTracksOnDisk>
-			<mediaType>Média típus: %1</mediaType>
-			<TrackLength>A sáv %1 szektor hosszúságú</TrackLength>
-			<TracksCount>Sávok száma: %1</TracksCount>
-			<WritingTrack>%1 sáv írása, a sáv %2 szektor hosszúságú</WritingTrack>
-			<DiskReadingStopped>Olvasás leállítva a(z) %1 pozíciónál</DiskReadingStopped>
-			<TrackReadingStopped>Olvasás leállítva a(z) %1 pozíciónál, folytatás a következő sávnál</TrackReadingStopped>
-		</DiskToISO>
-		<FolderToISO>
-			<ScanningFolder>Forráskönyvtár keresése...</ScanningFolder>
-			<DirectorySize>Könyvtár méret: %1</DirectorySize>
-			<WritingISOFile>ISO fájl írása...</WritingISOFile>
-			<SkippingBigFile>'%1' fájl kihagyása, mivel nagyobb mint 4 GB</SkippingBigFile>
-			<SkippingFile>'%1' fájl kihagyása.</SkippingFile>
-			<BigFileWarning>A(z) '%1' fájl nagyobb mint 4 GB és nem látható a ISO 9660 fájlrendszerben.</BigFileWarning>
-			<NestedDirectoriesLimitWarning>A könyvtárszerkezet mélyebb %1 szintnél, Néhány fájl és mappa ki lesz hagyva.</NestedDirectoriesLimitWarning>
-			<UnableToOpenFile>Nem lehet megnyitni a(z) '%1' fájlt olvasásra.</UnableToOpenFile>
-			<NoExistingFolder>A(z) %1 mappa nem létezik</NoExistingFolder>
-			<failedToCreateISOImage>Failed to create an ISO image</failedToCreateISOImage>
-		</FolderToISO>
-		<UniversalConverter>
-			<AudioCDWarning>A(z) %1 egy Audió CD képfájl. Az ISO képfájlba konvertálás nem lehetséges. Az összes hangsávot kimentheti egy mappába.</AudioCDWarning>
-			<NotValidImage>Hiba: Ez nem érvényes CD/DVD képfájl</NotValidImage>
-			<CannotFindSignature>Hiba: nem található az ISO_9660 szignatúra, elérte az 5 MB-os korlátot</CannotFindSignature>
-			<MultiSessionImageDetected>Többmenetes lemezkép észlelve</MultiSessionImageDetected>
-			<MultiSessionNotSupported>A lemezkép egy többmenetes képfájl. Az ilyen képállományok nem támogatottak.</MultiSessionNotSupported>
-		</UniversalConverter>
-		<NrgConverter>
-			<NrgParsingError>NRG elemzési hiba. Segítségért forduljon a támogatási szolgálathoz.</NrgParsingError>
-			<NoSessionsFound>Nem észlelhető NRG menet. Segítségért forduljon a támogatási szolgálathoz.</NoSessionsFound>
-		</NrgConverter>
-		<ExtractISO>
-			<LoadingImage>Képfájl betöltése...</LoadingImage>
-			<ChooseISOFS>Ez az ISO képfájl több fájlrendszert tartalmaz. Kérjük, válassza ki a megfelelőt a kibontáshoz:</ChooseISOFS>
-			<ChooseISOFSCaption>Fájlrendszer választás</ChooseISOFSCaption>
-			<ImageFound>%1 képfájl találat</ImageFound>
-			<InvalidISO>A fájl nem érvényes ISO képfájl vagy jelenleg nem támogatott</InvalidISO>
-		</ExtractISO>
-		<UIFConverter>
-			<UsingZlib>zlib kicsomagolási mód használata</UsingZlib>
-			<UsingLZMA>Igor Pavlov által készített Lzma kitömörítés használata</UsingLZMA>
-			<MixedImageFound>Kevert módú %1 képfájl típus találat, kicsomagolása egy ideiglenes fájlba...</MixedImageFound>
-			<UnpackingImage>Képfájl kibontása...</UnpackingImage>
-		</UIFConverter>
-		<DebExtract>
-			<NotValidDeb>A fájl nem érvényes Debian (Ubuntu) Linux archívum</NotValidDeb>
-		</DebExtract>
-		<RpmExtract>
-			<PackageOpened>%1 csomag megnyitva</PackageOpened>
-			<DecompressingPayload>%1 kicsomagolása egy ideiglenes fájlba...</DecompressingPayload>
-			<UnpackingArchive>Archívum kicsomagolása...</UnpackingArchive>
-		</RpmExtract>
-		<DMG>
-			<ConvertingDmgToISO>DMG konvertálása HFS+ ISO képfájlba...</ConvertingDmgToISO>
-			<Writing>%1 írása...</Writing>
-			<ExtractingMainPartition>A fő DMG partíció kibontása egy ideiglenes fájlba, hosszabb időt vehet igénybe - kis türelmet kérünk...</ExtractingMainPartition>
-			<NoVolumeFound>Nincs kötet találat, HFS+ fájlrendszer keresése...</NoVolumeFound>
-			<ExtractingVolume>DMG kötet kicsomagolás (%1)...</ExtractingVolume>
-			<CorruptedOrPasswordProtected>Hiba: sérült vagy jelszóvédett DMG képfájl</CorruptedOrPasswordProtected>
-			<XarArchiveDetected>A DMG fájl valójában egy XAR archívum (általában tényleges a DMG fájl belsejében), amely csak kicsomagolható. Kérjük, válassza a kicsomagolási műveletet a folytatáshoz.</XarArchiveDetected>
-			<openedAsMessage>The file is opened as %1</openedAsMessage>
-			<DmgDisk>DMG disk image</DmgDisk>
-			<GPTDisk>GPT disk</GPTDisk>
-			<MBRDisk>Apple disk</MBRDisk>
-			<HFSVolume>HFS+ volume</HFSVolume>
-			<readingFileSystem>Reading %1 file system...</readingFileSystem>
-			<messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
-			<messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
-		</DMG>
-		<PDIConverter>
-			<InvalidOrBrokenImage>Érvénytelen vagy sérült InstantCopy PDI képfájl</InvalidOrBrokenImage>
-		</PDIConverter>
-		<ISZConverter>
-			<CompressionNone>Tömörítési mód: nincs</CompressionNone>
-			<WarningPassword>Egy érvénytelen jelszó megadása, érvénytelen kimeneti állományt eredményez</WarningPassword>
-			<ImageIsSegmented>Az ISZ fájl el van különítve</ImageIsSegmented>
-		</ISZConverter>
-		<ArchiveConverter>
-			<ReadingArchive>Archívum olvasása...</ReadingArchive>
-			<RemovingTempFiles>Ideiglenes fájlok eltávolítása...</RemovingTempFiles>
-			<ExtractError>%1 kicsomagolási hiba: %2</ExtractError>
-		</ArchiveConverter>
-		<TarUnpacker>
-			<SinglePackedFileFound>Egy csomagolt fájl észlelhető: %1, kicsomagolás...</SinglePackedFileFound>
-		</TarUnpacker>
-		<XarUnpacker>
-			<ReadingTOC>Tartalomjegyzék olvasása (%1 bájt)...</ReadingTOC>
-			<NestedArchiveFound>A(z) '%1' kicsomagolt fájl kibontható külön %2 archívumként (a kiterjesztés hozzáfűzése manuálisan)</NestedArchiveFound>
-		</XarUnpacker>
-	</StatusMessages>
-	<Misc>
-		<buttonOk>OK</buttonOk>
-		<buttonCancel>Mégse</buttonCancel>
-		<buttonClose>Bezárás</buttonClose>
-		<buttonYes>Yes</buttonYes>
-		<buttonNo>No</buttonNo>
-		<ProVersion>Pro verzió</ProVersion>
-		<LiteVersion>Lite verzió</LiteVersion>
-	</Misc>
-	<ShellExtension>
-		<!-- This section describes Windows context menus -->
-		<ConvertToISO>Konvertálás: "%s"</ConvertToISO>
-		<ConvertToISOInfo>Lemezkép konvertálása ISO formátumba</ConvertToISOInfo>
-		<Extract>Kiemelés: "%s"</Extract>
-		<ExtractInfo>Lemezképfájl adatok kinyerése</ExtractInfo>
-		<CreateISOFromFolder>"%s" létrehozása</CreateISOFromFolder>
-		<CreateISOFromFolderInfo>ISO képfájl készítés erről a mappáról alapértelmezett opciókkal</CreateISOFromFolderInfo>
-		<CreateISOFromFolderWithOptions>"%s" létrehozása opciókkal...</CreateISOFromFolderWithOptions>
-		<CreateISOFromFolderWithOptionsInfo>ISO képfájl készítés erről a mappáról, fájlrendszer beállítások és kötetcímke megadásával</CreateISOFromFolderWithOptionsInfo>
-		<CreateISOFromDisk>ISO képfájl készítés a lemezről</CreateISOFromDisk>
-		<CreateISOFromDiskInfo>ISO képfájl készítés egy kiválasztott optikai lemezről</CreateISOFromDiskInfo>
-		<CreateBINCUEFromDisk>A jelenlegi lemez BIN/CUE képállományának létrehozása</CreateBINCUEFromDisk>
-		<CreateBINCUEFromDiskInfo>Egy kijelölt optikai lemez és annak megfelelő CUE stíluslap fájl BIN (raw) lemezképének létrehozása</CreateBINCUEFromDiskInfo>
-	</ShellExtension>
-	<core>
-		<UpdateChecker>
-			<ReleasedOn>Kiadás dátuma: %1</ReleasedOn>
-			<CheckForUpdates>Frissítések keresése...</CheckForUpdates>
-			<NewVersionAvailable>Új %1 verzió érhető el!</NewVersionAvailable>
-			<NewVersionAvailableText>Elérhető verzió: %1 %2 - jelenleg telepített: %3. Letölti most?</NewVersionAvailableText>
-			<UpdateAlertTitle>Szoftverfrissítés</UpdateAlertTitle>
-			<UpdateAlertReleaseNotes>Kiadási jegyzék:</UpdateAlertReleaseNotes>
-			<UpdateAlertRemindLater>Emlékeztessen később</UpdateAlertRemindLater>
-			<UpdateAlertSkip>Ez a verzió kihagyása</UpdateAlertSkip>
-			<UpdateAlertInstall>Frissítés telepítése</UpdateAlertInstall>
-			<UpdateAlertAutomaticUpdates>Frissítések automatikus ellenőrzése</UpdateAlertAutomaticUpdates>
-			<MessageNoUpdateAvailable>Jelenleg naprakész!</MessageNoUpdateAvailable>
-			<MessageNoUpdateAvailableDescription>%1 %2 jelenleg a legújabb verzió.</MessageNoUpdateAvailableDescription>
-			<MessageErrorConnect>Hiba történt a frissítés letöltése közben. Kérjük, próbálkozzon később.</MessageErrorConnect>
-			<MessageErrorParse>Hiba történt a frissítési hírcsatorna elemzése közben.</MessageErrorParse>
-			<UpdateProgressTitle>%1 frissítése</UpdateProgressTitle>
-			<UpdateProgressCancel>Mégse</UpdateProgressCancel>
-			<UpdateProgressInstallAndRelaunch>Telepítés és újraindítás</UpdateProgressInstallAndRelaunch>
-			<UpdateProgressStatusDownloading>Frissítés letöltése...</UpdateProgressStatusDownloading>
-			<UpdateProgressExtract>Frissítés kibontása...</UpdateProgressExtract>
-			<UpdateProgressStatusReady>Telepítésre kész</UpdateProgressStatusReady>
-			<UpdateProgressSize>%1 - %2</UpdateProgressSize>
-			<UpdateProgressB>B</UpdateProgressB>
-			<UpdateProgressKB>KB</UpdateProgressKB>
-			<UpdateProgressMB>MB</UpdateProgressMB>
-			<UpdateProgressGB>GB</UpdateProgressGB>
-		</UpdateChecker>
-		<LetsMoveMac>
-			<kStrMoveApplicationCouldNotMove>Nem sikerült áthelyezni az Alkalmazások mappába</kStrMoveApplicationCouldNotMove>
-			<kStrMoveApplicationQuestionTitle>Áthelyezés az Alkalmazások mappába?</kStrMoveApplicationQuestionTitle>
-			<kStrMoveApplicationQuestionTitleHome>Áthelyezés a Saját mappa Alkalmazások mappájába?</kStrMoveApplicationQuestionTitleHome>
-			<kStrMoveApplicationQuestionMessage>Ha szeretné, %1 tudom helyezni magamat az Alkalmazások mappába.</kStrMoveApplicationQuestionMessage>
-			<kStrMoveApplicationButtonMove>Áthelyezés az Alkalmazások mappába</kStrMoveApplicationButtonMove>
-			<kStrMoveApplicationButtonDoNotMove>Nincs áthelyezés</kStrMoveApplicationButtonDoNotMove>
-			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Vegye figyelembe, hogy ehhez rendszergazdai jelszó szükséges.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-			<kStrMoveApplicationQuestionInfoInDownloadsFolder>Így a Letöltések mappa rendezettebbé válik.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-		</LetsMoveMac>
-		<QLineEditEx>
-			<actionUndo>Undo</actionUndo>
-			<actionRedo>Redo</actionRedo>
-			<actionCut>Cut</actionCut>
-			<actionCopy>Copy</actionCopy>
-			<actionPaste>Paste</actionPaste>
-			<actionDelete>Delete</actionDelete>
-			<actionSelectAll>Select All</actionSelectAll>
-		</QLineEditEx>
-		<QMessageBoxEx>
-			<buttonOK>OK</buttonOK>
-			<buttonCancel>Cancel</buttonCancel>
-			<buttonClose>Close</buttonClose>
-			<buttonYes>Yes</buttonYes>
-			<buttonNo>No</buttonNo>
-		</QMessageBoxEx>
-	</core>
+    <MainWindow>
+        <mnuFile>Fájl</mnuFile>
+        <mnuFileExit>Kilépés</mnuFileExit>
+        <mnuHelp>Súgó</mnuHelp>
+        <mnuHelpDocumentation>Dokumentáció...</mnuHelpDocumentation>
+        <mnuHelpPurchase>Pro verzió megvásárlása...</mnuHelpPurchase>
+        <mnuHelpEnterCode>Regisztrációs kód megadása...</mnuHelpEnterCode>
+        <mnuHelpAbout>Névjegy...</mnuHelpAbout>
+        <mnuHomePage>AnyToISO weboldal...</mnuHomePage>
+        <menuPreferences>Beállítások...</menuPreferences>
+        <newVersionAvailable>Új AnyToISO %1 verzió érhető el!</newVersionAvailable>
+        <newVersionUpdate>Frissítés</newVersionUpdate>
+        <buttonStop>Leállítás</buttonStop>
+        <tabConvertExtract>
+            <Name>Fájl kibontás/ISO konvertálás</Name>
+            <SourceFileName>Forráskép/archív fájl:</SourceFileName>
+            <ConvertToISO>Konvertálás ISO képfájlba:</ConvertToISO>
+            <ExtractToFolder>Kicsomagolás mappába:</ExtractToFolder>
+            <buttonOpenImage>Képfájl megnyitása...</buttonOpenImage>
+            <buttonOpenImageText>CD/DVD képfájl megnyitása</buttonOpenImageText>
+            <AllSupportedFiles>Az összes támogatott fájl</AllSupportedFiles>
+            <buttonOpenISO>ISO megnyitása...</buttonOpenISO>
+            <buttonOpenISOText>Forrás ISO fájl kiválasztása</buttonOpenISOText>
+            <buttonOpenISOFilter>ISO fájlok (*.iso)</buttonOpenISOFilter>
+            <buttonOpenFolder>Mappa kiválasztása...</buttonOpenFolder>
+            <buttonOpenFolderText>Célmappa megnyitása</buttonOpenFolderText>
+            <buttonConvert>Konvertálás!</buttonConvert>
+            <buttonExtract>Kibontás!</buttonExtract>
+            <labelFileSize>Fájlméret</labelFileSize>
+            <labelFileFormat>Formátum</labelFileFormat>
+            <labelOpenOrDragFile>&lt;b&gt;Nyissa meg&lt;/b&gt; vagy &lt;b&gt;húzza ide&lt;/b&gt; a fájlt a konvertáláshoz vagy kibontáshoz</labelOpenOrDragFile>
+        </tabConvertExtract>
+        <tabDiskToISO>
+            <Name>CD/DVD lemez ISO képfájlba</Name>
+            <SourceDrive>Forrásmeghajtó:</SourceDrive>
+            <OutputISO>Cél képfájl:</OutputISO>
+            <checkCreateBinCue>BIN/CUE képfájl készítés</checkCreateBinCue>
+            <buttonRefresh>Frissítés</buttonRefresh>
+            <buttonBrowseISO>Tallózás...</buttonBrowseISO>
+            <NoDiskInserted>Nincs CD/DVD lemez behelyezve</NoDiskInserted>
+            <buttonMakeISO>ISO készítés</buttonMakeISO>
+            <buttonMakeBinCue>BIN/CUE képfájl készítés</buttonMakeBinCue>
+            <chooseISOOrBinCueImage>Kérjük válasszon ISO vagy BIN/CUE képfájlt</chooseISOOrBinCueImage>
+            <isoFilesFilter>ISO fájlok</isoFilesFilter>
+            <binCueSheetFilter>BIN fájlok (CUE sheet-el)</binCueSheetFilter>
+        </tabDiskToISO>
+        <tabFolderToISO>
+            <Name>Mappa ISO képfájlba</Name>
+            <SourceFolder>Forrásmappa:</SourceFolder>
+            <DestinationISO>Cél ISO fájl:</DestinationISO>
+            <VolumeLabel>Kötetcímke:</VolumeLabel>
+            <buttonBrowseForFolder>Mappa keresése...</buttonBrowseForFolder>
+            <buttonChooseISO>ISO kiválasztása...</buttonChooseISO>
+            <buttonOptions>Opciók...</buttonOptions>
+            <buttonMakeISO>ISO készítés</buttonMakeISO>
+            <ISOCreationOptions>ISO készítési opciók</ISOCreationOptions>
+            <Settings>Beállítások</Settings>
+            <FileSystemsInsideISO>Fájlrendszerek:</FileSystemsInsideISO>
+            <buttonDefault>Alapértelmezett</buttonDefault>
+            <ISO9660Option1>8.3 DOS fájlnevek (11)</ISO9660Option1>
+            <ISO9660Option2>Hosszabb nevek (180)</ISO9660Option2>
+            <ISO9660Option3>ISO 9660:1999</ISO9660Option3>
+            <JolietOption1>Standard nevek (64)</JolietOption1>
+            <JolietOption2>Hosszú nevek (110)</JolietOption2>
+        </tabFolderToISO>
+    </MainWindow>
+    <LiteVersionDialog>
+        <LiteVersionLimitText>Az AnyToISO lite verziója csak &lt;b&gt;CD képfájlokkal működik&lt;/b&gt; (870 MB). A nagyobb fájlok használatához (DVD vagy nagyobb) a &lt;a href="purchase"&gt;Professional verzió megvásárlása&lt;/a&gt; szükséges. A regisztrációs kódot a &lt;a href="unlock"&gt;szoftver feloldásához&lt;/a&gt; a vásárlás után kapja kézhez.</LiteVersionLimitText>
+        <buttonPurchasePro>Pro verzió megvásárlása</buttonPurchasePro>
+    </LiteVersionDialog>
+    <EnterKeyDialog>
+        <Caption>Regisztrációs kód megadása</Caption>
+        <EnterKeyToUpgradeText>Kérjük, adja meg a regisztrációs adatokat az AnyToISO Pro verzióra frissítéshez.</EnterKeyToUpgradeText>
+        <RegName>Regisztrációs név:</RegName>
+        <RegCode>Regisztrációs kód:</RegCode>
+    </EnterKeyDialog>
+    <AboutDialog>
+        <Caption>Az AnyToISO névjegye</Caption>
+        <Website>Weboldal:</Website>
+        <Support>Támogatás:</Support>
+        <RunningAs>A program futtatási módja:</RunningAs>
+        <CopyRight>Ezt a számítógépes programot szerzői jogi törvények és nemzetközi jogszabályok védik. A programnak vagy bármely részének engedély nélküli sokszorosítása és/vagy forgalmazása, szigorú polgári vagy büntetőjogi következményeket vonhat maga után.</CopyRight>
+        <buttonPurchasePro>Pro verzió megvásárlása...</buttonPurchasePro>
+    </AboutDialog>
+    <PreferencesDialog>
+        <Caption>Beállítások</Caption>
+        <PreferencesGeneral>General</PreferencesGeneral>
+        <PreferencesUpdates>Updates</PreferencesUpdates>
+        <Language>Felhasználói felület nyelve:</Language>
+        <CheckForNewVersions>Új verzió ellenőrzése indításkor</CheckForNewVersions>
+        <ShellExtension>Beépítés a Windows Intéző helyi menüjébe</ShellExtension>
+        <ShellExtensionInfo>Szövegkörnyezeti menük hozzáadása az optikai meghajtók, mappák és támogatott fájl formátumok számára.</ShellExtensionInfo>
+    </PreferencesDialog>
+    <PasswordDialog>
+        <Caption>Jelszó szükséges</Caption>
+        <FileIsProtected>A fájl kódolt. Kérjük, adja meg a megfelelő jelszót:</FileIsProtected>
+        <InvalidPassword>Érvénytelen jelszó lett megadva</InvalidPassword>
+    </PasswordDialog>
+    <Messages>
+        <Warning>Figyelem</Warning>
+        <Question>Kérdés</Question>
+        <NotEnoughDiskSpace>Nincs elegendő szabad lemezterület (csak %1) a kiválasztott meghajtón. \n\nFolytatja a műveletet?</NotEnoughDiskSpace>
+        <ISOAlreadyExists>A(z)\n%1\ncélfájl már létezik. Felülírja?</ISOAlreadyExists>
+        <FolderAlreadyExists>A(z)\n%1\ncélmappa már létezik. Felülírja az összes létező fájlt ugyanazzal a névvel?</FolderAlreadyExists>
+        <RestartProgram>A regisztráció befejezéséhez, újra kell indítania a programot. \n\nÚjraindítja most?</RestartProgram>
+        <CancelOperation>Valóban megszakítja az aktuális folyamatot?</CancelOperation>
+    </Messages>
+    <StatusMessages>
+        <CheckingSourceImage>Forráskép ellenőrzése...</CheckingSourceImage>
+        <Converting>Konvertálás...</Converting>
+        <Extracting>Tartalom kiemelése...</Extracting>
+        <ExtractionFailed>A kibontási művelet sikertelen volt</ExtractionFailed>
+        <Unpacking>Kicsomagolás...</Unpacking>
+        <ConvertingToTemporaryISO>Konvertálás egy ideiglenes ISO fájlba...</ConvertingToTemporaryISO>
+        <ProgressBytesWritten>%1 írása</ProgressBytesWritten>
+        <Track>Sáv</Track>
+        <ISOImageTypeFound>ISO képfájl (típus: %1) találat</ISOImageTypeFound>
+        <CannotOpenSourceFile>Nem lehet megnyitni a forrásfájlt</CannotOpenSourceFile>
+        <CannotOpenDestFile>Nem lehet megnyitni a célfájlt, ellenőrizze a fájl nevét és a hozzáférési jogokat</CannotOpenDestFile>
+        <OperationTerminated>A műveletet a felhasználó leállította.</OperationTerminated>
+        <OperationCompleted>A művelet befejeződött.</OperationCompleted>
+        <ClickToOpenISOInExplorer>Kattintson &lt;a href="_open_local_file"&gt;ide&lt;/a&gt; a cél ISO fájlt tartalmazó mappa megnyitásához</ClickToOpenISOInExplorer>
+        <ClickToMountISOInFinder>Kattintson &lt;a href="_open_local_file"&gt;ide&lt;/a&gt; az ISO csatolásához</ClickToMountISOInFinder>
+        <ClickToOpenOutFolder>Kattintson &lt;a href="_open_local_file"&gt;ide&lt;/a&gt; a fájlt tartalmazó mappa megnyitásához</ClickToOpenOutFolder>
+        <DiskToISO>
+            <OpeningDevice>Médiaeszköz megnyitása folyamatban. Kis türelmet...</OpeningDevice>
+            <TotalDataSize>Teljes adatméret: %1</TotalDataSize>
+            <CreatingISO>ISO készítés...</CreatingISO>
+            <CannotCreateFromAudio>Nem hozhat létre ISO képfájl egy többmenetes vagy audió lemezről. Segítségért, forduljon a támogatási csoporthoz.</CannotCreateFromAudio>
+            <PleaseUseBinCue>Ilyen lemeznél használja a BIN/CUE képet</PleaseUseBinCue>
+            <BlankDiskDetected>Üres CD/DVD lemez lett behelyezve</BlankDiskDetected>
+            <DiskNotReady>A CD/DVD lemez nem áll készen</DiskNotReady>
+            <CannotOpenDevice>Az eszköz nem nyitható meg (%1)</CannotOpenDevice>
+            <ReadError>%1 olvasási hiba. Segítségért, lépjen kapcsolatba a támogatási csapattal</ReadError>
+            <DeviceIsCopyProtected>Ez az eszköz másolásvédett és szektora kódolva van. Nem folytatható.</DeviceIsCopyProtected>
+            <ISOCreationFailed>Az ISO készítés sikertelen</ISOCreationFailed>
+            <BinCueCreationFailed>A BIN/CUE képfájl készítés sikertelen</BinCueCreationFailed>
+            <CannotReadDiskToc>A lemez TOC (tartalomjegyzék) nem olvasható</CannotReadDiskToc>
+            <CannotReadDisk>A lemez nem olvasható, hiba: %1</CannotReadDisk>
+            <DiskNotPresent>A lemez nincs jelen vagy ismeretlen média típus</DiskNotPresent>
+            <NoTracksOnDisk>Nincsenek sávok a lemezen, valószínűleg üres</NoTracksOnDisk>
+            <mediaType>Média típus: %1</mediaType>
+            <TrackLength>A sáv %1 szektor hosszúságú</TrackLength>
+            <TracksCount>Sávok száma: %1</TracksCount>
+            <WritingTrack>%1 sáv írása, a sáv %2 szektor hosszúságú</WritingTrack>
+            <DiskReadingStopped>Olvasás leállítva a(z) %1 pozíciónál</DiskReadingStopped>
+            <TrackReadingStopped>Olvasás leállítva a(z) %1 pozíciónál, folytatás a következő sávnál</TrackReadingStopped>
+        </DiskToISO>
+        <FolderToISO>
+            <ScanningFolder>Forráskönyvtár keresése...</ScanningFolder>
+            <DirectorySize>Könyvtár méret: %1</DirectorySize>
+            <WritingISOFile>ISO fájl írása...</WritingISOFile>
+            <SkippingBigFile>'%1' fájl kihagyása, mivel nagyobb mint 4 GB</SkippingBigFile>
+            <SkippingFile>'%1' fájl kihagyása.</SkippingFile>
+            <BigFileWarning>A(z) '%1' fájl nagyobb mint 4 GB és nem látható a ISO 9660 fájlrendszerben.</BigFileWarning>
+            <NestedDirectoriesLimitWarning>A könyvtárszerkezet mélyebb %1 szintnél, Néhány fájl és mappa ki lesz hagyva.</NestedDirectoriesLimitWarning>
+            <UnableToOpenFile>Nem lehet megnyitni a(z) '%1' fájlt olvasásra.</UnableToOpenFile>
+            <NoExistingFolder>A(z) %1 mappa nem létezik</NoExistingFolder>
+            <failedToCreateISOImage>Nem sikerült létrehozni ISO-lemezképet</failedToCreateISOImage>
+        </FolderToISO>
+        <UniversalConverter>
+            <AudioCDWarning>A(z) %1 egy Audió CD képfájl. Az ISO képfájlba konvertálás nem lehetséges. Az összes hangsávot kimentheti egy mappába.</AudioCDWarning>
+            <NotValidImage>Hiba: Ez nem érvényes CD/DVD képfájl</NotValidImage>
+            <CannotFindSignature>Hiba: nem található az ISO_9660 szignatúra, elérte az 5 MB-os korlátot</CannotFindSignature>
+            <MultiSessionImageDetected>Többmenetes lemezkép észlelve</MultiSessionImageDetected>
+            <MultiSessionNotSupported>A lemezkép egy többmenetes képfájl. Az ilyen képállományok nem támogatottak.</MultiSessionNotSupported>
+        </UniversalConverter>
+        <NrgConverter>
+            <NrgParsingError>NRG elemzési hiba. Segítségért forduljon a támogatási szolgálathoz.</NrgParsingError>
+            <NoSessionsFound>Nem észlelhető NRG menet. Segítségért forduljon a támogatási szolgálathoz.</NoSessionsFound>
+        </NrgConverter>
+        <ExtractISO>
+            <LoadingImage>Képfájl betöltése...</LoadingImage>
+            <ChooseISOFS>Ez az ISO képfájl több fájlrendszert tartalmaz. Kérjük, válassza ki a megfelelőt a kibontáshoz:</ChooseISOFS>
+            <ChooseISOFSCaption>Fájlrendszer választás</ChooseISOFSCaption>
+            <ImageFound>%1 képfájl találat</ImageFound>
+            <InvalidISO>A fájl nem érvényes ISO képfájl vagy jelenleg nem támogatott</InvalidISO>
+        </ExtractISO>
+        <UIFConverter>
+            <UsingZlib>zlib kicsomagolási mód használata</UsingZlib>
+            <UsingLZMA>Igor Pavlov által készített Lzma kitömörítés használata</UsingLZMA>
+            <MixedImageFound>Kevert módú %1 képfájl típus találat, kicsomagolása egy ideiglenes fájlba...</MixedImageFound>
+            <UnpackingImage>Képfájl kibontása...</UnpackingImage>
+        </UIFConverter>
+        <DebExtract>
+            <NotValidDeb>A fájl nem érvényes Debian (Ubuntu) Linux archívum</NotValidDeb>
+        </DebExtract>
+        <RpmExtract>
+            <PackageOpened>%1 csomag megnyitva</PackageOpened>
+            <DecompressingPayload>%1 kicsomagolása egy ideiglenes fájlba...</DecompressingPayload>
+            <UnpackingArchive>Archívum kicsomagolása...</UnpackingArchive>
+        </RpmExtract>
+        <DMG>
+            <ConvertingDmgToISO>DMG konvertálása HFS+ ISO képfájlba...</ConvertingDmgToISO>
+            <Writing>%1 partíció írása...</Writing>
+            <ExtractingMainPartition>A fő DMG partíció kibontása egy ideiglenes fájlba, hosszabb időt vehet igénybe - kis türelmet kérünk...</ExtractingMainPartition>
+            <NoVolumeFound>Nincs kötet találat, HFS+ fájlrendszer keresése...</NoVolumeFound>
+            <ExtractingVolume>DMG kötet kicsomagolás (%1)...</ExtractingVolume>
+            <CorruptedOrPasswordProtected>Hiba: sérült vagy jelszóvédett DMG képfájl</CorruptedOrPasswordProtected>
+            <XarArchiveDetected>A DMG fájl valójában egy XAR archívum (általában tényleges a DMG fájl belsejében), amely csak kicsomagolható. Kérjük, válassza a kicsomagolási műveletet a folytatáshoz.</XarArchiveDetected>
+            <openedAsMessage>A fájl megnyitva, mint %1</openedAsMessage>
+            <DmgDisk>DMG lemezkép</DmgDisk>
+            <GPTDisk>GPT lemez</GPTDisk>
+            <MBRDisk>Apple lemez</MBRDisk>
+            <HFSVolume>HFS+ kötet</HFSVolume>
+            <readingFileSystem>%1 fájlrendszer olvasása...</readingFileSystem>
+            <messageMultiplePartitions>A DMG képen belül több partíció van, kérjük, válasszon egyet a kibontáshoz:</messageMultiplePartitions>
+            <messageMultiplePartitionsTitle>Válasszon ki egy partíciót</messageMultiplePartitionsTitle>
+        </DMG>
+        <PDIConverter>
+            <InvalidOrBrokenImage>Érvénytelen vagy sérült InstantCopy PDI képfájl</InvalidOrBrokenImage>
+        </PDIConverter>
+        <ISZConverter>
+            <CompressionNone>Tömörítési mód: nincs</CompressionNone>
+            <WarningPassword>Egy érvénytelen jelszó megadása, érvénytelen kimeneti állományt eredményez</WarningPassword>
+            <ImageIsSegmented>Az ISZ fájl el van különítve</ImageIsSegmented>
+        </ISZConverter>
+        <ArchiveConverter>
+            <ReadingArchive>Archívum olvasása...</ReadingArchive>
+            <RemovingTempFiles>Ideiglenes fájlok eltávolítása...</RemovingTempFiles>
+            <ExtractError>%1 kicsomagolási hiba: %2</ExtractError>
+        </ArchiveConverter>
+        <TarUnpacker>
+            <SinglePackedFileFound>Egy csomagolt fájl észlelhető: %1, kicsomagolás...</SinglePackedFileFound>
+        </TarUnpacker>
+        <XarUnpacker>
+            <ReadingTOC>Tartalomjegyzék olvasása (%1 bájt)...</ReadingTOC>
+            <NestedArchiveFound>A(z) '%1' kicsomagolt fájl kibontható külön %2 archívumként (a kiterjesztés hozzáfűzése manuálisan)</NestedArchiveFound>
+        </XarUnpacker>
+    </StatusMessages>
+    <Misc>
+        <buttonOk>OK</buttonOk>
+        <buttonCancel>Mégse</buttonCancel>
+        <buttonClose>Bezárás</buttonClose>
+        <buttonYes>Igen</buttonYes>
+        <buttonNo>Nem</buttonNo>
+        <ProVersion>Pro verzió</ProVersion>
+        <LiteVersion>Lite verzió</LiteVersion>
+    </Misc>
+    <ShellExtension>
+        <!-- This section describes Windows context menus -->
+        <ConvertToISO>Konvertálás: "%s"</ConvertToISO>
+        <ConvertToISOInfo>Lemezkép konvertálása ISO formátumba</ConvertToISOInfo>
+        <Extract>Kiemelés: "%s"</Extract>
+        <ExtractInfo>Lemezképfájl adatok kinyerése</ExtractInfo>
+        <CreateISOFromFolder>"%s" létrehozása</CreateISOFromFolder>
+        <CreateISOFromFolderInfo>ISO képfájl készítés erről a mappáról alapértelmezett opciókkal</CreateISOFromFolderInfo>
+        <CreateISOFromFolderWithOptions>"%s" létrehozása opciókkal...</CreateISOFromFolderWithOptions>
+        <CreateISOFromFolderWithOptionsInfo>ISO képfájl készítés erről a mappáról, fájlrendszer beállítások és kötetcímke megadásával</CreateISOFromFolderWithOptionsInfo>
+        <CreateISOFromDisk>ISO képfájl készítés a lemezről</CreateISOFromDisk>
+        <CreateISOFromDiskInfo>ISO képfájl készítés egy kiválasztott optikai lemezről</CreateISOFromDiskInfo>
+        <CreateBINCUEFromDisk>A jelenlegi lemez BIN/CUE képállományának létrehozása</CreateBINCUEFromDisk>
+        <CreateBINCUEFromDiskInfo>Egy kijelölt optikai lemez és annak megfelelő CUE stíluslap fájl BIN (raw) lemezképének létrehozása</CreateBINCUEFromDiskInfo>
+    </ShellExtension>
+    <core>
+        <UpdateChecker>
+            <ReleasedOn>Kiadás dátuma: %1</ReleasedOn>
+            <CheckForUpdates>Frissítések keresése...</CheckForUpdates>
+            <NewVersionAvailable>Új %1 verzió érhető el!</NewVersionAvailable>
+            <NewVersionAvailableText>Elérhető verzió: %1 %2 - jelenleg telepített: %3. Letölti most?</NewVersionAvailableText>
+            <UpdateAlertTitle>Szoftverfrissítés</UpdateAlertTitle>
+            <UpdateAlertReleaseNotes>Kiadási jegyzék:</UpdateAlertReleaseNotes>
+            <UpdateAlertRemindLater>Emlékeztessen később</UpdateAlertRemindLater>
+            <UpdateAlertSkip>Ez a verzió kihagyása</UpdateAlertSkip>
+            <UpdateAlertInstall>Frissítés telepítése</UpdateAlertInstall>
+            <UpdateAlertAutomaticUpdates>Frissítések automatikus ellenőrzése</UpdateAlertAutomaticUpdates>
+            <MessageNoUpdateAvailable>Jelenleg naprakész!</MessageNoUpdateAvailable>
+            <MessageNoUpdateAvailableDescription>%1 %2 jelenleg a legújabb verzió.</MessageNoUpdateAvailableDescription>
+            <MessageErrorConnect>Hiba történt a frissítés letöltése közben. Kérjük, próbálkozzon később.</MessageErrorConnect>
+            <MessageErrorParse>Hiba történt a frissítési hírcsatorna elemzése közben.</MessageErrorParse>
+            <UpdateProgressTitle>%1 frissítése</UpdateProgressTitle>
+            <UpdateProgressCancel>Mégse</UpdateProgressCancel>
+            <UpdateProgressInstallAndRelaunch>Telepítés és újraindítás</UpdateProgressInstallAndRelaunch>
+            <UpdateProgressStatusDownloading>Frissítés letöltése...</UpdateProgressStatusDownloading>
+            <UpdateProgressExtract>Frissítés kibontása...</UpdateProgressExtract>
+            <UpdateProgressStatusReady>Telepítésre kész</UpdateProgressStatusReady>
+            <UpdateProgressSize>%1 - %2</UpdateProgressSize>
+            <UpdateProgressB>B</UpdateProgressB>
+            <UpdateProgressKB>KB</UpdateProgressKB>
+            <UpdateProgressMB>MB</UpdateProgressMB>
+            <UpdateProgressGB>GB</UpdateProgressGB>
+        </UpdateChecker>
+        <LetsMoveMac>
+            <kStrMoveApplicationCouldNotMove>Nem sikerült áthelyezni az alkalmazások mappába</kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>Áthelyezés az alkalmazásokba</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>Áthelyezi az alkalmazások mappába a saját mappában?</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>Szeretné, hogy a(z) %1 áthelyezze magát az alkalmazások mappába?</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationButtonMove>Áthelyezés az alkalmazások mappába</kStrMoveApplicationButtonMove>
+            <kStrMoveApplicationButtonDoNotMove>Ne helyezze át</kStrMoveApplicationButtonDoNotMove>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>Ne feledje, hogy ehhez rendszergazdai jelszó szükséges.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>Ez megőrzi a Letöltések mappa rendezettségét.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+        </LetsMoveMac>
+        <QLineEditEx>
+            <actionUndo>Visszavonás</actionUndo>
+            <actionRedo>Végrehajtás megismétlése</actionRedo>
+            <actionCut>Kivágás</actionCut>
+            <actionCopy>Másolás</actionCopy>
+            <actionPaste>Beillesztés</actionPaste>
+            <actionDelete>Törlés</actionDelete>
+            <actionSelectAll>Összes kijelölése</actionSelectAll>
+        </QLineEditEx>
+        <QMessageBoxEx>
+            <buttonOK>OK</buttonOK>
+            <buttonCancel>Mégse</buttonCancel>
+            <buttonClose>Bezárás</buttonClose>
+            <buttonYes>Igen</buttonYes>
+            <buttonNo>Nem</buttonNo>
+        </QMessageBoxEx>
+    </core>
 </LanguageStrings>

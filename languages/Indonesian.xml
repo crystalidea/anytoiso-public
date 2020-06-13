@@ -86,6 +86,8 @@
 	</AboutDialog>
 	<PreferencesDialog>
 		<Caption>Pengaturan</Caption>
+		<PreferencesGeneral>General</PreferencesGeneral>
+		<PreferencesUpdates>Updates</PreferencesUpdates>
 		<Language>Tampilan bahasa:</Language>
 		<CheckForNewVersions>Periksa versi baru saat mulai</CheckForNewVersions>
 		<ShellExtension>Integrasi shell Windows Explorer</ShellExtension>

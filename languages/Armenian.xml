@@ -86,6 +86,8 @@
 	</AboutDialog>
 	<PreferencesDialog>
 		<Caption>Կարգավորումներ</Caption>
+		<PreferencesGeneral>General</PreferencesGeneral>
+		<PreferencesUpdates>Updates</PreferencesUpdates>
 		<Language>Լեզուն.</Language>
 		<CheckForNewVersions>Ծրագիրը բացելիս ստուգել նոր տարբերակը։</CheckForNewVersions>
 		<ShellExtension>Ինտեգրել Windows Explorer-ում</ShellExtension>

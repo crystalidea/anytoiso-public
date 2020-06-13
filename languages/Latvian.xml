@@ -1,310 +1,312 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="3.6" Author="Aleksey Popov">
-	<MainWindow>
-		<mnuFile>Failu</mnuFile>
-		<mnuFileExit>Iziet no</mnuFileExit>
-		<mnuHelp>Palīgā</mnuHelp>
-		<mnuHelpDocumentation>Dokumentācija...</mnuHelpDocumentation>
-		<mnuHelpPurchase>Iepirkuma Pro versija...</mnuHelpPurchase>
-		<mnuHelpEnterCode>Ievadiet reģistrācijas kods...</mnuHelpEnterCode>
-		<mnuHelpAbout>Par...</mnuHelpAbout>
-		<mnuHomePage>AnyToISO Mājas lapa...</mnuHomePage>
-		<menuPreferences>Preferencēm...</menuPreferences>
-		<newVersionAvailable>AnyToISO %1 ir pieejama!</newVersionAvailable>
-		<newVersionUpdate>Atjauninājums</newVersionUpdate>
-		<buttonStop>Apstājieties</buttonStop>
-		<tabConvertExtract>
-			<Name>Ekstrakts/Konvertēt ISO failu</Name>
-			<SourceFileName>Avota attēla/arhīva failu:</SourceFileName>
-			<ConvertToISO>Konvertēt ISO attēls:</ConvertToISO>
-			<ExtractToFolder>Izvērst mapi:</ExtractToFolder>
-			<buttonOpenImage>Atvērt attēlu...</buttonOpenImage>
-			<buttonOpenImageText>Kompaktdiska CD/DVD diska attēla failu atvērt</buttonOpenImageText>
-			<AllSupportedFiles>Visi atbalstītie faili, kas</AllSupportedFiles>
-			<buttonOpenISO>Atvērt ISO...</buttonOpenISO>
-			<buttonOpenISOText>Izvēlieties iegūtais ISO fails</buttonOpenISOText>
-			<buttonOpenISOFilter>ISO failus (*.iso)</buttonOpenISOFilter>
-			<buttonOpenFolder>Atlasiet mapi...</buttonOpenFolder>
-			<buttonOpenFolderText>Atveriet mērķa mape</buttonOpenFolderText>
-			<buttonConvert>Konvertēt!</buttonConvert>
-			<buttonExtract>Ekstrakts!</buttonExtract>
-			<labelFileSize>Faila lielums</labelFileSize>
-			<labelFileFormat>formāts</labelFileFormat>
-			<labelOpenOrDragFile>&lt;b&gt;Atvērt&lt;/b&gt; vai &lt;b&gt;velciet&lt;/b&gt; failu konvertēšana vai ekstrakts</labelOpenOrDragFile>
-		</tabConvertExtract>
-		<tabDiskToISO>
-			<Name>ISO CD/DVD disku</Name>
-			<SourceDrive>Pirmsākuma draivā:</SourceDrive>
-			<OutputISO>Mērķa attēla:</OutputISO>
-			<checkCreateBinCue>Izveidot attēlu BIN/CUE</checkCreateBinCue>
-			<buttonRefresh>Atsvaidzināt</buttonRefresh>
-			<buttonBrowseISO>Pārlūkot...</buttonBrowseISO>
-			<NoDiskInserted>Nav ievietots CD/DVD diskā</NoDiskInserted>
-			<buttonMakeISO>Pārliecinieties, ISO</buttonMakeISO>
-			<buttonMakeBinCue>Izveidot attēlu BIN/CUE</buttonMakeBinCue>
-			<chooseISOOrBinCueImage>Lūdzu, atlasiet attēla failu ISO vai BIN/CUE</chooseISOOrBinCueImage>
-			<isoFilesFilter>ISO failus</isoFilesFilter>
-			<binCueSheetFilter>BIN failus (ar CUE loksnes)</binCueSheetFilter>
-		</tabDiskToISO>
-		<tabFolderToISO>
-			<Name>ISO mape</Name>
-			<SourceFolder>Avota mapes:</SourceFolder>
-			<DestinationISO>ISO failu mērķa:</DestinationISO>
-			<VolumeLabel>Sējuma etiķete:</VolumeLabel>
-			<buttonBrowseForFolder>Meklēt mapi...</buttonBrowseForFolder>
-			<buttonChooseISO>Izvēlieties ISO...</buttonChooseISO>
-			<buttonOptions>Opcijas...</buttonOptions>
-			<buttonMakeISO>Pārliecinieties, ISO</buttonMakeISO>
-			<ISOCreationOptions>ISO izveides opcijas</ISOCreationOptions>
-			<Settings>Iestatījumus</Settings>
-			<FileSystemsInsideISO>Failu sistēmas:</FileSystemsInsideISO>
-			<buttonDefault>Default</buttonDefault>
-			<ISO9660Option1>8.3 DOS failu nosaukumus (11)</ISO9660Option1>
-			<ISO9660Option2>Ilgāk nosaukumus (180)</ISO9660Option2>
-			<ISO9660Option3>ISO 9660:1999</ISO9660Option3>
-			<JolietOption1>Standarta nosaukums (64)</JolietOption1>
-			<JolietOption2>Gariem nosaukumiem (110)</JolietOption2>
-		</tabFolderToISO>
-	</MainWindow>
-	<LiteVersionDialog>
-		<LiteVersionLimitText>AnyToISO Lite versiju, kas darbojas ar &lt;b&gt;CD tikai fotografēšanas&lt;/b&gt; (līdz 870 MB). Lai strādātu ar lielākiem failiem (DVD un vairāk) ir &lt;a href="purchase"&gt;Pirkšanas profesionālā versija&lt;/a&gt;. Būs jāiegūst reģistrācijas kods &lt;a href="unlock"&gt;apgūstot programmatūru&lt;/a&gt; pēc tam, kad pirkšanas.</LiteVersionLimitText>
-		<buttonPurchasePro>Pērk Pro versija...</buttonPurchasePro>
-	</LiteVersionDialog>
-	<EnterKeyDialog>
-		<Caption>Ievadiet reģistrācijas kods</Caption>
-		<EnterKeyToUpgradeText>Lūdzu, ievadiet savu reģistrācijas informāciju Pro versiju jaunināt AnyToISO.</EnterKeyToUpgradeText>
-		<RegName>Reģistrācijas vārds:</RegName>
-		<RegCode>Reģistrācijas kods:</RegCode>
-	</EnterKeyDialog>
-	<AboutDialog>
-		<Caption>Par AnyToISO</Caption>
-		<Website>Mājas lapa:</Website>
-		<Support>Atbalsts:</Support>
-		<RunningAs>Programma darbojas kā:</RunningAs>
-		<CopyRight>Šo datorprogrammu aizsargā autortiesību likums un starptautiski līgumi. Nesankcionēta pavairošana vai izplatīšana šīs programmas vai jebkuras tās daļas var izraisīt civilo vai kriminālo atbildību.</CopyRight>
-		<buttonPurchasePro>Iepirkuma Pro versiju...</buttonPurchasePro>
-	</AboutDialog>
-	<PreferencesDialog>
-		<Caption>Preferencēm</Caption>
-		<Language>Interfeisa valoda:</Language>
-		<CheckForNewVersions>Meklēt jaunā versija, startēšanas laikā</CheckForNewVersions>
-		<ShellExtension>Windows Explorer shell integrācija</ShellExtension>
-		<ShellExtensionInfo>Pievienot konteksta izvēlnes, optiskos diskus, mapes un failus atbalstītajiem formātiem.</ShellExtensionInfo>
-	</PreferencesDialog>
-	<PasswordDialog>
-		<Caption>Nepieciešama parole</Caption>
-		<FileIsProtected>Fails ir šifrēts. Lai atšifrētu Lūdzu ievadiet paroli:</FileIsProtected>
-		<InvalidPassword>Norādīta nederīga parole</InvalidPassword>
-	</PasswordDialog>
-	<Messages>
-		<Warning>Brīdinājums</Warning>
-		<Question>Jautājums</Question>
-		<NotEnoughDiskSpace>Izskatās, ka nav pietiekami daudz brīvas vietas diskā (tikai %1) izvēlētajā draivā. \n\nVai vēlaties turpināt?</NotEnoughDiskSpace>
-		<ISOAlreadyExists>ISO failu mērķa\n%1\nalready pastāv, vai vēlaties to pārrakstīt?</ISOAlreadyExists>
-		<FolderAlreadyExists>Mērķa mape\n%1\nalready pastāv, vai vēlaties pārrakstīt visus esošos failus ar tādu pašu nosaukumu?</FolderAlreadyExists>
-		<RestartProgram>Lai pabeigtu reģistrāciju, ir jārestartē programma. \n\nVai vēlaties to darīt tūlīt?</RestartProgram>
-		<CancelOperation>Vai tiešām vēlaties pārtraukt pašreizējo operāciju?</CancelOperation>
-	</Messages>
-	<StatusMessages>
-		<CheckingSourceImage>Avota attēla pārbaudi...</CheckingSourceImage>
-		<Converting>Mašīna...</Converting>
-		<Extracting>Ieguves...</Extracting>
-		<ExtractionFailed>Operācija neizdevās izgūt</ExtractionFailed>
-		<Unpacking>Izpakošana...</Unpacking>
-		<ConvertingToTemporaryISO>Mašīnu uz pagaidu ISO failu...</ConvertingToTemporaryISO>
-		<ProgressBytesWritten>%1 rakstveida</ProgressBytesWritten>
-		<Track>Dziesmu</Track>
-		<ISOImageTypeFound>ISO attēls (tips %1) konstatēja</ISOImageTypeFound>
-		<CannotOpenSourceFile>Nevar atvērt avota failu</CannotOpenSourceFile>
-		<CannotOpenDestFile>Nevar atvērt mērķa failu, lūdzu, pārbaudiet faila nosaukumu un piekļuves tiesības</CannotOpenDestFile>
-		<OperationTerminated>Darbību pārtrauca lietotājs.</OperationTerminated>
-		<OperationCompleted>Darbība ir pabeigta..</OperationCompleted>
-		<ClickToOpenISOInExplorer>Noklikšķiniet uz &lt;a href="_open_local_file"&gt;here&lt;/a&gt; izvades faila atvēršanai ISO Explorer</ClickToOpenISOInExplorer>
-		<ClickToMountISOInFinder>Noklikšķiniet uz &lt;a href="_open_local_file"&gt;here&lt;/a&gt; lai mount ISO Finder</ClickToMountISOInFinder>
-		<ClickToOpenOutFolder>Noklikšķiniet uz &lt;a href="_open_local_file"&gt;here&lt;/a&gt; lai atvērtu mapi izvades</ClickToOpenOutFolder>
-		<DiskToISO>
-			<OpeningDevice>Atverot multivides ierīces, lūdzu, uzgaidiet...</OpeningDevice>
-			<TotalDataSize>Kopējais datu izmērs ir %1</TotalDataSize>
-			<CreatingISO>Veidojot ISO...</CreatingISO>
-			<CannotCreateFromAudio>Jūs nevarat izveidot ISO attēlu vairāku sesiju diskā vai Audio diska, sazinieties ar atbalsta centru palīdzību.</CannotCreateFromAudio>
-			<PleaseUseBinCue>Lūdzu, izmantojiet attēlu BIN/CUE, šādiem diskiem</PleaseUseBinCue>
-			<BlankDiskDetected>Tukšu kompaktdisku CD/DVD disku, atklāta</BlankDiskDetected>
-			<DiskNotReady>CD/DVD disks nav gatavs</DiskNotReady>
-			<CannotOpenDevice>Nevar atvērt ierīci (%1)</CannotOpenDevice>
-			<ReadError>Lasīšanas kļūda %1, lai iegūtu palīdzību, sazinieties ar atbalsta</ReadError>
-			<DeviceIsCopyProtected>Šo ierīču ir aizsargātas pret kopēšanu un sektors ir šifrēts. Nevar turpināt.</DeviceIsCopyProtected>
-			<ISOCreationFailed>ISO izveide neizdevās</ISOCreationFailed>
-			<BinCueCreationFailed>BIN/CUE attēlu izveide neizdevās</BinCueCreationFailed>
-			<CannotReadDiskToc>Neizdevās nolasīt diska satura rādītāju (satura rādītājā)</CannotReadDiskToc>
-			<CannotReadDisk>Nevar nolasīt diska kļūda: %1</CannotReadDisk>
-			<DiskNotPresent>Diskā nav klāt vai nezināms multivides tipu</DiskNotPresent>
-			<NoTracksOnDisk>Nekādu pēdu nav diskā, tas ir droši vien tukšs</NoTracksOnDisk>
-			<mediaType>Multivides tips: %1</mediaType>
-			<TrackLength>Trases garums ir %1 nozarēm</TrackLength>
-			<TracksCount>Ierakstu skaits: %1</TracksCount>
-			<WritingTrack>Dziesmu rakstīšanu %1, trases garums ir %2 nozarēm</WritingTrack>
-			<DiskReadingStopped>Apstājās pie lasīšanas %1</DiskReadingStopped>
-			<TrackReadingStopped>Apstājās pie lasīšanas %1, atsākšanai ar nākamo dziesmu</TrackReadingStopped>
-		</DiskToISO>
-		<FolderToISO>
-			<ScanningFolder>Skenēšanas avota direktorijs...</ScanningFolder>
-			<DirectorySize>Kataloga izmērs ir %1</DirectorySize>
-			<WritingISOFile>ISO failu rakstīšana...</WritingISOFile>
-			<SkippingBigFile>Izlaiž failu '%1'. Tas ir lielāks par 4 GB</SkippingBigFile>
-			<SkippingFile>Izlaiž failu '%1'.</SkippingFile>
-			<BigFileWarning>Failu '%1' ir lielāks par 4 GB un nebūs redzams failu sistēmā ISO 9660.</BigFileWarning>
-			<NestedDirectoriesLimitWarning>Direktorija struktūra ir dziļāka nekā %1 līmeni, daži faili un mapes tiks izlaisti.</NestedDirectoriesLimitWarning>
-			<UnableToOpenFile>Nevar atvērt failu '%1' lasīšanas piekļuvei.</UnableToOpenFile>
-			<NoExistingFolder>Mapi %1 neeksistē</NoExistingFolder>
-			<failedToCreateISOImage>Failed to create an ISO image</failedToCreateISOImage>
-		</FolderToISO>
-		<UniversalConverter>
-			<AudioCDWarning>Attēls tiek %1 Audio CD image konversijas ISO nav iespējama. Varat izgūt visus audio ierakstus uz mapi.</AudioCDWarning>
-			<NotValidImage>Kļūda: Tas nav derīgs CD/DVD attēlu</NotValidImage>
-			<CannotFindSignature>Kļūda: nevar atrast parakstu ISO 9660, sasniedzis 5MB ierobežojums</CannotFindSignature>
-			<MultiSessionImageDetected>Vairāku sesiju diska attēls atrasts</MultiSessionImageDetected>
-			<MultiSessionNotSupported>Diska attēlu ir vairāku sesiju diska attēlu. Šādi attēli netiek atbalstīti.</MultiSessionNotSupported>
-		</UniversalConverter>
-		<NrgConverter>
-			<NrgParsingError>NRG parsēšanas kļūda, lūdzu, sazinieties ar atbalsta palīdzību</NrgParsingError>
-			<NoSessionsFound>Nevienas NRG sesijas atklāti, lai saņemtu palīdzību, sazinieties atbalsts</NoSessionsFound>
-		</NrgConverter>
-		<ExtractISO>
-			<LoadingImage>Iekraušanas attēls...</LoadingImage>
-			<ChooseISOFS>Tur ir vairākas filesystems šo ISO attēlu, lūdzu izvēlēties vienu no tām, lai izvērstu:</ChooseISOFS>
-			<ChooseISOFSCaption>Izvēlieties failu sistēmu</ChooseISOFSCaption>
-			<ImageFound>%1 attēls atrasts</ImageFound>
-			<InvalidISO>Fails nav derīgs ISO attēls vai pašlaik netiek atbalstīts</InvalidISO>
-		</ExtractISO>
-		<UIFConverter>
-			<UsingZlib>Izmantojot zlib dekompresija</UsingZlib>
-			<UsingLZMA>Izmanto Lzma dekompresijas, Igor Pavlov</UsingLZMA>
-			<MixedImageFound>Jaukto attēla tips %1 atrasts uncompressing pagaidu failā...</MixedImageFound>
-			<UnpackingImage>Izpakošana attēlu...</UnpackingImage>
-		</UIFConverter>
-		<DebExtract>
-			<NotValidDeb>Fails nav derīgs (Ubuntu) Debian Linux Arhīvs</NotValidDeb>
-		</DebExtract>
-		<RpmExtract>
-			<PackageOpened>Pakete %1 atvērtā</PackageOpened>
-			<DecompressingPayload>Decompressing %1 derīgā krava uz pagaidu failu...</DecompressingPayload>
-			<UnpackingArchive>Izpakošana Arhīvs...</UnpackingArchive>
-		</RpmExtract>
-		<DMG>
-			<ConvertingDmgToISO>Mašīnu DMG HFS + ISO...</ConvertingDmgToISO>
-			<Writing>Rakstiski %1...</Writing>
-			<ExtractingMainPartition>Ieguves DMG galveno nodalījumu kā pagaidu failu, tas var aizņemt kādu laiku, lūdzu uzgaidiet...</ExtractingMainPartition>
-			<NoVolumeFound>Atrasts neviens sējums, meklē HFS + failu sistēma...</NoVolumeFound>
-			<ExtractingVolume>Ieguves apjoma DMG (%1)...</ExtractingVolume>
-			<CorruptedOrPasswordProtected>Kļūda: aizsargāts ar paroli vai bojāti DMG attēlu</CorruptedOrPasswordProtected>
-			<XarArchiveDetected>DMG fails ir faktiski XAR arhīvs (parasti ar faktisko iekšpusē DMG fails), kas tikai iegūst. Lūdzu, izvēlieties izraksta darbību, lai turpinātu</XarArchiveDetected>
-			<openedAsMessage>The file is opened as %1</openedAsMessage>
-			<DmgDisk>DMG disk image</DmgDisk>
-			<GPTDisk>GPT disk</GPTDisk>
-			<MBRDisk>Apple disk</MBRDisk>
-			<HFSVolume>HFS+ volume</HFSVolume>
-			<readingFileSystem>Reading %1 file system...</readingFileSystem>
-			<messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
-			<messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
-		</DMG>
-		<PDIConverter>
-			<InvalidOrBrokenImage>Derīga vai ir bojāta InstantCopy PDI attēlu</InvalidOrBrokenImage>
-		</PDIConverter>
-		<ISZConverter>
-			<CompressionNone>Saspiešanas metode: neviens</CompressionNone>
-			<WarningPassword>Precizējot nederīgu paroli padarīs izvades faila nederīgs</WarningPassword>
-			<ImageIsSegmented>ISZ fails ir segmentēti</ImageIsSegmented>
-		</ISZConverter>
-		<ArchiveConverter>
-			<ReadingArchive>Lasot Arhīvs...</ReadingArchive>
-			<RemovingTempFiles>Pagaidu failu noņemšana...</RemovingTempFiles>
-			<ExtractError>Nevar izgūt %1, kļūda %2</ExtractError>
-		</ArchiveConverter>
-		<TarUnpacker>
-			<SinglePackedFileFound>Vienā saspiestajā failā atrasta: %1, izpakošana...</SinglePackedFileFound>
-		</TarUnpacker>
-		<XarUnpacker>
-			<ReadingTOC>Lasījums satura rādītājā (%1 baiti)...</ReadingTOC>
-			<NestedArchiveFound>Ekstrahēto failu '%1' var atsevišķi izsaiņot, kā %2 arhīvs (manuāli pievienot paplašinājumu)</NestedArchiveFound>
-		</XarUnpacker>
-	</StatusMessages>
-	<Misc>
-		<buttonOk>Labi</buttonOk>
-		<buttonCancel>Atcelt</buttonCancel>
-		<buttonClose>Aizvērt</buttonClose>
-		<buttonYes>Yes</buttonYes>
-		<buttonNo>No</buttonNo>
-		<ProVersion>Pro versija</ProVersion>
-		<LiteVersion>Lite versija</LiteVersion>
-	</Misc>
-	<ShellExtension>
-		<!-- This section describes Windows context menus -->
-		<ConvertToISO>Konvertēt uz "%s"</ConvertToISO>
-		<ConvertToISOInfo>Diska attēla failu konvertēt ISO formātā</ConvertToISOInfo>
-		<Extract>Izvilkt "%s"</Extract>
-		<ExtractInfo>Izgūt diska attēla failu</ExtractInfo>
-		<CreateISOFromFolder>Izveidot "%s"</CreateISOFromFolder>
-		<CreateISOFromFolderInfo>Izveidot ISO attēlu no šīs mapes ar noklusējuma opcijām</CreateISOFromFolderInfo>
-		<CreateISOFromFolderWithOptions>Izveidot "%s" ar opcijām...</CreateISOFromFolderWithOptions>
-		<CreateISOFromFolderWithOptionsInfo>Izveidot ISO attēlu no šīs mapes ar norādītu failu sistēmas opcijas un sējuma etiķete</CreateISOFromFolderWithOptionsInfo>
-		<CreateISOFromDisk>Izveidot ISO attēlu no šīs diska</CreateISOFromDisk>
-		<CreateISOFromDiskInfo>Izveidot ISO attēlu no atlasītā optiskais disks</CreateISOFromDiskInfo>
-		<CreateBINCUEFromDisk>Izveidotu šī diska attēlu BIN/CUE</CreateBINCUEFromDisk>
-		<CreateBINCUEFromDiskInfo>Izveidot BIN (izejvielas) attēlu atlasītajā optisko disku un tās atbilstošo CUE loksnes failu</CreateBINCUEFromDiskInfo>
-	</ShellExtension>
-	<core>
-		<UpdateChecker>
-			<ReleasedOn>izdots %1</ReleasedOn>
-			<CheckForUpdates>Pārbaudīt, vai nav atjauninājumu...</CheckForUpdates>
-			<NewVersionAvailable>Jaunā versija %1 ir pieejama!</NewVersionAvailable>
-			<NewVersionAvailableText>%1 %2 tagad ir pieejams - jums ir %3. Vai vēlaties to lejupielādēt tagad?</NewVersionAvailableText>
-			<UpdateAlertTitle>Programmatūras atjauninājumu</UpdateAlertTitle>
-			<UpdateAlertReleaseNotes>Informācija par laidienu:</UpdateAlertReleaseNotes>
-			<UpdateAlertRemindLater>Atgādināt vēlāk</UpdateAlertRemindLater>
-			<UpdateAlertSkip>Izlaist šo versiju</UpdateAlertSkip>
-			<UpdateAlertInstall>Instalētu atjauninājumu</UpdateAlertInstall>
-			<UpdateAlertAutomaticUpdates>Automātiski pārbaudīt atjauninājumus.</UpdateAlertAutomaticUpdates>
-			<MessageNoUpdateAvailable>Jūs esat līdz dienai!</MessageNoUpdateAvailable>
-			<MessageNoUpdateAvailableDescription>%1 %2 pašlaik pieejama jaunākā versija.</MessageNoUpdateAvailableDescription>
-			<MessageErrorConnect>Atjauninājumu lejupielādes laikā radusies kļūda. Lūdzu, vēlāk mēģiniet vēlreiz.</MessageErrorConnect>
-			<MessageErrorParse>Radās kļūda, parsējot update barības.</MessageErrorParse>
-			<UpdateProgressTitle>Atjaunināšana %1</UpdateProgressTitle>
-			<UpdateProgressCancel>Atcelt</UpdateProgressCancel>
-			<UpdateProgressInstallAndRelaunch>Instalēt un aktivizēt</UpdateProgressInstallAndRelaunch>
-			<UpdateProgressStatusDownloading>Atjauninājumu lejupielāde...</UpdateProgressStatusDownloading>
-			<UpdateProgressExtract>Ieguves atjauninājumu...</UpdateProgressExtract>
-			<UpdateProgressStatusReady>Gatavs instalēt</UpdateProgressStatusReady>
-			<UpdateProgressSize>%1 no %2</UpdateProgressSize>
-			<UpdateProgressB>B</UpdateProgressB>
-			<UpdateProgressKB>KB</UpdateProgressKB>
-			<UpdateProgressMB>MB</UpdateProgressMB>
-			<UpdateProgressGB>GB</UpdateProgressGB>
-		</UpdateChecker>
-		<LetsMoveMac>
-			<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
-			<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
-			<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
-			<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
-			<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
-			<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
-			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-			<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-		</LetsMoveMac>
-		<QLineEditEx>
-			<actionUndo>Undo</actionUndo>
-			<actionRedo>Redo</actionRedo>
-			<actionCut>Cut</actionCut>
-			<actionCopy>Copy</actionCopy>
-			<actionPaste>Paste</actionPaste>
-			<actionDelete>Delete</actionDelete>
-			<actionSelectAll>Select All</actionSelectAll>
-		</QLineEditEx>
-		<QMessageBoxEx>
-			<buttonOK>OK</buttonOK>
-			<buttonCancel>Cancel</buttonCancel>
-			<buttonClose>Close</buttonClose>
-			<buttonYes>Yes</buttonYes>
-			<buttonNo>No</buttonNo>
-		</QMessageBoxEx>
-	</core>
+    <MainWindow>
+        <mnuFile>Failu</mnuFile>
+        <mnuFileExit>Iziet no</mnuFileExit>
+        <mnuHelp>Palīgā</mnuHelp>
+        <mnuHelpDocumentation>Dokumentācija...</mnuHelpDocumentation>
+        <mnuHelpPurchase>Iepirkuma Pro versija...</mnuHelpPurchase>
+        <mnuHelpEnterCode>Ievadiet reģistrācijas kods...</mnuHelpEnterCode>
+        <mnuHelpAbout>Par...</mnuHelpAbout>
+        <mnuHomePage>AnyToISO Mājas lapa...</mnuHomePage>
+        <menuPreferences>Preferencēm...</menuPreferences>
+        <newVersionAvailable>AnyToISO %1 ir pieejama!</newVersionAvailable>
+        <newVersionUpdate>Atjauninājums</newVersionUpdate>
+        <buttonStop>Apstājieties</buttonStop>
+        <tabConvertExtract>
+            <Name>Ekstrakts/Konvertēt ISO failu</Name>
+            <SourceFileName>Avota attēla/arhīva failu:</SourceFileName>
+            <ConvertToISO>Konvertēt ISO attēls:</ConvertToISO>
+            <ExtractToFolder>Izvērst mapi:</ExtractToFolder>
+            <buttonOpenImage>Atvērt attēlu...</buttonOpenImage>
+            <buttonOpenImageText>Kompaktdiska CD/DVD diska attēla failu atvērt</buttonOpenImageText>
+            <AllSupportedFiles>Visi atbalstītie faili, kas</AllSupportedFiles>
+            <buttonOpenISO>Atvērt ISO...</buttonOpenISO>
+            <buttonOpenISOText>Izvēlieties iegūtais ISO fails</buttonOpenISOText>
+            <buttonOpenISOFilter>ISO failus (*.iso)</buttonOpenISOFilter>
+            <buttonOpenFolder>Atlasiet mapi...</buttonOpenFolder>
+            <buttonOpenFolderText>Atveriet mērķa mape</buttonOpenFolderText>
+            <buttonConvert>Konvertēt!</buttonConvert>
+            <buttonExtract>Ekstrakts!</buttonExtract>
+            <labelFileSize>Faila lielums</labelFileSize>
+            <labelFileFormat>formāts</labelFileFormat>
+            <labelOpenOrDragFile>&lt;b&gt;Atvērt&lt;/b&gt; vai &lt;b&gt;velciet&lt;/b&gt; failu konvertēšana vai ekstrakts</labelOpenOrDragFile>
+        </tabConvertExtract>
+        <tabDiskToISO>
+            <Name>ISO CD/DVD disku</Name>
+            <SourceDrive>Pirmsākuma draivā:</SourceDrive>
+            <OutputISO>Mērķa attēla:</OutputISO>
+            <checkCreateBinCue>Izveidot attēlu BIN/CUE</checkCreateBinCue>
+            <buttonRefresh>Atsvaidzināt</buttonRefresh>
+            <buttonBrowseISO>Pārlūkot...</buttonBrowseISO>
+            <NoDiskInserted>Nav ievietots CD/DVD diskā</NoDiskInserted>
+            <buttonMakeISO>Pārliecinieties, ISO</buttonMakeISO>
+            <buttonMakeBinCue>Izveidot attēlu BIN/CUE</buttonMakeBinCue>
+            <chooseISOOrBinCueImage>Lūdzu, atlasiet attēla failu ISO vai BIN/CUE</chooseISOOrBinCueImage>
+            <isoFilesFilter>ISO failus</isoFilesFilter>
+            <binCueSheetFilter>BIN failus (ar CUE loksnes)</binCueSheetFilter>
+        </tabDiskToISO>
+        <tabFolderToISO>
+            <Name>ISO mape</Name>
+            <SourceFolder>Avota mapes:</SourceFolder>
+            <DestinationISO>ISO failu mērķa:</DestinationISO>
+            <VolumeLabel>Sējuma etiķete:</VolumeLabel>
+            <buttonBrowseForFolder>Meklēt mapi...</buttonBrowseForFolder>
+            <buttonChooseISO>Izvēlieties ISO...</buttonChooseISO>
+            <buttonOptions>Opcijas...</buttonOptions>
+            <buttonMakeISO>Pārliecinieties, ISO</buttonMakeISO>
+            <ISOCreationOptions>ISO izveides opcijas</ISOCreationOptions>
+            <Settings>Iestatījumus</Settings>
+            <FileSystemsInsideISO>Failu sistēmas:</FileSystemsInsideISO>
+            <buttonDefault>Default</buttonDefault>
+            <ISO9660Option1>8.3 DOS failu nosaukumus (11)</ISO9660Option1>
+            <ISO9660Option2>Ilgāk nosaukumus (180)</ISO9660Option2>
+            <ISO9660Option3>ISO 9660:1999</ISO9660Option3>
+            <JolietOption1>Standarta nosaukums (64)</JolietOption1>
+            <JolietOption2>Gariem nosaukumiem (110)</JolietOption2>
+        </tabFolderToISO>
+    </MainWindow>
+    <LiteVersionDialog>
+        <LiteVersionLimitText>AnyToISO Lite versiju, kas darbojas ar &lt;b&gt;CD tikai fotografēšanas&lt;/b&gt; (līdz 870 MB). Lai strādātu ar lielākiem failiem (DVD un vairāk) ir &lt;a href="purchase"&gt;Pirkšanas profesionālā versija&lt;/a&gt;. Būs jāiegūst reģistrācijas kods &lt;a href="unlock"&gt;apgūstot programmatūru&lt;/a&gt; pēc tam, kad pirkšanas.</LiteVersionLimitText>
+        <buttonPurchasePro>Pērk Pro versija...</buttonPurchasePro>
+    </LiteVersionDialog>
+    <EnterKeyDialog>
+        <Caption>Ievadiet reģistrācijas kods</Caption>
+        <EnterKeyToUpgradeText>Lūdzu, ievadiet savu reģistrācijas informāciju Pro versiju jaunināt AnyToISO.</EnterKeyToUpgradeText>
+        <RegName>Reģistrācijas vārds:</RegName>
+        <RegCode>Reģistrācijas kods:</RegCode>
+    </EnterKeyDialog>
+    <AboutDialog>
+        <Caption>Par AnyToISO</Caption>
+        <Website>Mājas lapa:</Website>
+        <Support>Atbalsts:</Support>
+        <RunningAs>Programma darbojas kā:</RunningAs>
+        <CopyRight>Šo datorprogrammu aizsargā autortiesību likums un starptautiski līgumi. Nesankcionēta pavairošana vai izplatīšana šīs programmas vai jebkuras tās daļas var izraisīt civilo vai kriminālo atbildību.</CopyRight>
+        <buttonPurchasePro>Iepirkuma Pro versiju...</buttonPurchasePro>
+    </AboutDialog>
+    <PreferencesDialog>
+        <Caption>Preferencēm</Caption>
+        <PreferencesGeneral>General</PreferencesGeneral>
+        <PreferencesUpdates>Updates</PreferencesUpdates>
+        <Language>Interfeisa valoda:</Language>
+        <CheckForNewVersions>Meklēt jaunā versija, startēšanas laikā</CheckForNewVersions>
+        <ShellExtension>Windows Explorer shell integrācija</ShellExtension>
+        <ShellExtensionInfo>Pievienot konteksta izvēlnes, optiskos diskus, mapes un failus atbalstītajiem formātiem.</ShellExtensionInfo>
+    </PreferencesDialog>
+    <PasswordDialog>
+        <Caption>Nepieciešama parole</Caption>
+        <FileIsProtected>Fails ir šifrēts. Lai atšifrētu Lūdzu ievadiet paroli:</FileIsProtected>
+        <InvalidPassword>Norādīta nederīga parole</InvalidPassword>
+    </PasswordDialog>
+    <Messages>
+        <Warning>Brīdinājums</Warning>
+        <Question>Jautājums</Question>
+        <NotEnoughDiskSpace>Izskatās, ka nav pietiekami daudz brīvas vietas diskā (tikai %1) izvēlētajā draivā. \n\nVai vēlaties turpināt?</NotEnoughDiskSpace>
+        <ISOAlreadyExists>ISO failu mērķa\n%1\nalready pastāv, vai vēlaties to pārrakstīt?</ISOAlreadyExists>
+        <FolderAlreadyExists>Mērķa mape\n%1\nalready pastāv, vai vēlaties pārrakstīt visus esošos failus ar tādu pašu nosaukumu?</FolderAlreadyExists>
+        <RestartProgram>Lai pabeigtu reģistrāciju, ir jārestartē programma. \n\nVai vēlaties to darīt tūlīt?</RestartProgram>
+        <CancelOperation>Vai tiešām vēlaties pārtraukt pašreizējo operāciju?</CancelOperation>
+    </Messages>
+    <StatusMessages>
+        <CheckingSourceImage>Avota attēla pārbaudi...</CheckingSourceImage>
+        <Converting>Mašīna...</Converting>
+        <Extracting>Ieguves...</Extracting>
+        <ExtractionFailed>Operācija neizdevās izgūt</ExtractionFailed>
+        <Unpacking>Izpakošana...</Unpacking>
+        <ConvertingToTemporaryISO>Mašīnu uz pagaidu ISO failu...</ConvertingToTemporaryISO>
+        <ProgressBytesWritten>%1 rakstveida</ProgressBytesWritten>
+        <Track>Dziesmu</Track>
+        <ISOImageTypeFound>ISO attēls (tips %1) konstatēja</ISOImageTypeFound>
+        <CannotOpenSourceFile>Nevar atvērt avota failu</CannotOpenSourceFile>
+        <CannotOpenDestFile>Nevar atvērt mērķa failu, lūdzu, pārbaudiet faila nosaukumu un piekļuves tiesības</CannotOpenDestFile>
+        <OperationTerminated>Darbību pārtrauca lietotājs.</OperationTerminated>
+        <OperationCompleted>Darbība ir pabeigta..</OperationCompleted>
+        <ClickToOpenISOInExplorer>Noklikšķiniet uz &lt;a href="_open_local_file"&gt;here&lt;/a&gt; izvades faila atvēršanai ISO Explorer</ClickToOpenISOInExplorer>
+        <ClickToMountISOInFinder>Noklikšķiniet uz &lt;a href="_open_local_file"&gt;here&lt;/a&gt; lai mount ISO Finder</ClickToMountISOInFinder>
+        <ClickToOpenOutFolder>Noklikšķiniet uz &lt;a href="_open_local_file"&gt;here&lt;/a&gt; lai atvērtu mapi izvades</ClickToOpenOutFolder>
+        <DiskToISO>
+            <OpeningDevice>Atverot multivides ierīces, lūdzu, uzgaidiet...</OpeningDevice>
+            <TotalDataSize>Kopējais datu izmērs ir %1</TotalDataSize>
+            <CreatingISO>Veidojot ISO...</CreatingISO>
+            <CannotCreateFromAudio>Jūs nevarat izveidot ISO attēlu vairāku sesiju diskā vai Audio diska, sazinieties ar atbalsta centru palīdzību.</CannotCreateFromAudio>
+            <PleaseUseBinCue>Lūdzu, izmantojiet attēlu BIN/CUE, šādiem diskiem</PleaseUseBinCue>
+            <BlankDiskDetected>Tukšu kompaktdisku CD/DVD disku, atklāta</BlankDiskDetected>
+            <DiskNotReady>CD/DVD disks nav gatavs</DiskNotReady>
+            <CannotOpenDevice>Nevar atvērt ierīci (%1)</CannotOpenDevice>
+            <ReadError>Lasīšanas kļūda %1, lai iegūtu palīdzību, sazinieties ar atbalsta</ReadError>
+            <DeviceIsCopyProtected>Šo ierīču ir aizsargātas pret kopēšanu un sektors ir šifrēts. Nevar turpināt.</DeviceIsCopyProtected>
+            <ISOCreationFailed>ISO izveide neizdevās</ISOCreationFailed>
+            <BinCueCreationFailed>BIN/CUE attēlu izveide neizdevās</BinCueCreationFailed>
+            <CannotReadDiskToc>Neizdevās nolasīt diska satura rādītāju (satura rādītājā)</CannotReadDiskToc>
+            <CannotReadDisk>Nevar nolasīt diska kļūda: %1</CannotReadDisk>
+            <DiskNotPresent>Diskā nav klāt vai nezināms multivides tipu</DiskNotPresent>
+            <NoTracksOnDisk>Nekādu pēdu nav diskā, tas ir droši vien tukšs</NoTracksOnDisk>
+            <mediaType>Multivides tips: %1</mediaType>
+            <TrackLength>Trases garums ir %1 nozarēm</TrackLength>
+            <TracksCount>Ierakstu skaits: %1</TracksCount>
+            <WritingTrack>Dziesmu rakstīšanu %1, trases garums ir %2 nozarēm</WritingTrack>
+            <DiskReadingStopped>Apstājās pie lasīšanas %1</DiskReadingStopped>
+            <TrackReadingStopped>Apstājās pie lasīšanas %1, atsākšanai ar nākamo dziesmu</TrackReadingStopped>
+        </DiskToISO>
+        <FolderToISO>
+            <ScanningFolder>Skenēšanas avota direktorijs...</ScanningFolder>
+            <DirectorySize>Kataloga izmērs ir %1</DirectorySize>
+            <WritingISOFile>ISO failu rakstīšana...</WritingISOFile>
+            <SkippingBigFile>Izlaiž failu '%1'. Tas ir lielāks par 4 GB</SkippingBigFile>
+            <SkippingFile>Izlaiž failu '%1'.</SkippingFile>
+            <BigFileWarning>Failu '%1' ir lielāks par 4 GB un nebūs redzams failu sistēmā ISO 9660.</BigFileWarning>
+            <NestedDirectoriesLimitWarning>Direktorija struktūra ir dziļāka nekā %1 līmeni, daži faili un mapes tiks izlaisti.</NestedDirectoriesLimitWarning>
+            <UnableToOpenFile>Nevar atvērt failu '%1' lasīšanas piekļuvei.</UnableToOpenFile>
+            <NoExistingFolder>Mapi %1 neeksistē</NoExistingFolder>
+            <failedToCreateISOImage>Failed to create an ISO image</failedToCreateISOImage>
+        </FolderToISO>
+        <UniversalConverter>
+            <AudioCDWarning>Attēls tiek %1 Audio CD image konversijas ISO nav iespējama. Varat izgūt visus audio ierakstus uz mapi.</AudioCDWarning>
+            <NotValidImage>Kļūda: Tas nav derīgs CD/DVD attēlu</NotValidImage>
+            <CannotFindSignature>Kļūda: nevar atrast parakstu ISO 9660, sasniedzis 5MB ierobežojums</CannotFindSignature>
+            <MultiSessionImageDetected>Vairāku sesiju diska attēls atrasts</MultiSessionImageDetected>
+            <MultiSessionNotSupported>Diska attēlu ir vairāku sesiju diska attēlu. Šādi attēli netiek atbalstīti.</MultiSessionNotSupported>
+        </UniversalConverter>
+        <NrgConverter>
+            <NrgParsingError>NRG parsēšanas kļūda, lūdzu, sazinieties ar atbalsta palīdzību</NrgParsingError>
+            <NoSessionsFound>Nevienas NRG sesijas atklāti, lai saņemtu palīdzību, sazinieties atbalsts</NoSessionsFound>
+        </NrgConverter>
+        <ExtractISO>
+            <LoadingImage>Iekraušanas attēls...</LoadingImage>
+            <ChooseISOFS>Tur ir vairākas filesystems šo ISO attēlu, lūdzu izvēlēties vienu no tām, lai izvērstu:</ChooseISOFS>
+            <ChooseISOFSCaption>Izvēlieties failu sistēmu</ChooseISOFSCaption>
+            <ImageFound>%1 attēls atrasts</ImageFound>
+            <InvalidISO>Fails nav derīgs ISO attēls vai pašlaik netiek atbalstīts</InvalidISO>
+        </ExtractISO>
+        <UIFConverter>
+            <UsingZlib>Izmantojot zlib dekompresija</UsingZlib>
+            <UsingLZMA>Izmanto Lzma dekompresijas, Igor Pavlov</UsingLZMA>
+            <MixedImageFound>Jaukto attēla tips %1 atrasts uncompressing pagaidu failā...</MixedImageFound>
+            <UnpackingImage>Izpakošana attēlu...</UnpackingImage>
+        </UIFConverter>
+        <DebExtract>
+            <NotValidDeb>Fails nav derīgs (Ubuntu) Debian Linux Arhīvs</NotValidDeb>
+        </DebExtract>
+        <RpmExtract>
+            <PackageOpened>Pakete %1 atvērtā</PackageOpened>
+            <DecompressingPayload>Decompressing %1 derīgā krava uz pagaidu failu...</DecompressingPayload>
+            <UnpackingArchive>Izpakošana Arhīvs...</UnpackingArchive>
+        </RpmExtract>
+        <DMG>
+            <ConvertingDmgToISO>Mašīnu DMG HFS + ISO...</ConvertingDmgToISO>
+            <Writing>Rakstiski %1...</Writing>
+            <ExtractingMainPartition>Ieguves DMG galveno nodalījumu kā pagaidu failu, tas var aizņemt kādu laiku, lūdzu uzgaidiet...</ExtractingMainPartition>
+            <NoVolumeFound>Atrasts neviens sējums, meklē HFS + failu sistēma...</NoVolumeFound>
+            <ExtractingVolume>Ieguves apjoma DMG (%1)...</ExtractingVolume>
+            <CorruptedOrPasswordProtected>Kļūda: aizsargāts ar paroli vai bojāti DMG attēlu</CorruptedOrPasswordProtected>
+            <XarArchiveDetected>DMG fails ir faktiski XAR arhīvs (parasti ar faktisko iekšpusē DMG fails), kas tikai iegūst. Lūdzu, izvēlieties izraksta darbību, lai turpinātu</XarArchiveDetected>
+            <openedAsMessage>The file is opened as %1</openedAsMessage>
+            <DmgDisk>DMG disk image</DmgDisk>
+            <GPTDisk>GPT disk</GPTDisk>
+            <MBRDisk>Apple disk</MBRDisk>
+            <HFSVolume>HFS+ volume</HFSVolume>
+            <readingFileSystem>Reading %1 file system...</readingFileSystem>
+            <messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
+            <messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
+        </DMG>
+        <PDIConverter>
+            <InvalidOrBrokenImage>Derīga vai ir bojāta InstantCopy PDI attēlu</InvalidOrBrokenImage>
+        </PDIConverter>
+        <ISZConverter>
+            <CompressionNone>Saspiešanas metode: neviens</CompressionNone>
+            <WarningPassword>Precizējot nederīgu paroli padarīs izvades faila nederīgs</WarningPassword>
+            <ImageIsSegmented>ISZ fails ir segmentēti</ImageIsSegmented>
+        </ISZConverter>
+        <ArchiveConverter>
+            <ReadingArchive>Lasot Arhīvs...</ReadingArchive>
+            <RemovingTempFiles>Pagaidu failu noņemšana...</RemovingTempFiles>
+            <ExtractError>Nevar izgūt %1, kļūda %2</ExtractError>
+        </ArchiveConverter>
+        <TarUnpacker>
+            <SinglePackedFileFound>Vienā saspiestajā failā atrasta: %1, izpakošana...</SinglePackedFileFound>
+        </TarUnpacker>
+        <XarUnpacker>
+            <ReadingTOC>Lasījums satura rādītājā (%1 baiti)...</ReadingTOC>
+            <NestedArchiveFound>Ekstrahēto failu '%1' var atsevišķi izsaiņot, kā %2 arhīvs (manuāli pievienot paplašinājumu)</NestedArchiveFound>
+        </XarUnpacker>
+    </StatusMessages>
+    <Misc>
+        <buttonOk>Labi</buttonOk>
+        <buttonCancel>Atcelt</buttonCancel>
+        <buttonClose>Aizvērt</buttonClose>
+        <buttonYes>Yes</buttonYes>
+        <buttonNo>No</buttonNo>
+        <ProVersion>Pro versija</ProVersion>
+        <LiteVersion>Lite versija</LiteVersion>
+    </Misc>
+    <ShellExtension>
+        <!-- This section describes Windows context menus -->
+        <ConvertToISO>Konvertēt uz "%s"</ConvertToISO>
+        <ConvertToISOInfo>Diska attēla failu konvertēt ISO formātā</ConvertToISOInfo>
+        <Extract>Izvilkt "%s"</Extract>
+        <ExtractInfo>Izgūt diska attēla failu</ExtractInfo>
+        <CreateISOFromFolder>Izveidot "%s"</CreateISOFromFolder>
+        <CreateISOFromFolderInfo>Izveidot ISO attēlu no šīs mapes ar noklusējuma opcijām</CreateISOFromFolderInfo>
+        <CreateISOFromFolderWithOptions>Izveidot "%s" ar opcijām...</CreateISOFromFolderWithOptions>
+        <CreateISOFromFolderWithOptionsInfo>Izveidot ISO attēlu no šīs mapes ar norādītu failu sistēmas opcijas un sējuma etiķete</CreateISOFromFolderWithOptionsInfo>
+        <CreateISOFromDisk>Izveidot ISO attēlu no šīs diska</CreateISOFromDisk>
+        <CreateISOFromDiskInfo>Izveidot ISO attēlu no atlasītā optiskais disks</CreateISOFromDiskInfo>
+        <CreateBINCUEFromDisk>Izveidotu šī diska attēlu BIN/CUE</CreateBINCUEFromDisk>
+        <CreateBINCUEFromDiskInfo>Izveidot BIN (izejvielas) attēlu atlasītajā optisko disku un tās atbilstošo CUE loksnes failu</CreateBINCUEFromDiskInfo>
+    </ShellExtension>
+    <core>
+        <UpdateChecker>
+            <ReleasedOn>izdots %1</ReleasedOn>
+            <CheckForUpdates>Pārbaudīt, vai nav atjauninājumu...</CheckForUpdates>
+            <NewVersionAvailable>Jaunā versija %1 ir pieejama!</NewVersionAvailable>
+            <NewVersionAvailableText>%1 %2 tagad ir pieejams - jums ir %3. Vai vēlaties to lejupielādēt tagad?</NewVersionAvailableText>
+            <UpdateAlertTitle>Programmatūras atjauninājumu</UpdateAlertTitle>
+            <UpdateAlertReleaseNotes>Informācija par laidienu:</UpdateAlertReleaseNotes>
+            <UpdateAlertRemindLater>Atgādināt vēlāk</UpdateAlertRemindLater>
+            <UpdateAlertSkip>Izlaist šo versiju</UpdateAlertSkip>
+            <UpdateAlertInstall>Instalētu atjauninājumu</UpdateAlertInstall>
+            <UpdateAlertAutomaticUpdates>Automātiski pārbaudīt atjauninājumus.</UpdateAlertAutomaticUpdates>
+            <MessageNoUpdateAvailable>Jūs esat līdz dienai!</MessageNoUpdateAvailable>
+            <MessageNoUpdateAvailableDescription>%1 %2 pašlaik pieejama jaunākā versija.</MessageNoUpdateAvailableDescription>
+            <MessageErrorConnect>Atjauninājumu lejupielādes laikā radusies kļūda. Lūdzu, vēlāk mēģiniet vēlreiz.</MessageErrorConnect>
+            <MessageErrorParse>Radās kļūda, parsējot update barības.</MessageErrorParse>
+            <UpdateProgressTitle>Atjaunināšana %1</UpdateProgressTitle>
+            <UpdateProgressCancel>Atcelt</UpdateProgressCancel>
+            <UpdateProgressInstallAndRelaunch>Instalēt un aktivizēt</UpdateProgressInstallAndRelaunch>
+            <UpdateProgressStatusDownloading>Atjauninājumu lejupielāde...</UpdateProgressStatusDownloading>
+            <UpdateProgressExtract>Ieguves atjauninājumu...</UpdateProgressExtract>
+            <UpdateProgressStatusReady>Gatavs instalēt</UpdateProgressStatusReady>
+            <UpdateProgressSize>%1 no %2</UpdateProgressSize>
+            <UpdateProgressB>B</UpdateProgressB>
+            <UpdateProgressKB>KB</UpdateProgressKB>
+            <UpdateProgressMB>MB</UpdateProgressMB>
+            <UpdateProgressGB>GB</UpdateProgressGB>
+        </UpdateChecker>
+        <LetsMoveMac>
+            <kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
+            <kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+        </LetsMoveMac>
+        <QLineEditEx>
+            <actionUndo>Undo</actionUndo>
+            <actionRedo>Redo</actionRedo>
+            <actionCut>Cut</actionCut>
+            <actionCopy>Copy</actionCopy>
+            <actionPaste>Paste</actionPaste>
+            <actionDelete>Delete</actionDelete>
+            <actionSelectAll>Select All</actionSelectAll>
+        </QLineEditEx>
+        <QMessageBoxEx>
+            <buttonOK>OK</buttonOK>
+            <buttonCancel>Cancel</buttonCancel>
+            <buttonClose>Close</buttonClose>
+            <buttonYes>Yes</buttonYes>
+            <buttonNo>No</buttonNo>
+        </QMessageBoxEx>
+    </core>
 </LanguageStrings>

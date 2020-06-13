@@ -1,310 +1,312 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="3.8" Author="Hessam Mohamadi">
-	<MainWindow>
-		<mnuFile>فایل</mnuFile>
-		<mnuFileExit>خروج</mnuFileExit>
-		<mnuHelp>راهنما</mnuHelp>
-		<mnuHelpDocumentation>فایل راهنما..</mnuHelpDocumentation>
-		<mnuHelpPurchase>خرید نسخه حرفه ای..</mnuHelpPurchase>
-		<mnuHelpEnterCode>کدثبت نام را وارد کنید..</mnuHelpEnterCode>
-		<mnuHelpAbout>درباره..</mnuHelpAbout>
-		<mnuHomePage>صفحه خانگی برنامه..</mnuHomePage>
-		<menuPreferences>مزیت ها..</menuPreferences>
-		<newVersionAvailable>نسخه %1 موجود است</newVersionAvailable>
-		<newVersionUpdate>بروزرسانی</newVersionUpdate>
-		<buttonStop>توقف</buttonStop>
-		<tabConvertExtract>
-			<Name>استخراج فایل/تبدیل به ایزو</Name>
-			<SourceFileName>فایل ایمیج منبع:</SourceFileName>
-			<ConvertToISO>تبدیل به ایمیج ایزو:</ConvertToISO>
-			<ExtractToFolder>استخراج در پوشه:</ExtractToFolder>
-			<buttonOpenImage>بازکردن ایمیج..</buttonOpenImage>
-			<buttonOpenImageText>بازکردن فایل ایمیج سی دی/دی وی دی</buttonOpenImageText>
-			<AllSupportedFiles>همه فایلهای پشتیبانی شده</AllSupportedFiles>
-			<buttonOpenISO>بازکردن ایزو..</buttonOpenISO>
-			<buttonOpenISOText>انتخاب نتیجه فایل ایزو</buttonOpenISOText>
-			<buttonOpenISOFilter>فایل ایزو (*.iso)</buttonOpenISOFilter>
-			<buttonOpenFolder>انتخاب پوشه..</buttonOpenFolder>
-			<buttonOpenFolderText>بازکردن پوشه مقصد</buttonOpenFolderText>
-			<buttonConvert>تبدیل</buttonConvert>
-			<buttonExtract>استخراج</buttonExtract>
-			<labelFileSize>حجم فایل</labelFileSize>
-			<labelFileFormat>فرمت</labelFileFormat>
-			<labelOpenOrDragFile>&lt;b&gt;بازکردن&lt;/b&gt; یا &lt;b&gt;رهاکردن&lt;/b&gt; یک ایمیج برای تبدیل یا استخراج</labelOpenOrDragFile>
-		</tabConvertExtract>
-		<tabDiskToISO>
-			<Name>دیسک سی دی/دی وی دی به ایزو</Name>
-			<SourceDrive>درایو منبع:</SourceDrive>
-			<OutputISO>مقصد ایمیج:</OutputISO>
-			<checkCreateBinCue>ایجاد ایمیج بین/کیو</checkCreateBinCue>
-			<buttonRefresh>تازه کردن</buttonRefresh>
-			<buttonBrowseISO>جستجو..</buttonBrowseISO>
-			<NoDiskInserted>دیسک سی دی/دی وی دی قرار داده نشده است</NoDiskInserted>
-			<buttonMakeISO>ایجاد ایزو</buttonMakeISO>
-			<buttonMakeBinCue>ایجاد ایمیج بین/کیو</buttonMakeBinCue>
-			<chooseISOOrBinCueImage>لطفا فایل ایمیج بین/کیو یا ایزو را انتخاب کنید</chooseISOOrBinCueImage>
-			<isoFilesFilter>فایل ایزو</isoFilesFilter>
-			<binCueSheetFilter>فایل بین (با ورقه کیو)</binCueSheetFilter>
-		</tabDiskToISO>
-		<tabFolderToISO>
-			<Name>پوشه به ایزو</Name>
-			<SourceFolder>پوشه منبع:</SourceFolder>
-			<DestinationISO>مقصد فایل ایزو:</DestinationISO>
-			<VolumeLabel>برچسب درایو:</VolumeLabel>
-			<buttonBrowseForFolder>جستجو برای پوشه..</buttonBrowseForFolder>
-			<buttonChooseISO>انتخاب ایزو..</buttonChooseISO>
-			<buttonOptions>گزینه ها..</buttonOptions>
-			<buttonMakeISO>ایجاد ایزو</buttonMakeISO>
-			<ISOCreationOptions>گزینه های ایجاد ایزو</ISOCreationOptions>
-			<Settings>تنظیمات</Settings>
-			<FileSystemsInsideISO>فایل سیستم:</FileSystemsInsideISO>
-			<buttonDefault>پیش فرض</buttonDefault>
-			<ISO9660Option1>(11) نام فایل داس 8.3</ISO9660Option1>
-			<ISO9660Option2>(180) نام خیلی بلند</ISO9660Option2>
-			<ISO9660Option3>ایزو 9660:1999</ISO9660Option3>
-			<JolietOption1>(64) نام استاندارد</JolietOption1>
-			<JolietOption2>(110) نام بلند</JolietOption2>
-		</tabFolderToISO>
-	</MainWindow>
-	<LiteVersionDialog>
-		<LiteVersionLimitText>نسخه کوچک برنامه فقط با &lt;b&gt; ایمیج سی دی &lt;/b&gt; تا حجم 870 مگابایت کار میکند. به منظور کار با فایل های بزرگتر مثل دی وی دی شما باید &lt;a href="purchase"&gt;نسخه حرفه ای را خریداری کنید&lt;/a&gt;. شما کد ثبت نام برای &lt;a href="unlock"&gt;رفع محدودیت ها&lt;/a&gt; را بعد از خرید برنامه دریافت میکنید</LiteVersionLimitText>
-		<buttonPurchasePro>خرید نسخه حرفه ای..</buttonPurchasePro>
-	</LiteVersionDialog>
-	<EnterKeyDialog>
-		<Caption>کدثبت نام را وارد کنید</Caption>
-		<EnterKeyToUpgradeText>لطفا جزئیات ثبت نام را برای ارتقاء به نسخه حرفه ای وارد کنید</EnterKeyToUpgradeText>
-		<RegName>نام ثبت نام:</RegName>
-		<RegCode>کد ثبت نام:</RegCode>
-	</EnterKeyDialog>
-	<AboutDialog>
-		<Caption>درباره برنامه</Caption>
-		<Website>وبسایت:</Website>
-		<Support>پشتیبانی:</Support>
-		<RunningAs>این برنامه بعنوان نسخه زیر در اجرا است:</RunningAs>
-		<CopyRight>این برنامه رایانه ای توسط قانون حق مالکیت و پیمان های بین المللی حفاظت میشود.کپی یا توزیع غیرمجاز این برنامه،یا هر بخشی از آن،بطور غیرمجاز، مجازات کیفری و مدنی سختی دارد</CopyRight>
-		<buttonPurchasePro>خرید نسخه حرفه ای..</buttonPurchasePro>
-	</AboutDialog>
-	<PreferencesDialog>
-		<Caption>مزیت ها</Caption>
-		<Language>رابط زبان:</Language>
-		<CheckForNewVersions>بررسی نسخه جدید حین اجرای برنامه</CheckForNewVersions>
-		<ShellExtension>افزودن به کلیک راست ویندوز</ShellExtension>
-		<ShellExtensionInfo>افزودن منوی زمینه به درایو نوری،پوشه ها،فایل ها برای فرمت های پشتیبانی شده</ShellExtensionInfo>
-	</PreferencesDialog>
-	<PasswordDialog>
-		<Caption>رمزعبور نیاز است</Caption>
-		<FileIsProtected>فایل رمزی شده هست.به منظور کدگشایی رمزعبور را وارد کنید:</FileIsProtected>
-		<InvalidPassword>رمزعبور نامعتبر است</InvalidPassword>
-	</PasswordDialog>
-	<Messages>
-		<Warning>هشدار</Warning>
-		<Question>سوأل</Question>
-		<NotEnoughDiskSpace>بنظر میرسد فضای دیسک کافی (فقط %1) در درایو انتخاب شده موجود نیست \n\nآیا ادامه میدهید؟</NotEnoughDiskSpace>
-		<ISOAlreadyExists>فایل ایزو مقصد\n%1\nاز قبل موجود است،آن را جایگزین میکنید؟</ISOAlreadyExists>
-		<FolderAlreadyExists>پوشه مقصد\n%1\nاز قبل موجود است،آیا میخواهید همه فایل های موجود با همان نام جایگزین شود؟</FolderAlreadyExists>
-		<RestartProgram>برای کامل شدن ثبت نام برنامه باید ریستارت شود \n\nآیا میخواهید آن را انجام دهید؟</RestartProgram>
-		<CancelOperation>آیا میخواهید عملکرد فعلی لغو شود؟</CancelOperation>
-	</Messages>
-	<StatusMessages>
-		<CheckingSourceImage>بررسی ایمیج منبع..</CheckingSourceImage>
-		<Converting>درحال تبدیل..</Converting>
-		<Extracting>در حال استخراج...</Extracting>
-		<ExtractionFailed>عملکرد استخراج موفق نشد</ExtractionFailed>
-		<Unpacking>درحال بازکردن..</Unpacking>
-		<ConvertingToTemporaryISO>تبدیل به فایل ایزو موقتی..</ConvertingToTemporaryISO>
-		<ProgressBytesWritten>%1 نوشتن</ProgressBytesWritten>
-		<Track>تراک</Track>
-		<ISOImageTypeFound>ایمیج ایزو (نوع %1) یافت شد</ISOImageTypeFound>
-		<CannotOpenSourceFile>فایل منبع را نمیتوان بازکرد</CannotOpenSourceFile>
-		<CannotOpenDestFile>فایل مقصد را نمیتوان بازکرد</CannotOpenDestFile>
-		<OperationTerminated>عملکرد توسط کاربر لغو شد</OperationTerminated>
-		<OperationCompleted>عملکرد کامل شد</OperationCompleted>
-		<ClickToOpenISOInExplorer>برای بازکردن فایل ایزو در ویندوز اکسپلورر &lt;a href="_open_local_file"&gt;اینجا&lt;/a&gt; کلیک کنید</ClickToOpenISOInExplorer>
-		<ClickToMountISOInFinder>برای بارگیری ایزو در یابنده &lt;a href="_open_local_file"&gt;اینجا&lt;/a&gt; کلیک کنید</ClickToMountISOInFinder>
-		<ClickToOpenOutFolder>برای بازکردن پوشه خروجی &lt;a href="_open_local_file"&gt;اینجا&lt;/a&gt; کلیک کنید</ClickToOpenOutFolder>
-		<DiskToISO>
-			<OpeningDevice>بازکردن دستگاه،منتظر بمانید..</OpeningDevice>
-			<TotalDataSize>مجموع حجم داده %1 هست</TotalDataSize>
-			<CreatingISO>درحال ایجاد ایزو..</CreatingISO>
-			<CannotCreateFromAudio>شما نمیتوانید ایمیج ایزو دیسک مولتی-سیزین یا دیسک صوتی پیدا کنید،برای راهنمایی با پشتیبانی تماس بگیرید</CannotCreateFromAudio>
-			<PleaseUseBinCue>لطفا از ایمیج بین/کیو برای چنین دیسکهایی استفاده کنید</PleaseUseBinCue>
-			<BlankDiskDetected>سی دی/دی وی دی خالی تشخیص داده است</BlankDiskDetected>
-			<DiskNotReady>دیسک سی دی/دی وی دی حاضر نیست</DiskNotReady>
-			<CannotOpenDevice>دستگاه (%1) را نمیتواند بازکند</CannotOpenDevice>
-			<ReadError>خواندن خطا %1, برای راهنمایی با پشتیبانی تماس بگیرید</ReadError>
-			<DeviceIsCopyProtected>این دستگاه توسط کپی حفاظت میشود و قطاع رمزی شده است ونمیتوان ادامه داد</DeviceIsCopyProtected>
-			<ISOCreationFailed>موفق به ایجاد ایزو نشد</ISOCreationFailed>
-			<BinCueCreationFailed>موفق به ایجاد ایمیج بین/کیو نشد</BinCueCreationFailed>
-			<CannotReadDiskToc>موفق به خواندن محتویات جدول دیسک نشد</CannotReadDiskToc>
-			<CannotReadDisk>دیسک را نمیتوان خواند، خطا: %1</CannotReadDisk>
-			<DiskNotPresent>دیسک ارائه نشده یا نوع رسانه ناشناخته است</DiskNotPresent>
-			<NoTracksOnDisk>تراکی در دیسک نیست،احتمالا خالی هست</NoTracksOnDisk>
-			<mediaType>نوع رسانه: %1</mediaType>
-			<TrackLength>طول تراک %1 قطاع هست</TrackLength>
-			<TracksCount>تعداد تراک: %1</TracksCount>
-			<WritingTrack>نوشتن تراک %1، طول تراک %2 قطاع هست</WritingTrack>
-			<DiskReadingStopped>خواندن متوقف شد در %1</DiskReadingStopped>
-			<TrackReadingStopped>خواندن متوقف شد در %1، ادامه با تراک بعدی</TrackReadingStopped>
-		</DiskToISO>
-		<FolderToISO>
-			<ScanningFolder>اسکن دایرکتوری منبع..</ScanningFolder>
-			<DirectorySize>حجم دایرکتوری %1 هست</DirectorySize>
-			<WritingISOFile>نوشتن فایل ایزو...</WritingISOFile>
-			<SkippingBigFile>رد فایل '%1'. آن بزرگتر از 4 گیگابایت است</SkippingBigFile>
-			<SkippingFile>رد فایل '%1'</SkippingFile>
-			<BigFileWarning>فایل '%1' بزرگتر از 4 گیگابایت هست و در فایل سیستم ایزو 9660 قابل مشاهده نیست</BigFileWarning>
-			<NestedDirectoriesLimitWarning>ساختار دایرکتوری عمیق تر ازسطح %1 هست، بعضی از فایل ها و پوشه ها رد میشود</NestedDirectoriesLimitWarning>
-			<UnableToOpenFile>قادر به خواندن فایل '%1' برای خواندن دسترسی نیست</UnableToOpenFile>
-			<NoExistingFolder>پوشه %1 وجود ندارد</NoExistingFolder>
-			<failedToCreateISOImage>Failed to create an ISO image</failedToCreateISOImage>
-		</FolderToISO>
-		<UniversalConverter>
-			<AudioCDWarning>ایمیج %1 بنظر میرسد یک ایمیج سی دی صوتی باشد،تبدیل به ایزو ممکن نیست</AudioCDWarning>
-			<NotValidImage>خطا: این ایمیج سی دی/دی وی دی معتبر نیست</NotValidImage>
-			<CannotFindSignature>خطا نمیتوان امضاء ایزو_9660 را یافت،5 مگابایت محدودیت استفاده شده است</CannotFindSignature>
-			<MultiSessionImageDetected>ایمیج دیسک مولتی سیزین تشخیص داد</MultiSessionImageDetected>
-			<MultiSessionNotSupported>ایمیج دیسک،یک ایمیج دیسک مولتی سیزین هست.چنین دیسکهایی پشتیبانی نشده است</MultiSessionNotSupported>
-		</UniversalConverter>
-		<NrgConverter>
-			<NrgParsingError>خطای تجزیه اِن ار جی،لطفا برای رسیدگی با پشتیبانی تماس بگیرید</NrgParsingError>
-			<NoSessionsFound>سیزین اِن آر جی تشخیص نداده است.لطفا برای رسیدگی با پشتیبانی تماس بگیرید</NoSessionsFound>
-		</NrgConverter>
-		<ExtractISO>
-			<LoadingImage>بارگیری ایمیج..</LoadingImage>
-			<ChooseISOFS>در این ایمیج ایزو چند فایل سیستم وجود دارد،لطفا یکی از آنها را برای استخراج انتخاب کنید:</ChooseISOFS>
-			<ChooseISOFSCaption>انتخاب فایل سیستم</ChooseISOFSCaption>
-			<ImageFound>%1 ایمیج یافت</ImageFound>
-			<InvalidISO>فایل یک ایمیج ایزو معتبر نیست یا فعلا پشتیبانی نمیشود</InvalidISO>
-		</ExtractISO>
-		<UIFConverter>
-			<UsingZlib>استفاده از فشرده سازی زد لیب</UsingZlib>
-			<UsingLZMA>استفاده از فشرده خارجساز اِل زذ اِم اِی با ایگور پاولوو</UsingLZMA>
-			<MixedImageFound>نوع ایمیج میکس شده %1یافت شد،از فشرده خارجسازی در فایل موقت..</MixedImageFound>
-			<UnpackingImage>درحال بازکردن ایمیج..</UnpackingImage>
-		</UIFConverter>
-		<DebExtract>
-			<NotValidDeb>فایل آرشیو لینوکس دبیان (اوبونتو) معتبر نیست</NotValidDeb>
-		</DebExtract>
-		<RpmExtract>
-			<PackageOpened>بسته %1 باز شده</PackageOpened>
-			<DecompressingPayload>از فشرده خارجسازی %1 حداکثر بار در یک فایل موقتی..</DecompressingPayload>
-			<UnpackingArchive>درحال بازکردن آرشیو..</UnpackingArchive>
-		</RpmExtract>
-		<DMG>
-			<ConvertingDmgToISO>تبدیل دی اِم جی به اِچ اِس اِف+ایزو</ConvertingDmgToISO>
-			<Writing>درحال نوشتن %1</Writing>
-			<ExtractingMainPartition>استخراج پارتیشن دی اِم جی اصلی در فایل موقتی،مدتی طول میکشد - منتظر بمانید</ExtractingMainPartition>
-			<NoVolumeFound>درایوی نیافت،مشاهده برای اِچ اِف اِس+فایل سیستم..</NoVolumeFound>
-			<ExtractingVolume>استخراج درایو دی اِم جی (%1)...</ExtractingVolume>
-			<CorruptedOrPasswordProtected>خطا: ایمیج دی اِم جی خراب شده یا توسط رمزعبور حفاظت میشود</CorruptedOrPasswordProtected>
-			<XarArchiveDetected>فایل دی اِم جی در واقع یک آرشیو ایکس اِی ار هست (معمولا فایل واقعی دی اِم جی داخل ان هست) که فقط می تواند استخراج شود. برای ادامه لطفا عملکرد استخراج را انتخاب نمایید</XarArchiveDetected>
-			<openedAsMessage>فایل باز شده بعنوان %1</openedAsMessage>
-			<DmgDisk>ایمیج دیسک دی اِم جی</DmgDisk>
-			<GPTDisk>دیسک جی پی تی</GPTDisk>
-			<MBRDisk>دیسک اَپل</MBRDisk>
-			<HFSVolume>اِچ اِف اِس+درایو</HFSVolume>
-			<readingFileSystem>..خواندن %1 فایل سیستم</readingFileSystem>
-			<messageMultiplePartitions>چندین پارتیشن داخل ایمیج دی اِم جی وجود دارد،لطفا یکی از آنها را برای استخراج انتخاب کنید</messageMultiplePartitions>
-			<messageMultiplePartitionsTitle>یک پارتیشن انتخاب کنید</messageMultiplePartitionsTitle>
-		</DMG>
-		<PDIConverter>
-			<InvalidOrBrokenImage>ایمیج پی دی آی اینتنت کپی خراب یا نامعتبر است</InvalidOrBrokenImage>
-		</PDIConverter>
-		<ISZConverter>
-			<CompressionNone>روش فشرده سازی: هیچیک</CompressionNone>
-			<WarningPassword>تعیین رمزعبور نامعتبر فایل خروجی را نامعتبر میکند</WarningPassword>
-			<ImageIsSegmented>فای آی اِس زد تقسیم بندی شده است</ImageIsSegmented>
-		</ISZConverter>
-		<ArchiveConverter>
-			<ReadingArchive>خواندن آرشیو..</ReadingArchive>
-			<RemovingTempFiles>حذف فایل های موقتی..</RemovingTempFiles>
-			<ExtractError>قادر به استخراج در %1 نیست، خطا %2</ExtractError>
-		</ArchiveConverter>
-		<TarUnpacker>
-			<SinglePackedFileFound>فایل بسته شده تکی تشخیص داد: %1، درحال بازکردن</SinglePackedFileFound>
-		</TarUnpacker>
-		<XarUnpacker>
-			<ReadingTOC>خواند محتویات جدول (%1 بایت)...</ReadingTOC>
-			<NestedArchiveFound>فایل استخراج شده '%1' میتواند بطور جداگانه بعنوان %2 آرشیو باز شود (افزودن پسوند دستی)</NestedArchiveFound>
-		</XarUnpacker>
-	</StatusMessages>
-	<Misc>
-		<buttonOk>تایید</buttonOk>
-		<buttonCancel>لغو</buttonCancel>
-		<buttonClose>بستن</buttonClose>
-		<buttonYes>بله</buttonYes>
-		<buttonNo>خير</buttonNo>
-		<ProVersion>نسخه حرفه ای</ProVersion>
-		<LiteVersion>نسخه کوچک</LiteVersion>
-	</Misc>
-	<ShellExtension>
-		<!-- This section describes Windows context menus -->
-		<ConvertToISO>تبدیل به "%s"</ConvertToISO>
-		<ConvertToISOInfo>تبدیل فایل ایمیج دیسک به فرمت ایزو</ConvertToISOInfo>
-		<Extract>استخراج در "%s"</Extract>
-		<ExtractInfo>استخراج فایل ایمیج دیسک</ExtractInfo>
-		<CreateISOFromFolder>ایجاد "%s"</CreateISOFromFolder>
-		<CreateISOFromFolderInfo>ایجاد ایمیج ایزو از این پوشه با گزینه های پیش فرض</CreateISOFromFolderInfo>
-		<CreateISOFromFolderWithOptions>ایجاد "%s" با گزینه ها</CreateISOFromFolderWithOptions>
-		<CreateISOFromFolderWithOptionsInfo>ایجاد ایمیج ایزو از این پوشه با تعیین گزینه فایل سیستم و برجسب درایو</CreateISOFromFolderWithOptionsInfo>
-		<CreateISOFromDisk>ایجاد ایمیج ایزو از این دیسک</CreateISOFromDisk>
-		<CreateISOFromDiskInfo>ایجاد ایمیج ایزو از دیسک نوری انتخاب شده</CreateISOFromDiskInfo>
-		<CreateBINCUEFromDisk>ایجاد ایمیج بین/کیو از این دیسک</CreateBINCUEFromDisk>
-		<CreateBINCUEFromDiskInfo>ایجاد ایمیج بین (خام) از دیسک نوری انتخاب شده و از فایل ورقه کیو مطابق با آن</CreateBINCUEFromDiskInfo>
-	</ShellExtension>
-	<core>
-		<UpdateChecker>
-			<ReleasedOn>منتشر شده در %1</ReleasedOn>
-			<CheckForUpdates>بررسی برای بروزرسانی...</CheckForUpdates>
-			<NewVersionAvailable>نسخه جدید %1 موجود است</NewVersionAvailable>
-			<NewVersionAvailableText>%1 %2 حالا موجود است - شما %3 را دارید.حالا دانلود می کنید؟</NewVersionAvailableText>
-			<UpdateAlertTitle>بروزرسانی نرم افزار</UpdateAlertTitle>
-			<UpdateAlertReleaseNotes>جزئیات انتشار:</UpdateAlertReleaseNotes>
-			<UpdateAlertRemindLater>بعدا یادآوری کن</UpdateAlertRemindLater>
-			<UpdateAlertSkip>رد این نسخه</UpdateAlertSkip>
-			<UpdateAlertInstall>نصب بروزرسانی</UpdateAlertInstall>
-			<UpdateAlertAutomaticUpdates>بررسی خودکار برای بروزرسانی</UpdateAlertAutomaticUpdates>
-			<MessageNoUpdateAvailable>نسخه شما بروز است</MessageNoUpdateAvailable>
-			<MessageNoUpdateAvailableDescription>%1 %2 اکنون جدیدترین نسخه موجود است</MessageNoUpdateAvailableDescription>
-			<MessageErrorConnect>یک خطا حین دانلود بروزرسانی رخ داد. لطفا بعدا دوباره سعی کنید</MessageErrorConnect>
-			<MessageErrorParse>یک خطا حین تحلیل فید بروزرسانی رخ داد</MessageErrorParse>
-			<UpdateProgressTitle>بروزرسانی %1</UpdateProgressTitle>
-			<UpdateProgressCancel>لغو</UpdateProgressCancel>
-			<UpdateProgressInstallAndRelaunch>نصب و اِجرای مجدد</UpdateProgressInstallAndRelaunch>
-			<UpdateProgressStatusDownloading>دانلود بروزرسانی...</UpdateProgressStatusDownloading>
-			<UpdateProgressExtract>استخراج بروزرسانی..</UpdateProgressExtract>
-			<UpdateProgressStatusReady>آماده نصب</UpdateProgressStatusReady>
-			<UpdateProgressSize>%1 از %2</UpdateProgressSize>
-			<UpdateProgressB>بایت</UpdateProgressB>
-			<UpdateProgressKB>کیلوبایت</UpdateProgressKB>
-			<UpdateProgressMB>مگابایت</UpdateProgressMB>
-			<UpdateProgressGB>گیگابایت</UpdateProgressGB>
-		</UpdateChecker>
-		<LetsMoveMac>
-			<kStrMoveApplicationCouldNotMove>نمیتواند به پوشه برنامه ها منتقل کرد</kStrMoveApplicationCouldNotMove>
-			<kStrMoveApplicationQuestionTitle>انتقال به برنامه ها</kStrMoveApplicationQuestionTitle>
-			<kStrMoveApplicationQuestionTitleHome>انتقال به پوشه برنامه ها در پوشه خانگی شما؟</kStrMoveApplicationQuestionTitleHome>
-			<kStrMoveApplicationQuestionMessage>آیا میخواهید %1 تا خودش را به پوشه برنامه ها منتقل کند؟</kStrMoveApplicationQuestionMessage>
-			<kStrMoveApplicationButtonMove>انتقال به پوشه برنامه ها</kStrMoveApplicationButtonMove>
-			<kStrMoveApplicationButtonDoNotMove>منتقل نکن</kStrMoveApplicationButtonDoNotMove>
-			<kStrMoveApplicationQuestionInfoWillRequirePasswd>توجه به رمزعبور آدمین نیاز دارد</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-			<kStrMoveApplicationQuestionInfoInDownloadsFolder>این پوشه شما را دست نخورده باقی می گذارد</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-		</LetsMoveMac>
-		<QLineEditEx>
-			<actionUndo>آندو</actionUndo>
-			<actionRedo>ریدو</actionRedo>
-			<actionCut>کات</actionCut>
-			<actionCopy>کپی</actionCopy>
-			<actionPaste>چسباندن</actionPaste>
-			<actionDelete>حذف</actionDelete>
-			<actionSelectAll>انتخاب همه</actionSelectAll>
-		</QLineEditEx>
-		<QMessageBoxEx>
-			<buttonOK>تأیید</buttonOK>
-			<buttonCancel>لغو</buttonCancel>
-			<buttonClose>بستن</buttonClose>
-			<buttonYes>بله</buttonYes>
-			<buttonNo>خیر</buttonNo>
-		</QMessageBoxEx>
-	</core>
+    <MainWindow>
+        <mnuFile>فایل</mnuFile>
+        <mnuFileExit>خروج</mnuFileExit>
+        <mnuHelp>راهنما</mnuHelp>
+        <mnuHelpDocumentation>فایل راهنما..</mnuHelpDocumentation>
+        <mnuHelpPurchase>خرید نسخه حرفه ای..</mnuHelpPurchase>
+        <mnuHelpEnterCode>کدثبت نام را وارد کنید..</mnuHelpEnterCode>
+        <mnuHelpAbout>درباره..</mnuHelpAbout>
+        <mnuHomePage>صفحه خانگی برنامه..</mnuHomePage>
+        <menuPreferences>مزیت ها..</menuPreferences>
+        <newVersionAvailable>نسخه %1 موجود است</newVersionAvailable>
+        <newVersionUpdate>بروزرسانی</newVersionUpdate>
+        <buttonStop>توقف</buttonStop>
+        <tabConvertExtract>
+            <Name>استخراج فایل/تبدیل به ایزو</Name>
+            <SourceFileName>فایل ایمیج منبع:</SourceFileName>
+            <ConvertToISO>تبدیل به ایمیج ایزو:</ConvertToISO>
+            <ExtractToFolder>استخراج در پوشه:</ExtractToFolder>
+            <buttonOpenImage>بازکردن ایمیج..</buttonOpenImage>
+            <buttonOpenImageText>بازکردن فایل ایمیج سی دی/دی وی دی</buttonOpenImageText>
+            <AllSupportedFiles>همه فایلهای پشتیبانی شده</AllSupportedFiles>
+            <buttonOpenISO>بازکردن ایزو..</buttonOpenISO>
+            <buttonOpenISOText>انتخاب نتیجه فایل ایزو</buttonOpenISOText>
+            <buttonOpenISOFilter>فایل ایزو (*.iso)</buttonOpenISOFilter>
+            <buttonOpenFolder>انتخاب پوشه..</buttonOpenFolder>
+            <buttonOpenFolderText>بازکردن پوشه مقصد</buttonOpenFolderText>
+            <buttonConvert>تبدیل</buttonConvert>
+            <buttonExtract>استخراج</buttonExtract>
+            <labelFileSize>حجم فایل</labelFileSize>
+            <labelFileFormat>فرمت</labelFileFormat>
+            <labelOpenOrDragFile>&lt;b&gt;بازکردن&lt;/b&gt; یا &lt;b&gt;رهاکردن&lt;/b&gt; یک ایمیج برای تبدیل یا استخراج</labelOpenOrDragFile>
+        </tabConvertExtract>
+        <tabDiskToISO>
+            <Name>دیسک سی دی/دی وی دی به ایزو</Name>
+            <SourceDrive>درایو منبع:</SourceDrive>
+            <OutputISO>مقصد ایمیج:</OutputISO>
+            <checkCreateBinCue>ایجاد ایمیج بین/کیو</checkCreateBinCue>
+            <buttonRefresh>تازه کردن</buttonRefresh>
+            <buttonBrowseISO>جستجو..</buttonBrowseISO>
+            <NoDiskInserted>دیسک سی دی/دی وی دی قرار داده نشده است</NoDiskInserted>
+            <buttonMakeISO>ایجاد ایزو</buttonMakeISO>
+            <buttonMakeBinCue>ایجاد ایمیج بین/کیو</buttonMakeBinCue>
+            <chooseISOOrBinCueImage>لطفا فایل ایمیج بین/کیو یا ایزو را انتخاب کنید</chooseISOOrBinCueImage>
+            <isoFilesFilter>فایل ایزو</isoFilesFilter>
+            <binCueSheetFilter>فایل بین (با ورقه کیو)</binCueSheetFilter>
+        </tabDiskToISO>
+        <tabFolderToISO>
+            <Name>پوشه به ایزو</Name>
+            <SourceFolder>پوشه منبع:</SourceFolder>
+            <DestinationISO>مقصد فایل ایزو:</DestinationISO>
+            <VolumeLabel>برچسب درایو:</VolumeLabel>
+            <buttonBrowseForFolder>جستجو برای پوشه..</buttonBrowseForFolder>
+            <buttonChooseISO>انتخاب ایزو..</buttonChooseISO>
+            <buttonOptions>گزینه ها..</buttonOptions>
+            <buttonMakeISO>ایجاد ایزو</buttonMakeISO>
+            <ISOCreationOptions>گزینه های ایجاد ایزو</ISOCreationOptions>
+            <Settings>تنظیمات</Settings>
+            <FileSystemsInsideISO>فایل سیستم:</FileSystemsInsideISO>
+            <buttonDefault>پیش فرض</buttonDefault>
+            <ISO9660Option1>(11) نام فایل داس 8.3</ISO9660Option1>
+            <ISO9660Option2>(180) نام خیلی بلند</ISO9660Option2>
+            <ISO9660Option3>ایزو 9660:1999</ISO9660Option3>
+            <JolietOption1>(64) نام استاندارد</JolietOption1>
+            <JolietOption2>(110) نام بلند</JolietOption2>
+        </tabFolderToISO>
+    </MainWindow>
+    <LiteVersionDialog>
+        <LiteVersionLimitText>نسخه کوچک برنامه فقط با &lt;b&gt; ایمیج سی دی &lt;/b&gt; تا حجم 870 مگابایت کار میکند. به منظور کار با فایل های بزرگتر مثل دی وی دی شما باید &lt;a href="purchase"&gt;نسخه حرفه ای را خریداری کنید&lt;/a&gt;. شما کد ثبت نام برای &lt;a href="unlock"&gt;رفع محدودیت ها&lt;/a&gt; را بعد از خرید برنامه دریافت میکنید</LiteVersionLimitText>
+        <buttonPurchasePro>خرید نسخه حرفه ای..</buttonPurchasePro>
+    </LiteVersionDialog>
+    <EnterKeyDialog>
+        <Caption>کدثبت نام را وارد کنید</Caption>
+        <EnterKeyToUpgradeText>لطفا جزئیات ثبت نام را برای ارتقاء به نسخه حرفه ای وارد کنید</EnterKeyToUpgradeText>
+        <RegName>نام ثبت نام:</RegName>
+        <RegCode>کد ثبت نام:</RegCode>
+    </EnterKeyDialog>
+    <AboutDialog>
+        <Caption>درباره برنامه</Caption>
+        <Website>وبسایت:</Website>
+        <Support>پشتیبانی:</Support>
+        <RunningAs>این برنامه بعنوان نسخه زیر در اجرا است:</RunningAs>
+        <CopyRight>این برنامه رایانه ای توسط قانون حق مالکیت و پیمان های بین المللی حفاظت میشود.کپی یا توزیع غیرمجاز این برنامه،یا هر بخشی از آن،بطور غیرمجاز، مجازات کیفری و مدنی سختی دارد</CopyRight>
+        <buttonPurchasePro>خرید نسخه حرفه ای..</buttonPurchasePro>
+    </AboutDialog>
+    <PreferencesDialog>
+        <Caption>مزیت ها</Caption>
+        <PreferencesGeneral>General</PreferencesGeneral>
+        <PreferencesUpdates>Updates</PreferencesUpdates>
+        <Language>رابط زبان:</Language>
+        <CheckForNewVersions>بررسی نسخه جدید حین اجرای برنامه</CheckForNewVersions>
+        <ShellExtension>افزودن به کلیک راست ویندوز</ShellExtension>
+        <ShellExtensionInfo>افزودن منوی زمینه به درایو نوری،پوشه ها،فایل ها برای فرمت های پشتیبانی شده</ShellExtensionInfo>
+    </PreferencesDialog>
+    <PasswordDialog>
+        <Caption>رمزعبور نیاز است</Caption>
+        <FileIsProtected>فایل رمزی شده هست.به منظور کدگشایی رمزعبور را وارد کنید:</FileIsProtected>
+        <InvalidPassword>رمزعبور نامعتبر است</InvalidPassword>
+    </PasswordDialog>
+    <Messages>
+        <Warning>هشدار</Warning>
+        <Question>سوأل</Question>
+        <NotEnoughDiskSpace>بنظر میرسد فضای دیسک کافی (فقط %1) در درایو انتخاب شده موجود نیست \n\nآیا ادامه میدهید؟</NotEnoughDiskSpace>
+        <ISOAlreadyExists>فایل ایزو مقصد\n%1\nاز قبل موجود است،آن را جایگزین میکنید؟</ISOAlreadyExists>
+        <FolderAlreadyExists>پوشه مقصد\n%1\nاز قبل موجود است،آیا میخواهید همه فایل های موجود با همان نام جایگزین شود؟</FolderAlreadyExists>
+        <RestartProgram>برای کامل شدن ثبت نام برنامه باید ریستارت شود \n\nآیا میخواهید آن را انجام دهید؟</RestartProgram>
+        <CancelOperation>آیا میخواهید عملکرد فعلی لغو شود؟</CancelOperation>
+    </Messages>
+    <StatusMessages>
+        <CheckingSourceImage>بررسی ایمیج منبع..</CheckingSourceImage>
+        <Converting>درحال تبدیل..</Converting>
+        <Extracting>در حال استخراج...</Extracting>
+        <ExtractionFailed>عملکرد استخراج موفق نشد</ExtractionFailed>
+        <Unpacking>درحال بازکردن..</Unpacking>
+        <ConvertingToTemporaryISO>تبدیل به فایل ایزو موقتی..</ConvertingToTemporaryISO>
+        <ProgressBytesWritten>%1 نوشتن</ProgressBytesWritten>
+        <Track>تراک</Track>
+        <ISOImageTypeFound>ایمیج ایزو (نوع %1) یافت شد</ISOImageTypeFound>
+        <CannotOpenSourceFile>فایل منبع را نمیتوان بازکرد</CannotOpenSourceFile>
+        <CannotOpenDestFile>فایل مقصد را نمیتوان بازکرد</CannotOpenDestFile>
+        <OperationTerminated>عملکرد توسط کاربر لغو شد</OperationTerminated>
+        <OperationCompleted>عملکرد کامل شد</OperationCompleted>
+        <ClickToOpenISOInExplorer>برای بازکردن فایل ایزو در ویندوز اکسپلورر &lt;a href="_open_local_file"&gt;اینجا&lt;/a&gt; کلیک کنید</ClickToOpenISOInExplorer>
+        <ClickToMountISOInFinder>برای بارگیری ایزو در یابنده &lt;a href="_open_local_file"&gt;اینجا&lt;/a&gt; کلیک کنید</ClickToMountISOInFinder>
+        <ClickToOpenOutFolder>برای بازکردن پوشه خروجی &lt;a href="_open_local_file"&gt;اینجا&lt;/a&gt; کلیک کنید</ClickToOpenOutFolder>
+        <DiskToISO>
+            <OpeningDevice>بازکردن دستگاه،منتظر بمانید..</OpeningDevice>
+            <TotalDataSize>مجموع حجم داده %1 هست</TotalDataSize>
+            <CreatingISO>درحال ایجاد ایزو..</CreatingISO>
+            <CannotCreateFromAudio>شما نمیتوانید ایمیج ایزو دیسک مولتی-سیزین یا دیسک صوتی پیدا کنید،برای راهنمایی با پشتیبانی تماس بگیرید</CannotCreateFromAudio>
+            <PleaseUseBinCue>لطفا از ایمیج بین/کیو برای چنین دیسکهایی استفاده کنید</PleaseUseBinCue>
+            <BlankDiskDetected>سی دی/دی وی دی خالی تشخیص داده است</BlankDiskDetected>
+            <DiskNotReady>دیسک سی دی/دی وی دی حاضر نیست</DiskNotReady>
+            <CannotOpenDevice>دستگاه (%1) را نمیتواند بازکند</CannotOpenDevice>
+            <ReadError>خواندن خطا %1, برای راهنمایی با پشتیبانی تماس بگیرید</ReadError>
+            <DeviceIsCopyProtected>این دستگاه توسط کپی حفاظت میشود و قطاع رمزی شده است ونمیتوان ادامه داد</DeviceIsCopyProtected>
+            <ISOCreationFailed>موفق به ایجاد ایزو نشد</ISOCreationFailed>
+            <BinCueCreationFailed>موفق به ایجاد ایمیج بین/کیو نشد</BinCueCreationFailed>
+            <CannotReadDiskToc>موفق به خواندن محتویات جدول دیسک نشد</CannotReadDiskToc>
+            <CannotReadDisk>دیسک را نمیتوان خواند، خطا: %1</CannotReadDisk>
+            <DiskNotPresent>دیسک ارائه نشده یا نوع رسانه ناشناخته است</DiskNotPresent>
+            <NoTracksOnDisk>تراکی در دیسک نیست،احتمالا خالی هست</NoTracksOnDisk>
+            <mediaType>نوع رسانه: %1</mediaType>
+            <TrackLength>طول تراک %1 قطاع هست</TrackLength>
+            <TracksCount>تعداد تراک: %1</TracksCount>
+            <WritingTrack>نوشتن تراک %1، طول تراک %2 قطاع هست</WritingTrack>
+            <DiskReadingStopped>خواندن متوقف شد در %1</DiskReadingStopped>
+            <TrackReadingStopped>خواندن متوقف شد در %1، ادامه با تراک بعدی</TrackReadingStopped>
+        </DiskToISO>
+        <FolderToISO>
+            <ScanningFolder>اسکن دایرکتوری منبع..</ScanningFolder>
+            <DirectorySize>حجم دایرکتوری %1 هست</DirectorySize>
+            <WritingISOFile>نوشتن فایل ایزو...</WritingISOFile>
+            <SkippingBigFile>رد فایل '%1'. آن بزرگتر از 4 گیگابایت است</SkippingBigFile>
+            <SkippingFile>رد فایل '%1'</SkippingFile>
+            <BigFileWarning>فایل '%1' بزرگتر از 4 گیگابایت هست و در فایل سیستم ایزو 9660 قابل مشاهده نیست</BigFileWarning>
+            <NestedDirectoriesLimitWarning>ساختار دایرکتوری عمیق تر ازسطح %1 هست، بعضی از فایل ها و پوشه ها رد میشود</NestedDirectoriesLimitWarning>
+            <UnableToOpenFile>قادر به خواندن فایل '%1' برای خواندن دسترسی نیست</UnableToOpenFile>
+            <NoExistingFolder>پوشه %1 وجود ندارد</NoExistingFolder>
+            <failedToCreateISOImage>Failed to create an ISO image</failedToCreateISOImage>
+        </FolderToISO>
+        <UniversalConverter>
+            <AudioCDWarning>ایمیج %1 بنظر میرسد یک ایمیج سی دی صوتی باشد،تبدیل به ایزو ممکن نیست</AudioCDWarning>
+            <NotValidImage>خطا: این ایمیج سی دی/دی وی دی معتبر نیست</NotValidImage>
+            <CannotFindSignature>خطا نمیتوان امضاء ایزو_9660 را یافت،5 مگابایت محدودیت استفاده شده است</CannotFindSignature>
+            <MultiSessionImageDetected>ایمیج دیسک مولتی سیزین تشخیص داد</MultiSessionImageDetected>
+            <MultiSessionNotSupported>ایمیج دیسک،یک ایمیج دیسک مولتی سیزین هست.چنین دیسکهایی پشتیبانی نشده است</MultiSessionNotSupported>
+        </UniversalConverter>
+        <NrgConverter>
+            <NrgParsingError>خطای تجزیه اِن ار جی،لطفا برای رسیدگی با پشتیبانی تماس بگیرید</NrgParsingError>
+            <NoSessionsFound>سیزین اِن آر جی تشخیص نداده است.لطفا برای رسیدگی با پشتیبانی تماس بگیرید</NoSessionsFound>
+        </NrgConverter>
+        <ExtractISO>
+            <LoadingImage>بارگیری ایمیج..</LoadingImage>
+            <ChooseISOFS>در این ایمیج ایزو چند فایل سیستم وجود دارد،لطفا یکی از آنها را برای استخراج انتخاب کنید:</ChooseISOFS>
+            <ChooseISOFSCaption>انتخاب فایل سیستم</ChooseISOFSCaption>
+            <ImageFound>%1 ایمیج یافت</ImageFound>
+            <InvalidISO>فایل یک ایمیج ایزو معتبر نیست یا فعلا پشتیبانی نمیشود</InvalidISO>
+        </ExtractISO>
+        <UIFConverter>
+            <UsingZlib>استفاده از فشرده سازی زد لیب</UsingZlib>
+            <UsingLZMA>استفاده از فشرده خارجساز اِل زذ اِم اِی با ایگور پاولوو</UsingLZMA>
+            <MixedImageFound>نوع ایمیج میکس شده %1یافت شد،از فشرده خارجسازی در فایل موقت..</MixedImageFound>
+            <UnpackingImage>درحال بازکردن ایمیج..</UnpackingImage>
+        </UIFConverter>
+        <DebExtract>
+            <NotValidDeb>فایل آرشیو لینوکس دبیان (اوبونتو) معتبر نیست</NotValidDeb>
+        </DebExtract>
+        <RpmExtract>
+            <PackageOpened>بسته %1 باز شده</PackageOpened>
+            <DecompressingPayload>از فشرده خارجسازی %1 حداکثر بار در یک فایل موقتی..</DecompressingPayload>
+            <UnpackingArchive>درحال بازکردن آرشیو..</UnpackingArchive>
+        </RpmExtract>
+        <DMG>
+            <ConvertingDmgToISO>تبدیل دی اِم جی به اِچ اِس اِف+ایزو</ConvertingDmgToISO>
+            <Writing>درحال نوشتن %1</Writing>
+            <ExtractingMainPartition>استخراج پارتیشن دی اِم جی اصلی در فایل موقتی،مدتی طول میکشد - منتظر بمانید</ExtractingMainPartition>
+            <NoVolumeFound>درایوی نیافت،مشاهده برای اِچ اِف اِس+فایل سیستم..</NoVolumeFound>
+            <ExtractingVolume>استخراج درایو دی اِم جی (%1)...</ExtractingVolume>
+            <CorruptedOrPasswordProtected>خطا: ایمیج دی اِم جی خراب شده یا توسط رمزعبور حفاظت میشود</CorruptedOrPasswordProtected>
+            <XarArchiveDetected>فایل دی اِم جی در واقع یک آرشیو ایکس اِی ار هست (معمولا فایل واقعی دی اِم جی داخل ان هست) که فقط می تواند استخراج شود. برای ادامه لطفا عملکرد استخراج را انتخاب نمایید</XarArchiveDetected>
+            <openedAsMessage>فایل باز شده بعنوان %1</openedAsMessage>
+            <DmgDisk>ایمیج دیسک دی اِم جی</DmgDisk>
+            <GPTDisk>دیسک جی پی تی</GPTDisk>
+            <MBRDisk>دیسک اَپل</MBRDisk>
+            <HFSVolume>اِچ اِف اِس+درایو</HFSVolume>
+            <readingFileSystem>..خواندن %1 فایل سیستم</readingFileSystem>
+            <messageMultiplePartitions>چندین پارتیشن داخل ایمیج دی اِم جی وجود دارد،لطفا یکی از آنها را برای استخراج انتخاب کنید</messageMultiplePartitions>
+            <messageMultiplePartitionsTitle>یک پارتیشن انتخاب کنید</messageMultiplePartitionsTitle>
+        </DMG>
+        <PDIConverter>
+            <InvalidOrBrokenImage>ایمیج پی دی آی اینتنت کپی خراب یا نامعتبر است</InvalidOrBrokenImage>
+        </PDIConverter>
+        <ISZConverter>
+            <CompressionNone>روش فشرده سازی: هیچیک</CompressionNone>
+            <WarningPassword>تعیین رمزعبور نامعتبر فایل خروجی را نامعتبر میکند</WarningPassword>
+            <ImageIsSegmented>فای آی اِس زد تقسیم بندی شده است</ImageIsSegmented>
+        </ISZConverter>
+        <ArchiveConverter>
+            <ReadingArchive>خواندن آرشیو..</ReadingArchive>
+            <RemovingTempFiles>حذف فایل های موقتی..</RemovingTempFiles>
+            <ExtractError>قادر به استخراج در %1 نیست، خطا %2</ExtractError>
+        </ArchiveConverter>
+        <TarUnpacker>
+            <SinglePackedFileFound>فایل بسته شده تکی تشخیص داد: %1، درحال بازکردن</SinglePackedFileFound>
+        </TarUnpacker>
+        <XarUnpacker>
+            <ReadingTOC>خواند محتویات جدول (%1 بایت)...</ReadingTOC>
+            <NestedArchiveFound>فایل استخراج شده '%1' میتواند بطور جداگانه بعنوان %2 آرشیو باز شود (افزودن پسوند دستی)</NestedArchiveFound>
+        </XarUnpacker>
+    </StatusMessages>
+    <Misc>
+        <buttonOk>تایید</buttonOk>
+        <buttonCancel>لغو</buttonCancel>
+        <buttonClose>بستن</buttonClose>
+        <buttonYes>بله</buttonYes>
+        <buttonNo>خير</buttonNo>
+        <ProVersion>نسخه حرفه ای</ProVersion>
+        <LiteVersion>نسخه کوچک</LiteVersion>
+    </Misc>
+    <ShellExtension>
+        <!-- This section describes Windows context menus -->
+        <ConvertToISO>تبدیل به "%s"</ConvertToISO>
+        <ConvertToISOInfo>تبدیل فایل ایمیج دیسک به فرمت ایزو</ConvertToISOInfo>
+        <Extract>استخراج در "%s"</Extract>
+        <ExtractInfo>استخراج فایل ایمیج دیسک</ExtractInfo>
+        <CreateISOFromFolder>ایجاد "%s"</CreateISOFromFolder>
+        <CreateISOFromFolderInfo>ایجاد ایمیج ایزو از این پوشه با گزینه های پیش فرض</CreateISOFromFolderInfo>
+        <CreateISOFromFolderWithOptions>ایجاد "%s" با گزینه ها</CreateISOFromFolderWithOptions>
+        <CreateISOFromFolderWithOptionsInfo>ایجاد ایمیج ایزو از این پوشه با تعیین گزینه فایل سیستم و برجسب درایو</CreateISOFromFolderWithOptionsInfo>
+        <CreateISOFromDisk>ایجاد ایمیج ایزو از این دیسک</CreateISOFromDisk>
+        <CreateISOFromDiskInfo>ایجاد ایمیج ایزو از دیسک نوری انتخاب شده</CreateISOFromDiskInfo>
+        <CreateBINCUEFromDisk>ایجاد ایمیج بین/کیو از این دیسک</CreateBINCUEFromDisk>
+        <CreateBINCUEFromDiskInfo>ایجاد ایمیج بین (خام) از دیسک نوری انتخاب شده و از فایل ورقه کیو مطابق با آن</CreateBINCUEFromDiskInfo>
+    </ShellExtension>
+    <core>
+        <UpdateChecker>
+            <ReleasedOn>منتشر شده در %1</ReleasedOn>
+            <CheckForUpdates>بررسی برای بروزرسانی...</CheckForUpdates>
+            <NewVersionAvailable>نسخه جدید %1 موجود است</NewVersionAvailable>
+            <NewVersionAvailableText>%1 %2 حالا موجود است - شما %3 را دارید.حالا دانلود می کنید؟</NewVersionAvailableText>
+            <UpdateAlertTitle>بروزرسانی نرم افزار</UpdateAlertTitle>
+            <UpdateAlertReleaseNotes>جزئیات انتشار:</UpdateAlertReleaseNotes>
+            <UpdateAlertRemindLater>بعدا یادآوری کن</UpdateAlertRemindLater>
+            <UpdateAlertSkip>رد این نسخه</UpdateAlertSkip>
+            <UpdateAlertInstall>نصب بروزرسانی</UpdateAlertInstall>
+            <UpdateAlertAutomaticUpdates>بررسی خودکار برای بروزرسانی</UpdateAlertAutomaticUpdates>
+            <MessageNoUpdateAvailable>نسخه شما بروز است</MessageNoUpdateAvailable>
+            <MessageNoUpdateAvailableDescription>%1 %2 اکنون جدیدترین نسخه موجود است</MessageNoUpdateAvailableDescription>
+            <MessageErrorConnect>یک خطا حین دانلود بروزرسانی رخ داد. لطفا بعدا دوباره سعی کنید</MessageErrorConnect>
+            <MessageErrorParse>یک خطا حین تحلیل فید بروزرسانی رخ داد</MessageErrorParse>
+            <UpdateProgressTitle>بروزرسانی %1</UpdateProgressTitle>
+            <UpdateProgressCancel>لغو</UpdateProgressCancel>
+            <UpdateProgressInstallAndRelaunch>نصب و اِجرای مجدد</UpdateProgressInstallAndRelaunch>
+            <UpdateProgressStatusDownloading>دانلود بروزرسانی...</UpdateProgressStatusDownloading>
+            <UpdateProgressExtract>استخراج بروزرسانی..</UpdateProgressExtract>
+            <UpdateProgressStatusReady>آماده نصب</UpdateProgressStatusReady>
+            <UpdateProgressSize>%1 از %2</UpdateProgressSize>
+            <UpdateProgressB>بایت</UpdateProgressB>
+            <UpdateProgressKB>کیلوبایت</UpdateProgressKB>
+            <UpdateProgressMB>مگابایت</UpdateProgressMB>
+            <UpdateProgressGB>گیگابایت</UpdateProgressGB>
+        </UpdateChecker>
+        <LetsMoveMac>
+            <kStrMoveApplicationCouldNotMove>نمیتواند به پوشه برنامه ها منتقل کرد</kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>انتقال به برنامه ها</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>انتقال به پوشه برنامه ها در پوشه خانگی شما؟</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>آیا میخواهید %1 تا خودش را به پوشه برنامه ها منتقل کند؟</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationButtonMove>انتقال به پوشه برنامه ها</kStrMoveApplicationButtonMove>
+            <kStrMoveApplicationButtonDoNotMove>منتقل نکن</kStrMoveApplicationButtonDoNotMove>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>توجه به رمزعبور آدمین نیاز دارد</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>این پوشه شما را دست نخورده باقی می گذارد</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+        </LetsMoveMac>
+        <QLineEditEx>
+            <actionUndo>آندو</actionUndo>
+            <actionRedo>ریدو</actionRedo>
+            <actionCut>کات</actionCut>
+            <actionCopy>کپی</actionCopy>
+            <actionPaste>چسباندن</actionPaste>
+            <actionDelete>حذف</actionDelete>
+            <actionSelectAll>انتخاب همه</actionSelectAll>
+        </QLineEditEx>
+        <QMessageBoxEx>
+            <buttonOK>تأیید</buttonOK>
+            <buttonCancel>لغو</buttonCancel>
+            <buttonClose>بستن</buttonClose>
+            <buttonYes>بله</buttonYes>
+            <buttonNo>خیر</buttonNo>
+        </QMessageBoxEx>
+    </core>
 </LanguageStrings>

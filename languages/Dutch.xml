@@ -1,310 +1,312 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="3.1" Author="Marco Luik (The Netherlands)">
-	<MainWindow>
-		<mnuFile>Bestand</mnuFile>
-		<mnuFileExit>Afsluiten</mnuFileExit>
-		<mnuHelp>Help</mnuHelp>
-		<mnuHelpDocumentation>Documentatie...</mnuHelpDocumentation>
-		<mnuHelpPurchase>Koop de Pro Versie...</mnuHelpPurchase>
-		<mnuHelpEnterCode>Voer Registratie Code in...</mnuHelpEnterCode>
-		<mnuHelpAbout>Over...</mnuHelpAbout>
-		<mnuHomePage>AnyToISO website...</mnuHomePage>
-		<menuPreferences>Instellingen...</menuPreferences>
-		<newVersionAvailable>AnyToISO %1 is verkrijgbaar!</newVersionAvailable>
-		<newVersionUpdate>Update</newVersionUpdate>
-		<buttonStop>Stop</buttonStop>
-		<tabConvertExtract>
-			<Name>Bestand uitpakken/converteren naar ISO image</Name>
-			<SourceFileName>Bron image bestand:</SourceFileName>
-			<ConvertToISO>Omzetten naar ISO image:</ConvertToISO>
-			<ExtractToFolder>Uitpakken naar map:</ExtractToFolder>
-			<buttonOpenImage>Open image bestand...</buttonOpenImage>
-			<buttonOpenImageText>Open CD/DVD image bestand</buttonOpenImageText>
-			<AllSupportedFiles>Alle ondersteunde bestandstypen</AllSupportedFiles>
-			<buttonOpenISO>Open ISO image...</buttonOpenISO>
-			<buttonOpenISOText>Kies doel ISO image</buttonOpenISOText>
-			<buttonOpenISOFilter>ISO bestanden (*.iso)</buttonOpenISOFilter>
-			<buttonOpenFolder>Kies map...</buttonOpenFolder>
-			<buttonOpenFolderText>Open doel map</buttonOpenFolderText>
-			<buttonConvert>Omzetten!</buttonConvert>
-			<buttonExtract>Uitpakken!</buttonExtract>
-			<labelFileSize>Bestandsgrootte</labelFileSize>
-			<labelFileFormat>Formaat</labelFileFormat>
-			<labelOpenOrDragFile>&lt;b&gt;Open&lt;/b&gt; of &lt;b&gt;sleep&lt;/b&gt; hier een image naar toe om deze om te zetten of uit te pakken</labelOpenOrDragFile>
-		</tabConvertExtract>
-		<tabDiskToISO>
-			<Name>CD/DVD disk naar ISO image</Name>
-			<SourceDrive>Bron drive:</SourceDrive>
-			<OutputISO>Doel ISO image:</OutputISO>
-			<checkCreateBinCue>Create BIN/CUE image</checkCreateBinCue>
-			<buttonRefresh>Verversen</buttonRefresh>
-			<buttonBrowseISO>Bladeren...</buttonBrowseISO>
-			<NoDiskInserted>Geen CD/DVD ingevoerd</NoDiskInserted>
-			<buttonMakeISO>Creëer ISO image</buttonMakeISO>
-			<buttonMakeBinCue>Create BIN/CUE image</buttonMakeBinCue>
-			<chooseISOOrBinCueImage>Please select ISO or BIN/CUE image file</chooseISOOrBinCueImage>
-			<isoFilesFilter>ISO Files</isoFilesFilter>
-			<binCueSheetFilter>BIN Files (with CUE sheet)</binCueSheetFilter>
-		</tabDiskToISO>
-		<tabFolderToISO>
-			<Name>Map naar ISO image</Name>
-			<SourceFolder>Bron map:</SourceFolder>
-			<DestinationISO>Doel ISO image:</DestinationISO>
-			<VolumeLabel>Volume Label:</VolumeLabel>
-			<buttonBrowseForFolder>Zoeken naar map...</buttonBrowseForFolder>
-			<buttonChooseISO>Kies ISO image...</buttonChooseISO>
-			<buttonOptions>Opties...</buttonOptions>
-			<buttonMakeISO>Creër ISO image</buttonMakeISO>
-			<ISOCreationOptions>ISO image bestandsopties</ISOCreationOptions>
-			<Settings>Instellingen</Settings>
-			<FileSystemsInsideISO>Bestandssystemen:</FileSystemsInsideISO>
-			<buttonDefault>Standaard</buttonDefault>
-			<ISO9660Option1>8.3 DOS bestandsnamen (11)</ISO9660Option1>
-			<ISO9660Option2>Lange bestandsnamen (180)</ISO9660Option2>
-			<ISO9660Option3>ISO 9660:1999</ISO9660Option3>
-			<JolietOption1>Standaard bestandsnamen (64)</JolietOption1>
-			<JolietOption2>Lange bestandsnamen(110)</JolietOption2>
-		</tabFolderToISO>
-	</MainWindow>
-	<LiteVersionDialog>
-		<LiteVersionLimitText>De Lite versie van AnyToISO werkt alleen met &lt;b&gt;CD images &lt;/b&gt; (tot max. 870 MB). Om met grotere bestanden (DVD en groter) te werken moet u &lt;a href="kopen"&gt;hier&lt;/a&gt; de Pro versie kopen. U ontvangt de registratiecode om &lt;a href="unlock"&gt;hier&lt;/a&gt; de software vrij te geven na uw aankoop.</LiteVersionLimitText>
-		<buttonPurchasePro>Koop de Pro Versie...</buttonPurchasePro>
-	</LiteVersionDialog>
-	<EnterKeyDialog>
-		<Caption>Voer Registratiecode in</Caption>
-		<EnterKeyToUpgradeText>Voer uw registratiecode in om naar de Pro versie van AnyToISO te upgraden.</EnterKeyToUpgradeText>
-		<RegName>Registratienaam:</RegName>
-		<RegCode>Registratiecode:</RegCode>
-	</EnterKeyDialog>
-	<AboutDialog>
-		<Caption>Over AnyToISO</Caption>
-		<Website>Website:</Website>
-		<Support>Support:</Support>
-		<RunningAs>Geïnstalleerde versie van het programma:</RunningAs>
-		<CopyRight>This computer program is protected by copyright law and international treaties. Unauthorized duplication or distribution of this program, or any portion of it, may result in severe civil or criminal penalties.</CopyRight>
-		<buttonPurchasePro>Koop de Pro versie...</buttonPurchasePro>
-	</AboutDialog>
-	<PreferencesDialog>
-		<Caption>Instellingen</Caption>
-		<Language>Taal:</Language>
-		<CheckForNewVersions>Controleer op nieuwe versie bij het starten van het programma</CheckForNewVersions>
-		<ShellExtension>Windows Explorer integratie</ShellExtension>
-		<ShellExtensionInfo>Voeg context menu's toe voor CD/DVD drives, mappen en bestanden die ondersteund worden.</ShellExtensionInfo>
-	</PreferencesDialog>
-	<PasswordDialog>
-		<Caption>Wachtwoord nodig</Caption>
-		<FileIsProtected>Het bestand is beveiligd. Om het bestand te bekijken dient u het wachtwoord in te geven:</FileIsProtected>
-		<InvalidPassword>Invalid password</InvalidPassword>
-	</PasswordDialog>
-	<Messages>
-		<Warning>Waarschuwing</Warning>
-		<Question>Vraag</Question>
-		<NotEnoughDiskSpace>Het lijkt erop dat er niet genoeg vrije ruimte (maar %1) op de geselecteerde disk beschikbaar is. \n\nWilt u doorgaan?</NotEnoughDiskSpace>
-		<ISOAlreadyExists>Doel ISO image\n%1\nbestaat reeds, wilt u het bestand overschrijven?</ISOAlreadyExists>
-		<FolderAlreadyExists>Doel map\n%1\nbestaat reeds, wilt u de bestaande bestanden met dezelfde naam overschrijven?</FolderAlreadyExists>
-		<RestartProgram>Om de registratie te voltooien moet u het programma opnieuw opstarten. \n\nWilt u nu het programma opnieuw opstarten?</RestartProgram>
-		<CancelOperation>Weet u zeker dat u de huidige handeling wilt onderbreken?</CancelOperation>
-	</Messages>
-	<StatusMessages>
-		<CheckingSourceImage>Bron image aan het controleren...</CheckingSourceImage>
-		<Converting>Omzetten...</Converting>
-		<Extracting>Uitpakken...</Extracting>
-		<ExtractionFailed>Extract operation failed</ExtractionFailed>
-		<Unpacking>Nog meer uitpakken...</Unpacking>
-		<ConvertingToTemporaryISO>Omzetten naar een tijdelijk ISO image...</ConvertingToTemporaryISO>
-		<ProgressBytesWritten>%1 voltooid</ProgressBytesWritten>
-		<Track>Track</Track>
-		<ISOImageTypeFound>ISO image (type %1) gevonden</ISOImageTypeFound>
-		<CannotOpenSourceFile>Kan het bronbestand niet openen.</CannotOpenSourceFile>
-		<CannotOpenDestFile>Kan het doelbestand niet openen.</CannotOpenDestFile>
-		<OperationTerminated>Bewerking gestopt door gebruiker.</OperationTerminated>
-		<OperationCompleted>Bewerking voltooid.</OperationCompleted>
-		<ClickToOpenISOInExplorer>Klik &lt;a href="_open_local_file"&gt;hier&lt;/a&gt; om de gemaakte ISO image in de Explorer te openen</ClickToOpenISOInExplorer>
-		<ClickToMountISOInFinder>Klik &lt;a href="_open_local_file"&gt;hier&lt;/a&gt; om de ISO image te mounten in Finder</ClickToMountISOInFinder>
-		<ClickToOpenOutFolder>Klik &lt;a href="_open_local_file"&gt;hier&lt;/a&gt; om de bestemmingsmap te openen</ClickToOpenOutFolder>
-		<DiskToISO>
-			<OpeningDevice>Openen medium, even wachten...</OpeningDevice>
-			<TotalDataSize>Totale dataomvang is %1</TotalDataSize>
-			<CreatingISO>ISO creëren...</CreatingISO>
-			<CannotCreateFromAudio>U kunt niet een ISO image of een multi-sessie disk van een Audio CD creëren, vraag de supportafdeling om ondersteuning.</CannotCreateFromAudio>
-			<PleaseUseBinCue>Please use BIN/CUE image for such disks</PleaseUseBinCue>
-			<BlankDiskDetected>Lege CD/DVD disk ingevoerd</BlankDiskDetected>
-			<DiskNotReady>CD/DVD disk niet gereed</DiskNotReady>
-			<CannotOpenDevice>Kan het medium (%1) niet openen</CannotOpenDevice>
-			<ReadError>Leesfout %1, vraag de supportafdeling om ondersteuning</ReadError>
-			<DeviceIsCopyProtected>Dit medium heeft een kopieerbeveiliging en de sector is gecodeerd. Kan niet doorgaan.</DeviceIsCopyProtected>
-			<ISOCreationFailed>ISO image creëren is mislukt</ISOCreationFailed>
-			<BinCueCreationFailed>BIN/CUE image creation failed</BinCueCreationFailed>
-			<CannotReadDiskToc>Failed to read TOC (table of contents) of the disk</CannotReadDiskToc>
-			<CannotReadDisk>Cannot read disk, error: %1</CannotReadDisk>
-			<DiskNotPresent>Disk not present or unknown media type</DiskNotPresent>
-			<NoTracksOnDisk>There are no tracks on the disk, it's probably blank</NoTracksOnDisk>
-			<mediaType>Media type: %1</mediaType>
-			<TrackLength>Track length is %1 sectors</TrackLength>
-			<TracksCount>Tracks count: %1</TracksCount>
-			<WritingTrack>Writing track %1, track length is %2 sectors</WritingTrack>
-			<DiskReadingStopped>Reading stopped at %1</DiskReadingStopped>
-			<TrackReadingStopped>Reading stopped at %1, resuming with next track</TrackReadingStopped>
-		</DiskToISO>
-		<FolderToISO>
-			<ScanningFolder>Bron map aan het doorzoeken...</ScanningFolder>
-			<DirectorySize>Map grootte is %1</DirectorySize>
-			<WritingISOFile>ISO image aan het schrijven...</WritingISOFile>
-			<SkippingBigFile>Bestand '%1' overgeslagen. Bestand is groter dan 4 GB</SkippingBigFile>
-			<SkippingFile>Bestand '%1' is overgeslagen.</SkippingFile>
-			<BigFileWarning>Bestand '%1' is groter dan 4 GB en is niet zichtbaar in het ISO 9660 bestandssystem.</BigFileWarning>
-			<NestedDirectoriesLimitWarning>Mapstructuur is dieper dan %1 niveaus, sommige bestanden en mappen zullen worden overgeslagen.</NestedDirectoriesLimitWarning>
-			<UnableToOpenFile>Kan bestand '%1' niet openen om te lezen.</UnableToOpenFile>
-			<NoExistingFolder>The folder %1 doesn't exist</NoExistingFolder>
-			<failedToCreateISOImage>Failed to create an ISO image</failedToCreateISOImage>
-		</FolderToISO>
-		<UniversalConverter>
-			<AudioCDWarning>De image lijkt een %1 Audio CD image te zijn, omzetten naar ISO image is niet mogelijk.</AudioCDWarning>
-			<NotValidImage>Error: Dit is geen CD/DVD image</NotValidImage>
-			<CannotFindSignature>Error: kan de ISO_9660 handtekening niet vinden, de 5 MB limiet is bereikt</CannotFindSignature>
-			<MultiSessionImageDetected>Multi-session disk image detected</MultiSessionImageDetected>
-			<MultiSessionNotSupported>The disk image is a multi-session disk image. Such images are not supported.</MultiSessionNotSupported>
-		</UniversalConverter>
-		<NrgConverter>
-			<NrgParsingError>NRG parsing error, please contact support for assistance</NrgParsingError>
-			<NoSessionsFound>No NRG sessions detected, please contact support for assistance</NoSessionsFound>
-		</NrgConverter>
-		<ExtractISO>
-			<LoadingImage>Image laden...</LoadingImage>
-			<ChooseISOFS>Er zijn meerder bestandssystemen aanwezig op deze ISO image, kies er 1 van om uit te pakken:</ChooseISOFS>
-			<ChooseISOFSCaption>Kies bestandssysteem</ChooseISOFSCaption>
-			<ImageFound>%1 image gevonden</ImageFound>
-			<InvalidISO>Het bestand is geen ISO image of wordt nog niet ondersteund</InvalidISO>
-		</ExtractISO>
-		<UIFConverter>
-			<UsingZlib>Gebruik zlib decompressie</UsingZlib>
-			<UsingLZMA>Gebruik Lzma decompressie by Igor Pavlov</UsingLZMA>
-			<MixedImageFound>Gemixt image type %1 gevonden, uitpakken naar een tijdelijk bestand...</MixedImageFound>
-			<UnpackingImage>Uitpakken van image...</UnpackingImage>
-		</UIFConverter>
-		<DebExtract>
-			<NotValidDeb>Het bestand is niet een Debian (Ubuntu) Linux bestand</NotValidDeb>
-		</DebExtract>
-		<RpmExtract>
-			<PackageOpened>Pakket %1 geopend</PackageOpened>
-			<DecompressingPayload>Uitpakken van %1 payload naar een tijdelijk bestand...</DecompressingPayload>
-			<UnpackingArchive>Uitpakken van bestand...</UnpackingArchive>
-		</RpmExtract>
-		<DMG>
-			<ConvertingDmgToISO>Omzetten DMG naar HFS+ ISO image...</ConvertingDmgToISO>
-			<Writing>Schrijven %1...</Writing>
-			<ExtractingMainPartition>Uitpakken van DMG partie naar een tijdelijk bestand, dit kan even duren - even wachten...</ExtractingMainPartition>
-			<NoVolumeFound>Geen volume gevonden, zoeken naar HFS+ bestandssysteem...</NoVolumeFound>
-			<ExtractingVolume>Uitpakken DMG volume (%1)...</ExtractingVolume>
-			<CorruptedOrPasswordProtected>Error: verminkte of met password beveiligde DMG image</CorruptedOrPasswordProtected>
-			<XarArchiveDetected>DMG file is actually a XAR archive (normally with actual DMG file inside) that can be only extracted. Please choose extract operation to proceed</XarArchiveDetected>
-			<openedAsMessage>The file is opened as %1</openedAsMessage>
-			<DmgDisk>DMG disk image</DmgDisk>
-			<GPTDisk>GPT disk</GPTDisk>
-			<MBRDisk>Apple disk</MBRDisk>
-			<HFSVolume>HFS+ volume</HFSVolume>
-			<readingFileSystem>Reading %1 file system...</readingFileSystem>
-			<messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
-			<messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
-		</DMG>
-		<PDIConverter>
-			<InvalidOrBrokenImage>Niet juiste InstantCopy PDI image</InvalidOrBrokenImage>
-		</PDIConverter>
-		<ISZConverter>
-			<CompressionNone>Compressie methode: geen</CompressionNone>
-			<WarningPassword>Het ingeven van een verkeerd wachtwoord zal het doelbestand onbruikbaar maken</WarningPassword>
-			<ImageIsSegmented>ISZ bestand is gesegmenteerd</ImageIsSegmented>
-		</ISZConverter>
-		<ArchiveConverter>
-			<ReadingArchive>Reading archive...</ReadingArchive>
-			<RemovingTempFiles>Removing temporary files...</RemovingTempFiles>
-			<ExtractError>Unable to extract %1, error %2</ExtractError>
-		</ArchiveConverter>
-		<TarUnpacker>
-			<SinglePackedFileFound>Single packed file detected: %1, unpacking...</SinglePackedFileFound>
-		</TarUnpacker>
-		<XarUnpacker>
-			<ReadingTOC>Reading table of contents (%1 bytes)...</ReadingTOC>
-			<NestedArchiveFound>Extracted file '%1' can be unpacked separately as %2 archive (append extension manually)</NestedArchiveFound>
-		</XarUnpacker>
-	</StatusMessages>
-	<Misc>
-		<buttonOk>OK</buttonOk>
-		<buttonCancel>Stoppen</buttonCancel>
-		<buttonClose>Sluiten</buttonClose>
-		<buttonYes>Yes</buttonYes>
-		<buttonNo>No</buttonNo>
-		<ProVersion>Pro Versie</ProVersion>
-		<LiteVersion>Lite Versie</LiteVersion>
-	</Misc>
-	<ShellExtension>
-		<!-- This section describes Windows context menus -->
-		<ConvertToISO>Omzetten naar "%s"</ConvertToISO>
-		<ConvertToISOInfo>Zet disk image om naar ISO formaat</ConvertToISOInfo>
-		<Extract>Uitpakken naar "%s"</Extract>
-		<ExtractInfo>Uitpakken disk image</ExtractInfo>
-		<CreateISOFromFolder>Creëer "%s"</CreateISOFromFolder>
-		<CreateISOFromFolderInfo>Creëer ISO image van deze map met standaard opties</CreateISOFromFolderInfo>
-		<CreateISOFromFolderWithOptions>Creëer "%s" met opties...</CreateISOFromFolderWithOptions>
-		<CreateISOFromFolderWithOptionsInfo>Creëer ISO image van deze map door het aangeven van bestandssysteemopties en volume label</CreateISOFromFolderWithOptionsInfo>
-		<CreateISOFromDisk>Creëer ISO image van deze schijf</CreateISOFromDisk>
-		<CreateISOFromDiskInfo>Creëer ISO image van een geselecteerde CD/DVD</CreateISOFromDiskInfo>
-		<CreateBINCUEFromDisk>Create BIN/CUE image of this disk</CreateBINCUEFromDisk>
-		<CreateBINCUEFromDiskInfo>Create BIN (raw) image of a selected optical disk and its corresponding CUE sheet file</CreateBINCUEFromDiskInfo>
-	</ShellExtension>
-	<core>
-		<UpdateChecker>
-			<ReleasedOn>uitgebracht op %1</ReleasedOn>
-			<CheckForUpdates>Controleren op updates...</CheckForUpdates>
-			<NewVersionAvailable>Een nieuwe versie: %1 is beschikbaar!</NewVersionAvailable>
-			<NewVersionAvailableText>%1 %2 is nu beschikbaar - u heeft %3. Wilt u deze nieuwe versie downloaden?</NewVersionAvailableText>
-			<UpdateAlertTitle>Software Update</UpdateAlertTitle>
-			<UpdateAlertReleaseNotes>Versie informatie:</UpdateAlertReleaseNotes>
-			<UpdateAlertRemindLater>Herinner mij later</UpdateAlertRemindLater>
-			<UpdateAlertSkip>Deze versie overslaan</UpdateAlertSkip>
-			<UpdateAlertInstall>Update installeren</UpdateAlertInstall>
-			<UpdateAlertAutomaticUpdates>Automatisch controleren updates</UpdateAlertAutomaticUpdates>
-			<MessageNoUpdateAvailable>Deze versie up to date!</MessageNoUpdateAvailable>
-			<MessageNoUpdateAvailableDescription>%1 %2 is momenteel de meest recente versie.</MessageNoUpdateAvailableDescription>
-			<MessageErrorConnect>Er is een fout opgetreden bij het downloaden van de update. Probeer het later nog eens.</MessageErrorConnect>
-			<MessageErrorParse>Er is een fout opgetreden bij het installeren van de update.</MessageErrorParse>
-			<UpdateProgressTitle>Bezig met bijwerken van versie %1</UpdateProgressTitle>
-			<UpdateProgressCancel>Annuleren</UpdateProgressCancel>
-			<UpdateProgressInstallAndRelaunch>Installeren en herstarten</UpdateProgressInstallAndRelaunch>
-			<UpdateProgressStatusDownloading>Update downloaden...</UpdateProgressStatusDownloading>
-			<UpdateProgressExtract>Update extraheren...</UpdateProgressExtract>
-			<UpdateProgressStatusReady>Klaar om te installeren</UpdateProgressStatusReady>
-			<UpdateProgressSize>%1 van %2</UpdateProgressSize>
-			<UpdateProgressB>B</UpdateProgressB>
-			<UpdateProgressKB>KB</UpdateProgressKB>
-			<UpdateProgressMB>MB</UpdateProgressMB>
-			<UpdateProgressGB>GB</UpdateProgressGB>
-		</UpdateChecker>
-		<LetsMoveMac>
-			<kStrMoveApplicationCouldNotMove>Kon niet verplaatsen naar de Programma's map</kStrMoveApplicationCouldNotMove>
-			<kStrMoveApplicationQuestionTitle>Verplaatsen naar Programma's map?</kStrMoveApplicationQuestionTitle>
-			<kStrMoveApplicationQuestionTitleHome>Verplaatsen naar Programma's map in uw persoonlijke map?</kStrMoveApplicationQuestionTitleHome>
-			<kStrMoveApplicationQuestionMessage>Ik kan de app %1 naar de Programma's map verplaatsen als u dat wilt.</kStrMoveApplicationQuestionMessage>
-			<kStrMoveApplicationButtonMove>Verplaats naar Programma's map</kStrMoveApplicationButtonMove>
-			<kStrMoveApplicationButtonDoNotMove>Niet verplaatsen</kStrMoveApplicationButtonDoNotMove>
-			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Let op: dit vereist een wachtwoord van een beheerder.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-			<kStrMoveApplicationQuestionInfoInDownloadsFolder>Op deze manier blijft uw Downloads-map schoon.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-		</LetsMoveMac>
-		<QLineEditEx>
-			<actionUndo>Undo</actionUndo>
-			<actionRedo>Redo</actionRedo>
-			<actionCut>Cut</actionCut>
-			<actionCopy>Copy</actionCopy>
-			<actionPaste>Paste</actionPaste>
-			<actionDelete>Delete</actionDelete>
-			<actionSelectAll>Select All</actionSelectAll>
-		</QLineEditEx>
-		<QMessageBoxEx>
-			<buttonOK>OK</buttonOK>
-			<buttonCancel>Cancel</buttonCancel>
-			<buttonClose>Close</buttonClose>
-			<buttonYes>Yes</buttonYes>
-			<buttonNo>No</buttonNo>
-		</QMessageBoxEx>
-	</core>
+    <MainWindow>
+        <mnuFile>Bestand</mnuFile>
+        <mnuFileExit>Afsluiten</mnuFileExit>
+        <mnuHelp>Help</mnuHelp>
+        <mnuHelpDocumentation>Documentatie...</mnuHelpDocumentation>
+        <mnuHelpPurchase>Koop de Pro Versie...</mnuHelpPurchase>
+        <mnuHelpEnterCode>Voer Registratie Code in...</mnuHelpEnterCode>
+        <mnuHelpAbout>Over...</mnuHelpAbout>
+        <mnuHomePage>AnyToISO website...</mnuHomePage>
+        <menuPreferences>Instellingen...</menuPreferences>
+        <newVersionAvailable>AnyToISO %1 is verkrijgbaar!</newVersionAvailable>
+        <newVersionUpdate>Update</newVersionUpdate>
+        <buttonStop>Stop</buttonStop>
+        <tabConvertExtract>
+            <Name>Bestand uitpakken/converteren naar ISO image</Name>
+            <SourceFileName>Bron image bestand:</SourceFileName>
+            <ConvertToISO>Omzetten naar ISO image:</ConvertToISO>
+            <ExtractToFolder>Uitpakken naar map:</ExtractToFolder>
+            <buttonOpenImage>Open image bestand...</buttonOpenImage>
+            <buttonOpenImageText>Open CD/DVD image bestand</buttonOpenImageText>
+            <AllSupportedFiles>Alle ondersteunde bestandstypen</AllSupportedFiles>
+            <buttonOpenISO>Open ISO image...</buttonOpenISO>
+            <buttonOpenISOText>Kies doel ISO image</buttonOpenISOText>
+            <buttonOpenISOFilter>ISO bestanden (*.iso)</buttonOpenISOFilter>
+            <buttonOpenFolder>Kies map...</buttonOpenFolder>
+            <buttonOpenFolderText>Open doel map</buttonOpenFolderText>
+            <buttonConvert>Omzetten!</buttonConvert>
+            <buttonExtract>Uitpakken!</buttonExtract>
+            <labelFileSize>Bestandsgrootte</labelFileSize>
+            <labelFileFormat>Formaat</labelFileFormat>
+            <labelOpenOrDragFile>&lt;b&gt;Open&lt;/b&gt; of &lt;b&gt;sleep&lt;/b&gt; hier een image naar toe om deze om te zetten of uit te pakken</labelOpenOrDragFile>
+        </tabConvertExtract>
+        <tabDiskToISO>
+            <Name>CD/DVD disk naar ISO image</Name>
+            <SourceDrive>Bron drive:</SourceDrive>
+            <OutputISO>Doel ISO image:</OutputISO>
+            <checkCreateBinCue>Create BIN/CUE image</checkCreateBinCue>
+            <buttonRefresh>Verversen</buttonRefresh>
+            <buttonBrowseISO>Bladeren...</buttonBrowseISO>
+            <NoDiskInserted>Geen CD/DVD ingevoerd</NoDiskInserted>
+            <buttonMakeISO>Creëer ISO image</buttonMakeISO>
+            <buttonMakeBinCue>Create BIN/CUE image</buttonMakeBinCue>
+            <chooseISOOrBinCueImage>Please select ISO or BIN/CUE image file</chooseISOOrBinCueImage>
+            <isoFilesFilter>ISO Files</isoFilesFilter>
+            <binCueSheetFilter>BIN Files (with CUE sheet)</binCueSheetFilter>
+        </tabDiskToISO>
+        <tabFolderToISO>
+            <Name>Map naar ISO image</Name>
+            <SourceFolder>Bron map:</SourceFolder>
+            <DestinationISO>Doel ISO image:</DestinationISO>
+            <VolumeLabel>Volume Label:</VolumeLabel>
+            <buttonBrowseForFolder>Zoeken naar map...</buttonBrowseForFolder>
+            <buttonChooseISO>Kies ISO image...</buttonChooseISO>
+            <buttonOptions>Opties...</buttonOptions>
+            <buttonMakeISO>Creër ISO image</buttonMakeISO>
+            <ISOCreationOptions>ISO image bestandsopties</ISOCreationOptions>
+            <Settings>Instellingen</Settings>
+            <FileSystemsInsideISO>Bestandssystemen:</FileSystemsInsideISO>
+            <buttonDefault>Standaard</buttonDefault>
+            <ISO9660Option1>8.3 DOS bestandsnamen (11)</ISO9660Option1>
+            <ISO9660Option2>Lange bestandsnamen (180)</ISO9660Option2>
+            <ISO9660Option3>ISO 9660:1999</ISO9660Option3>
+            <JolietOption1>Standaard bestandsnamen (64)</JolietOption1>
+            <JolietOption2>Lange bestandsnamen(110)</JolietOption2>
+        </tabFolderToISO>
+    </MainWindow>
+    <LiteVersionDialog>
+        <LiteVersionLimitText>De Lite versie van AnyToISO werkt alleen met &lt;b&gt;CD images &lt;/b&gt; (tot max. 870 MB). Om met grotere bestanden (DVD en groter) te werken moet u &lt;a href="kopen"&gt;hier&lt;/a&gt; de Pro versie kopen. U ontvangt de registratiecode om &lt;a href="unlock"&gt;hier&lt;/a&gt; de software vrij te geven na uw aankoop.</LiteVersionLimitText>
+        <buttonPurchasePro>Koop de Pro Versie...</buttonPurchasePro>
+    </LiteVersionDialog>
+    <EnterKeyDialog>
+        <Caption>Voer Registratiecode in</Caption>
+        <EnterKeyToUpgradeText>Voer uw registratiecode in om naar de Pro versie van AnyToISO te upgraden.</EnterKeyToUpgradeText>
+        <RegName>Registratienaam:</RegName>
+        <RegCode>Registratiecode:</RegCode>
+    </EnterKeyDialog>
+    <AboutDialog>
+        <Caption>Over AnyToISO</Caption>
+        <Website>Website:</Website>
+        <Support>Support:</Support>
+        <RunningAs>Geïnstalleerde versie van het programma:</RunningAs>
+        <CopyRight>This computer program is protected by copyright law and international treaties. Unauthorized duplication or distribution of this program, or any portion of it, may result in severe civil or criminal penalties.</CopyRight>
+        <buttonPurchasePro>Koop de Pro versie...</buttonPurchasePro>
+    </AboutDialog>
+    <PreferencesDialog>
+        <Caption>Instellingen</Caption>
+        <PreferencesGeneral>General</PreferencesGeneral>
+        <PreferencesUpdates>Updates</PreferencesUpdates>
+        <Language>Taal:</Language>
+        <CheckForNewVersions>Controleer op nieuwe versie bij het starten van het programma</CheckForNewVersions>
+        <ShellExtension>Windows Explorer integratie</ShellExtension>
+        <ShellExtensionInfo>Voeg context menu's toe voor CD/DVD drives, mappen en bestanden die ondersteund worden.</ShellExtensionInfo>
+    </PreferencesDialog>
+    <PasswordDialog>
+        <Caption>Wachtwoord nodig</Caption>
+        <FileIsProtected>Het bestand is beveiligd. Om het bestand te bekijken dient u het wachtwoord in te geven:</FileIsProtected>
+        <InvalidPassword>Invalid password</InvalidPassword>
+    </PasswordDialog>
+    <Messages>
+        <Warning>Waarschuwing</Warning>
+        <Question>Vraag</Question>
+        <NotEnoughDiskSpace>Het lijkt erop dat er niet genoeg vrije ruimte (maar %1) op de geselecteerde disk beschikbaar is. \n\nWilt u doorgaan?</NotEnoughDiskSpace>
+        <ISOAlreadyExists>Doel ISO image\n%1\nbestaat reeds, wilt u het bestand overschrijven?</ISOAlreadyExists>
+        <FolderAlreadyExists>Doel map\n%1\nbestaat reeds, wilt u de bestaande bestanden met dezelfde naam overschrijven?</FolderAlreadyExists>
+        <RestartProgram>Om de registratie te voltooien moet u het programma opnieuw opstarten. \n\nWilt u nu het programma opnieuw opstarten?</RestartProgram>
+        <CancelOperation>Weet u zeker dat u de huidige handeling wilt onderbreken?</CancelOperation>
+    </Messages>
+    <StatusMessages>
+        <CheckingSourceImage>Bron image aan het controleren...</CheckingSourceImage>
+        <Converting>Omzetten...</Converting>
+        <Extracting>Uitpakken...</Extracting>
+        <ExtractionFailed>Extract operation failed</ExtractionFailed>
+        <Unpacking>Nog meer uitpakken...</Unpacking>
+        <ConvertingToTemporaryISO>Omzetten naar een tijdelijk ISO image...</ConvertingToTemporaryISO>
+        <ProgressBytesWritten>%1 voltooid</ProgressBytesWritten>
+        <Track>Track</Track>
+        <ISOImageTypeFound>ISO image (type %1) gevonden</ISOImageTypeFound>
+        <CannotOpenSourceFile>Kan het bronbestand niet openen.</CannotOpenSourceFile>
+        <CannotOpenDestFile>Kan het doelbestand niet openen.</CannotOpenDestFile>
+        <OperationTerminated>Bewerking gestopt door gebruiker.</OperationTerminated>
+        <OperationCompleted>Bewerking voltooid.</OperationCompleted>
+        <ClickToOpenISOInExplorer>Klik &lt;a href="_open_local_file"&gt;hier&lt;/a&gt; om de gemaakte ISO image in de Explorer te openen</ClickToOpenISOInExplorer>
+        <ClickToMountISOInFinder>Klik &lt;a href="_open_local_file"&gt;hier&lt;/a&gt; om de ISO image te mounten in Finder</ClickToMountISOInFinder>
+        <ClickToOpenOutFolder>Klik &lt;a href="_open_local_file"&gt;hier&lt;/a&gt; om de bestemmingsmap te openen</ClickToOpenOutFolder>
+        <DiskToISO>
+            <OpeningDevice>Openen medium, even wachten...</OpeningDevice>
+            <TotalDataSize>Totale dataomvang is %1</TotalDataSize>
+            <CreatingISO>ISO creëren...</CreatingISO>
+            <CannotCreateFromAudio>U kunt niet een ISO image of een multi-sessie disk van een Audio CD creëren, vraag de supportafdeling om ondersteuning.</CannotCreateFromAudio>
+            <PleaseUseBinCue>Please use BIN/CUE image for such disks</PleaseUseBinCue>
+            <BlankDiskDetected>Lege CD/DVD disk ingevoerd</BlankDiskDetected>
+            <DiskNotReady>CD/DVD disk niet gereed</DiskNotReady>
+            <CannotOpenDevice>Kan het medium (%1) niet openen</CannotOpenDevice>
+            <ReadError>Leesfout %1, vraag de supportafdeling om ondersteuning</ReadError>
+            <DeviceIsCopyProtected>Dit medium heeft een kopieerbeveiliging en de sector is gecodeerd. Kan niet doorgaan.</DeviceIsCopyProtected>
+            <ISOCreationFailed>ISO image creëren is mislukt</ISOCreationFailed>
+            <BinCueCreationFailed>BIN/CUE image creation failed</BinCueCreationFailed>
+            <CannotReadDiskToc>Failed to read TOC (table of contents) of the disk</CannotReadDiskToc>
+            <CannotReadDisk>Cannot read disk, error: %1</CannotReadDisk>
+            <DiskNotPresent>Disk not present or unknown media type</DiskNotPresent>
+            <NoTracksOnDisk>There are no tracks on the disk, it's probably blank</NoTracksOnDisk>
+            <mediaType>Media type: %1</mediaType>
+            <TrackLength>Track length is %1 sectors</TrackLength>
+            <TracksCount>Tracks count: %1</TracksCount>
+            <WritingTrack>Writing track %1, track length is %2 sectors</WritingTrack>
+            <DiskReadingStopped>Reading stopped at %1</DiskReadingStopped>
+            <TrackReadingStopped>Reading stopped at %1, resuming with next track</TrackReadingStopped>
+        </DiskToISO>
+        <FolderToISO>
+            <ScanningFolder>Bron map aan het doorzoeken...</ScanningFolder>
+            <DirectorySize>Map grootte is %1</DirectorySize>
+            <WritingISOFile>ISO image aan het schrijven...</WritingISOFile>
+            <SkippingBigFile>Bestand '%1' overgeslagen. Bestand is groter dan 4 GB</SkippingBigFile>
+            <SkippingFile>Bestand '%1' is overgeslagen.</SkippingFile>
+            <BigFileWarning>Bestand '%1' is groter dan 4 GB en is niet zichtbaar in het ISO 9660 bestandssystem.</BigFileWarning>
+            <NestedDirectoriesLimitWarning>Mapstructuur is dieper dan %1 niveaus, sommige bestanden en mappen zullen worden overgeslagen.</NestedDirectoriesLimitWarning>
+            <UnableToOpenFile>Kan bestand '%1' niet openen om te lezen.</UnableToOpenFile>
+            <NoExistingFolder>The folder %1 doesn't exist</NoExistingFolder>
+            <failedToCreateISOImage>Failed to create an ISO image</failedToCreateISOImage>
+        </FolderToISO>
+        <UniversalConverter>
+            <AudioCDWarning>De image lijkt een %1 Audio CD image te zijn, omzetten naar ISO image is niet mogelijk.</AudioCDWarning>
+            <NotValidImage>Error: Dit is geen CD/DVD image</NotValidImage>
+            <CannotFindSignature>Error: kan de ISO_9660 handtekening niet vinden, de 5 MB limiet is bereikt</CannotFindSignature>
+            <MultiSessionImageDetected>Multi-session disk image detected</MultiSessionImageDetected>
+            <MultiSessionNotSupported>The disk image is a multi-session disk image. Such images are not supported.</MultiSessionNotSupported>
+        </UniversalConverter>
+        <NrgConverter>
+            <NrgParsingError>NRG parsing error, please contact support for assistance</NrgParsingError>
+            <NoSessionsFound>No NRG sessions detected, please contact support for assistance</NoSessionsFound>
+        </NrgConverter>
+        <ExtractISO>
+            <LoadingImage>Image laden...</LoadingImage>
+            <ChooseISOFS>Er zijn meerder bestandssystemen aanwezig op deze ISO image, kies er 1 van om uit te pakken:</ChooseISOFS>
+            <ChooseISOFSCaption>Kies bestandssysteem</ChooseISOFSCaption>
+            <ImageFound>%1 image gevonden</ImageFound>
+            <InvalidISO>Het bestand is geen ISO image of wordt nog niet ondersteund</InvalidISO>
+        </ExtractISO>
+        <UIFConverter>
+            <UsingZlib>Gebruik zlib decompressie</UsingZlib>
+            <UsingLZMA>Gebruik Lzma decompressie by Igor Pavlov</UsingLZMA>
+            <MixedImageFound>Gemixt image type %1 gevonden, uitpakken naar een tijdelijk bestand...</MixedImageFound>
+            <UnpackingImage>Uitpakken van image...</UnpackingImage>
+        </UIFConverter>
+        <DebExtract>
+            <NotValidDeb>Het bestand is niet een Debian (Ubuntu) Linux bestand</NotValidDeb>
+        </DebExtract>
+        <RpmExtract>
+            <PackageOpened>Pakket %1 geopend</PackageOpened>
+            <DecompressingPayload>Uitpakken van %1 payload naar een tijdelijk bestand...</DecompressingPayload>
+            <UnpackingArchive>Uitpakken van bestand...</UnpackingArchive>
+        </RpmExtract>
+        <DMG>
+            <ConvertingDmgToISO>Omzetten DMG naar HFS+ ISO image...</ConvertingDmgToISO>
+            <Writing>Schrijven %1...</Writing>
+            <ExtractingMainPartition>Uitpakken van DMG partie naar een tijdelijk bestand, dit kan even duren - even wachten...</ExtractingMainPartition>
+            <NoVolumeFound>Geen volume gevonden, zoeken naar HFS+ bestandssysteem...</NoVolumeFound>
+            <ExtractingVolume>Uitpakken DMG volume (%1)...</ExtractingVolume>
+            <CorruptedOrPasswordProtected>Error: verminkte of met password beveiligde DMG image</CorruptedOrPasswordProtected>
+            <XarArchiveDetected>DMG file is actually a XAR archive (normally with actual DMG file inside) that can be only extracted. Please choose extract operation to proceed</XarArchiveDetected>
+            <openedAsMessage>The file is opened as %1</openedAsMessage>
+            <DmgDisk>DMG disk image</DmgDisk>
+            <GPTDisk>GPT disk</GPTDisk>
+            <MBRDisk>Apple disk</MBRDisk>
+            <HFSVolume>HFS+ volume</HFSVolume>
+            <readingFileSystem>Reading %1 file system...</readingFileSystem>
+            <messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
+            <messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
+        </DMG>
+        <PDIConverter>
+            <InvalidOrBrokenImage>Niet juiste InstantCopy PDI image</InvalidOrBrokenImage>
+        </PDIConverter>
+        <ISZConverter>
+            <CompressionNone>Compressie methode: geen</CompressionNone>
+            <WarningPassword>Het ingeven van een verkeerd wachtwoord zal het doelbestand onbruikbaar maken</WarningPassword>
+            <ImageIsSegmented>ISZ bestand is gesegmenteerd</ImageIsSegmented>
+        </ISZConverter>
+        <ArchiveConverter>
+            <ReadingArchive>Reading archive...</ReadingArchive>
+            <RemovingTempFiles>Removing temporary files...</RemovingTempFiles>
+            <ExtractError>Unable to extract %1, error %2</ExtractError>
+        </ArchiveConverter>
+        <TarUnpacker>
+            <SinglePackedFileFound>Single packed file detected: %1, unpacking...</SinglePackedFileFound>
+        </TarUnpacker>
+        <XarUnpacker>
+            <ReadingTOC>Reading table of contents (%1 bytes)...</ReadingTOC>
+            <NestedArchiveFound>Extracted file '%1' can be unpacked separately as %2 archive (append extension manually)</NestedArchiveFound>
+        </XarUnpacker>
+    </StatusMessages>
+    <Misc>
+        <buttonOk>OK</buttonOk>
+        <buttonCancel>Stoppen</buttonCancel>
+        <buttonClose>Sluiten</buttonClose>
+        <buttonYes>Yes</buttonYes>
+        <buttonNo>No</buttonNo>
+        <ProVersion>Pro Versie</ProVersion>
+        <LiteVersion>Lite Versie</LiteVersion>
+    </Misc>
+    <ShellExtension>
+        <!-- This section describes Windows context menus -->
+        <ConvertToISO>Omzetten naar "%s"</ConvertToISO>
+        <ConvertToISOInfo>Zet disk image om naar ISO formaat</ConvertToISOInfo>
+        <Extract>Uitpakken naar "%s"</Extract>
+        <ExtractInfo>Uitpakken disk image</ExtractInfo>
+        <CreateISOFromFolder>Creëer "%s"</CreateISOFromFolder>
+        <CreateISOFromFolderInfo>Creëer ISO image van deze map met standaard opties</CreateISOFromFolderInfo>
+        <CreateISOFromFolderWithOptions>Creëer "%s" met opties...</CreateISOFromFolderWithOptions>
+        <CreateISOFromFolderWithOptionsInfo>Creëer ISO image van deze map door het aangeven van bestandssysteemopties en volume label</CreateISOFromFolderWithOptionsInfo>
+        <CreateISOFromDisk>Creëer ISO image van deze schijf</CreateISOFromDisk>
+        <CreateISOFromDiskInfo>Creëer ISO image van een geselecteerde CD/DVD</CreateISOFromDiskInfo>
+        <CreateBINCUEFromDisk>Create BIN/CUE image of this disk</CreateBINCUEFromDisk>
+        <CreateBINCUEFromDiskInfo>Create BIN (raw) image of a selected optical disk and its corresponding CUE sheet file</CreateBINCUEFromDiskInfo>
+    </ShellExtension>
+    <core>
+        <UpdateChecker>
+            <ReleasedOn>uitgebracht op %1</ReleasedOn>
+            <CheckForUpdates>Controleren op updates...</CheckForUpdates>
+            <NewVersionAvailable>Een nieuwe versie: %1 is beschikbaar!</NewVersionAvailable>
+            <NewVersionAvailableText>%1 %2 is nu beschikbaar - u heeft %3. Wilt u deze nieuwe versie downloaden?</NewVersionAvailableText>
+            <UpdateAlertTitle>Software Update</UpdateAlertTitle>
+            <UpdateAlertReleaseNotes>Versie informatie:</UpdateAlertReleaseNotes>
+            <UpdateAlertRemindLater>Herinner mij later</UpdateAlertRemindLater>
+            <UpdateAlertSkip>Deze versie overslaan</UpdateAlertSkip>
+            <UpdateAlertInstall>Update installeren</UpdateAlertInstall>
+            <UpdateAlertAutomaticUpdates>Automatisch controleren updates</UpdateAlertAutomaticUpdates>
+            <MessageNoUpdateAvailable>Deze versie up to date!</MessageNoUpdateAvailable>
+            <MessageNoUpdateAvailableDescription>%1 %2 is momenteel de meest recente versie.</MessageNoUpdateAvailableDescription>
+            <MessageErrorConnect>Er is een fout opgetreden bij het downloaden van de update. Probeer het later nog eens.</MessageErrorConnect>
+            <MessageErrorParse>Er is een fout opgetreden bij het installeren van de update.</MessageErrorParse>
+            <UpdateProgressTitle>Bezig met bijwerken van versie %1</UpdateProgressTitle>
+            <UpdateProgressCancel>Annuleren</UpdateProgressCancel>
+            <UpdateProgressInstallAndRelaunch>Installeren en herstarten</UpdateProgressInstallAndRelaunch>
+            <UpdateProgressStatusDownloading>Update downloaden...</UpdateProgressStatusDownloading>
+            <UpdateProgressExtract>Update extraheren...</UpdateProgressExtract>
+            <UpdateProgressStatusReady>Klaar om te installeren</UpdateProgressStatusReady>
+            <UpdateProgressSize>%1 van %2</UpdateProgressSize>
+            <UpdateProgressB>B</UpdateProgressB>
+            <UpdateProgressKB>KB</UpdateProgressKB>
+            <UpdateProgressMB>MB</UpdateProgressMB>
+            <UpdateProgressGB>GB</UpdateProgressGB>
+        </UpdateChecker>
+        <LetsMoveMac>
+            <kStrMoveApplicationCouldNotMove>Kon niet verplaatsen naar de Programma's map</kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>Verplaatsen naar Programma's map?</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>Verplaatsen naar Programma's map in uw persoonlijke map?</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>Ik kan de app %1 naar de Programma's map verplaatsen als u dat wilt.</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationButtonMove>Verplaats naar Programma's map</kStrMoveApplicationButtonMove>
+            <kStrMoveApplicationButtonDoNotMove>Niet verplaatsen</kStrMoveApplicationButtonDoNotMove>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>Let op: dit vereist een wachtwoord van een beheerder.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>Op deze manier blijft uw Downloads-map schoon.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+        </LetsMoveMac>
+        <QLineEditEx>
+            <actionUndo>Undo</actionUndo>
+            <actionRedo>Redo</actionRedo>
+            <actionCut>Cut</actionCut>
+            <actionCopy>Copy</actionCopy>
+            <actionPaste>Paste</actionPaste>
+            <actionDelete>Delete</actionDelete>
+            <actionSelectAll>Select All</actionSelectAll>
+        </QLineEditEx>
+        <QMessageBoxEx>
+            <buttonOK>OK</buttonOK>
+            <buttonCancel>Cancel</buttonCancel>
+            <buttonClose>Close</buttonClose>
+            <buttonYes>Yes</buttonYes>
+            <buttonNo>No</buttonNo>
+        </QMessageBoxEx>
+    </core>
 </LanguageStrings>
