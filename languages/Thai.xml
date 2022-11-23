@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.8" Author="CrystalIdea Software Team">
+    <MainWindow>
+        <mnuFile>ไฟล์</mnuFile>
+        <mnuFileExit>ออก</mnuFileExit>
+        <mnuHelp>วิธีใช้</mnuHelp>
+        <mnuHelpDocumentation>คู่มือ...</mnuHelpDocumentation>
+        <mnuHelpPurchase>ซื้อรุ่น Pro...</mnuHelpPurchase>
+        <mnuHelpEnterCode>ใส่รหัสลงทะเบียน...</mnuHelpEnterCode>
+        <mnuHelpAbout>เกี่ยวกับ...</mnuHelpAbout>
+        <mnuHomePage>โฮมเพจ AnyToISO...</mnuHomePage>
+        <menuPreferences>การตั้งค่า...</menuPreferences>
+        <newVersionAvailable>AnyToISO %1 พร้อมให้ใช้แล้ว!</newVersionAvailable>
+        <newVersionUpdate>ปรับปรุง</newVersionUpdate>
+        <buttonStop>หยุด</buttonStop>
+        <tabConvertExtract>
+            <Name>แยก/แปลงไฟล์เป็น ISO</Name>
+            <SourceFileName>ไฟล์อิมเมจ/ไฟล์จัดเก็บต้นทาง:</SourceFileName>
+            <ConvertToISO>แปลงเป็นอิมเมจ ISO:</ConvertToISO>
+            <ExtractToFolder>แยกไปยังโฟลเดอร์:</ExtractToFolder>
+            <buttonOpenImage>เปิดอิมเมจ...</buttonOpenImage>
+            <buttonOpenImageText>เปิดไฟล์อิมเมจซีดี/ดีวีดี</buttonOpenImageText>
+            <AllSupportedFiles>ทุกไฟล์ที่สนับสนุน</AllSupportedFiles>
+            <buttonOpenISO>เปิด ISO...</buttonOpenISO>
+            <buttonOpenISOText>เลือกไฟล์ ISO ผลลัพธ์</buttonOpenISOText>
+            <buttonOpenISOFilter>ไฟล์ ISO (*.iso)</buttonOpenISOFilter>
+            <buttonOpenFolder>เลือกโฟลเดอร์...</buttonOpenFolder>
+            <buttonOpenFolderText>เปิดโฟลเดอร์ปลายทาง</buttonOpenFolderText>
+            <buttonConvert>แปลง!</buttonConvert>
+            <buttonExtract>แยก!</buttonExtract>
+            <labelFileSize>ขนาดไฟล์</labelFileSize>
+            <labelFileFormat>ฟอร์แมต</labelFileFormat>
+            <labelOpenOrDragFile>&lt;b&gt;เปิด&lt;/b&gt;หรือ&lt;b&gt;ลาก&lt;/b&gt;ไฟล์ที่ต้องการแปลงหรือแยก</labelOpenOrDragFile>
+        </tabConvertExtract>
+        <tabDiskToISO>
+            <Name>แผ่นซีดี/ดีวีดีเป็น ISO</Name>
+            <SourceDrive>ไดรฟ์ต้นทาง:</SourceDrive>
+            <OutputISO>อิมเมจปลายทาง:</OutputISO>
+            <checkCreateBinCue>สร้างอิมเมจ BIN/CUE</checkCreateBinCue>
+            <buttonRefresh>รีเฟรช</buttonRefresh>
+            <buttonBrowseISO>เลือกหา...</buttonBrowseISO>
+            <NoDiskInserted>ไม่ได้ใส่แผ่นซีดี/ดีวีดี</NoDiskInserted>
+            <buttonMakeISO>สร้าง ISO</buttonMakeISO>
+            <buttonMakeBinCue>สร้างอิมเมจ BIN/CUE</buttonMakeBinCue>
+            <chooseISOOrBinCueImage>กรุณาเลือกไฟล์อิมเมจ ISO หรือ BIN/CUE</chooseISOOrBinCueImage>
+            <isoFilesFilter>ไฟล์ ISO</isoFilesFilter>
+            <binCueSheetFilter>ไฟล์ BIN (ที่มี CUE sheet)</binCueSheetFilter>
+        </tabDiskToISO>
+        <tabFolderToISO>
+            <Name>โฟลเดอร์เป็น ISO</Name>
+            <SourceFolder>โฟลเดอร์ต้นทาง:</SourceFolder>
+            <DestinationISO>ไฟล์ ISO ปลายทาง:</DestinationISO>
+            <VolumeLabel>ชื่อโวลุ่ม:</VolumeLabel>
+            <buttonBrowseForFolder>เลือกหาโฟลเดอร์...</buttonBrowseForFolder>
+            <buttonChooseISO>เลือก ISO...</buttonChooseISO>
+            <buttonOptions>ตัวเลือก...</buttonOptions>
+            <buttonMakeISO>สร้าง ISO</buttonMakeISO>
+            <ISOCreationOptions>ตัวเลือกการสร้าง ISO</ISOCreationOptions>
+            <Settings>การตั้งค่า</Settings>
+            <FileSystemsInsideISO>ระบบไฟล์:</FileSystemsInsideISO>
+            <buttonDefault>ตั้งต้น</buttonDefault>
+            <ISO9660Option1>ชื่อไฟล์ DOS แบบ 8.3 (11)</ISO9660Option1>
+            <ISO9660Option2>ชื่อแบบยาวขึ้น (180)</ISO9660Option2>
+            <ISO9660Option3>ISO 9660:1999</ISO9660Option3>
+            <JolietOption1>ชิ่อแบบมาตรฐาน (64)</JolietOption1>
+            <JolietOption2>ชื่อแบบยาว (110)</JolietOption2>
+        </tabFolderToISO>
+    </MainWindow>
+    <LiteVersionDialog>
+        <LiteVersionLimitText>AnyToISO รุ่น Lite สามารถใช้ร่วมกับ&lt;b&gt;อิมเมจซีดีเพียงอย่างเดียวเท่านั้น&lt;/b&gt; (สูงสุด 870 MB) หากต้องการใช้ร่วมกับไฟล์ขนาดใหญ่ขึ้น (ดีวีดีและอื่นๆ) กรุณา&lt;a href="purchase"&gt;ซืัอรุ่น Professional&lt;/a&gt; คุณจะได้รับรหัสลงทะเบียนเพื่อใช้ในการ&lt;a href="unlock"&gt;ปลดล็อคซอฟต์แวร์&lt;/a&gt;หลังจากที่ซื้อแล้ว</LiteVersionLimitText>
+        <buttonPurchasePro>ซื้อรุ่น Pro...</buttonPurchasePro>
+    </LiteVersionDialog>
+    <EnterKeyDialog>
+        <Caption>ใส่รหัสลงทะเบียน</Caption>
+        <EnterKeyToUpgradeText>กรุณาใส่รายละเอียดการลงทะเบียนของคุณเพื่ออัพเกรดเป็น AnyToISO รุ่น Pro</EnterKeyToUpgradeText>
+        <RegName>ชื่อลงทะเบียน:</RegName>
+        <RegCode>รหัสลงทะเบียน:</RegCode>
+    </EnterKeyDialog>
+    <AboutDialog>
+        <Caption>เกี่ยวกับ AnyToISO</Caption>
+        <Website>เว็บไซต์:</Website>
+        <Support>สนับสนุน:</Support>
+        <RunningAs>โปรแกรมกำลังรันในฐานะ:</RunningAs>
+        <CopyRight>โปรแกรมคอมพิวเตอร์นี้ได้รับการคุ้มครองโดยกฎหมายลิขสิทธิ์และสนธิสัญญาระหว่างประเทศ การทำซ้ำหรือแจกจ่ายโปรแกรมนี้หรือส่วนใดส่วนหนึ่งของโปรแกรมนี้โดยไม่ได้รับอนุญาต อาจได้รับโทษทั้งทางแพ่งและทางอาญา</CopyRight>
+        <buttonPurchasePro>ซื้อรุ่น Pro...</buttonPurchasePro>
+    </AboutDialog>
+    <PreferencesDialog>
+        <Caption>การตั้งค่า</Caption>
+        <PreferencesGeneral>ทั่วไป</PreferencesGeneral>
+        <PreferencesUpdates>การปรับปรุง</PreferencesUpdates>
+        <Language>ภาษาของส่วนติดต่อ:</Language>
+        <CheckForNewVersions>ตรวจหารุ่นใหม่เมื่อเริ่มโปรแกรม</CheckForNewVersions>
+        <ShellExtension>การรวมเข้ากับ shell ของ Windows Explorer</ShellExtension>
+        <ShellExtensionInfo>เพิ่มเมนูคำสั่งสำหรับออปติคัลไดรฟ์ โฟลเดอร์ และไฟล์ในรูปแบบที่สนับสนุน</ShellExtensionInfo>
+    </PreferencesDialog>
+    <PasswordDialog>
+        <Caption>ต้องใส่รหัสผ่าน</Caption>
+        <FileIsProtected>ไฟล์นี้มีการเข้ารหัสลับไว้ กรุณาใส่รหัสผ่านเพื่อทำการถอดรหัสลับ:</FileIsProtected>
+        <InvalidPassword>ใส่รหัสผ่านไม่ถูกต้อง</InvalidPassword>
+    </PasswordDialog>
+    <Messages>
+        <Warning>คำเตือน</Warning>
+        <Question>คำถาม</Question>
+        <NotEnoughDiskSpace>ดูเหมือนว่าจะมีพื้นที่ว่างดิสก์ไม่พอ (เหลือเพียง %1) บนไดรฟ์ที่เลือก \n\nคุณต้องการให้ทำงานต่อไปหรือไม่?</NotEnoughDiskSpace>
+        <ISOAlreadyExists>มีไฟล์ ISO ปลายทาง\n%1\nอยู่แล้ว คุณต้องการเขียนทับไฟล์นี้หรือไม่?</ISOAlreadyExists>
+        <FolderAlreadyExists>มีโฟลเดอร์ปลายทาง\n%1\nอยู่แล้ว คุณต้องการเขียนทับไฟล์ที่มีอยู่เดิมทั้งหมดโดยใช้ชื่อเดียวกันหรือไม่?</FolderAlreadyExists>
+        <RestartProgram>คุณจะต้องเริ่มโปรแกรมใหม่เพื่อทำการลงทะเบียนให้สมบูรณ์ \n\nคุณต้องการเริ่มโปรแกรมใหม่ตอนนี้เลยหรือไม่?</RestartProgram>
+        <CancelOperation>คุณแน่ใจหรือไม่ว่าต้องการหยุดการทำงานปัจจุบัน?</CancelOperation>
+    </Messages>
+    <StatusMessages>
+        <CheckingSourceImage>กำลังตรวจสอบอิมเมจต้นทาง...</CheckingSourceImage>
+        <Converting>กำลังแปลง...</Converting>
+        <Extracting>กำลังแยก...</Extracting>
+        <ExtractionFailed>การแยกล้มเหลว</ExtractionFailed>
+        <Unpacking>กำลังแยก...</Unpacking>
+        <ConvertingToTemporaryISO>กำลังแปลงเป็นไฟล์ ISO ชั่วคราว...</ConvertingToTemporaryISO>
+        <ProgressBytesWritten>เขียนไปแล้ว %1</ProgressBytesWritten>
+        <Track>แทร็ก</Track>
+        <ISOImageTypeFound>พบอิมเมจ ISO (ชนิด %1)</ISOImageTypeFound>
+        <CannotOpenSourceFile>ไม่สามารถเปิดไฟล์ต้นทางได้</CannotOpenSourceFile>
+        <CannotOpenDestFile>ไม่สามารถเปิดไฟล์ปลายทางได้ กรุณาตรวจสอบชื่อไฟล์รวมทั้งสิทธิ์เข้าถึง</CannotOpenDestFile>
+        <OperationTerminated>ผู้ใช้ยกเลิกการทำงาน</OperationTerminated>
+        <OperationCompleted>การทำงานสมบูรณ์</OperationCompleted>
+        <ClickToOpenISOInExplorer>คลิก&lt;a href="_open_local_file"&gt;ที่นี่&lt;/a&gt; เพื่อเปิดไฟล์ ISO ที่ได้ใน Explorer</ClickToOpenISOInExplorer>
+        <ClickToMountISOInFinder>คลิก&lt;a href="_open_local_file"&gt;ที่นี่&lt;/a&gt; เพื่อต่อเชื่อม ISO ใน Finder</ClickToMountISOInFinder>
+        <ClickToOpenOutFolder>คลิก&lt;a href="_open_local_file"&gt;ที่นี่&lt;/a&gt; เพื่อเปิดโฟลเดอร์ผลลัพธ์</ClickToOpenOutFolder>
+        <DiskToISO>
+            <OpeningDevice>กำลังเปิดอุปกรณ์สื่อ กรุณารอสักครู่...</OpeningDevice>
+            <TotalDataSize>ข้อมูลทั้งหมดมีขนาด %1</TotalDataSize>
+            <CreatingISO>กำลังสร้าง ISO...</CreatingISO>
+            <CannotCreateFromAudio>คุณไม่สามารถสร้างอิมเมจ ISO จากดิสก์แบบ multi-session หรือดิสก์เพลงได้ กรุณาติดต่อฝ่ายสนับสนุนเพื่อขอความช่วยเหลือ</CannotCreateFromAudio>
+            <PleaseUseBinCue>กรุณาใช้อิมเมจ BIN/CUE สำหรับดิสก์เหล่านั้น</PleaseUseBinCue>
+            <BlankDiskDetected>พบแผ่นซีดี/ดีวีดีเปล่า</BlankDiskDetected>
+            <DiskNotReady>แผ่นซีดี/ดีวีดีไม่พร้อม</DiskNotReady>
+            <CannotOpenDevice>ไม่สามารถเปิดอุปกรณ์ได้ (%1)</CannotOpenDevice>
+            <ReadError>การอ่านผิดพลาด %1, กรุณาติดต่อฝ่ายสนับสนุนเพื่อขอความช่วยเหลือ</ReadError>
+            <DeviceIsCopyProtected>อุปกรณ์นี้มีการป้องกันการคัดลอกและเซกเตอร์ถูกเข้ารหัสลับ ไม่สามารถทำงานต่อไปได้</DeviceIsCopyProtected>
+            <ISOCreationFailed>การสร้าง ISO ล้มเหลว</ISOCreationFailed>
+            <BinCueCreationFailed>การสร้างอิมเมจ BIN/CUE ล้มเหลว</BinCueCreationFailed>
+            <CannotReadDiskToc>ไม่สามารถอ่านสารบัญของดิสก์ได้</CannotReadDiskToc>
+            <CannotReadDisk>ไม่สามารถอ่านดิสก์ได้เนื่องจากเกิดข้อผิดพลาด: %1</CannotReadDisk>
+            <DiskNotPresent>ดิสก์ไม่มีอยู่ หรือมีชนิดสื่อที่ไม่รู้จัก</DiskNotPresent>
+            <NoTracksOnDisk>ไม่มีแทร็กใดบนดิสก์นี้หรืออาจว่างเปล่า</NoTracksOnDisk>
+            <mediaType>ชนิดสื่อ: %1</mediaType>
+            <TrackLength>มีความยาวแทร็กเป็น %1 เซกเตอร์</TrackLength>
+            <TracksCount>จำนวนแทร็ก: %1</TracksCount>
+            <WritingTrack>กำลังเขียนแทร็ก %1 โดยมีความยาวแทร็กเป็น %2 เซกเตอร์</WritingTrack>
+            <DiskReadingStopped>หยุดการอ่านแล้วที่ %1</DiskReadingStopped>
+            <TrackReadingStopped>หยุดการอ่านแล้วที่ %1 กำลังไปยังแทร็กถัดไป</TrackReadingStopped>
+        </DiskToISO>
+        <FolderToISO>
+            <ScanningFolder>กำลังสแกนไดเรกทอรีต้นทาง...</ScanningFolder>
+            <DirectorySize>ไดเรกทอรีมีขนาด %1</DirectorySize>
+            <WritingISOFile>กำลังเขียนไฟล์ ISO...</WritingISOFile>
+            <SkippingBigFile>กำลังข้ามไฟล์ '%1' เนื่องจากมีขนาดใหญ่กว่า 4 GB</SkippingBigFile>
+            <SkippingFile>กำลังข้ามไฟล์ '%1'</SkippingFile>
+            <BigFileWarning>ไฟล์ '%1' มีขนาดใหญ่กว่า 4 GB และจะไม่สามารถมองเห็นได้ในระบบไฟล์ ISO 9660</BigFileWarning>
+            <NestedDirectoriesLimitWarning>โครงสร้างไดเรกทอรีมีความลึกมากกว่า %1 ระดับ ดังนั้นบางไฟล์และโฟลเดอร์จะถูกข้ามไป</NestedDirectoriesLimitWarning>
+            <UnableToOpenFile>ไม่สามารถเปิดไฟล์ '%1' เพื่อทำการอ่านได้</UnableToOpenFile>
+            <NoExistingFolder>โฟลเดอร์ %1 ไม่มีอยู่</NoExistingFolder>
+            <failedToCreateISOImage>ไม่สามารถสร้างไฟล์อิมเมจ ISO ได้</failedToCreateISOImage>
+        </FolderToISO>
+        <UniversalConverter>
+            <AudioCDWarning>อิมเมจนี้เป็นอิมเมจซีดีเพลง %1 จึงไม่สามารถแปลงเป็น ISO ได้ คุณสามารถแยกแทร็กเสียงทั้งหมดไปยังโฟลเดอร์ได้</AudioCDWarning>
+            <NotValidImage>ข้อผิดพลาด: อิมเมจนี้ไม่ใช่อิมเมจซีดี/ดีวีดีที่ถูกต้อง</NotValidImage>
+            <CannotFindSignature>ข้อผิดพลาด: ไม่พบลายเซ็น ISO_9660, ถึงขีดจำกัด 5 MB แล้ว</CannotFindSignature>
+            <MultiSessionImageDetected>พบดิสก์อิมเมจแบบ multi-session</MultiSessionImageDetected>
+            <MultiSessionNotSupported>ดิสก์อิมเมจนี้เป็นดิสก์อิมเมจแบบ multi-session และไม่สนับสนุนอิมเมจชนิดดังกล่าว</MultiSessionNotSupported>
+        </UniversalConverter>
+        <NrgConverter>
+            <NrgParsingError>NRG parsing ผิดพลาด กรุณาติดต่อฝ่ายสนับสนุนเพื่อขอความช่วยเหลือ</NrgParsingError>
+            <NoSessionsFound>ไม่พบ NRG sessions กรุณาติดต่อฝ่ายสนับสนุนเพื่อขอความช่วยเหลือ</NoSessionsFound>
+        </NrgConverter>
+        <ExtractISO>
+            <LoadingImage>กำลังโหลดอิมเมจ...</LoadingImage>
+            <ChooseISOFS>อิมเมจ ISO นี้มีหลายระบบไฟล์ กรุณาเลือกระบบไฟล์ที่ต้องการใช้ในการแยก:</ChooseISOFS>
+            <ChooseISOFSCaption>เลือกระบบไฟล์</ChooseISOFSCaption>
+            <ImageFound>พบอิมเมจ %1</ImageFound>
+            <InvalidISO>ไฟล์นี้ไม่ใช่อิมเมจ ISO ที่ถูกต้อง หรือไม่สนับสนุนในขณะนี้</InvalidISO>
+        </ExtractISO>
+        <UIFConverter>
+            <UsingZlib>ใช้ zlib decompression</UsingZlib>
+            <UsingLZMA>ใช้ Lzma decompression โดย Igor Pavlov</UsingLZMA>
+            <MixedImageFound>พบชนิดอิมเมจแบบผสม %1 กำลังคลายการบีบอัดไปยังไฟล์ชั่วคราว...</MixedImageFound>
+            <UnpackingImage>กำลังแยกอิมเมจ...</UnpackingImage>
+        </UIFConverter>
+        <DebExtract>
+            <NotValidDeb>ไฟล์นี้ไม่ใช่ไฟล์จัดเก็บ Debian (Ubuntu) Linux ที่ถูกต้อง</NotValidDeb>
+        </DebExtract>
+        <RpmExtract>
+            <PackageOpened>เปิดแพคเกจ %1 แล้ว</PackageOpened>
+            <DecompressingPayload>กำลังคลายการบีบอัด %1 payload ไปยังไฟล์ชั่วคราว...</DecompressingPayload>
+            <UnpackingArchive>กำลังแยกไฟล์จัดเก็บ...</UnpackingArchive>
+        </RpmExtract>
+        <DMG>
+            <ConvertingDmgToISO>กำลังแปลง DMG เป็น HFS+ ISO...</ConvertingDmgToISO>
+            <Writing>กำลังเขียนพาร์ติชัน %1...</Writing>
+            <ExtractingMainPartition>กำลังแยกพาร์ติชัน DMG หลักไปยังไฟล์ชั่วคราว ซึ่งอาจจะใช้เวลาสักครู่ กรุณารอ...</ExtractingMainPartition>
+            <NoVolumeFound>ไม่พบโวลุ่มใด กำลังมองหาระบบไฟล์ HFS+...</NoVolumeFound>
+            <ExtractingVolume>กำลังแยกโวลุ่ม DMG (%1)...</ExtractingVolume>
+            <CorruptedOrPasswordProtected>ข้อผิดพลาด: อิมเมจ DMG ชำรุดหรือถูกป้องกันด้วยรหัสผ่าน</CorruptedOrPasswordProtected>
+            <XarArchiveDetected>ไฟล์ DMG นี้ที่จริงเป็นไฟล์จัดเก็บ XAR (ปกติจะมีไฟล์ DMG ที่แท้จริงอยู่ภายใน) ซึ่งสามารถทำการแยกได้อย่างเดียวเท่านั้น กรุณาเลือกคำสั่งแยกเพื่อทำงานต่อ</XarArchiveDetected>
+            <openedAsMessage>ไฟล์ถูกเปิดในฐานะ %1</openedAsMessage>
+            <DmgDisk>ดิสก์อิมเมจ DMG</DmgDisk>
+            <GPTDisk>ดิสก์ GPT</GPTDisk>
+            <MBRDisk>ดิสก์ Apple</MBRDisk>
+            <HFSVolume>โวลุ่ม HFS+</HFSVolume>
+            <readingFileSystem>กำลังอ่านระบบไฟล์ %1...</readingFileSystem>
+            <messageMultiplePartitions>อิมเมจ DMG นี้มีหลายพาร์ติชัน กรุณาเลือกพาร์ติชันที่ต้องการแยก:</messageMultiplePartitions>
+            <messageMultiplePartitionsTitle>เลือกพาร์ติชัน</messageMultiplePartitionsTitle>
+        </DMG>
+        <PDIConverter>
+            <InvalidOrBrokenImage>อิมเมจ InstantCopy PDI ไม่ถูกต้องหรือเสียหาย</InvalidOrBrokenImage>
+        </PDIConverter>
+        <ISZConverter>
+            <CompressionNone>วิธีการบีบอัด: ไม่มี</CompressionNone>
+            <WarningPassword>การระบุรหัสผ่านที่ไม่ถูกต้องจะทำให้ไฟล์ผลลัพธ์ที่ออกมาไม่ถูกต้อง</WarningPassword>
+            <ImageIsSegmented>ไฟล์ ISZ ถูกแบ่งเป็นส่วนๆ</ImageIsSegmented>
+        </ISZConverter>
+        <ArchiveConverter>
+            <ReadingArchive>กำลังอ่านไฟล์จัดเก็บ...</ReadingArchive>
+            <RemovingTempFiles>กำลังลบไฟล์ชั่วคราวออก...</RemovingTempFiles>
+            <ExtractError>ไม่สามารถแยก %1 ได้ เนื่องจากมีข้อผิดพลาด %2</ExtractError>
+        </ArchiveConverter>
+        <TarUnpacker>
+            <SinglePackedFileFound>พบไฟล์แบบ single packed: %1 กำลังแยก...</SinglePackedFileFound>
+        </TarUnpacker>
+        <XarUnpacker>
+            <ReadingTOC>กำลังอ่านสารบัญ (%1 ไบต์)...</ReadingTOC>
+            <NestedArchiveFound>ไฟล์ที่แยกแล้ว '%1' สามารถแยกเป็นไฟล์จัดเก็บ %2 ต่างหากได้ (ต้องเติมนามสกุลเอง)</NestedArchiveFound>
+        </XarUnpacker>
+    </StatusMessages>
+    <Misc>
+        <buttonOk>ตกลง</buttonOk>
+        <buttonCancel>ยกเลิก</buttonCancel>
+        <buttonClose>ปิด</buttonClose>
+        <buttonYes>ใช่</buttonYes>
+        <buttonNo>ไม่</buttonNo>
+        <ProVersion>รุ่น Pro</ProVersion>
+        <LiteVersion>รุ่น Lite</LiteVersion>
+    </Misc>
+    <ShellExtension>
+        <!-- This section describes Windows context menus -->
+        <ConvertToISO>แปลงเป็น "%s"</ConvertToISO>
+        <ConvertToISOInfo>แปลงไฟล์ดิสก์อิมเมจเป็นรูปแบบ ISO</ConvertToISOInfo>
+        <Extract>แยกไปยัง "%s"</Extract>
+        <ExtractInfo>แยกไฟล์ดิสก์อิมเมจ</ExtractInfo>
+        <CreateISOFromFolder>สร้าง "%s"</CreateISOFromFolder>
+        <CreateISOFromFolderInfo>สร้างอิมเมจ ISO ของโฟลเดอร์นี้ด้วยตัวเลือกตั้งต้น</CreateISOFromFolderInfo>
+        <CreateISOFromFolderWithOptions>สร้าง "%s" ด้วยตัวเลือก...</CreateISOFromFolderWithOptions>
+        <CreateISOFromFolderWithOptionsInfo>สร้างอิมเมจ ISO ของโฟลเดอร์นี้ด้วยตัวเลือกระบบไฟล์และชื่อโวลุ่มตามที่ระบุ</CreateISOFromFolderWithOptionsInfo>
+        <CreateISOFromDisk>สร้างอิมเมจ ISO ของดิสก์นี้</CreateISOFromDisk>
+        <CreateISOFromDiskInfo>สร้างอิมเมจ ISO ของออปติคัลดิสก์ที่เลือก</CreateISOFromDiskInfo>
+        <CreateBINCUEFromDisk>สร้างอิมเมจ BIN/CUE ของดิสก์นี้</CreateBINCUEFromDisk>
+        <CreateBINCUEFromDiskInfo>สร้างอิมเมจ BIN (raw) ของออปติคัลดิสก์ที่เลือกรวมทั้งไฟล์ CUE sheet ที่สอดคล้องกัน</CreateBINCUEFromDiskInfo>
+    </ShellExtension>
+    <core>
+        <UpdateChecker>
+            <ReleasedOn>ออกเมื่อ %1</ReleasedOn>
+            <CheckForUpdates>ตรวจหาการปรับปรุง...</CheckForUpdates>
+            <NewVersionAvailable>มี %1 รุ่นใหม่ให้ใช้แล้ว!</NewVersionAvailable>
+            <NewVersionAvailableText>มี %1 %2 ให้ใช้แล้ว แต่คุณกำลังใช้ %3 คุณต้องการดาวน์โหลดเลยหรือไม่?</NewVersionAvailableText>
+            <UpdateAlertTitle>ปรับปรุงซอฟต์แวร์</UpdateAlertTitle>
+            <UpdateAlertReleaseNotes>บันทึกประจำรุ่น:</UpdateAlertReleaseNotes>
+            <UpdateAlertRemindLater>เตือนฉันทีหลัง</UpdateAlertRemindLater>
+            <UpdateAlertSkip>ข้ามรุ่นนี้</UpdateAlertSkip>
+            <UpdateAlertInstall>ติดตั้งการปรับปรุง</UpdateAlertInstall>
+            <UpdateAlertAutomaticUpdates>ตรวจหาการปรับปรุงอัตโนมัติ</UpdateAlertAutomaticUpdates>
+            <MessageNoUpdateAvailable>คุณได้ปรับปรุงเป็นรุ่นล่าสุดแล้ว!</MessageNoUpdateAvailable>
+            <MessageNoUpdateAvailableDescription>%1 %2 เป็นรุ่นที่ใหม่ที่สุดที่มีให้ใช้ในขณะนี้</MessageNoUpdateAvailableDescription>
+            <MessageErrorConnect>เกิดข้อผิดพลาดขณะดาวน์โหลดการปรับปรุง กรุณาลองอีกครั้งภายหลัง</MessageErrorConnect>
+            <MessageErrorParse>เกิดข้อผิดพลาดขณะแยกวิเคราะห์ฟีดปรับปรุง</MessageErrorParse>
+            <UpdateProgressTitle>กำลังปรับปรุง %1</UpdateProgressTitle>
+            <UpdateProgressCancel>ยกเลิก</UpdateProgressCancel>
+            <UpdateProgressInstallAndRelaunch>ติดตั้งและเปิดใหม่</UpdateProgressInstallAndRelaunch>
+            <UpdateProgressStatusDownloading>กำลังดาวน์โหลดการปรับปรุง...</UpdateProgressStatusDownloading>
+            <UpdateProgressExtract>กำลังแยกการปรับปรุง...</UpdateProgressExtract>
+            <UpdateProgressStatusReady>พร้อมติดตั้งแล้ว</UpdateProgressStatusReady>
+            <UpdateProgressSize>%1 จาก %2</UpdateProgressSize>
+            <UpdateProgressB>B</UpdateProgressB>
+            <UpdateProgressKB>KB</UpdateProgressKB>
+            <UpdateProgressMB>MB</UpdateProgressMB>
+            <UpdateProgressGB>GB</UpdateProgressGB>
+        </UpdateChecker>
+        <LetsMoveMac>
+            <kStrMoveApplicationCouldNotMove>ไม่สามารถย้ายไปยังโฟลเดอร์แอปพลิเคชัน (Applications) ได้</kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>ย้ายไปยังโฟลเดอร์แอปพลิเคชัน (Applications)</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>ย้ายไปยังโฟลเดอร์แอปพลิเคชัน (Applications) ในโฟลเดอร์เริ่มต้น (Home) ของคุณหรือไม่?</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>คุณต้องการย้าย %1 ไปยังโฟลเดอร์แอปพลิเคชัน (Applications) หรือไม่?</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationButtonMove>ย้าย</kStrMoveApplicationButtonMove>
+            <kStrMoveApplicationButtonDoNotMove>ไม่ย้าย</kStrMoveApplicationButtonDoNotMove>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>โปรดทราบว่าการทำงานนี้จะต้องใช้รหัสผ่านของผู้ดูแลระบบ</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>การทำเช่นนี้จะช่วยให้โฟลเดอร์ดาวน์โหลด (Downloads) ของคุณดูเป็นระเบียบมากขึ้น</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+        </LetsMoveMac>
+        <QLineEditEx>
+            <actionUndo>เลิกทำ</actionUndo>
+            <actionRedo>ทำซ้ำ</actionRedo>
+            <actionCut>ตัด</actionCut>
+            <actionCopy>คัดลอก</actionCopy>
+            <actionPaste>วาง</actionPaste>
+            <actionDelete>ลบ</actionDelete>
+            <actionSelectAll>เลือกทั้งหมด</actionSelectAll>
+        </QLineEditEx>
+        <QMessageBoxEx>
+            <buttonOK>ตกลง</buttonOK>
+            <buttonCancel>ยกเลิก</buttonCancel>
+            <buttonClose>ปิด</buttonClose>
+            <buttonYes>ใช่</buttonYes>
+            <buttonNo>ไม่</buttonNo>
+        </QMessageBoxEx>
+    </core>
+</LanguageStrings>
