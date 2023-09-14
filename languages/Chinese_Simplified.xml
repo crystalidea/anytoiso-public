@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="3.9.2" Author="胡萝卜周">
+<LanguageStrings version="3.9.7" Author="胡萝卜周">
     <MainWindow>
         <mnuFile>文件</mnuFile>
         <mnuFileExit>退出</mnuFileExit>
@@ -8,22 +8,22 @@
         <mnuHelpPurchase>购买专业版...</mnuHelpPurchase>
         <mnuHelpEnterCode>输入注册码...</mnuHelpEnterCode>
         <mnuHelpAbout>关于...</mnuHelpAbout>
-        <mnuHomePage>AnyToISO主页...</mnuHomePage>
+        <mnuHomePage>AnyToISO 主页...</mnuHomePage>
         <menuPreferences>参数设置...</menuPreferences>
         <newVersionAvailable>AnyToISO %1 可更新！</newVersionAvailable>
         <newVersionUpdate>更新</newVersionUpdate>
         <buttonStop>停止</buttonStop>
         <tabConvertExtract>
-            <Name>文件提取/转换为ISO</Name>
+            <Name>文件提取/转换为 ISO</Name>
             <SourceFileName>源镜像文件：</SourceFileName>
-            <ConvertToISO>转换为ISO镜像：</ConvertToISO>
+            <ConvertToISO>转换为 ISO 镜像：</ConvertToISO>
             <ExtractToFolder>提取到文件夹：</ExtractToFolder>
             <buttonOpenImage>打开镜像...</buttonOpenImage>
-            <buttonOpenImageText>打开CD/DVD镜像文件</buttonOpenImageText>
+            <buttonOpenImageText>打开 CD/DVD 镜像文件</buttonOpenImageText>
             <AllSupportedFiles>所有支持文件</AllSupportedFiles>
-            <buttonOpenISO>打开ISO...</buttonOpenISO>
+            <buttonOpenISO>打开 ISO...</buttonOpenISO>
             <buttonOpenISOText>选择目标ISO文件</buttonOpenISOText>
-            <buttonOpenISOFilter>ISO文件(*.iso)</buttonOpenISOFilter>
+            <buttonOpenISOFilter>ISO 文件(*.iso)</buttonOpenISOFilter>
             <buttonOpenFolder>选择文件夹...</buttonOpenFolder>
             <buttonOpenFolderText>打开目标文件夹</buttonOpenFolderText>
             <buttonConvert>转换！</buttonConvert>
@@ -33,29 +33,29 @@
             <labelOpenOrDragFile>&lt;b&gt;打开&lt;/b&gt; 或 &lt;b&gt;拖拽&lt;/b&gt; 一个镜像文件进行转换或提取</labelOpenOrDragFile>
         </tabConvertExtract>
         <tabDiskToISO>
-            <Name>CD/DVD光盘转ISO</Name>
+            <Name>CD/DVD 光盘转 ISO</Name>
             <SourceDrive>源分区：</SourceDrive>
-            <OutputISO>目标ISO文件：</OutputISO>
-            <checkCreateBinCue>创建BIN/CUE镜像</checkCreateBinCue>
+            <OutputISO>目标 ISO 文件：</OutputISO>
+            <checkCreateBinCue>创建 BIN/CUE 镜像</checkCreateBinCue>
             <buttonRefresh>刷新</buttonRefresh>
             <buttonBrowseISO>浏览...</buttonBrowseISO>
-            <NoDiskInserted>请插入CD/DVD光盘</NoDiskInserted>
-            <buttonMakeISO>制作ISO</buttonMakeISO>
-            <buttonMakeBinCue>创建BIN/CUE镜像</buttonMakeBinCue>
-            <chooseISOOrBinCueImage>请选择ISO or BIN/CUE镜像文件</chooseISOOrBinCueImage>
-            <isoFilesFilter>ISO文件</isoFilesFilter>
-            <binCueSheetFilter>BIN 文件(含CUE)</binCueSheetFilter>
+            <NoDiskInserted>请插入 CD/DVD 光盘</NoDiskInserted>
+            <buttonMakeISO>制作 ISO</buttonMakeISO>
+            <buttonMakeBinCue>创建 BIN/CUE 镜像</buttonMakeBinCue>
+            <chooseISOOrBinCueImage>请选择 ISO 或 BIN/CUE 镜像文件</chooseISOOrBinCueImage>
+            <isoFilesFilter>ISO 文件</isoFilesFilter>
+            <binCueSheetFilter>BIN 文件(含 CUE)</binCueSheetFilter>
         </tabDiskToISO>
         <tabFolderToISO>
-            <Name>文件夹转ISO</Name>
+            <Name>文件夹转 ISO</Name>
             <SourceFolder>源目录：</SourceFolder>
-            <DestinationISO>目标ISO文件：</DestinationISO>
+            <DestinationISO>目标 ISO 文件：</DestinationISO>
             <VolumeLabel>卷标：</VolumeLabel>
             <buttonBrowseForFolder>浏览文件夹...</buttonBrowseForFolder>
-            <buttonChooseISO>选择ISO...</buttonChooseISO>
+            <buttonChooseISO>选择 ISO...</buttonChooseISO>
             <buttonOptions>选项...</buttonOptions>
-            <buttonMakeISO>制作ISO</buttonMakeISO>
-            <ISOCreationOptions>ISO创建选项</ISOCreationOptions>
+            <buttonMakeISO>制作 ISO</buttonMakeISO>
+            <ISOCreationOptions>ISO 创建选项</ISOCreationOptions>
             <Settings>设置</Settings>
             <FileSystemsInsideISO>文件系统：</FileSystemsInsideISO>
             <buttonDefault>默认</buttonDefault>
@@ -67,17 +67,17 @@
         </tabFolderToISO>
     </MainWindow>
     <LiteVersionDialog>
-        <LiteVersionLimitText>AnyToISO简化版&lt;b&gt;仅用于CD镜像&lt;/b&gt;（不超过870 MB）。如果用于更大的文件（DVD及以上)请&lt;a href="purchase"&gt;购买专业版&lt;/a&gt;。你可以通过购买获得注册码&lt;a href="unlock"&gt;解锁软件&lt;/a&gt;。</LiteVersionLimitText>
+        <LiteVersionLimitText>AnyToISO 简化版&lt;b&gt;仅用于 CD 镜像&lt;/b&gt;（不超过 870 MB）。如果用于更大的文件（DVD 及以上)请&lt;a href="purchase"&gt;购买专业版&lt;/a&gt;。你可以通过购买获得注册码&lt;a href="unlock"&gt;解锁软件&lt;/a&gt;。</LiteVersionLimitText>
         <buttonPurchasePro>购买专业版...</buttonPurchasePro>
     </LiteVersionDialog>
     <EnterKeyDialog>
         <Caption>输入注册码</Caption>
-        <EnterKeyToUpgradeText>请输入您的注册信息升级到AnyToISO专业版。</EnterKeyToUpgradeText>
+        <EnterKeyToUpgradeText>请输入您的注册信息升级到 AnyToISO 专业版。</EnterKeyToUpgradeText>
         <RegName>注册名：</RegName>
         <RegCode>注册码：</RegCode>
     </EnterKeyDialog>
     <AboutDialog>
-        <Caption>关于AnyToISO</Caption>
+        <Caption>关于 AnyToISO</Caption>
         <Website>网站：</Website>
         <Support>支持：</Support>
         <RunningAs>程序运行为：</RunningAs>
@@ -86,11 +86,11 @@
     </AboutDialog>
     <PreferencesDialog>
         <Caption>参数选项</Caption>
-        <PreferencesGeneral>General</PreferencesGeneral>
-        <PreferencesUpdates>Updates</PreferencesUpdates>
+        <PreferencesGeneral>常规</PreferencesGeneral>
+        <PreferencesUpdates>更新</PreferencesUpdates>
         <Language>界面语言：</Language>
         <CheckForNewVersions>启动时检查新版本</CheckForNewVersions>
-        <ShellExtension>添加到Windows资源管理器进程</ShellExtension>
+        <ShellExtension>添加到 Windows 资源管理器进程</ShellExtension>
         <ShellExtensionInfo>为光驱、文件夹和支持的文件格式添加右键菜单。</ShellExtensionInfo>
     </PreferencesDialog>
     <PasswordDialog>
@@ -102,7 +102,7 @@
         <Warning>警告</Warning>
         <Question>问题</Question>
         <NotEnoughDiskSpace>目标驱动器空闲空间不足（仅剩余 %1）。\n\n是否继续？</NotEnoughDiskSpace>
-        <ISOAlreadyExists>目标ISO文件\n%1\n已存在。是否覆盖？</ISOAlreadyExists>
+        <ISOAlreadyExists>目标 ISO文件\n%1\n已存在。是否覆盖？</ISOAlreadyExists>
         <FolderAlreadyExists>目标文件夹\n%1\n已存在，是否使用同名文件覆盖所有已存在文件？</FolderAlreadyExists>
         <RestartProgram>重启程序以完成注册。\n\n是否重启程序？</RestartProgram>
         <CancelOperation>是否确定终止当前操作？</CancelOperation>
@@ -111,34 +111,34 @@
         <CheckingSourceImage>检查源镜像...</CheckingSourceImage>
         <Converting>转换中...</Converting>
         <Extracting>提取中...</Extracting>
-        <ExtractionFailed>Extract operation failed</ExtractionFailed>
+        <ExtractionFailed>提取操作失败</ExtractionFailed>
         <Unpacking>解压中...</Unpacking>
-        <ConvertingToTemporaryISO>正在转换为临时ISO文件...</ConvertingToTemporaryISO>
+        <ConvertingToTemporaryISO>正在转换为临时 ISO 文件...</ConvertingToTemporaryISO>
         <ProgressBytesWritten>%1 写入</ProgressBytesWritten>
         <Track>轨道</Track>
-        <ISOImageTypeFound>找到ISO镜像（%1 类型）</ISOImageTypeFound>
+        <ISOImageTypeFound>找到 ISO 镜像（%1 类型）</ISOImageTypeFound>
         <CannotOpenSourceFile>无法打开源文件。</CannotOpenSourceFile>
         <CannotOpenDestFile>无法打开目标文件。</CannotOpenDestFile>
         <OperationTerminated>用户终止了操作。</OperationTerminated>
         <OperationCompleted>操作完成。</OperationCompleted>
-        <ClickToOpenISOInExplorer>点击&lt;a href="_open_local_file"&gt;这里&lt;/a&gt;在资源管理器中打开输出ISO文件</ClickToOpenISOInExplorer>
-        <ClickToMountISOInFinder>点击&lt;a href="_open_local_file"&gt;这里&lt;/a&gt;在Finder中载入ISO</ClickToMountISOInFinder>
-        <ClickToOpenOutFolder>点击&lt;a href="_open_local_file"&gt;这里&lt;/a&gt;打开输出文件夹</ClickToOpenOutFolder>
+        <ClickToOpenISOInExplorer>点击&lt;a href="_open_local_file"&gt; 这里 &lt;/a&gt;在资源管理器中打开输出 ISO 文件</ClickToOpenISOInExplorer>
+        <ClickToMountISOInFinder>点击&lt;a href="_open_local_file"&gt; 这里 &lt;/a&gt;在 Finder 中载入 ISO</ClickToMountISOInFinder>
+        <ClickToOpenOutFolder>点击&lt;a href="_open_local_file"&gt; 这里 &lt;/a&gt;打开输出文件夹</ClickToOpenOutFolder>
         <DiskToISO>
             <OpeningDevice>正在打开媒体设备，请稍后...</OpeningDevice>
             <TotalDataSize>数据合计 %1</TotalDataSize>
-            <CreatingISO>正在创建ISO...</CreatingISO>
-            <CannotCreateFromAudio>您无法创建多个会话光盘或者音频光盘为ISO镜像，请联系客服获得帮助。</CannotCreateFromAudio>
-            <PleaseUseBinCue>请使用BIN/CUE镜像</PleaseUseBinCue>
-            <BlankDiskDetected>检测到空白CD/DVD光盘</BlankDiskDetected>
-            <DiskNotReady>未检测到CD/DVD光盘</DiskNotReady>
+            <CreatingISO>正在创建 ISO...</CreatingISO>
+            <CannotCreateFromAudio>您无法创建多个会话光盘或者音频光盘为 ISO 镜像，请联系客服获得帮助。</CannotCreateFromAudio>
+            <PleaseUseBinCue>请使用 BIN/CUE 镜像</PleaseUseBinCue>
+            <BlankDiskDetected>检测到空白 CD/DVD 光盘</BlankDiskDetected>
+            <DiskNotReady>未检测到 CD/DVD 光盘</DiskNotReady>
             <CannotOpenDevice>无法打开设备(%1)</CannotOpenDevice>
             <ReadError>读取错误 %1，请联系客服获得帮助。</ReadError>
             <DeviceIsCopyProtected>驱动器版权保护，扇区加密。无法继续。</DeviceIsCopyProtected>
-            <ISOCreationFailed>ISO创建失败</ISOCreationFailed>
+            <ISOCreationFailed>ISO 创建失败</ISOCreationFailed>
             <BinCueCreationFailed>BIN/CUE 镜像检测失败</BinCueCreationFailed>
-            <CannotReadDiskToc>不能读取光盘的TOC (目录)</CannotReadDiskToc>
-            <CannotReadDisk>不能读取光盘，错误： %1</CannotReadDisk>
+            <CannotReadDiskToc>无法读取光盘的 TOC (目录)</CannotReadDiskToc>
+            <CannotReadDisk>无法读取光盘，错误： %1</CannotReadDisk>
             <DiskNotPresent>光盘未准备就绪，或光盘格式不被支持</DiskNotPresent>
             <NoTracksOnDisk>没找到该光盘的音轨, 音轨可能为空</NoTracksOnDisk>
             <mediaType>媒体类型：%1</mediaType>
@@ -151,41 +151,41 @@
         <FolderToISO>
             <ScanningFolder>正在扫描源目录...</ScanningFolder>
             <DirectorySize>目录大小是 %1</DirectorySize>
-            <WritingISOFile>写入ISO文件中...</WritingISOFile>
-            <SkippingBigFile>跳过文件 '%1'，文件大于4GB</SkippingBigFile>
+            <WritingISOFile>写入 ISO 文件中...</WritingISOFile>
+            <SkippingBigFile>跳过文件 '%1'，文件大于 4GB</SkippingBigFile>
             <SkippingFile>跳过文件 '%1'。</SkippingFile>
-            <BigFileWarning>文件 '%1' 大于4GB，无法再ISO 9660文件系统中显示。</BigFileWarning>
-            <NestedDirectoriesLimitWarning>目录结构深度超过%1层，部分问价和目录将会跳过。</NestedDirectoriesLimitWarning>
+            <BigFileWarning>文件 '%1' 大于 4GB，无法再 ISO 9660 文件系统中显示。</BigFileWarning>
+            <NestedDirectoriesLimitWarning>目录结构比 %1 层次更深，一些文件和文件夹将被跳过。</NestedDirectoriesLimitWarning>
             <UnableToOpenFile>无法打开文件 '%1' 以读取访问。</UnableToOpenFile>
             <NoExistingFolder>文件夹 %1 不存在</NoExistingFolder>
-            <failedToCreateISOImage>Failed to create an ISO image</failedToCreateISOImage>
+            <failedToCreateISOImage>创建 ISO 镜像失败</failedToCreateISOImage>
         </FolderToISO>
         <UniversalConverter>
-            <AudioCDWarning>镜像文件可能是 %1 音频CD镜像，无法转换为ISO文件。</AudioCDWarning>
-            <NotValidImage>错误：不是合法CD/DVD镜像</NotValidImage>
-            <CannotFindSignature>错误：无法找到ISO_9660签名，达到5MB限制</CannotFindSignature>
-            <MultiSessionImageDetected>检测到multi-session光盘镜像</MultiSessionImageDetected>
-            <MultiSessionNotSupported>这是一个multi-session光盘镜像，程序不支持该格式</MultiSessionNotSupported>
+            <AudioCDWarning>镜像文件可能是 %1 音频 CD 镜像，无法转换为 ISO 文件。</AudioCDWarning>
+            <NotValidImage>错误：不是合法 CD/DVD 镜像</NotValidImage>
+            <CannotFindSignature>错误：无法找到 ISO_9660 签名，达到 5MB 限制</CannotFindSignature>
+            <MultiSessionImageDetected>检测到 multi-session 光盘镜像</MultiSessionImageDetected>
+            <MultiSessionNotSupported>这是一个 multi-session 光盘镜像，程序不支持该格式</MultiSessionNotSupported>
         </UniversalConverter>
         <NrgConverter>
-            <NrgParsingError>解析文件错误，请联系assistanceNRG获取帮助支持</NrgParsingError>
-            <NoSessionsFound>没找到Nrg会话，请联系assistanceNRG获取帮助支持</NoSessionsFound>
+            <NrgParsingError>解析文件错误，请联系 assistanceNRG 获取帮助支持</NrgParsingError>
+            <NoSessionsFound>没找到Nrg会话，请联系 assistanceNRG 获取帮助支持</NoSessionsFound>
         </NrgConverter>
         <ExtractISO>
             <LoadingImage>正在载入镜像...</LoadingImage>
-            <ChooseISOFS>ISO镜像中有多个文件系统，请选择其中一个进行提取：</ChooseISOFS>
+            <ChooseISOFS>ISO 镜像中有多个文件系统，请选择其中一个进行提取：</ChooseISOFS>
             <ChooseISOFSCaption>选择文件系统</ChooseISOFSCaption>
             <ImageFound>找到 %1 镜像</ImageFound>
             <InvalidISO>文件不是合法ISO镜像或者目前不支持</InvalidISO>
         </ExtractISO>
         <UIFConverter>
-            <UsingZlib>正在使用zlib解压</UsingZlib>
-            <UsingLZMA>正在使用Igor Pavlov的Lzma解压</UsingLZMA>
+            <UsingZlib>正在使用 zlib 解压</UsingZlib>
+            <UsingLZMA>正在使用 Igor Pavlov 的 Lzma 解压</UsingLZMA>
             <MixedImageFound>发现混合镜像类型 %1，正在解压为临时文件...</MixedImageFound>
             <UnpackingImage>正在解压镜像...</UnpackingImage>
         </UIFConverter>
         <DebExtract>
-            <NotValidDeb>文件不是合法Debian (Ubuntu) Linux存档</NotValidDeb>
+            <NotValidDeb>文件不是合法 Debian (Ubuntu) Linux 存档</NotValidDeb>
         </DebExtract>
         <RpmExtract>
             <PackageOpened>压缩包 %1 已打开</PackageOpened>
@@ -193,13 +193,13 @@
             <UnpackingArchive>正在打开压缩文件...</UnpackingArchive>
         </RpmExtract>
         <DMG>
-            <ConvertingDmgToISO>正在转换DMG为HFS+ ISO...</ConvertingDmgToISO>
+            <ConvertingDmgToISO>正在转换 DMG 为 HFS+ ISO...</ConvertingDmgToISO>
             <Writing>写入 %1...</Writing>
-            <ExtractingMainPartition>提取DMG主文件到临时文件，可能会花费一些时间 - 请稍后...</ExtractingMainPartition>
-            <NoVolumeFound>未发现分卷，正在搜索HFS+文件系统...</NoVolumeFound>
-            <ExtractingVolume>提取DMG分卷 (%1)...</ExtractingVolume>
-            <CorruptedOrPasswordProtected>错误：损坏或密码保护的DMG镜像</CorruptedOrPasswordProtected>
-            <XarArchiveDetected>DMG 文件实际上是一个XAR压缩文件（通常与实际的DMG文件在一起）只能被提取。请选择提取操作以继续</XarArchiveDetected>
+            <ExtractingMainPartition>提取 DMG 主文件到临时文件，可能会花费一些时间 - 请稍后...</ExtractingMainPartition>
+            <NoVolumeFound>未发现分卷，正在搜索 HFS+ 文件系统...</NoVolumeFound>
+            <ExtractingVolume>提取 DMG 分卷 (%1)...</ExtractingVolume>
+            <CorruptedOrPasswordProtected>错误：损坏或密码保护的 DMG 镜像</CorruptedOrPasswordProtected>
+            <XarArchiveDetected>DMG 文件实际上是一个 XAR 压缩文件（通常与实际的 DMG 文件在一起）只能被提取。请选择提取操作以继续</XarArchiveDetected>
             <openedAsMessage>文件被打开为 %1</openedAsMessage>
             <DmgDisk>DMG 镜像文件</DmgDisk>
             <GPTDisk>GPT 镜像</GPTDisk>
@@ -226,7 +226,7 @@
             <SinglePackedFileFound>检测到单个打包文件：%1, 解压中...</SinglePackedFileFound>
         </TarUnpacker>
         <XarUnpacker>
-            <ReadingTOC>正在读取目录(%1 bytes)...</ReadingTOC>
+            <ReadingTOC>正在读取目录(%1 字节)...</ReadingTOC>
             <NestedArchiveFound>提取的文件 '%1' 可以单独解压缩为 %2 压缩格式 (手动添加扩展名)</NestedArchiveFound>
         </XarUnpacker>
     </StatusMessages>
@@ -242,17 +242,17 @@
     <ShellExtension>
         <!-- This section describes Windows context menus -->
         <ConvertToISO>转换为"%s"</ConvertToISO>
-        <ConvertToISOInfo>转换光盘镜像文件为ISO格式</ConvertToISOInfo>
+        <ConvertToISOInfo>转换光盘镜像文件为 ISO 格式</ConvertToISOInfo>
         <Extract>提取到"%s"</Extract>
         <ExtractInfo>提取光盘镜像文件</ExtractInfo>
         <CreateISOFromFolder>创建"%s"</CreateISOFromFolder>
-        <CreateISOFromFolderInfo>使用默认选项为当前文件夹创建ISO镜像</CreateISOFromFolderInfo>
+        <CreateISOFromFolderInfo>使用默认选项为当前文件夹创建 ISO 镜像</CreateISOFromFolderInfo>
         <CreateISOFromFolderWithOptions>使用选项创建"%s"...</CreateISOFromFolderWithOptions>
-        <CreateISOFromFolderWithOptionsInfo>使用指定文件系统和卷标为当前文件夹创建ISO镜像</CreateISOFromFolderWithOptionsInfo>
-        <CreateISOFromDisk>为本光盘创建ISO镜像</CreateISOFromDisk>
-        <CreateISOFromDiskInfo>为选中光盘创建ISO镜像</CreateISOFromDiskInfo>
-        <CreateBINCUEFromDisk>创建BIN/CUE光盘镜像</CreateBINCUEFromDisk>
-        <CreateBINCUEFromDiskInfo>为选定的光盘及其CUE列表创建BIN (raw) 镜像</CreateBINCUEFromDiskInfo>
+        <CreateISOFromFolderWithOptionsInfo>使用指定文件系统和卷标为当前文件夹创建 ISO 镜像</CreateISOFromFolderWithOptionsInfo>
+        <CreateISOFromDisk>为本光盘创建 ISO 镜像</CreateISOFromDisk>
+        <CreateISOFromDiskInfo>为选中光盘创建 ISO 镜像</CreateISOFromDiskInfo>
+        <CreateBINCUEFromDisk>创建 BIN/CUE 光盘镜像</CreateBINCUEFromDisk>
+        <CreateBINCUEFromDiskInfo>为选定的光盘及其CUE列表创建 BIN (raw) 镜像</CreateBINCUEFromDiskInfo>
     </ShellExtension>
     <core>
         <UpdateChecker>
