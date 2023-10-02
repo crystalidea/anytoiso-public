@@ -264,7 +264,7 @@
             <UpdateAlertReleaseNotes>Ghi chú phát hành:</UpdateAlertReleaseNotes>
             <UpdateAlertRemindLater>Nhắc nhở sau</UpdateAlertRemindLater>
             <UpdateAlertSkip>Bỏ qua phiên bản này</UpdateAlertSkip>
-            <UpdateAlertInstall>Install Update</UpdateAlertInstall>
+            <UpdateAlertInstall>Cài đặt Cập nhật</UpdateAlertInstall>
             <UpdateAlertAutomaticUpdates>Kiểm tra cập nhật tự động</UpdateAlertAutomaticUpdates>
             <MessageNoUpdateAvailable>Bạn đang sử dụng phiên bản mới nhất!</MessageNoUpdateAvailable>
             <MessageNoUpdateAvailableDescription>%1 %2 là phiên bản mới nhất.</MessageNoUpdateAvailableDescription>
@@ -289,24 +289,24 @@
             <kStrMoveApplicationQuestionMessage>Bạn có muốn %1 chuyển tới thư mục Applications?</kStrMoveApplicationQuestionMessage>
             <kStrMoveApplicationButtonMove>Chuyển tới thư mục Applications</kStrMoveApplicationButtonMove>
             <kStrMoveApplicationButtonDoNotMove>Không chuyển</kStrMoveApplicationButtonDoNotMove>
-            <kStrMoveApplicationQuestionInfoWillRequirePasswd>Hãy chú ý rằng việc này yêu cầu mật khẩu administrator.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-            <kStrMoveApplicationQuestionInfoInDownloadsFolder>Việc này sẽ giúp thư mục Downloads không phân mảnh.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>Hãy chú ý rằng việc này yêu cầu mật khẩu quản trị viên.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>Việc này sẽ giúp thư mục Downloads không bị lộn xộn.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
         </LetsMoveMac>
         <QLineEditEx>
-            <actionUndo>Undo</actionUndo>
-            <actionRedo>Redo</actionRedo>
-            <actionCut>Cut</actionCut>
-            <actionCopy>Copy</actionCopy>
-            <actionPaste>Paste</actionPaste>
-            <actionDelete>Delete</actionDelete>
-            <actionSelectAll>Select All</actionSelectAll>
+            <actionUndo>Hoàn tác</actionUndo>
+            <actionRedo>Làm lại</actionRedo>
+            <actionCut>Cắt</actionCut>
+            <actionCopy>Sao chép</actionCopy>
+            <actionPaste>Dán</actionPaste>
+            <actionDelete>Xoá</actionDelete>
+            <actionSelectAll>Chọn tất cả</actionSelectAll>
         </QLineEditEx>
         <QMessageBoxEx>
             <buttonOK>OK</buttonOK>
-            <buttonCancel>Cancel</buttonCancel>
-            <buttonClose>Close</buttonClose>
-            <buttonYes>Yes</buttonYes>
-            <buttonNo>No</buttonNo>
+            <buttonCancel>Huỷ</buttonCancel>
+            <buttonClose>Đóng</buttonClose>
+            <buttonYes>Có</buttonYes>
+            <buttonNo>Không</buttonNo>
         </QMessageBoxEx>
     </core>
 </LanguageStrings>

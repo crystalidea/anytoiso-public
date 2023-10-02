@@ -3,7 +3,7 @@
     <MainWindow>
         <mnuFile>Soubor</mnuFile>
         <mnuFileExit>Ukončit</mnuFileExit>
-        <mnuHelp>Help</mnuHelp>
+        <mnuHelp>Nápověda</mnuHelp>
         <mnuHelpDocumentation>Dokumentace...</mnuHelpDocumentation>
         <mnuHelpPurchase>Zakoupit verzi Pro...</mnuHelpPurchase>
         <mnuHelpEnterCode>Vložte registrační kód...</mnuHelpEnterCode>
@@ -30,7 +30,7 @@
             <buttonExtract>Rozbalit!</buttonExtract>
             <labelFileSize>Velikost</labelFileSize>
             <labelFileFormat>formát</labelFileFormat>
-            <labelOpenOrDragFile>&lt;b&gt;Otevřít&lt;/b&gt; nebo &lt;b&gt;táhnout&lt;/b&gt; nějaký obraz k převodu nebo rozbalení</labelOpenOrDragFile>
+            <labelOpenOrDragFile>&lt;b&gt;Otevřít&lt;/b&gt; nebo &lt;b&gt;vhodit sem&lt;/b&gt; nějaký obraz k převodu nebo rozbalení</labelOpenOrDragFile>
         </tabConvertExtract>
         <tabDiskToISO>
             <Name>CD/DVD Disk do ISO</Name>
@@ -81,13 +81,13 @@
         <Website>web:</Website>
         <Support>Podpora:</Support>
         <RunningAs>Program běží v režimu:</RunningAs>
-        <CopyRight>Tento program je chráněn copyrightem a mezinárodními úmluvami. Neautorizované manipulace s programem, nebo s jeho částí, může způsobit trestní stíhání.</CopyRight>
+        <CopyRight>Tento program je chráněn copyrightem a mezinárodními úmluvami. Neautorizovaná manipulace s programem, nebo s jeho částí, může způsobit trestní stíhání.</CopyRight>
         <buttonPurchasePro>Koupit verzi Pro...</buttonPurchasePro>
     </AboutDialog>
     <PreferencesDialog>
         <Caption>Předvolby</Caption>
-        <PreferencesGeneral>General</PreferencesGeneral>
-        <PreferencesUpdates>Updates</PreferencesUpdates>
+        <PreferencesGeneral>Obecné</PreferencesGeneral>
+        <PreferencesUpdates>Aktualizace</PreferencesUpdates>
         <Language>Jazyk rozhraní:</Language>
         <CheckForNewVersions>Po spuštění hledat aktualizace</CheckForNewVersions>
         <ShellExtension>Integrace win IE shellu</ShellExtension>
@@ -101,7 +101,7 @@
     <Messages>
         <Warning>Varování</Warning>
         <Question>Otázky</Question>
-        <NotEnoughDiskSpace>Vypadá to na nedostatek volného místa je(pouze %1) na vybrané jednotce. \n\nChcete pokračovat?</NotEnoughDiskSpace>
+        <NotEnoughDiskSpace>Vypadá to na nedostatek volného místa, na vybrané jednotce je(pouze %1). \n\nChcete pokračovat?</NotEnoughDiskSpace>
         <ISOAlreadyExists>Cílový soubor ISO \n%1\njiž existuje, chcete ho přepsat?</ISOAlreadyExists>
         <FolderAlreadyExists>Cílová složka\n%1\njiž existuje, chcete soubory se stejným názvem přepsat?</FolderAlreadyExists>
         <RestartProgram>Pro dokončení registrace musíte program restartovat. \n\nChcete to nyní udělat?</RestartProgram>
@@ -114,14 +114,14 @@
         <ExtractionFailed>Extrakce selhala</ExtractionFailed>
         <Unpacking>Rozbaluji...</Unpacking>
         <ConvertingToTemporaryISO>Převádím do dočasného ISO souboru...</ConvertingToTemporaryISO>
-        <ProgressBytesWritten>%1 zapsán</ProgressBytesWritten>
+        <ProgressBytesWritten>%1 zapsáno</ProgressBytesWritten>
         <Track>Stopa</Track>
         <ISOImageTypeFound>Nalezen obraz disku ISO (typ %1)</ISOImageTypeFound>
         <CannotOpenSourceFile>&gt;Nelze otevřít zdrojový soubor.</CannotOpenSourceFile>
         <CannotOpenDestFile>Nelze otevřít cílový soubor.</CannotOpenDestFile>
         <OperationTerminated>Operace byla uživatelem zrušena.</OperationTerminated>
         <OperationCompleted>Operace byla dokončena.</OperationCompleted>
-        <ClickToOpenISOInExplorer>Stiskněte &lt;a href="_open_local_file"&gt;zde&lt;/a&gt; k otevření souboru ISO v Exploreru</ClickToOpenISOInExplorer>
+        <ClickToOpenISOInExplorer>Stiskněte &lt;a href="_open_local_file"&gt;zde&lt;/a&gt; k otevření souboru ISO v manažerovi</ClickToOpenISOInExplorer>
         <ClickToMountISOInFinder>Stiskněte &lt;a href="_open_local_file"&gt;zde&lt;/a&gt; k připojení ISO obrazu ve Finderu</ClickToMountISOInFinder>
         <ClickToOpenOutFolder>Stiskněte &lt;a href="_open_local_file"&gt;zde&lt;/a&gt; k otevření výstupní složky</ClickToOpenOutFolder>
         <DiskToISO>
@@ -199,7 +199,7 @@
             <NoVolumeFound>Nenalezen svazek, hledá se souborový systém HFS+ file ...</NoVolumeFound>
             <ExtractingVolume>Rozbalování DMG svazku (%1)...</ExtractingVolume>
             <CorruptedOrPasswordProtected>Chyba: poškozený nebo heslem chráněný obraz DMG</CorruptedOrPasswordProtected>
-            <XarArchiveDetected>DMG soubor je aktuálně nějaký XAR archiv (normálně je DMG soubor uvnitř) a bude pouze extrahován. Pro pokračování zvolte Extrahovat</XarArchiveDetected>
+            <XarArchiveDetected>DMG soubor je aktuálně nějaký XAR archiv (obvykle je DMG soubor uvnitř) a bude pouze extrahován. Pro pokračování zvolte Extrahovat</XarArchiveDetected>
             <openedAsMessage>Soubor je otevřen jako %1</openedAsMessage>
             <DmgDisk>DMG oraz disku</DmgDisk>
             <GPTDisk>GPT disk</GPTDisk>
@@ -223,7 +223,7 @@
             <ExtractError>Nelze rozbalit %1, chyba %2</ExtractError>
         </ArchiveConverter>
         <TarUnpacker>
-            <SinglePackedFileFound>Single packed file detected: %1, unpacking...</SinglePackedFileFound>
+            <SinglePackedFileFound>Detekován soubor Single packed: %1, rozbaluji...</SinglePackedFileFound>
         </TarUnpacker>
         <XarUnpacker>
             <ReadingTOC>Načítám TOC (%1 bytů)...</ReadingTOC>
@@ -246,7 +246,7 @@
         <Extract>Rozbalit do "%s"</Extract>
         <ExtractInfo>Rozbalit soubor obrazu</ExtractInfo>
         <CreateISOFromFolder>Vytvoří "%s"</CreateISOFromFolder>
-        <CreateISOFromFolderInfo>Vytvoří z této složky obraz disku ISO s výchozím nastaveným</CreateISOFromFolderInfo>
+        <CreateISOFromFolderInfo>Vytvoří z této složky obraz disku ISO s výchozím nastavením</CreateISOFromFolderInfo>
         <CreateISOFromFolderWithOptions>Vytvoří "%s" dle nastavení...</CreateISOFromFolderWithOptions>
         <CreateISOFromFolderWithOptionsInfo>Vytvoří z této složky obraz disku ISO s visačkou a nastaveným souborovým formátem</CreateISOFromFolderWithOptionsInfo>
         <CreateISOFromDisk>Vytvoří obraz disku ISO z tohoto disku</CreateISOFromDisk>

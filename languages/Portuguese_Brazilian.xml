@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="3.5" Author="josebite &amp; Paulo Neto">
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.9" Author="Paulo Neto &amp; josebite">
     <MainWindow>
         <mnuFile>Arquivo</mnuFile>
         <mnuFileExit>Sair</mnuFileExit>
@@ -86,8 +86,8 @@
     </AboutDialog>
     <PreferencesDialog>
         <Caption>Preferências</Caption>
-        <PreferencesGeneral>General</PreferencesGeneral>
-        <PreferencesUpdates>Updates</PreferencesUpdates>
+        <PreferencesGeneral>Geral</PreferencesGeneral>
+        <PreferencesUpdates>Atualizações</PreferencesUpdates>
         <Language>Idioma da interface:</Language>
         <CheckForNewVersions>Procurar por novas versões ao iniciar</CheckForNewVersions>
         <ShellExtension>Integração ao menu de contexto do Windows Explorer</ShellExtension>
@@ -142,7 +142,7 @@
             <DiskNotPresent>Disco ausente ou tipo de mídia desconhecido</DiskNotPresent>
             <NoTracksOnDisk>Não existe faixas no disco, ele provavelmente está vazio</NoTracksOnDisk>
             <mediaType>Tipo de mídia: %1</mediaType>
-            <TrackLength>Oo comprimento da faixa é de %1 setores</TrackLength>
+            <TrackLength>O comprimento da faixa é de %1 setores</TrackLength>
             <TracksCount>Faixas: %1</TracksCount>
             <WritingTrack>Gravando faixa %1, o comprimento da faixa é de %2 setores</WritingTrack>
             <DiskReadingStopped>Leitura suspensa em %1</DiskReadingStopped>
@@ -158,7 +158,7 @@
             <NestedDirectoriesLimitWarning>A estrutura do diretório é maior que %1 níveis, alguns arquivos e pastas serão ignorados.</NestedDirectoriesLimitWarning>
             <UnableToOpenFile>Não foi possível abrir arquivo '%1' para acesso de leitura.</UnableToOpenFile>
             <NoExistingFolder>A pasta %1 não existe</NoExistingFolder>
-            <failedToCreateISOImage>Failed to create an ISO image</failedToCreateISOImage>
+            <failedToCreateISOImage>Falha ao criar uma imagem ISO</failedToCreateISOImage>
         </FolderToISO>
         <UniversalConverter>
             <AudioCDWarning>A imagem é uma imagem %1 de CD de Áudio, a conversão para ISO não é possível. Você pode extrair todas as faixas de áudio para uma pasta.</AudioCDWarning>
@@ -200,14 +200,14 @@
             <ExtractingVolume>Extraindo volume DMG (%1)...</ExtractingVolume>
             <CorruptedOrPasswordProtected>Erro: Imagem DMG corrompida ou protegida por senha</CorruptedOrPasswordProtected>
             <XarArchiveDetected>O arquivo DMG é atualmente um arquivo XAR (normalmente com o arquivo DMG dentro dele) que pode apenas ser extraído. Escolha operação de extração para prosseguir</XarArchiveDetected>
-            <openedAsMessage>The file is opened as %1</openedAsMessage>
-            <DmgDisk>DMG disk image</DmgDisk>
-            <GPTDisk>GPT disk</GPTDisk>
-            <MBRDisk>Apple disk</MBRDisk>
-            <HFSVolume>HFS+ volume</HFSVolume>
-            <readingFileSystem>Reading %1 file system...</readingFileSystem>
-            <messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
-            <messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
+            <openedAsMessage>O arquivos está aberto como %1</openedAsMessage>
+            <DmgDisk>Imagem de disco DMG</DmgDisk>
+            <GPTDisk>Disco GPT</GPTDisk>
+            <MBRDisk>Disco Apple</MBRDisk>
+            <HFSVolume>Volume HFS+</HFSVolume>
+            <readingFileSystem>Lendo %1 arquivo de sistema...</readingFileSystem>
+            <messageMultiplePartitions>Existem várias partições dentro da imagem DMG, escolha uma delas para extrair:</messageMultiplePartitions>
+            <messageMultiplePartitionsTitle>Selecione uma partição</messageMultiplePartitionsTitle>
         </DMG>
         <PDIConverter>
             <InvalidOrBrokenImage>Imagem InstantCopy PDI inválida ou danificada</InvalidOrBrokenImage>
@@ -234,8 +234,8 @@
         <buttonOk>OK</buttonOk>
         <buttonCancel>Cancelar</buttonCancel>
         <buttonClose>Fechar</buttonClose>
-        <buttonYes>Yes</buttonYes>
-        <buttonNo>No</buttonNo>
+        <buttonYes>Sim</buttonYes>
+        <buttonNo>Não</buttonNo>
         <ProVersion>Versão Pro</ProVersion>
         <LiteVersion>Versão Lite</LiteVersion>
     </Misc>
@@ -293,20 +293,20 @@
             <kStrMoveApplicationQuestionInfoInDownloadsFolder>Isso irá manter sua pasta de Downloads organizada.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
         </LetsMoveMac>
         <QLineEditEx>
-            <actionUndo>Undo</actionUndo>
-            <actionRedo>Redo</actionRedo>
-            <actionCut>Cut</actionCut>
-            <actionCopy>Copy</actionCopy>
-            <actionPaste>Paste</actionPaste>
-            <actionDelete>Delete</actionDelete>
-            <actionSelectAll>Select All</actionSelectAll>
+            <actionUndo>Desfazer</actionUndo>
+            <actionRedo>Refazer</actionRedo>
+            <actionCut>Recortar</actionCut>
+            <actionCopy>Copiar</actionCopy>
+            <actionPaste>Colar</actionPaste>
+            <actionDelete>Excluir</actionDelete>
+            <actionSelectAll>Selecionar Tudo</actionSelectAll>
         </QLineEditEx>
         <QMessageBoxEx>
             <buttonOK>OK</buttonOK>
-            <buttonCancel>Cancel</buttonCancel>
-            <buttonClose>Close</buttonClose>
-            <buttonYes>Yes</buttonYes>
-            <buttonNo>No</buttonNo>
+            <buttonCancel>Cancelar</buttonCancel>
+            <buttonClose>Fechar</buttonClose>
+            <buttonYes>Sim</buttonYes>
+            <buttonNo>Não</buttonNo>
         </QMessageBoxEx>
     </core>
 </LanguageStrings>

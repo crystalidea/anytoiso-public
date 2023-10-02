@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="3.7.4" Author="Zbigniew Strzelczyk, updated by Staszek Freling, updated based on version 3.7.4 by Lukasz Chojnacki">
+<LanguageStrings version="3.9.6" Author="Zbigniew Strzelczyk, updated by Staszek Freling, updated based on version 3.7.4 by Radek Pytlik">
     <MainWindow>
         <mnuFile>Plik</mnuFile>
         <mnuFileExit>Wyjście</mnuFileExit>
@@ -81,15 +81,15 @@
         <Website>Strona programu:</Website>
         <Support>Wsparcie:</Support>
         <RunningAs>Program działa jako:</RunningAs>
-        <CopyRight>Ten program jest chroniony prawem autorskim i umowami międzynarodowymi. Nieautoryzowane powielanie, dystrybucja programu lub jakiejkolwiek jego części, może skutkować surowymi karami cywilnymi lub karnymi.</CopyRight>
+        <CopyRight>Ten program jest chroniony prawem autorskim i umowami międzynarodowymi. Nieautoryzowane powielanie, dystrybucja programu lub jakiejkolwiek jego części, może skutkować surowymi karami.</CopyRight>
         <buttonPurchasePro>Kup wersję Pro...</buttonPurchasePro>
     </AboutDialog>
     <PreferencesDialog>
         <Caption>Preferencje</Caption>
-        <PreferencesGeneral>General</PreferencesGeneral>
-        <PreferencesUpdates>Updates</PreferencesUpdates>
+        <PreferencesGeneral>Ogólne</PreferencesGeneral>
+        <PreferencesUpdates>Aktualizacje</PreferencesUpdates>
         <Language>Język interfejsu:</Language>
-        <CheckForNewVersions>Sprawdź przy starcie czy jest nowa wersja</CheckForNewVersions>
+        <CheckForNewVersions>Sprawdź przy starcie, czy jest nowa wersja</CheckForNewVersions>
         <ShellExtension>Integruj z powłoką Explorera</ShellExtension>
         <ShellExtensionInfo>Dodaje menu kontekstowe do napędów, folderów i obsługiwanych formatów plików.</ShellExtensionInfo>
     </PreferencesDialog>
@@ -115,7 +115,7 @@
         <Unpacking>Rozpakowanie...</Unpacking>
         <ConvertingToTemporaryISO>Konwersja do pliku tymczasowego ISO...</ConvertingToTemporaryISO>
         <ProgressBytesWritten>zapisano w %1</ProgressBytesWritten>
-        <Track>Track</Track>
+        <Track>Utwór</Track>
         <ISOImageTypeFound>Znaleziono obraz ISO (typ %1)</ISOImageTypeFound>
         <CannotOpenSourceFile>Nie można otworzyć pliku źródłowego.</CannotOpenSourceFile>
         <CannotOpenDestFile>Nie można otworzyć pliku docelowego.</CannotOpenDestFile>
@@ -140,7 +140,7 @@
             <CannotReadDiskToc>Nie można odczytać TOC (spis treści) z dysku</CannotReadDiskToc>
             <CannotReadDisk>Nie można odczytać dysku, błąd: %1</CannotReadDisk>
             <DiskNotPresent>Dysk nie występuje lub nieznany typ nośnika</DiskNotPresent>
-            <NoTracksOnDisk>Nie ma żadnych śladów na dysku, prawdopodobnie pusty</NoTracksOnDisk>
+            <NoTracksOnDisk>Nie ma żadnych utworów na dysku, prawdopodobnie pusty</NoTracksOnDisk>
             <mediaType>Typ nośnika: %1</mediaType>
             <TrackLength>Długość ścieżki wynosi %1 sektorów</TrackLength>
             <TracksCount>Liczba ścieżek: %1</TracksCount>
@@ -158,7 +158,7 @@
             <NestedDirectoriesLimitWarning>Struktura katalogów jest głębsza niż %1 poziomy, niektóre pliki i foldery zostaną pominięte.</NestedDirectoriesLimitWarning>
             <UnableToOpenFile>Nie można otworzyć pliku '%1' do odczytu.</UnableToOpenFile>
             <NoExistingFolder>Folder %1 nie istnieje</NoExistingFolder>
-            <failedToCreateISOImage>Failed to create an ISO image</failedToCreateISOImage>
+            <failedToCreateISOImage>Nie udało utworzyć się obrazu ISO</failedToCreateISOImage>
         </FolderToISO>
         <UniversalConverter>
             <AudioCDWarning>Obraz wydaje się być %1 obrazem CD audio, konwersja do ISO nie jest możliwa.</AudioCDWarning>
@@ -205,9 +205,9 @@
             <GPTDisk>Dysk GPT</GPTDisk>
             <MBRDisk>Dysk Apple</MBRDisk>
             <HFSVolume>Wolumin HFS+</HFSVolume>
-            <readingFileSystem>Reading %1 file system...</readingFileSystem>
-            <messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
-            <messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
+            <readingFileSystem>Odczytuję %1 system plików...</readingFileSystem>
+            <messageMultiplePartitions>Wewnątrz obrazu DMG jest kilka partycji. Wybierz tę, która ma być rozpakowana:</messageMultiplePartitions>
+            <messageMultiplePartitionsTitle>Wybierz partycję</messageMultiplePartitionsTitle>
         </DMG>
         <PDIConverter>
             <InvalidOrBrokenImage>Zła lub uszkodzona szybka kopia obrazu PDI</InvalidOrBrokenImage>
@@ -234,8 +234,8 @@
         <buttonOk>OK</buttonOk>
         <buttonCancel>Anuluj</buttonCancel>
         <buttonClose>Zamknij</buttonClose>
-        <buttonYes>Yes</buttonYes>
-        <buttonNo>No</buttonNo>
+        <buttonYes>Tak</buttonYes>
+        <buttonNo>Nie</buttonNo>
         <ProVersion>Wersja Pro</ProVersion>
         <LiteVersion>Wersja Lite</LiteVersion>
     </Misc>
@@ -293,20 +293,20 @@
             <kStrMoveApplicationQuestionInfoInDownloadsFolder>Dzięki temu unikniesz bałaganu w folderze Pobrane rzeczy.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
         </LetsMoveMac>
         <QLineEditEx>
-            <actionUndo>Undo</actionUndo>
-            <actionRedo>Redo</actionRedo>
-            <actionCut>Cut</actionCut>
-            <actionCopy>Copy</actionCopy>
-            <actionPaste>Paste</actionPaste>
-            <actionDelete>Delete</actionDelete>
-            <actionSelectAll>Select All</actionSelectAll>
+            <actionUndo>Cofnij</actionUndo>
+            <actionRedo>Zacznij od początku</actionRedo>
+            <actionCut>Wytnij</actionCut>
+            <actionCopy>Kopiuj</actionCopy>
+            <actionPaste>Wklej</actionPaste>
+            <actionDelete>Usuń</actionDelete>
+            <actionSelectAll>Zaznacz wszystko</actionSelectAll>
         </QLineEditEx>
         <QMessageBoxEx>
             <buttonOK>OK</buttonOK>
-            <buttonCancel>Cancel</buttonCancel>
-            <buttonClose>Close</buttonClose>
-            <buttonYes>Yes</buttonYes>
-            <buttonNo>No</buttonNo>
+            <buttonCancel>Anuluj</buttonCancel>
+            <buttonClose>Zamknij</buttonClose>
+            <buttonYes>Tak</buttonYes>
+            <buttonNo>Nie</buttonNo>
         </QMessageBoxEx>
     </core>
 </LanguageStrings>

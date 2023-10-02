@@ -257,22 +257,22 @@
     <core>
         <UpdateChecker>
             <ReleasedOn>släppt den %1</ReleasedOn>
-            <CheckForUpdates>Kolla efter uppdateringar...</CheckForUpdates>
+            <CheckForUpdates>Leta efter uppdateringar...</CheckForUpdates>
             <NewVersionAvailable>En ny version av %1 är tillgänglig!</NewVersionAvailable>
             <NewVersionAvailableText>%1 %2 är nu tillgänglig - du har %3. Vill du ladda ned den nu?</NewVersionAvailableText>
-            <UpdateAlertTitle>Mjukvaruuppdatering</UpdateAlertTitle>
+            <UpdateAlertTitle>Programuppdatering</UpdateAlertTitle>
             <UpdateAlertReleaseNotes>Ändringsnoteringar:</UpdateAlertReleaseNotes>
             <UpdateAlertRemindLater>Påminn mig senare</UpdateAlertRemindLater>
             <UpdateAlertSkip>Hoppa över denna version</UpdateAlertSkip>
             <UpdateAlertInstall>Installera uppdatering</UpdateAlertInstall>
-            <UpdateAlertAutomaticUpdates>Kolla efter uppdateringar automatiskt</UpdateAlertAutomaticUpdates>
+            <UpdateAlertAutomaticUpdates>Leta efter uppdateringar automatiskt</UpdateAlertAutomaticUpdates>
             <MessageNoUpdateAvailable>Du är uppdaterad!</MessageNoUpdateAvailable>
-            <MessageNoUpdateAvailableDescription>%1 %2 är förnärvarande nyaste versionen som finns tillgänglig.</MessageNoUpdateAvailableDescription>
-            <MessageErrorConnect>Ett fel uppstod vid nedladdning av uppdateringen. Var god försök igen senare.</MessageErrorConnect>
-            <MessageErrorParse>Ett fel uppstod vid tolkning av uppdateringsflödet.</MessageErrorParse>
+            <MessageNoUpdateAvailableDescription>%1 %2 är för närvarande den senaste tillgängliga versionen.</MessageNoUpdateAvailableDescription>
+            <MessageErrorConnect>Fel uppstod vid nedladdning av uppdateringen. Var god försök igen senare.</MessageErrorConnect>
+            <MessageErrorParse>Fel uppstod vid uppdateringen.</MessageErrorParse>
             <UpdateProgressTitle>Uppdaterar %1</UpdateProgressTitle>
             <UpdateProgressCancel>Avbryt</UpdateProgressCancel>
-            <UpdateProgressInstallAndRelaunch>Installera och starta om</UpdateProgressInstallAndRelaunch>
+            <UpdateProgressInstallAndRelaunch>Installera och starta om programmet</UpdateProgressInstallAndRelaunch>
             <UpdateProgressStatusDownloading>Laddar ned uppdatering...</UpdateProgressStatusDownloading>
             <UpdateProgressExtract>Packar upp uppdatering...</UpdateProgressExtract>
             <UpdateProgressStatusReady>Redo att installera</UpdateProgressStatusReady>
@@ -283,30 +283,30 @@
             <UpdateProgressGB>GB</UpdateProgressGB>
         </UpdateChecker>
         <LetsMoveMac>
-            <kStrMoveApplicationCouldNotMove>Kunde inte flytta till programmappen</kStrMoveApplicationCouldNotMove>
-            <kStrMoveApplicationQuestionTitle>Flytta till programmappen?</kStrMoveApplicationQuestionTitle>
-            <kStrMoveApplicationQuestionTitleHome>Flytta till programmappen i din hemmamapp?</kStrMoveApplicationQuestionTitleHome>
-            <kStrMoveApplicationQuestionMessage>Jag kan flytta mig %1 själv till programmappen om du vill.</kStrMoveApplicationQuestionMessage>
-            <kStrMoveApplicationButtonMove>Flytta till programmappen</kStrMoveApplicationButtonMove>
+            <kStrMoveApplicationCouldNotMove>Kunde inte flytta till program-mappen</kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>Flytta till program-mappen</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>Flytta till program-mappen i din hem-mapp?</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>Vill du att %1 flyttar sig själv till program-mappen?</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationButtonMove>Flytta till program-mappen</kStrMoveApplicationButtonMove>
             <kStrMoveApplicationButtonDoNotMove>Flytta inte</kStrMoveApplicationButtonDoNotMove>
             <kStrMoveApplicationQuestionInfoWillRequirePasswd>Detta kräver ett administratörslösenord.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-            <kStrMoveApplicationQuestionInfoInDownloadsFolder>Detta kommer att hålla din hämtningsmapp städad.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>Detta kommer att hålla din nedladdningsmapp i bättre ordning.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
         </LetsMoveMac>
         <QLineEditEx>
-            <actionUndo>Undo</actionUndo>
-            <actionRedo>Redo</actionRedo>
-            <actionCut>Cut</actionCut>
-            <actionCopy>Copy</actionCopy>
-            <actionPaste>Paste</actionPaste>
-            <actionDelete>Delete</actionDelete>
-            <actionSelectAll>Select All</actionSelectAll>
+            <actionUndo>Ångra</actionUndo>
+            <actionRedo>Gör om</actionRedo>
+            <actionCut>Klipp ut</actionCut>
+            <actionCopy>Kopiera</actionCopy>
+            <actionPaste>Klistra in</actionPaste>
+            <actionDelete>Radera</actionDelete>
+            <actionSelectAll>Välj alla</actionSelectAll>
         </QLineEditEx>
         <QMessageBoxEx>
             <buttonOK>OK</buttonOK>
-            <buttonCancel>Cancel</buttonCancel>
-            <buttonClose>Close</buttonClose>
-            <buttonYes>Yes</buttonYes>
-            <buttonNo>No</buttonNo>
+            <buttonCancel>Avbryt</buttonCancel>
+            <buttonClose>Stäng</buttonClose>
+            <buttonYes>Ja</buttonYes>
+            <buttonNo>Nej</buttonNo>
         </QMessageBoxEx>
     </core>
 </LanguageStrings>

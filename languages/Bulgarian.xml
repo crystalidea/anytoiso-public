@@ -283,30 +283,30 @@
             <UpdateProgressGB>ГБ</UpdateProgressGB>
         </UpdateChecker>
         <LetsMoveMac>
-            <kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
-            <kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
-            <kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
-            <kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
-            <kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
-            <kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
-            <kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-            <kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+            <kStrMoveApplicationCouldNotMove>Неуспешно преместване в папката за приложения</kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>Премести в папката за приложения</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>Премести в папката за приложения във папката на потребителя Ви?</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>Бихте ли искали %1 да премести себе си в папката за приложения?</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationButtonMove>Премести в папката за приложения</kStrMoveApplicationButtonMove>
+            <kStrMoveApplicationButtonDoNotMove>Не премествай</kStrMoveApplicationButtonDoNotMove>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>Това ще изиска адмистраторската ви парола.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>Това ще предпази папката ви с изтегляния от затрупване.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
         </LetsMoveMac>
         <QLineEditEx>
-            <actionUndo>Undo</actionUndo>
-            <actionRedo>Redo</actionRedo>
-            <actionCut>Cut</actionCut>
-            <actionCopy>Copy</actionCopy>
-            <actionPaste>Paste</actionPaste>
-            <actionDelete>Delete</actionDelete>
-            <actionSelectAll>Select All</actionSelectAll>
+            <actionUndo>Отмени</actionUndo>
+            <actionRedo>Отмени отмяната</actionRedo>
+            <actionCut>Изрежи</actionCut>
+            <actionCopy>Копирай</actionCopy>
+            <actionPaste>Постави</actionPaste>
+            <actionDelete>Изтрий</actionDelete>
+            <actionSelectAll>Избери всички</actionSelectAll>
         </QLineEditEx>
         <QMessageBoxEx>
-            <buttonOK>OK</buttonOK>
-            <buttonCancel>Cancel</buttonCancel>
-            <buttonClose>Close</buttonClose>
-            <buttonYes>Yes</buttonYes>
-            <buttonNo>No</buttonNo>
+            <buttonOK>ОК</buttonOK>
+            <buttonCancel>Отмени</buttonCancel>
+            <buttonClose>Затвори</buttonClose>
+            <buttonYes>Да</buttonYes>
+            <buttonNo>Не</buttonNo>
         </QMessageBoxEx>
     </core>
 </LanguageStrings>

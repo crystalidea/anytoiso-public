@@ -293,20 +293,20 @@
             <kStrMoveApplicationQuestionInfoInDownloadsFolder>これにより\"ダウンロード\"フォルダを整理できます。</kStrMoveApplicationQuestionInfoInDownloadsFolder>
         </LetsMoveMac>
         <QLineEditEx>
-            <actionUndo>Undo</actionUndo>
-            <actionRedo>Redo</actionRedo>
-            <actionCut>Cut</actionCut>
-            <actionCopy>Copy</actionCopy>
-            <actionPaste>Paste</actionPaste>
-            <actionDelete>Delete</actionDelete>
-            <actionSelectAll>Select All</actionSelectAll>
+            <actionUndo>元に戻す</actionUndo>
+            <actionRedo>やり直す</actionRedo>
+            <actionCut>カット</actionCut>
+            <actionCopy>コピー</actionCopy>
+            <actionPaste>ペースト</actionPaste>
+            <actionDelete>削除</actionDelete>
+            <actionSelectAll>全選択</actionSelectAll>
         </QLineEditEx>
         <QMessageBoxEx>
             <buttonOK>OK</buttonOK>
-            <buttonCancel>Cancel</buttonCancel>
-            <buttonClose>Close</buttonClose>
-            <buttonYes>Yes</buttonYes>
-            <buttonNo>No</buttonNo>
+            <buttonCancel>キャンセル</buttonCancel>
+            <buttonClose>閉じる</buttonClose>
+            <buttonYes>はい</buttonYes>
+            <buttonNo>いいえ</buttonNo>
         </QMessageBoxEx>
     </core>
 </LanguageStrings>

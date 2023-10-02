@@ -1,312 +1,312 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="3.1" Author="info@uglt.org">
-	<MainWindow>
-		<mnuFile>ფაილი</mnuFile>
-		<mnuFileExit>გამოსვლა</mnuFileExit>
-		<mnuHelp>დახმარება</mnuHelp>
-		<mnuHelpDocumentation>დოკუმენტაცია...</mnuHelpDocumentation>
-		<mnuHelpPurchase>პრო ვერსიის ყიდვა...</mnuHelpPurchase>
-		<mnuHelpEnterCode>კოდის შეყვანა...</mnuHelpEnterCode>
-		<mnuHelpAbout>პროგრამის შესახებ...</mnuHelpAbout>
-		<mnuHomePage>AnyToISO-ს ვებ-გვერდი...</mnuHomePage>
-		<menuPreferences>პარამეტრები...</menuPreferences>
-		<newVersionAvailable>ხელმისაწვდომია AnyToISO %1!</newVersionAvailable>
-		<newVersionUpdate>განახლება</newVersionUpdate>
-		<buttonStop>გაჩერება</buttonStop>
-		<tabConvertExtract>
-			<Name>ამოარქივება/ISO-ში გადაყვანა</Name>
-			<SourceFileName>დისკის ასლი:</SourceFileName>
-			<ConvertToISO>ISO-ში კონვერტაცია:</ConvertToISO>
-			<ExtractToFolder>საქაღალდე ამოსაარქივებლად:</ExtractToFolder>
-			<buttonOpenImage>დისკის ასლის გახსნა...</buttonOpenImage>
-			<buttonOpenImageText>CD/DVD დისკის ასლის გახსნა</buttonOpenImageText>
-			<AllSupportedFiles>ყველა მხარდაჭერილი ფაილი</AllSupportedFiles>
-			<buttonOpenISO>ISO-ს გახსნა...</buttonOpenISO>
-			<buttonOpenISOText>მიუთითეთ საბოლოო ISO ფაილი</buttonOpenISOText>
-			<buttonOpenISOFilter>ISO ფაილები (*.iso)</buttonOpenISOFilter>
-			<buttonOpenFolder>მიუთითეთ საქაღალდე...</buttonOpenFolder>
-			<buttonOpenFolderText>საქაღალდის გახსნა</buttonOpenFolderText>
-			<buttonConvert>კონვერტაცია!</buttonConvert>
-			<buttonExtract>ამოარქივება!</buttonExtract>
-			<labelFileSize>ფაილის ზომა</labelFileSize>
-			<labelFileFormat>ფორმატი</labelFileFormat>
-			<labelOpenOrDragFile>&lt;b&gt;გახსენით&lt;/b&gt; ან &lt;b&gt;ჩააგდეთ&lt;/b&gt; დისკის ასლი</labelOpenOrDragFile>
-		</tabConvertExtract>
-		<tabDiskToISO>
-			<Name>CD/DVD დისკი ISO-ში</Name>
-			<SourceDrive>დისკამძრავი:</SourceDrive>
-			<OutputISO>საბოლოო ISO ფაილი:</OutputISO>
-			<checkCreateBinCue>Create BIN/CUE image</checkCreateBinCue>
-			<buttonRefresh>განახლება</buttonRefresh>
-			<buttonBrowseISO>მითითება...</buttonBrowseISO>
-			<NoDiskInserted>CD/DVD დისკი არ დევს</NoDiskInserted>
-			<buttonMakeISO>ISO-ს შექმნა</buttonMakeISO>
-			<buttonMakeBinCue>Create BIN/CUE image</buttonMakeBinCue>
-			<chooseISOOrBinCueImage>Please select ISO or BIN/CUE image file</chooseISOOrBinCueImage>
-			<isoFilesFilter>ISO Files</isoFilesFilter>
-			<binCueSheetFilter>BIN Files (with CUE sheet)</binCueSheetFilter>
-		</tabDiskToISO>
-		<tabFolderToISO>
-			<Name>საქაღალდე ISO-ში</Name>
-			<SourceFolder>საქაღალდე:</SourceFolder>
-			<DestinationISO>საბოლოო ISO ფაილი:</DestinationISO>
-			<VolumeLabel>ტომის იარლიყი:</VolumeLabel>
-			<buttonBrowseForFolder>საქაღალდის მითითება...</buttonBrowseForFolder>
-			<buttonChooseISO>მიუთითეთ ISO ფაილი...</buttonChooseISO>
-			<buttonOptions>პარამეტრები...</buttonOptions>
-			<buttonMakeISO>ISO-ს შექმნა</buttonMakeISO>
-			<ISOCreationOptions>ISO-ს შექმნის პარამეტრები</ISOCreationOptions>
-			<Settings>-ის პარამეტრები</Settings>
-			<FileSystemsInsideISO>ფაილური სისტემა:</FileSystemsInsideISO>
-			<buttonDefault>სტანდარტული</buttonDefault>
-			<ISO9660Option1>8.3 DOS ფაილის სახელები (11)</ISO9660Option1>
-			<ISO9660Option2>ძალიან გრძელი სახელები (180)</ISO9660Option2>
-			<ISO9660Option3>ISO 9660:1999</ISO9660Option3>
-			<JolietOption1>სტანდარტული სახელები (64)</JolietOption1>
-			<JolietOption2>გრძელი სახელები (110)</JolietOption2>
-		</tabFolderToISO>
-	</MainWindow>
-	<LiteVersionDialog>
-		<LiteVersionLimitText>AnyToISO-ს მსუბუქი ვერსია მუშაობს მხოლოდ &lt;b&gt;CD ფაილებთან&lt;/b&gt; (870 მბ-მდე). დიდ ფაილებთან სამუშაოდ (DVD და მეტი) საჭიროა &lt;a href="purchase"&gt;პროფესიონალური ვერსიის ყიდვა&lt;/a&gt;. კოდს მიიღებთ პროგრამის ყიდვის შემდეგ &lt;a href="unlock"&gt;პროგრამის რეგისტრაციისთვის&lt;/a&gt;.</LiteVersionLimitText>
-		<buttonPurchasePro>პრო ვერსიის ყიდვა...</buttonPurchasePro>
-	</LiteVersionDialog>
-	<EnterKeyDialog>
-		<Caption>შეიყვანეთ კოდი</Caption>
-		<EnterKeyToUpgradeText>AnyToISO-ს პრო ვერსიაზე განსაახლებლად შეიყვანეთ სარეგისტრაციო მონაცემები.</EnterKeyToUpgradeText>
-		<RegName>სახელი:</RegName>
-		<RegCode>კოდი:</RegCode>
-	</EnterKeyDialog>
-	<AboutDialog>
-		<Caption>AnyToISO-ს შესახებ</Caption>
-		<Website>ვებ-გვერდი:</Website>
-		<Support>მხარდაჭერა:</Support>
-		<RunningAs>პროგრამა გაშვებულია როგორც:</RunningAs>
-		<CopyRight>პროგრამა დაცულია საავტორო უფლებით და საერთაშორისო კანონით. პროგრამის უნებართვო კოპირებამ შეიძლება გამოიწვიოს სისხლის სამართლის საქმის აღძვრა.</CopyRight>
-		<buttonPurchasePro>პრო ვერსიის ყიდვა...</buttonPurchasePro>
-	</AboutDialog>
-	<PreferencesDialog>
-		<Caption>პარამეტრები</Caption>
-		<PreferencesGeneral>General</PreferencesGeneral>
-		<PreferencesUpdates>Updates</PreferencesUpdates>
-		<Language>ენა:</Language>
-		<CheckForNewVersions>ჩართვისთანავე, ახალი ვერსიის შემოწმება</CheckForNewVersions>
-		<ShellExtension>Windows Explorer-ში ინტეგრაცია</ShellExtension>
-		<ShellExtensionInfo>დისკამძრავებზე, საქაღალდეებზე და მხარდაჭერილი ფორმატის ფაილებზე კონტექსტური მენიუს დამატება.</ShellExtensionInfo>
-	</PreferencesDialog>
-	<PasswordDialog>
-		<Caption>საჭიროა პაროლი</Caption>
-		<FileIsProtected>ფაილი დაშიფრულია, მისი გაშიფრისთვის შეიყვანეთ პაროლი:</FileIsProtected>
-		<InvalidPassword>Invalid password</InvalidPassword>
-	</PasswordDialog>
-	<Messages>
-		<Warning>გაფრთხილება</Warning>
-		<Question>კითხვა</Question>
-		<NotEnoughDiskSpace>არჩეულ დისკზე არ არის საკმარისი სივრცე (მხოლოდ %1)\n\nგსურთ, დამუშავება?</NotEnoughDiskSpace>
-		<ISOAlreadyExists>ISO ფაილი\n%1\nუკვე არსებობს, გსურთ მისი ჩანაცვლება?</ISOAlreadyExists>
-		<FolderAlreadyExists>საქაღალდე\n%1\nუკვე არსებობს, გსურთ ყველა ფაილის იგივე სახელით ჩანაცვლება?</FolderAlreadyExists>
-		<RestartProgram>რეგისტრაციის დასრულებისთვის საჭიროა პროგრამის გადატვირთვა. \n\nგსურთ გადატვირთვა?</RestartProgram>
-		<CancelOperation>ნამდვილად გსურთ, ოპერაციის გაუქმება?</CancelOperation>
-	</Messages>
-	<StatusMessages>
-		<CheckingSourceImage>მიმდინარეობს საწყისი ფაილის შემოწმება...</CheckingSourceImage>
-		<Converting>მიმდინარეობს გარდაქმნა...</Converting>
-		<Extracting>მიმდინარეობს ამოარქივება...</Extracting>
-		<ExtractionFailed>Extract operation failed</ExtractionFailed>
-		<Unpacking>Unpacking...</Unpacking>
-		<ConvertingToTemporaryISO>მიმდინარეობს დროებით ISO ფაილში გარდაქმნა...</ConvertingToTemporaryISO>
-		<ProgressBytesWritten>ჩაწერილია %1</ProgressBytesWritten>
-		<Track>Track</Track>
-		<ISOImageTypeFound>მოიძებნა ISO ფაილი (სახეობა %1)</ISOImageTypeFound>
-		<CannotOpenSourceFile>საწყისი ფაილის გახსნა ვერ ხერხდება.</CannotOpenSourceFile>
-		<CannotOpenDestFile>დანიშნულების ფაილის გახსნა ვერ ხერხდება.</CannotOpenDestFile>
-		<OperationTerminated>ოპერაცია შეწყვეტილია მომხმარებლის მიერ.</OperationTerminated>
-		<OperationCompleted>ოპერაცია დასრულდა.</OperationCompleted>
-		<ClickToOpenISOInExplorer>ISO ფაილის Explorer-ში გასახსნელად დააჭირეთ &lt;a href="_open_local_file"&gt;აქ&lt;/a&gt;</ClickToOpenISOInExplorer>
-		<ClickToMountISOInFinder>ISO ფაილის ძებნაში მისაბმელად დააჭირეთ ღილაკს &lt;a href="_open_local_file"&gt;here&lt;/a&gt;</ClickToMountISOInFinder>
-		<ClickToOpenOutFolder>საქაღალდის გასახსნელად დააჭირეთ ღილაკს &lt;a href="_open_local_file"&gt;აქ&lt;/a&gt;</ClickToOpenOutFolder>
-		<DiskToISO>
-			<OpeningDevice>მიმდინარეობს მედია მოწყობილობის გახსნა, მოითმინეთ...</OpeningDevice>
-			<TotalDataSize>ინფორმაციის საერთო ზომა არის %1</TotalDataSize>
-			<CreatingISO>მიმდინარეობს ISO ფაილის შექმნა...</CreatingISO>
-			<CannotCreateFromAudio>მრავალ-სესიური ან აუდიო დისკებისთვის, ISO ფაილის შექმნა შეუძლებელია. დაწვრილებით, დაგვიკავშირდით.</CannotCreateFromAudio>
-			<PleaseUseBinCue>Please use BIN/CUE image for such disks</PleaseUseBinCue>
-			<BlankDiskDetected>აღმოჩენილია ცარიელი CD/DVD</BlankDiskDetected>
-			<DiskNotReady>CD/DVD მზად არ არის</DiskNotReady>
-			<CannotOpenDevice>მოწყობილობის (%1) გახსნა ვერ ხერხდება</CannotOpenDevice>
-			<ReadError>წაკითხვის შეცდომა %1, დახმარებისთვის დაგვიკავშირდით</ReadError>
-			<DeviceIsCopyProtected>მოწყობილობა დაცულია კოპირებისგან და დაშიფრულია. გაგრძელება შეუძლებელია.</DeviceIsCopyProtected>
-			<ISOCreationFailed>ISO-ს შექმნა ჩაიშალა</ISOCreationFailed>
-			<BinCueCreationFailed>BIN/CUE image creation failed</BinCueCreationFailed>
-			<CannotReadDiskToc>Failed to read TOC (table of contents) of the disk</CannotReadDiskToc>
-			<CannotReadDisk>Cannot read disk, error: %1</CannotReadDisk>
-			<DiskNotPresent>Disk not present or unknown media type</DiskNotPresent>
-			<NoTracksOnDisk>There are no tracks on the disk, it's probably blank</NoTracksOnDisk>
-			<mediaType>Media type: %1</mediaType>
-			<TrackLength>Track length is %1 sectors</TrackLength>
-			<TracksCount>Tracks count: %1</TracksCount>
-			<WritingTrack>Writing track %1, track length is %2 sectors</WritingTrack>
-			<DiskReadingStopped>Reading stopped at %1</DiskReadingStopped>
-			<TrackReadingStopped>Reading stopped at %1, resuming with next track</TrackReadingStopped>
-		</DiskToISO>
-		<FolderToISO>
-			<ScanningFolder>მიმდინარეობს საქაღალდის შემოწმება...</ScanningFolder>
-			<DirectorySize>საქაღალდის ზომა %1</DirectorySize>
-			<WritingISOFile>მიმდინარეობს ISO ფაილის ჩაწერა...</WritingISOFile>
-			<SkippingBigFile>მიმდინარეობს ფაილის '%1' გამოტოვება. 4გბ-ზე დიდია</SkippingBigFile>
-			<SkippingFile>მიმდინარეობს ფაილის '%1' გამოტოვება.</SkippingFile>
-			<BigFileWarning>ფაილის '%1' ზომა დიდია 4გბ-ზე მეტია და არ გამოჩნდება ISO 9660 ფაილურ სისტემებზე.</BigFileWarning>
-			<NestedDirectoriesLimitWarning>საქაღალდეთა წყობა აღემატება %1 დონეს, ზოგიერთი ფაილი და საქაღალდე იქნება გამოტოვებული.</NestedDirectoriesLimitWarning>
-			<UnableToOpenFile>წასაკითხ ფაილთან '%1' წვდომა ვერ ხერხდება.</UnableToOpenFile>
-			<NoExistingFolder>The folder %1 doesn't exist</NoExistingFolder>
-			<failedToCreateISOImage>Failed to create an ISO image</failedToCreateISOImage>
-		</FolderToISO>
-		<UniversalConverter>
-			<AudioCDWarning>დისკის ასლი %1 არის აუდიო CD, ISO-ზე გარდაქმნა შეუძლებელია.</AudioCDWarning>
-			<NotValidImage>შეცდომა: CD/DVD-ის ასლი უვარგისია</NotValidImage>
-			<CannotFindSignature>შეცდომა: ISO_9660 ხელმოწერა ვერ მოიძებნა, მიღწეულია 5მბ ლიმიტი</CannotFindSignature>
-			<MultiSessionImageDetected>Multi-session disk image detected</MultiSessionImageDetected>
-			<MultiSessionNotSupported>The disk image is a multi-session disk image. Such images are not supported.</MultiSessionNotSupported>
-		</UniversalConverter>
-		<NrgConverter>
-			<NrgParsingError>NRG parsing error, please contact support for assistance</NrgParsingError>
-			<NoSessionsFound>No NRG sessions detected, please contact support for assistance</NoSessionsFound>
-		</NrgConverter>
-		<ExtractISO>
-			<LoadingImage>მიმდინარეობს დისკის ასლის ჩატვირთვა...</LoadingImage>
-			<ChooseISOFS>ISO ფაილში ნაპოვნია რამდენიმე ფაილური სისტემა, ამოსაარქივებლად მიუთითეთ ერთ-ერთი:</ChooseISOFS>
-			<ChooseISOFSCaption>მიუთითეთ ფაილური სისტემა</ChooseISOFSCaption>
-			<ImageFound>ნაპოვნია %1 დისკის ასლი</ImageFound>
-			<InvalidISO>ფაილი არ არის ISO ფორმატი ან მხარდაჭერილი არ არის</InvalidISO>
-		</ExtractISO>
-		<UIFConverter>
-			<UsingZlib>zlib დეკომპრესიის გამოყენებით</UsingZlib>
-			<UsingLZMA>იგორ პავლოვის Lzma დეკომპრესიის გამოყენებით</UsingLZMA>
-			<MixedImageFound>ნაპოვნია შერეული სახეობის ასლი %1, მიმდინარეობს დროებით ფაილში ამოარქივება...</MixedImageFound>
-			<UnpackingImage>მიმდინარეობს დისკის ასლის ამოარქივება...</UnpackingImage>
-		</UIFConverter>
-		<DebExtract>
-			<NotValidDeb>ფაილი არ არის Debian (Ubuntu) Linux-ის არქივი</NotValidDeb>
-		</DebExtract>
-		<RpmExtract>
-			<PackageOpened>%1 გახსნილია</PackageOpened>
-			<DecompressingPayload>მიმდინარეობს %1 მონაცემების ამოარქივება დროებით ფაილში...</DecompressingPayload>
-			<UnpackingArchive>მიმდინარეობს ამოარქივება...</UnpackingArchive>
-		</RpmExtract>
-		<DMG>
-			<ConvertingDmgToISO>მიმდინარეობს DMG-ს HFS+ ISO-ში გარდაქმნა...</ConvertingDmgToISO>
-			<Writing>მიმდინარეობს ჩაწერა %1...</Writing>
-			<ExtractingMainPartition>მიმდინარეობს DMG-ს მთავარი განყოფილების ამოარქივება დროებით ფაილში, ამას შეიძლება გარკვეული დასჭირდეს დრო - გთხოვთ, მოიცადოთ...</ExtractingMainPartition>
-			<NoVolumeFound>ტომი არ მოიძებნა, მიმდინარეობს HFS+ ფაილური სისტემის ძებნა...</NoVolumeFound>
-			<ExtractingVolume>მიმდინარეობს DMG ტომის ამოარქივება (%1)...</ExtractingVolume>
-			<CorruptedOrPasswordProtected>შეცდომა DMG ასლი დაზიანებულია ან დაცულია პაროლით</CorruptedOrPasswordProtected>
-			<XarArchiveDetected>DMG file is actually a XAR archive (normally with actual DMG file inside) that can be only extracted. Please choose extract operation to proceed</XarArchiveDetected>
-			<openedAsMessage>The file is opened as %1</openedAsMessage>
-			<DmgDisk>DMG disk image</DmgDisk>
-			<GPTDisk>GPT disk</GPTDisk>
-			<MBRDisk>Apple disk</MBRDisk>
-			<HFSVolume>HFS+ volume</HFSVolume>
-			<readingFileSystem>Reading %1 file system...</readingFileSystem>
-			<messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
-			<messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
-		</DMG>
-		<PDIConverter>
-			<InvalidOrBrokenImage>InstantCopy PDI ფაილი ან დაზიანებულია, ან უცნობია</InvalidOrBrokenImage>
-		</PDIConverter>
-		<ISZConverter>
-			<CompressionNone>შეკუმშვის მეთოდი: არ გამოიყენება</CompressionNone>
-			<WarningPassword>არასწორი პაროლის მითითება გამოიწვევს ფაილის დაზიანებას</WarningPassword>
-			<ImageIsSegmented>ISZ დანაწევრებულია</ImageIsSegmented>
-		</ISZConverter>
-		<ArchiveConverter>
-			<ReadingArchive>Reading archive...</ReadingArchive>
-			<RemovingTempFiles>Removing temporary files...</RemovingTempFiles>
-			<ExtractError>Unable to extract %1, error %2</ExtractError>
-		</ArchiveConverter>
-		<TarUnpacker>
-			<SinglePackedFileFound>Single packed file detected: %1, unpacking...</SinglePackedFileFound>
-		</TarUnpacker>
-		<XarUnpacker>
-			<ReadingTOC>Reading table of contents (%1 bytes)...</ReadingTOC>
-			<NestedArchiveFound>Extracted file '%1' can be unpacked separately as %2 archive (append extension manually)</NestedArchiveFound>
-		</XarUnpacker>
-	</StatusMessages>
-	<Misc>
-		<buttonOk>კარგი</buttonOk>
-		<buttonCancel>გაუქმება</buttonCancel>
-		<buttonClose>დახურვა</buttonClose>
-		<buttonYes>Yes</buttonYes>
-		<buttonNo>No</buttonNo>
-		<ProVersion>'Pro' ვერსია</ProVersion>
-		<LiteVersion>მსუბუქი ვერსია</LiteVersion>
-	</Misc>
-	<ShellExtension>
-		<!-- This section describes Windows context menus -->
-		<ConvertToISO>"%s"-ში კონვერტაცია</ConvertToISO>
-		<ConvertToISOInfo>დისკის ასლის გარდაქმნა ISO ფორმატში</ConvertToISOInfo>
-		<Extract>"%s"-ში ამოარქივება</Extract>
-		<ExtractInfo>დისკის ასლის ამოღება</ExtractInfo>
-		<CreateISOFromFolder>"%s"-ს</CreateISOFromFolder>
-		<CreateISOFromFolderInfo>ამ საქაღალდის ISO ფაილში შენახვა (სტანდარტული პარამეტრებით)</CreateISOFromFolderInfo>
-		<CreateISOFromFolderWithOptions>"%s"-ის შექმნა პარამეტრებით...</CreateISOFromFolderWithOptions>
-		<CreateISOFromFolderWithOptionsInfo>ამ საქაღალდის ISO ფაილში შენახვა, მითითებული ფაილური სისტემით და იარლიყით</CreateISOFromFolderWithOptionsInfo>
-		<CreateISOFromDisk>დისკის ISO ფაილის შექმნა</CreateISOFromDisk>
-		<CreateISOFromDiskInfo>ოპტიკური დისკის ISO ფაილის შექმნა</CreateISOFromDiskInfo>
-		<CreateBINCUEFromDisk>Create BIN/CUE image of this disk</CreateBINCUEFromDisk>
-		<CreateBINCUEFromDiskInfo>Create BIN (raw) image of a selected optical disk and its corresponding CUE sheet file</CreateBINCUEFromDiskInfo>
-	</ShellExtension>
-	<core>
-		<UpdateChecker>
-			<ReleasedOn>released on %1</ReleasedOn>
-			<CheckForUpdates>Check for updates...</CheckForUpdates>
-			<NewVersionAvailable>A new version of %1 is available!</NewVersionAvailable>
-			<NewVersionAvailableText>%1 %2 is now available - you have %3. Would you like to download it now?</NewVersionAvailableText>
-			<UpdateAlertTitle>Software Update</UpdateAlertTitle>
-			<UpdateAlertReleaseNotes>Release Notes:</UpdateAlertReleaseNotes>
-			<UpdateAlertRemindLater>Remind Me Later</UpdateAlertRemindLater>
-			<UpdateAlertSkip>Skip This Version</UpdateAlertSkip>
-			<UpdateAlertInstall>Install Update</UpdateAlertInstall>
-			<UpdateAlertAutomaticUpdates>Check for updates automatically</UpdateAlertAutomaticUpdates>
-			<MessageNoUpdateAvailable>You're up to date!</MessageNoUpdateAvailable>
-			<MessageNoUpdateAvailableDescription>%1 %2 is currently the newest version available.</MessageNoUpdateAvailableDescription>
-			<MessageErrorConnect>An error occurred while downloading the update. Please try again later.</MessageErrorConnect>
-			<MessageErrorParse>An error occurred while parsing the update feed.</MessageErrorParse>
-			<UpdateProgressTitle>Updating %1</UpdateProgressTitle>
-			<UpdateProgressCancel>Cancel</UpdateProgressCancel>
-			<UpdateProgressInstallAndRelaunch>Install and Relaunch</UpdateProgressInstallAndRelaunch>
-			<UpdateProgressStatusDownloading>Downloading update...</UpdateProgressStatusDownloading>
-			<UpdateProgressExtract>Extracting update...</UpdateProgressExtract>
-			<UpdateProgressStatusReady>Ready to Install</UpdateProgressStatusReady>
-			<UpdateProgressSize>%1 of %2</UpdateProgressSize>
-			<UpdateProgressB>B</UpdateProgressB>
-			<UpdateProgressKB>KB</UpdateProgressKB>
-			<UpdateProgressMB>MB</UpdateProgressMB>
-			<UpdateProgressGB>GB</UpdateProgressGB>
-		</UpdateChecker>
-		<LetsMoveMac>
-			<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
-			<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
-			<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
-			<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
-			<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
-			<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
-			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-			<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-		</LetsMoveMac>
-		<QLineEditEx>
-			<actionUndo>Undo</actionUndo>
-			<actionRedo>Redo</actionRedo>
-			<actionCut>Cut</actionCut>
-			<actionCopy>Copy</actionCopy>
-			<actionPaste>Paste</actionPaste>
-			<actionDelete>Delete</actionDelete>
-			<actionSelectAll>Select All</actionSelectAll>
-		</QLineEditEx>
-		<QMessageBoxEx>
-			<buttonOK>OK</buttonOK>
-			<buttonCancel>Cancel</buttonCancel>
-			<buttonClose>Close</buttonClose>
-			<buttonYes>Yes</buttonYes>
-			<buttonNo>No</buttonNo>
-		</QMessageBoxEx>
-	</core>
+    <MainWindow>
+        <mnuFile>ფაილი</mnuFile>
+        <mnuFileExit>გამოსვლა</mnuFileExit>
+        <mnuHelp>დახმარება</mnuHelp>
+        <mnuHelpDocumentation>დოკუმენტაცია...</mnuHelpDocumentation>
+        <mnuHelpPurchase>პრო ვერსიის ყიდვა...</mnuHelpPurchase>
+        <mnuHelpEnterCode>კოდის შეყვანა...</mnuHelpEnterCode>
+        <mnuHelpAbout>პროგრამის შესახებ...</mnuHelpAbout>
+        <mnuHomePage>AnyToISO-ს ვებ-გვერდი...</mnuHomePage>
+        <menuPreferences>პარამეტრები...</menuPreferences>
+        <newVersionAvailable>ხელმისაწვდომია AnyToISO %1!</newVersionAvailable>
+        <newVersionUpdate>განახლება</newVersionUpdate>
+        <buttonStop>გაჩერება</buttonStop>
+        <tabConvertExtract>
+            <Name>ამოარქივება/ISO-ში გადაყვანა</Name>
+            <SourceFileName>დისკის ასლი:</SourceFileName>
+            <ConvertToISO>ISO-ში კონვერტაცია:</ConvertToISO>
+            <ExtractToFolder>საქაღალდე ამოსაარქივებლად:</ExtractToFolder>
+            <buttonOpenImage>დისკის ასლის გახსნა...</buttonOpenImage>
+            <buttonOpenImageText>CD/DVD დისკის ასლის გახსნა</buttonOpenImageText>
+            <AllSupportedFiles>ყველა მხარდაჭერილი ფაილი</AllSupportedFiles>
+            <buttonOpenISO>ISO-ს გახსნა...</buttonOpenISO>
+            <buttonOpenISOText>მიუთითეთ საბოლოო ISO ფაილი</buttonOpenISOText>
+            <buttonOpenISOFilter>ISO ფაილები (*.iso)</buttonOpenISOFilter>
+            <buttonOpenFolder>მიუთითეთ საქაღალდე...</buttonOpenFolder>
+            <buttonOpenFolderText>საქაღალდის გახსნა</buttonOpenFolderText>
+            <buttonConvert>კონვერტაცია!</buttonConvert>
+            <buttonExtract>ამოარქივება!</buttonExtract>
+            <labelFileSize>ფაილის ზომა</labelFileSize>
+            <labelFileFormat>ფორმატი</labelFileFormat>
+            <labelOpenOrDragFile>&lt;b&gt;გახსენით&lt;/b&gt; ან &lt;b&gt;ჩააგდეთ&lt;/b&gt; დისკის ასლი</labelOpenOrDragFile>
+        </tabConvertExtract>
+        <tabDiskToISO>
+            <Name>CD/DVD დისკი ISO-ში</Name>
+            <SourceDrive>დისკამძრავი:</SourceDrive>
+            <OutputISO>საბოლოო ISO ფაილი:</OutputISO>
+            <checkCreateBinCue>Create BIN/CUE image</checkCreateBinCue>
+            <buttonRefresh>განახლება</buttonRefresh>
+            <buttonBrowseISO>მითითება...</buttonBrowseISO>
+            <NoDiskInserted>CD/DVD დისკი არ დევს</NoDiskInserted>
+            <buttonMakeISO>ISO-ს შექმნა</buttonMakeISO>
+            <buttonMakeBinCue>Create BIN/CUE image</buttonMakeBinCue>
+            <chooseISOOrBinCueImage>Please select ISO or BIN/CUE image file</chooseISOOrBinCueImage>
+            <isoFilesFilter>ISO Files</isoFilesFilter>
+            <binCueSheetFilter>BIN Files (with CUE sheet)</binCueSheetFilter>
+        </tabDiskToISO>
+        <tabFolderToISO>
+            <Name>საქაღალდე ISO-ში</Name>
+            <SourceFolder>საქაღალდე:</SourceFolder>
+            <DestinationISO>საბოლოო ISO ფაილი:</DestinationISO>
+            <VolumeLabel>ტომის იარლიყი:</VolumeLabel>
+            <buttonBrowseForFolder>საქაღალდის მითითება...</buttonBrowseForFolder>
+            <buttonChooseISO>მიუთითეთ ISO ფაილი...</buttonChooseISO>
+            <buttonOptions>პარამეტრები...</buttonOptions>
+            <buttonMakeISO>ISO-ს შექმნა</buttonMakeISO>
+            <ISOCreationOptions>ISO-ს შექმნის პარამეტრები</ISOCreationOptions>
+            <Settings>-ის პარამეტრები</Settings>
+            <FileSystemsInsideISO>ფაილური სისტემა:</FileSystemsInsideISO>
+            <buttonDefault>სტანდარტული</buttonDefault>
+            <ISO9660Option1>8.3 DOS ფაილის სახელები (11)</ISO9660Option1>
+            <ISO9660Option2>ძალიან გრძელი სახელები (180)</ISO9660Option2>
+            <ISO9660Option3>ISO 9660:1999</ISO9660Option3>
+            <JolietOption1>სტანდარტული სახელები (64)</JolietOption1>
+            <JolietOption2>გრძელი სახელები (110)</JolietOption2>
+        </tabFolderToISO>
+    </MainWindow>
+    <LiteVersionDialog>
+        <LiteVersionLimitText>AnyToISO-ს მსუბუქი ვერსია მუშაობს მხოლოდ &lt;b&gt;CD ფაილებთან&lt;/b&gt; (870 მბ-მდე). დიდ ფაილებთან სამუშაოდ (DVD და მეტი) საჭიროა &lt;a href="purchase"&gt;პროფესიონალური ვერსიის ყიდვა&lt;/a&gt;. კოდს მიიღებთ პროგრამის ყიდვის შემდეგ &lt;a href="unlock"&gt;პროგრამის რეგისტრაციისთვის&lt;/a&gt;.</LiteVersionLimitText>
+        <buttonPurchasePro>პრო ვერსიის ყიდვა...</buttonPurchasePro>
+    </LiteVersionDialog>
+    <EnterKeyDialog>
+        <Caption>შეიყვანეთ კოდი</Caption>
+        <EnterKeyToUpgradeText>AnyToISO-ს პრო ვერსიაზე განსაახლებლად შეიყვანეთ სარეგისტრაციო მონაცემები.</EnterKeyToUpgradeText>
+        <RegName>სახელი:</RegName>
+        <RegCode>კოდი:</RegCode>
+    </EnterKeyDialog>
+    <AboutDialog>
+        <Caption>AnyToISO-ს შესახებ</Caption>
+        <Website>ვებ-გვერდი:</Website>
+        <Support>მხარდაჭერა:</Support>
+        <RunningAs>პროგრამა გაშვებულია როგორც:</RunningAs>
+        <CopyRight>პროგრამა დაცულია საავტორო უფლებით და საერთაშორისო კანონით. პროგრამის უნებართვო კოპირებამ შეიძლება გამოიწვიოს სისხლის სამართლის საქმის აღძვრა.</CopyRight>
+        <buttonPurchasePro>პრო ვერსიის ყიდვა...</buttonPurchasePro>
+    </AboutDialog>
+    <PreferencesDialog>
+        <Caption>პარამეტრები</Caption>
+        <PreferencesGeneral>General</PreferencesGeneral>
+        <PreferencesUpdates>Updates</PreferencesUpdates>
+        <Language>ენა:</Language>
+        <CheckForNewVersions>ჩართვისთანავე, ახალი ვერსიის შემოწმება</CheckForNewVersions>
+        <ShellExtension>Windows Explorer-ში ინტეგრაცია</ShellExtension>
+        <ShellExtensionInfo>დისკამძრავებზე, საქაღალდეებზე და მხარდაჭერილი ფორმატის ფაილებზე კონტექსტური მენიუს დამატება.</ShellExtensionInfo>
+    </PreferencesDialog>
+    <PasswordDialog>
+        <Caption>საჭიროა პაროლი</Caption>
+        <FileIsProtected>ფაილი დაშიფრულია, მისი გაშიფრისთვის შეიყვანეთ პაროლი:</FileIsProtected>
+        <InvalidPassword>Invalid password</InvalidPassword>
+    </PasswordDialog>
+    <Messages>
+        <Warning>გაფრთხილება</Warning>
+        <Question>კითხვა</Question>
+        <NotEnoughDiskSpace>არჩეულ დისკზე არ არის საკმარისი სივრცე (მხოლოდ %1)\n\nგსურთ, დამუშავება?</NotEnoughDiskSpace>
+        <ISOAlreadyExists>ISO ფაილი\n%1\nუკვე არსებობს, გსურთ მისი ჩანაცვლება?</ISOAlreadyExists>
+        <FolderAlreadyExists>საქაღალდე\n%1\nუკვე არსებობს, გსურთ ყველა ფაილის იგივე სახელით ჩანაცვლება?</FolderAlreadyExists>
+        <RestartProgram>რეგისტრაციის დასრულებისთვის საჭიროა პროგრამის გადატვირთვა. \n\nგსურთ გადატვირთვა?</RestartProgram>
+        <CancelOperation>ნამდვილად გსურთ, ოპერაციის გაუქმება?</CancelOperation>
+    </Messages>
+    <StatusMessages>
+        <CheckingSourceImage>მიმდინარეობს საწყისი ფაილის შემოწმება...</CheckingSourceImage>
+        <Converting>მიმდინარეობს გარდაქმნა...</Converting>
+        <Extracting>მიმდინარეობს ამოარქივება...</Extracting>
+        <ExtractionFailed>Extract operation failed</ExtractionFailed>
+        <Unpacking>Unpacking...</Unpacking>
+        <ConvertingToTemporaryISO>მიმდინარეობს დროებით ISO ფაილში გარდაქმნა...</ConvertingToTemporaryISO>
+        <ProgressBytesWritten>ჩაწერილია %1</ProgressBytesWritten>
+        <Track>Track</Track>
+        <ISOImageTypeFound>მოიძებნა ISO ფაილი (სახეობა %1)</ISOImageTypeFound>
+        <CannotOpenSourceFile>საწყისი ფაილის გახსნა ვერ ხერხდება.</CannotOpenSourceFile>
+        <CannotOpenDestFile>დანიშნულების ფაილის გახსნა ვერ ხერხდება.</CannotOpenDestFile>
+        <OperationTerminated>ოპერაცია შეწყვეტილია მომხმარებლის მიერ.</OperationTerminated>
+        <OperationCompleted>ოპერაცია დასრულდა.</OperationCompleted>
+        <ClickToOpenISOInExplorer>ISO ფაილის Explorer-ში გასახსნელად დააჭირეთ &lt;a href="_open_local_file"&gt;აქ&lt;/a&gt;</ClickToOpenISOInExplorer>
+        <ClickToMountISOInFinder>ISO ფაილის ძებნაში მისაბმელად დააჭირეთ ღილაკს &lt;a href="_open_local_file"&gt;here&lt;/a&gt;</ClickToMountISOInFinder>
+        <ClickToOpenOutFolder>საქაღალდის გასახსნელად დააჭირეთ ღილაკს &lt;a href="_open_local_file"&gt;აქ&lt;/a&gt;</ClickToOpenOutFolder>
+        <DiskToISO>
+            <OpeningDevice>მიმდინარეობს მედია მოწყობილობის გახსნა, მოითმინეთ...</OpeningDevice>
+            <TotalDataSize>ინფორმაციის საერთო ზომა არის %1</TotalDataSize>
+            <CreatingISO>მიმდინარეობს ISO ფაილის შექმნა...</CreatingISO>
+            <CannotCreateFromAudio>მრავალ-სესიური ან აუდიო დისკებისთვის, ISO ფაილის შექმნა შეუძლებელია. დაწვრილებით, დაგვიკავშირდით.</CannotCreateFromAudio>
+            <PleaseUseBinCue>Please use BIN/CUE image for such disks</PleaseUseBinCue>
+            <BlankDiskDetected>აღმოჩენილია ცარიელი CD/DVD</BlankDiskDetected>
+            <DiskNotReady>CD/DVD მზად არ არის</DiskNotReady>
+            <CannotOpenDevice>მოწყობილობის (%1) გახსნა ვერ ხერხდება</CannotOpenDevice>
+            <ReadError>წაკითხვის შეცდომა %1, დახმარებისთვის დაგვიკავშირდით</ReadError>
+            <DeviceIsCopyProtected>მოწყობილობა დაცულია კოპირებისგან და დაშიფრულია. გაგრძელება შეუძლებელია.</DeviceIsCopyProtected>
+            <ISOCreationFailed>ISO-ს შექმნა ჩაიშალა</ISOCreationFailed>
+            <BinCueCreationFailed>BIN/CUE image creation failed</BinCueCreationFailed>
+            <CannotReadDiskToc>Failed to read TOC (table of contents) of the disk</CannotReadDiskToc>
+            <CannotReadDisk>Cannot read disk, error: %1</CannotReadDisk>
+            <DiskNotPresent>Disk not present or unknown media type</DiskNotPresent>
+            <NoTracksOnDisk>There are no tracks on the disk, it's probably blank</NoTracksOnDisk>
+            <mediaType>Media type: %1</mediaType>
+            <TrackLength>Track length is %1 sectors</TrackLength>
+            <TracksCount>Tracks count: %1</TracksCount>
+            <WritingTrack>Writing track %1, track length is %2 sectors</WritingTrack>
+            <DiskReadingStopped>Reading stopped at %1</DiskReadingStopped>
+            <TrackReadingStopped>Reading stopped at %1, resuming with next track</TrackReadingStopped>
+        </DiskToISO>
+        <FolderToISO>
+            <ScanningFolder>მიმდინარეობს საქაღალდის შემოწმება...</ScanningFolder>
+            <DirectorySize>საქაღალდის ზომა %1</DirectorySize>
+            <WritingISOFile>მიმდინარეობს ISO ფაილის ჩაწერა...</WritingISOFile>
+            <SkippingBigFile>მიმდინარეობს ფაილის '%1' გამოტოვება. 4გბ-ზე დიდია</SkippingBigFile>
+            <SkippingFile>მიმდინარეობს ფაილის '%1' გამოტოვება.</SkippingFile>
+            <BigFileWarning>ფაილის '%1' ზომა დიდია 4გბ-ზე მეტია და არ გამოჩნდება ISO 9660 ფაილურ სისტემებზე.</BigFileWarning>
+            <NestedDirectoriesLimitWarning>საქაღალდეთა წყობა აღემატება %1 დონეს, ზოგიერთი ფაილი და საქაღალდე იქნება გამოტოვებული.</NestedDirectoriesLimitWarning>
+            <UnableToOpenFile>წასაკითხ ფაილთან '%1' წვდომა ვერ ხერხდება.</UnableToOpenFile>
+            <NoExistingFolder>The folder %1 doesn't exist</NoExistingFolder>
+            <failedToCreateISOImage>Failed to create an ISO image</failedToCreateISOImage>
+        </FolderToISO>
+        <UniversalConverter>
+            <AudioCDWarning>დისკის ასლი %1 არის აუდიო CD, ISO-ზე გარდაქმნა შეუძლებელია.</AudioCDWarning>
+            <NotValidImage>შეცდომა: CD/DVD-ის ასლი უვარგისია</NotValidImage>
+            <CannotFindSignature>შეცდომა: ISO_9660 ხელმოწერა ვერ მოიძებნა, მიღწეულია 5მბ ლიმიტი</CannotFindSignature>
+            <MultiSessionImageDetected>Multi-session disk image detected</MultiSessionImageDetected>
+            <MultiSessionNotSupported>The disk image is a multi-session disk image. Such images are not supported.</MultiSessionNotSupported>
+        </UniversalConverter>
+        <NrgConverter>
+            <NrgParsingError>NRG parsing error, please contact support for assistance</NrgParsingError>
+            <NoSessionsFound>No NRG sessions detected, please contact support for assistance</NoSessionsFound>
+        </NrgConverter>
+        <ExtractISO>
+            <LoadingImage>მიმდინარეობს დისკის ასლის ჩატვირთვა...</LoadingImage>
+            <ChooseISOFS>ISO ფაილში ნაპოვნია რამდენიმე ფაილური სისტემა, ამოსაარქივებლად მიუთითეთ ერთ-ერთი:</ChooseISOFS>
+            <ChooseISOFSCaption>მიუთითეთ ფაილური სისტემა</ChooseISOFSCaption>
+            <ImageFound>ნაპოვნია %1 დისკის ასლი</ImageFound>
+            <InvalidISO>ფაილი არ არის ISO ფორმატი ან მხარდაჭერილი არ არის</InvalidISO>
+        </ExtractISO>
+        <UIFConverter>
+            <UsingZlib>zlib დეკომპრესიის გამოყენებით</UsingZlib>
+            <UsingLZMA>იგორ პავლოვის Lzma დეკომპრესიის გამოყენებით</UsingLZMA>
+            <MixedImageFound>ნაპოვნია შერეული სახეობის ასლი %1, მიმდინარეობს დროებით ფაილში ამოარქივება...</MixedImageFound>
+            <UnpackingImage>მიმდინარეობს დისკის ასლის ამოარქივება...</UnpackingImage>
+        </UIFConverter>
+        <DebExtract>
+            <NotValidDeb>ფაილი არ არის Debian (Ubuntu) Linux-ის არქივი</NotValidDeb>
+        </DebExtract>
+        <RpmExtract>
+            <PackageOpened>%1 გახსნილია</PackageOpened>
+            <DecompressingPayload>მიმდინარეობს %1 მონაცემების ამოარქივება დროებით ფაილში...</DecompressingPayload>
+            <UnpackingArchive>მიმდინარეობს ამოარქივება...</UnpackingArchive>
+        </RpmExtract>
+        <DMG>
+            <ConvertingDmgToISO>მიმდინარეობს DMG-ს HFS+ ISO-ში გარდაქმნა...</ConvertingDmgToISO>
+            <Writing>მიმდინარეობს ჩაწერა %1...</Writing>
+            <ExtractingMainPartition>მიმდინარეობს DMG-ს მთავარი განყოფილების ამოარქივება დროებით ფაილში, ამას შეიძლება გარკვეული დასჭირდეს დრო - გთხოვთ, მოიცადოთ...</ExtractingMainPartition>
+            <NoVolumeFound>ტომი არ მოიძებნა, მიმდინარეობს HFS+ ფაილური სისტემის ძებნა...</NoVolumeFound>
+            <ExtractingVolume>მიმდინარეობს DMG ტომის ამოარქივება (%1)...</ExtractingVolume>
+            <CorruptedOrPasswordProtected>შეცდომა DMG ასლი დაზიანებულია ან დაცულია პაროლით</CorruptedOrPasswordProtected>
+            <XarArchiveDetected>DMG file is actually a XAR archive (normally with actual DMG file inside) that can be only extracted. Please choose extract operation to proceed</XarArchiveDetected>
+            <openedAsMessage>The file is opened as %1</openedAsMessage>
+            <DmgDisk>DMG disk image</DmgDisk>
+            <GPTDisk>GPT disk</GPTDisk>
+            <MBRDisk>Apple disk</MBRDisk>
+            <HFSVolume>HFS+ volume</HFSVolume>
+            <readingFileSystem>Reading %1 file system...</readingFileSystem>
+            <messageMultiplePartitions>There're multiple partitions inside the DMG image, please choose one of them to extract:</messageMultiplePartitions>
+            <messageMultiplePartitionsTitle>Select a partition</messageMultiplePartitionsTitle>
+        </DMG>
+        <PDIConverter>
+            <InvalidOrBrokenImage>InstantCopy PDI ფაილი ან დაზიანებულია, ან უცნობია</InvalidOrBrokenImage>
+        </PDIConverter>
+        <ISZConverter>
+            <CompressionNone>შეკუმშვის მეთოდი: არ გამოიყენება</CompressionNone>
+            <WarningPassword>არასწორი პაროლის მითითება გამოიწვევს ფაილის დაზიანებას</WarningPassword>
+            <ImageIsSegmented>ISZ დანაწევრებულია</ImageIsSegmented>
+        </ISZConverter>
+        <ArchiveConverter>
+            <ReadingArchive>Reading archive...</ReadingArchive>
+            <RemovingTempFiles>Removing temporary files...</RemovingTempFiles>
+            <ExtractError>Unable to extract %1, error %2</ExtractError>
+        </ArchiveConverter>
+        <TarUnpacker>
+            <SinglePackedFileFound>Single packed file detected: %1, unpacking...</SinglePackedFileFound>
+        </TarUnpacker>
+        <XarUnpacker>
+            <ReadingTOC>Reading table of contents (%1 bytes)...</ReadingTOC>
+            <NestedArchiveFound>Extracted file '%1' can be unpacked separately as %2 archive (append extension manually)</NestedArchiveFound>
+        </XarUnpacker>
+    </StatusMessages>
+    <Misc>
+        <buttonOk>კარგი</buttonOk>
+        <buttonCancel>გაუქმება</buttonCancel>
+        <buttonClose>დახურვა</buttonClose>
+        <buttonYes>Yes</buttonYes>
+        <buttonNo>No</buttonNo>
+        <ProVersion>'Pro' ვერსია</ProVersion>
+        <LiteVersion>მსუბუქი ვერსია</LiteVersion>
+    </Misc>
+    <ShellExtension>
+        <!-- This section describes Windows context menus -->
+        <ConvertToISO>"%s"-ში კონვერტაცია</ConvertToISO>
+        <ConvertToISOInfo>დისკის ასლის გარდაქმნა ISO ფორმატში</ConvertToISOInfo>
+        <Extract>"%s"-ში ამოარქივება</Extract>
+        <ExtractInfo>დისკის ასლის ამოღება</ExtractInfo>
+        <CreateISOFromFolder>"%s"-ს</CreateISOFromFolder>
+        <CreateISOFromFolderInfo>ამ საქაღალდის ISO ფაილში შენახვა (სტანდარტული პარამეტრებით)</CreateISOFromFolderInfo>
+        <CreateISOFromFolderWithOptions>"%s"-ის შექმნა პარამეტრებით...</CreateISOFromFolderWithOptions>
+        <CreateISOFromFolderWithOptionsInfo>ამ საქაღალდის ISO ფაილში შენახვა, მითითებული ფაილური სისტემით და იარლიყით</CreateISOFromFolderWithOptionsInfo>
+        <CreateISOFromDisk>დისკის ISO ფაილის შექმნა</CreateISOFromDisk>
+        <CreateISOFromDiskInfo>ოპტიკური დისკის ISO ფაილის შექმნა</CreateISOFromDiskInfo>
+        <CreateBINCUEFromDisk>Create BIN/CUE image of this disk</CreateBINCUEFromDisk>
+        <CreateBINCUEFromDiskInfo>Create BIN (raw) image of a selected optical disk and its corresponding CUE sheet file</CreateBINCUEFromDiskInfo>
+    </ShellExtension>
+    <core>
+        <UpdateChecker>
+            <ReleasedOn>released on %1</ReleasedOn>
+            <CheckForUpdates>Check for updates...</CheckForUpdates>
+            <NewVersionAvailable>A new version of %1 is available!</NewVersionAvailable>
+            <NewVersionAvailableText>%1 %2 is now available - you have %3. Would you like to download it now?</NewVersionAvailableText>
+            <UpdateAlertTitle>Software Update</UpdateAlertTitle>
+            <UpdateAlertReleaseNotes>Release Notes:</UpdateAlertReleaseNotes>
+            <UpdateAlertRemindLater>Remind Me Later</UpdateAlertRemindLater>
+            <UpdateAlertSkip>Skip This Version</UpdateAlertSkip>
+            <UpdateAlertInstall>Install Update</UpdateAlertInstall>
+            <UpdateAlertAutomaticUpdates>Check for updates automatically</UpdateAlertAutomaticUpdates>
+            <MessageNoUpdateAvailable>You're up to date!</MessageNoUpdateAvailable>
+            <MessageNoUpdateAvailableDescription>%1 %2 is currently the newest version available.</MessageNoUpdateAvailableDescription>
+            <MessageErrorConnect>An error occurred while downloading the update. Please try again later.</MessageErrorConnect>
+            <MessageErrorParse>An error occurred while parsing the update feed.</MessageErrorParse>
+            <UpdateProgressTitle>Updating %1</UpdateProgressTitle>
+            <UpdateProgressCancel>Cancel</UpdateProgressCancel>
+            <UpdateProgressInstallAndRelaunch>Install and Relaunch</UpdateProgressInstallAndRelaunch>
+            <UpdateProgressStatusDownloading>Downloading update...</UpdateProgressStatusDownloading>
+            <UpdateProgressExtract>Extracting update...</UpdateProgressExtract>
+            <UpdateProgressStatusReady>Ready to Install</UpdateProgressStatusReady>
+            <UpdateProgressSize>%1 of %2</UpdateProgressSize>
+            <UpdateProgressB>B</UpdateProgressB>
+            <UpdateProgressKB>KB</UpdateProgressKB>
+            <UpdateProgressMB>MB</UpdateProgressMB>
+            <UpdateProgressGB>GB</UpdateProgressGB>
+        </UpdateChecker>
+        <LetsMoveMac>
+            <kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
+            <kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+        </LetsMoveMac>
+        <QLineEditEx>
+            <actionUndo>Undo</actionUndo>
+            <actionRedo>Redo</actionRedo>
+            <actionCut>Cut</actionCut>
+            <actionCopy>Copy</actionCopy>
+            <actionPaste>Paste</actionPaste>
+            <actionDelete>Delete</actionDelete>
+            <actionSelectAll>Select All</actionSelectAll>
+        </QLineEditEx>
+        <QMessageBoxEx>
+            <buttonOK>OK</buttonOK>
+            <buttonCancel>Cancel</buttonCancel>
+            <buttonClose>Close</buttonClose>
+            <buttonYes>Yes</buttonYes>
+            <buttonNo>No</buttonNo>
+        </QMessageBoxEx>
+    </core>
 </LanguageStrings>
