@@ -1,9 +1,15 @@
-Though [AnyToISO](https://www.crystalidea.com/anytoiso) is not open-source, we use this GitHub repository to track bugs, feature requests and technical support problems (see [issues](https://github.com/crystalidea/anytoiso/issues)).
+This GitHub repository can be used to:
 
-# Translating the app
+**1. Report a bug, add feature request or report any other issue**
 
-The repository also contains AnyToISO [translations](/languages) as .xml files. Fork the repository, update existing translation (or create a new one) and simply create a pull request. Always leave %1 (%s), %2, etc in the string, it's a replacement pattern required by the program. For example the string "Package %1 opened" will be expanded to "Package firefox4pre opened" when opening Firefox browser package.
+[Create a new issue](https://github.com/crystalidea/anytoiso-public/issues) when having anything related to [AnyToISO](https://crystalidea.com/anytoiso).
 
-# Release archive 
+**2. Translate the app**
 
-[Release archive](https://github.com/crystalidea/anytoiso/releases) contains the list of binaries for every version of the app with release notes.
+[AnyToISO translations](/languages) are plain UTF-8 .xml files. You can either create a pull request or send us your translated XML via e-mail. 
+
+Remember to always leave %1 (%s), %2, etc in strings: those are replacement patterns required by the app. For instance, "Package %1 opened" will be expanded to "Package firefox4pre opened" when opening Firefox browser package.
+ 
+**3. Browse AnyToISO release history**
+
+[Release archive](https://github.com/crystalidea/anytoiso-public/releases) contains the list of binaries for every version of the app with release notes.
